@@ -4,11 +4,13 @@
 Переменные окружения:
     TRAVELPAYOUTS_TOKEN — токен API Travelpayouts
     TELEGRAM_BOT_TOKEN  — токен бота от @BotFather
+    ADMIN_CHAT_ID       — (необязательно) личный чат для отчётов о публикации
 
 Запуск:
     python bot.py            — найти билеты и опубликовать
     python bot.py --dry-run  — только показать посты, ничего не отправлять
     python bot.py --chat ID  — отправить посты в указанный чат вместо канала
+    python bot.py --force    — опубликовать, даже если сегодня уже публиковали
 """
 
 import argparse
@@ -28,6 +30,7 @@ CONFIG_PATH = ROOT / "config.toml"
 STATE_PATH = ROOT / "state.json"
 
 API_URL = "https://api.travelpayouts.com/aviasales/v3/prices_for_dates"
+MSK = timezone(timedelta(hours=3))
 
 MONTHS = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля",
           "августа", "сентября", "октября", "ноября", "декабря"]
@@ -205,6 +208,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true", help="не отправлять в Telegram")
     parser.add_argument("--chat", help="отправить в этот чат вместо канала (тест, без записи в state.json)")
+    parser.add_argument("--force", action="store_true", help="публиковать, даже если сегодня уже публиковали")
     args = parser.parse_args()
     chat_id = args.chat
 
@@ -212,10 +216,18 @@ def main():
     state = load_state()
     tp_token = os.environ.get("TRAVELPAYOUTS_TOKEN")
     bot_token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    admin_chat = os.environ.get("ADMIN_CHAT_ID")
     if not tp_token:
         sys.exit("Не задан TRAVELPAYOUTS_TOKEN")
     if not bot_token and not args.dry_run:
         sys.exit("Не задан TELEGRAM_BOT_TOKEN")
+
+    # Запасной запуск: если основной уже отработал сегодня, ничего не делаем
+    today = datetime.now(MSK).date().isoformat()
+    is_real_run = not args.dry_run and not chat_id
+    if is_real_run and not args.force and state.get("last_run") == today:
+        print(f"Сегодня ({today}) уже публиковали — пропускаю.")
+        return
 
     skip_days = cfg["posting"]["skip_same_ticket_days"]
     skip = recently_posted(state, skip_days) if skip_days else set()
@@ -245,14 +257,24 @@ def main():
             continue
         send_telegram(text, chat_id or cfg["telegram"]["chat_id"], bot_token)
         state["posted"].append({"id": ticket_id(ticket), "time": time.time()})
+        if is_real_run:
+            save_state(state)  # чтобы при сбое посередине не повторить уже отправленное
         posted += 1
         time.sleep(3)
 
-    if not args.dry_run and not chat_id:
+    if is_real_run:
         # Храним только то, что ещё нужно для проверки повторов
         cutoff = time.time() - max(skip_days, 1) * 86400
         state["posted"] = [p for p in state["posted"] if p["time"] >= cutoff]
+        if posted:
+            state["last_run"] = today
         save_state(state)
+        if admin_chat:
+            if posted:
+                report = f"✅ Опубликовано постов: {posted} (проверено направлений: {len(candidates)})."
+            else:
+                report = "⚠️ Сегодня ничего не опубликовано: подходящих билетов не найдено."
+            send_telegram(report, admin_chat, bot_token)
     print(f"Готово. Кандидатов: {len(candidates)}, опубликовано: {posted}.")
 
 
