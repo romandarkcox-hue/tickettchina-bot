@@ -158,7 +158,7 @@ def format_post(ticket, cfg):
         f"✈️ <b>{origin} – {destination}</b>",
         "",
         f"💰 <b>{format_price(ticket['price'], cfg['search']['currency'])}</b>"
-        + (" в одну сторону" if cfg["search"]["one_way"] else " туда-обратно"),
+        + (" - в одну сторону" if cfg["search"]["one_way"] else " - туда-обратно"),
         f"📅 Вылет: {format_date(ticket['departure_at'])}",
     ]
     if ticket.get("return_at"):
