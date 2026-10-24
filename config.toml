@@ -32,7 +32,7 @@ sub_id_per_route = true
 # Токен маркировки рекламы (erid) из кабинета Travelpayouts
 erid = "2Vtzqx5PLYd"
 # Строка о рекламе в конце поста. Пусто — не добавлять.
-ad_label = "Реклама. Aviasales, aviasales.ru. erid: 2Vtzqx5PLYd"
+ad_label = "Реклама. Go Travel Un Limited, ИНН 9909520797. erid: 2Vtzqx5PLYd"
 
 # Города. Ключ — IATA-код города, значение — название для поста.
 [cities]
