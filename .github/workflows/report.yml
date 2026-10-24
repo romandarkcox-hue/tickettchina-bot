@@ -1,0 +1,23 @@
+name: Еженедельный отчёт
+
+on:
+  schedule:
+    # Понедельник 06:30 UTC = 09:30 по Москве
+    - cron: "30 6 * * 1"
+  workflow_dispatch: # ручной запуск во вкладке Actions
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Отправить отчёт в личку
+        env:
+          TRAVELPAYOUTS_TOKEN: ${{ secrets.TRAVELPAYOUTS_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          ADMIN_CHAT_ID: ${{ secrets.ADMIN_CHAT_ID }}
+        run: python report.py
