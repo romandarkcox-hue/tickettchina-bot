@@ -120,10 +120,18 @@ def find_cheapest(origin, destination, cfg, token):
     return best
 
 
-def build_link(ticket, marker):
+def build_link(ticket, links):
+    params = {}
+    if links["marker"]:
+        marker = links["marker"]
+        if links.get("sub_id_per_route"):
+            marker += f".{ticket['origin']}-{ticket['destination']}"
+        params["marker"] = marker
+    if links.get("erid"):
+        params["erid"] = links["erid"]
     link = "https://www.aviasales.ru" + ticket["link"]
-    if marker:
-        link += ("&" if "?" in link else "?") + f"marker={urllib.parse.quote(marker)}"
+    if params:
+        link += ("&" if "?" in link else "?") + urllib.parse.urlencode(params)
     return link
 
 
@@ -157,12 +165,14 @@ def format_post(ticket, cfg):
     lines += [
         f"🛫 {airline}, {flight_type}",
         "",
-        f'👉 <a href="{build_link(ticket, cfg["links"]["marker"])}">Смотреть билет</a>',
+        f'👉 <a href="{build_link(ticket, cfg["links"])}">Смотреть билет</a>',
         "",
         "<i>Цена и наличие актуальны на момент публикации.</i>",
         "",
         "#" + destination.replace(" ", "").replace("-", ""),
     ]
+    if cfg["links"].get("ad_label"):
+        lines += ["", f"<i>{cfg['links']['ad_label']}</i>"]
     return "\n".join(lines)
 
 

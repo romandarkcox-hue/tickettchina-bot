@@ -26,7 +26,13 @@ skip_same_ticket_days = 7
 
 [links]
 # Партнёрский marker Travelpayouts. Пусто — ссылки без партнёрки.
-marker = ""
+marker = "794600"
+# Добавлять к marker метку направления (794600.VVO-BJS) — видно в статистике Travelpayouts
+sub_id_per_route = true
+# Токен маркировки рекламы (erid) из кабинета Travelpayouts
+erid = "2Vtzqx5PLYd"
+# Строка о рекламе в конце поста. Пусто — не добавлять.
+ad_label = "Реклама. Aviasales, aviasales.ru. erid: 2Vtzqx5PLYd"
 
 # Города. Ключ — IATA-код города, значение — название для поста.
 [cities]
