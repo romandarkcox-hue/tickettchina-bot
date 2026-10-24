@@ -8,6 +8,7 @@
 Запуск:
     python bot.py            — найти билеты и опубликовать
     python bot.py --dry-run  — только показать посты, ничего не отправлять
+    python bot.py --chat ID  — отправить посты в указанный чат вместо канала
 """
 
 import argparse
@@ -203,7 +204,9 @@ def send_telegram(text, chat_id, bot_token):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true", help="не отправлять в Telegram")
+    parser.add_argument("--chat", help="отправить в этот чат вместо канала (тест, без записи в state.json)")
     args = parser.parse_args()
+    chat_id = args.chat
 
     cfg = load_config()
     state = load_state()
@@ -240,12 +243,12 @@ def main():
         print(f"\n--- #{i} {ticket['origin']}-{ticket['destination']}: {ticket['price']} ---\n{text}\n")
         if args.dry_run:
             continue
-        send_telegram(text, cfg["telegram"]["chat_id"], bot_token)
+        send_telegram(text, chat_id or cfg["telegram"]["chat_id"], bot_token)
         state["posted"].append({"id": ticket_id(ticket), "time": time.time()})
         posted += 1
         time.sleep(3)
 
-    if not args.dry_run:
+    if not args.dry_run and not chat_id:
         # Храним только то, что ещё нужно для проверки повторов
         cutoff = time.time() - max(skip_days, 1) * 86400
         state["posted"] = [p for p in state["posted"] if p["time"] >= cutoff]
