@@ -1,0 +1,86 @@
+# Настройки бота для канала @tickettchina
+
+[telegram]
+# Канал, куда публиковать. Бот должен быть администратором канала с правом публикации.
+chat_id = "@tickettchina"
+
+[search]
+currency = "rub"
+# true — цена в одну сторону, false — туда-обратно
+one_way = true
+# Вылеты от сегодня и на сколько дней вперёд
+days_ahead = 21
+# Только прямые рейсы
+direct_only = false
+# Максимум пересадок (0 — только прямые)
+max_transfers = 1
+
+[posting]
+# Сколько самых дешёвых билетов публиковать за запуск (по всем направлениям сразу)
+posts_per_run = 5
+# Дополнительно: самый дешёвый билет из каждого из этих городов,
+# если из него ещё нет билета в топе
+featured_origins = ["MOW", "LED"]
+# Не повторять тот же билет (направление + дата вылета + цена) N дней. 0 — не проверять.
+skip_same_ticket_days = 7
+
+[links]
+# Партнёрский marker Travelpayouts. Пусто — ссылки без партнёрки.
+marker = ""
+
+# Города. Ключ — IATA-код города, значение — название для поста.
+[cities]
+MOW = "Москва"
+LED = "Санкт-Петербург"
+IKT = "Иркутск"
+OVB = "Новосибирск"
+KJA = "Красноярск"
+VVO = "Владивосток"
+KZN = "Казань"
+SVX = "Екатеринбург"
+KHV = "Хабаровск"
+BQS = "Благовещенск"
+HTA = "Чита"
+YKS = "Якутск"
+ALA = "Алматы"
+NQZ = "Астана"
+TAS = "Ташкент"
+BSZ = "Бишкек"
+MSQ = "Минск"
+BJS = "Пекин"
+SHA = "Шанхай"
+CAN = "Гуанчжоу"
+SZX = "Шэньчжэнь"
+CTU = "Чэнду"
+SIA = "Сиань"
+KMG = "Куньмин"
+HGH = "Ханчжоу"
+SYX = "Санья"
+HRB = "Харбин"
+URC = "Урумчи"
+CKG = "Чунцин"
+DLC = "Далянь"
+YNJ = "Яньцзи"
+HLD = "Хайлар"
+
+# Направления: откуда → список куда.
+# Отобраны по данным Travelpayouts (октябрь 2026): направления, которые ищут
+# почти каждый день, плюс города с прямыми рейсами.
+[routes]
+MOW = ["BJS", "SHA", "CAN", "SZX", "CTU", "SIA", "HGH", "SYX", "HRB", "URC", "CKG"]
+LED = ["BJS", "SHA", "CAN", "SZX", "CTU", "SIA", "HGH", "SYX", "HRB", "URC", "CKG"]
+VVO = ["BJS", "SHA", "CAN", "SYX", "HRB", "YNJ", "DLC", "SZX"]
+KHV = ["BJS", "SHA", "CAN", "SYX", "HRB"]
+BQS = ["BJS", "SHA", "HRB", "SYX"]
+HTA = ["BJS", "SYX", "HLD"]
+YKS = ["BJS", "SHA", "CAN", "HRB"]
+IKT = ["BJS", "SHA", "CAN", "SYX", "HRB"]
+KJA = ["BJS", "SHA", "CAN", "SYX", "HRB"]
+OVB = ["BJS", "SHA", "CAN", "CTU", "SIA", "SYX", "HRB", "URC", "CKG"]
+SVX = ["BJS", "SHA", "CAN", "SZX", "CTU", "SIA", "SYX", "HRB", "URC"]
+KZN = ["BJS", "SHA", "CAN", "CTU", "SYX"]
+ALA = ["BJS", "SHA", "CAN", "CTU", "SYX", "URC", "CKG"]
+NQZ = ["BJS", "SHA", "CAN", "CTU", "SIA", "SYX", "URC", "CKG"]
+TAS = ["BJS", "SHA", "CAN", "SZX", "CTU", "SIA", "HGH", "SYX", "URC", "CKG"]
+BSZ = ["BJS", "SHA", "CAN", "SYX"]
+MSQ = ["BJS", "SHA", "CAN", "SYX", "URC"]
