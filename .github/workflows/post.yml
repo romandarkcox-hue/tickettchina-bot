@@ -14,6 +14,10 @@ on:
         description: "Опубликовать, даже если сегодня уже публиковали"
         type: boolean
         default: false
+      test_chat:
+        description: "Тест: отправить посты в этот чат вместо канала"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -39,7 +43,7 @@ jobs:
           TRAVELPAYOUTS_TOKEN: ${{ secrets.TRAVELPAYOUTS_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           ADMIN_CHAT_ID: ${{ secrets.ADMIN_CHAT_ID }}
-        run: python bot.py ${{ inputs.force && '--force' || '' }}
+        run: python bot.py ${{ inputs.force && '--force' || '' }} ${{ inputs.test_chat && format('--chat {0}', inputs.test_chat) || '' }}
       - name: Сохранить опубликованные билеты
         if: always()
         run: |

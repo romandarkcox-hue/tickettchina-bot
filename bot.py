@@ -90,11 +90,16 @@ def http_get_json(url, params, attempts=5):
 
 
 def find_cheapest(origin, destination, cfg, token):
-    """Самый дешёвый билет по направлению с вылетом в ближайшие дни или None."""
+    """Самый дешёвый билет по направлению с вылетом в ближайшие дни или None.
+
+    В ticket["popularity"] — сколько цен по направлению в кэше Aviasales на эти дни:
+    чем чаще направление ищут, тем их больше.
+    """
     search = cfg["search"]
     now = datetime.now(timezone.utc)
     until = now + timedelta(days=search["days_ahead"])
     best = None
+    popularity = 0
     for month in months_to_search(now.date(), until.date()):
         params = {
             "origin": origin,
@@ -116,11 +121,14 @@ def find_cheapest(origin, destination, cfg, token):
         for ticket in data.get("data") or []:
             if not now <= datetime.fromisoformat(ticket["departure_at"]) <= until:
                 continue
+            popularity += 1
             if ticket.get("transfers", 0) > search["max_transfers"]:
                 continue
             if best is None or ticket["price"] < best["price"]:
                 best = ticket
         time.sleep(0.3)
+    if best:
+        best["popularity"] = popularity
     return best
 
 
@@ -240,15 +248,22 @@ def main():
             if ticket and ticket_id(ticket) not in skip:
                 candidates.append(ticket)
 
-    # Топ самых дешёвых по всем направлениям сразу
+    # Сначала самые дешёвые по всем направлениям сразу
+    posting = cfg["posting"]
     candidates.sort(key=lambda t: t["price"])
-    top = candidates[: cfg["posting"]["posts_per_run"]]
-    for origin in cfg["posting"].get("featured_origins", []):
+    top = candidates[: posting["cheapest_count"]]
+    # Обязательно: самый дешёвый из Москвы и Петербурга
+    for origin in posting.get("featured_origins", []):
         if any(t["origin"] == origin for t in top):
             continue
         best = next((t for t in candidates if t["origin"] == origin), None)
         if best:
             top.append(best)
+    # Остальное — самые популярные направления
+    popular = sorted((t for t in candidates if t not in top),
+                     key=lambda t: t["popularity"], reverse=True)
+    top += popular[: max(posting["posts_per_run"] - len(top), 0)]
+    top.sort(key=lambda t: t["price"])
     posted = 0
     for i, ticket in enumerate(top, 1):
         text = format_post(ticket, cfg)
