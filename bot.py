@@ -214,13 +214,25 @@ def format_post(ticket, cfg):
         "",
         f'👉 <a href="{build_link(ticket, cfg["links"])}">Смотреть билет</a>',
         "",
+    ]
+    # Ссылка на отели цитатой — только для билетов туда: отели дома не нужны
+    hotels = cfg["links"].get("hotels_url")
+    show_hotels = hotels and not ticket.get("reverse")
+    if show_hotels:
+        text = cfg["links"].get("hotels_text", "Отели тут")
+        lines += [f'<blockquote>🏨 <a href="{hotels}">{text}</a></blockquote>', ""]
+    lines += [
         "<i>Цена и наличие актуальны на момент публикации.</i>",
         "",
         # Хэштег — город за границей, у обратных билетов это город вылета
         "#" + (origin if ticket.get("reverse") else destination).replace(" ", "").replace("-", ""),
     ]
-    if cfg["links"].get("ad_label"):
-        lines += ["", f"<i>{cfg['links']['ad_label']}</i>"]
+    labels = [cfg["links"].get("ad_label")]
+    if show_hotels:
+        labels.append(cfg["links"].get("hotels_ad_label"))
+    labels = [label for label in labels if label]
+    if labels:
+        lines += ["", "<i>" + "\n".join(labels) + "</i>"]
     return "\n".join(lines)
 
 

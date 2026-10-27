@@ -52,6 +52,12 @@ marker = "794600"
 sub_id_per_route = true
 # Токен маркировки рекламы (erid) из кабинета Travelpayouts
 erid = "2Vtzqx5PLYd"
+# Ссылка на отели (Островок через Travelpayouts) — цитатой под ссылкой на билет.
+# Пусто — не добавлять. У обратных билетов не показывается.
+hotels_url = "https://ostrovok.tpk.lu/RY2oOsiC?erid=2VtzqxcX5Ts"
+hotels_text = "Отели тут"
+# Маркировка рекламы Островка — добавляется, только когда в посте есть ссылка на отели
+hotels_ad_label = "Реклама. ООО «Бронирование гостиниц», ИНН 7703389880. erid: 2VtzqxcX5Ts"
 # Строка о рекламе в конце поста. Пусто — не добавлять.
 ad_label = "Реклама. Go Travel Un Limited, ИНН 9909520797. erid: 2Vtzqx5PLYd"
 
