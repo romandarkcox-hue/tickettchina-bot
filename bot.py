@@ -281,6 +281,15 @@ def pick_tickets(cfg, skip, tp_token):
         best = next((t for t in candidates if t["origin"] == origin), None)
         if best:
             rest.append(best)
+    # Обязательно: самые популярные маршруты из СНГ, не больше одного из города
+    cis = set(posting.get("cis_origins", []))
+    cities_taken = {t["origin"] for t in cheap + rest if t["origin"] in cis}
+    for t in sorted((t for t in candidates if t["origin"] in cis), key=lambda t: t["popularity"], reverse=True):
+        if len(cities_taken) >= posting.get("cis_count", 0):
+            break
+        if t["origin"] not in cities_taken:
+            rest.append(t)
+            cities_taken.add(t["origin"])
     # Остальное — самые популярные направления
     popular = sorted((t for t in candidates if t not in cheap and t not in rest),
                      key=lambda t: t["popularity"], reverse=True)
