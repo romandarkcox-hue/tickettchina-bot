@@ -1,13 +1,15 @@
-"""Автопостинг дешёвых билетов в Китай в Telegram-канал.
+"""Автопостинг дешёвых авиабилетов в Telegram-канал.
 
 Цены берутся из Travelpayouts Data API (кэш поисков Aviasales).
+Каждый канал — свой файл настроек: config.toml (Китай), config_turkey.toml (Турция).
 Переменные окружения:
     TRAVELPAYOUTS_TOKEN — токен API Travelpayouts
-    TELEGRAM_BOT_TOKEN  — токен бота от @BotFather
+    TELEGRAM_BOT_TOKEN  — токен бота от @BotFather (имя переменной задаётся в настройках)
     ADMIN_CHAT_ID       — (необязательно) личный чат для отчётов о публикации
 
 Запуск:
     python bot.py            — найти билеты и опубликовать
+    python bot.py --config config_turkey.toml — то же для другого канала
     python bot.py --dry-run  — только показать посты, ничего не отправлять
     python bot.py --chat ID  — отправить посты в указанный чат вместо канала
     python bot.py --force    — опубликовать, даже если сегодня уже публиковали
@@ -23,13 +25,13 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
+from itertools import zip_longest
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-CONFIG_PATH = ROOT / "config.toml"
-STATE_PATH = ROOT / "state.json"
 
 API_URL = "https://api.travelpayouts.com/aviasales/v3/prices_for_dates"
+DIRECTIONS_URL = "https://api.travelpayouts.com/v1/city-directions"
 MSK = timezone(timedelta(hours=3))
 
 MONTHS = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля",
@@ -47,22 +49,26 @@ AIRLINES = {
     "SC": "Shandong Airlines", "JD": "Beijing Capital", "8L": "Lucky Air",
     "EU": "Chengdu Airlines", "G5": "China Express", "Y8": "Yakutia",
     "HZ": "Аврора", "R3": "Якутия", "5N": "Smartavia", "IO": "IrAero",
+    "TK": "Turkish Airlines", "PC": "Pegasus", "XQ": "SunExpress", "AJ": "AJet",
+    "UT": "ЮТэйр", "WZ": "Red Wings", "EO": "Pegas Fly", "6R": "Алроса", "YC": "Ямал",
+    "J2": "AZAL", "A9": "Georgian Airways", "SZ": "Somon Air", "ZM": "Air Manas",
+    "RM": "Aircompany Armenia", "5F": "FlyOne", "C3": "Centrum Air",
 }
 
 
-def load_config():
-    with open(CONFIG_PATH, "rb") as f:
+def load_config(path):
+    with open(ROOT / path, "rb") as f:
         return tomllib.load(f)
 
 
-def load_state():
-    if STATE_PATH.exists():
-        return json.loads(STATE_PATH.read_text(encoding="utf-8"))
+def load_state(path):
+    if path.exists():
+        return json.loads(path.read_text(encoding="utf-8"))
     return {"posted": []}
 
 
-def save_state(state):
-    STATE_PATH.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+def save_state(state, path):
+    path.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def months_to_search(start, end):
@@ -83,8 +89,13 @@ def http_get_json(url, params, attempts=5):
             with urllib.request.urlopen(req, timeout=30) as resp:
                 return json.loads(resp.read().decode("utf-8"))
         except urllib.error.HTTPError as e:
-            # 429 — слишком частые запросы: ждём и пробуем снова
-            if e.code != 429 or attempt == attempts - 1:
+            # 429 — слишком частые запросы, 5xx — сбой сервера: ждём и пробуем снова
+            if (e.code != 429 and e.code < 500) or attempt == attempts - 1:
+                raise
+            time.sleep(3 * (attempt + 1))
+        except (urllib.error.URLError, TimeoutError, ConnectionError):
+            # Сетевой сбой: тоже пробуем снова
+            if attempt == attempts - 1:
                 raise
             time.sleep(3 * (attempt + 1))
 
@@ -130,6 +141,30 @@ def find_cheapest(origin, destination, cfg, token):
     if best:
         best["popularity"] = popularity
     return best
+
+
+def search_popularity(origins, token):
+    """Популярность маршрутов по рейтингу поисков Aviasales: {(откуда, куда): очки}.
+
+    Для каждого города берём его рейтинг популярных направлений: 1-е место — 1 очко,
+    последнее — почти 0. Чтобы сравнивать разные города, умножаем на вес города
+    вылета — как высоко его самого ищут из других городов (Москва выше Сургута).
+    """
+    ranks = {}
+    for origin in origins:
+        try:
+            data = http_get_json(DIRECTIONS_URL, {"origin": origin, "currency": "rub", "token": token})
+        except (urllib.error.URLError, json.JSONDecodeError) as e:
+            print(f"  ! рейтинг {origin}: {e}", file=sys.stderr)
+            continue
+        dests = list((data.get("data") or {}).keys())
+        ranks[origin] = {d: (len(dests) - i) / len(dests) for i, d in enumerate(dests)}
+        time.sleep(0.3)
+    weight = {o: sum(r.get(o, 0) for r in ranks.values()) for o in origins}
+    # Город, которого нет ни в одном рейтинге, не обнуляем — даём вес самого слабого
+    floor = min((w for w in weight.values() if w), default=1)
+    return {(o, d): max(weight[o], floor) * score
+            for o, r in ranks.items() for d, score in r.items()}
 
 
 def build_link(ticket, links):
@@ -181,7 +216,8 @@ def format_post(ticket, cfg):
         "",
         "<i>Цена и наличие актуальны на момент публикации.</i>",
         "",
-        "#" + destination.replace(" ", "").replace("-", ""),
+        # Хэштег — город за границей, у обратных билетов это город вылета
+        "#" + (origin if ticket.get("reverse") else destination).replace(" ", "").replace("-", ""),
     ]
     if cfg["links"].get("ad_label"):
         lines += ["", f"<i>{cfg['links']['ad_label']}</i>"]
@@ -212,33 +248,17 @@ def send_telegram(text, chat_id, bot_token):
         raise RuntimeError(f"Telegram: {result}")
 
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--dry-run", action="store_true", help="не отправлять в Telegram")
-    parser.add_argument("--chat", help="отправить в этот чат вместо канала (тест, без записи в state.json)")
-    parser.add_argument("--force", action="store_true", help="публиковать, даже если сегодня уже публиковали")
-    args = parser.parse_args()
-    chat_id = args.chat
-
-    cfg = load_config()
-    state = load_state()
-    tp_token = os.environ.get("TRAVELPAYOUTS_TOKEN")
-    bot_token = os.environ.get("TELEGRAM_BOT_TOKEN")
-    admin_chat = os.environ.get("ADMIN_CHAT_ID")
-    if not tp_token:
-        sys.exit("Не задан TRAVELPAYOUTS_TOKEN")
-    if not bot_token and not args.dry_run:
-        sys.exit("Не задан TELEGRAM_BOT_TOKEN")
-
-    # Запасной запуск: если основной уже отработал сегодня, ничего не делаем
-    today = datetime.now(MSK).date().isoformat()
-    is_real_run = not args.dry_run and not chat_id
-    if is_real_run and not args.force and state.get("last_run") == today:
-        print(f"Сегодня ({today}) уже публиковали — пропускаю.")
-        return
-
-    skip_days = cfg["posting"]["skip_same_ticket_days"]
-    skip = recently_posted(state, skip_days) if skip_days else set()
+def pick_tickets(cfg, skip, tp_token):
+    """Билеты на сегодня в порядке публикации и сколько направлений проверено."""
+    posting = cfg["posting"]
+    # "cache" — сколько цен в кэше (подходит, когда цены есть не на каждый день),
+    # "searches" — рейтинг популярных направлений Aviasales
+    by_searches = posting.get("popularity") == "searches"
+    reverse_count = posting.get("reverse_count", 0)
+    if by_searches or reverse_count:
+        print("Загружаю рейтинг популярных направлений...")
+        all_cities = set(cfg["routes"]) | {d for ds in cfg["routes"].values() for d in ds}
+        route_score = search_popularity(sorted(all_cities), tp_token)
 
     candidates = []
     for origin, destinations in cfg["routes"].items():
@@ -246,51 +266,152 @@ def main():
             print(f"Ищу {origin}-{destination}...")
             ticket = find_cheapest(origin, destination, cfg, tp_token)
             if ticket and ticket_id(ticket) not in skip:
+                if by_searches:
+                    ticket["popularity"] = route_score.get((origin, destination), 0)
                 candidates.append(ticket)
 
     # Сначала самые дешёвые по всем направлениям сразу
-    posting = cfg["posting"]
     candidates.sort(key=lambda t: t["price"])
-    top = candidates[: posting["cheapest_count"]]
+    cheap = candidates[: posting["cheapest_count"]]
+    rest = []
     # Обязательно: самый дешёвый из Москвы и Петербурга
     for origin in posting.get("featured_origins", []):
-        if any(t["origin"] == origin for t in top):
+        if any(t["origin"] == origin for t in cheap + rest):
             continue
         best = next((t for t in candidates if t["origin"] == origin), None)
         if best:
-            top.append(best)
+            rest.append(best)
     # Остальное — самые популярные направления
-    popular = sorted((t for t in candidates if t not in top),
+    popular = sorted((t for t in candidates if t not in cheap and t not in rest),
                      key=lambda t: t["popularity"], reverse=True)
-    top += popular[: max(posting["posts_per_run"] - len(top), 0)]
-    top.sort(key=lambda t: t["price"])
-    posted = 0
-    for i, ticket in enumerate(top, 1):
+    rest += popular[: max(posting["posts_per_run"] - len(cheap) - len(rest), 0)]
+    # Дешёвые вперемешку с популярными, чтобы самые выгодные не шли подряд
+    rest.sort(key=lambda t: t["price"])
+    top = [t for pair in zip_longest(cheap, rest) for t in pair if t]
+
+    # Обратные билеты (оттуда домой): самые популярные маршруты по рейтингу поисков
+    if reverse_count:
+        pairs = {(d, o) for o, ds in cfg["routes"].items() for d in ds}
+        pairs = sorted((p for p in pairs if route_score.get(p)),
+                       key=lambda p: route_score[p], reverse=True)
+        per_city = posting.get("reverse_max_per_city", reverse_count)
+        reverse = []
+        for origin, destination in pairs:
+            if len(reverse) >= reverse_count:
+                break
+            if sum(t["origin"] == origin for t in reverse) >= per_city:
+                continue
+            print(f"Ищу обратный {origin}-{destination}...")
+            ticket = find_cheapest(origin, destination, cfg, tp_token)
+            if ticket and ticket_id(ticket) not in skip:
+                ticket["reverse"] = True
+                reverse.append(ticket)
+        top += sorted(reverse, key=lambda t: t["price"])
+    return top, len(candidates)
+
+
+def refresh(ticket, cfg, skip, tp_token):
+    """Свежая цена по маршруту билета из очереди или None, если билетов больше нет."""
+    fresh = find_cheapest(ticket["origin"], ticket["destination"], cfg, tp_token)
+    if not fresh or ticket_id(fresh) in skip:
+        return None
+    fresh["reverse"] = ticket.get("reverse", False)
+    return fresh
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--config", default="config.toml", help="файл настроек канала")
+    parser.add_argument("--dry-run", action="store_true", help="не отправлять в Telegram")
+    parser.add_argument("--chat", help="отправить в этот чат вместо канала (тест, без записи в state.json)")
+    parser.add_argument("--force", action="store_true", help="публиковать, даже если сегодня уже публиковали")
+    parser.add_argument("--next", action="store_true",
+                        help="опубликовать один следующий пост из очереди на сегодня (запуск каждые 30 минут)")
+    args = parser.parse_args()
+    chat_id = args.chat
+
+    cfg = load_config(args.config)
+    state_path = ROOT / cfg["telegram"].get("state_file", "state.json")
+    state = load_state(state_path)
+    token_env = cfg["telegram"].get("bot_token_env", "TELEGRAM_BOT_TOKEN")
+    tp_token = os.environ.get("TRAVELPAYOUTS_TOKEN")
+    bot_token = os.environ.get(token_env)
+    admin_chat = os.environ.get("ADMIN_CHAT_ID")
+    if not tp_token:
+        sys.exit("Не задан TRAVELPAYOUTS_TOKEN")
+    if not bot_token and not args.dry_run:
+        sys.exit(f"Не задан {token_env}")
+
+    channel = cfg["telegram"]["chat_id"]
+    now_msk = datetime.now(MSK)
+    today = now_msk.date().isoformat()
+    is_real_run = not args.dry_run and not chat_id
+    skip_days = cfg["posting"]["skip_same_ticket_days"]
+    skip = recently_posted(state, skip_days) if skip_days else set()
+
+    def publish(ticket):
         text = format_post(ticket, cfg)
-        print(f"\n--- #{i} {ticket['origin']}-{ticket['destination']}: {ticket['price']} ---\n{text}\n")
+        print(f"\n--- {ticket['origin']}-{ticket['destination']}: {ticket['price']} ---\n{text}\n")
         if args.dry_run:
-            continue
-        send_telegram(text, chat_id or cfg["telegram"]["chat_id"], bot_token)
+            return
+        send_telegram(text, chat_id or channel, bot_token)
         state["posted"].append({"id": ticket_id(ticket), "time": time.time()})
+        skip.add(ticket_id(ticket))
         if is_real_run:
-            save_state(state)  # чтобы при сбое посередине не повторить уже отправленное
-        posted += 1
-        time.sleep(3)
+            save_state(state, state_path)  # чтобы при сбое посередине не повторить уже отправленное
+
+    def report(text):
+        if is_real_run and admin_chat:
+            send_telegram(text, admin_chat, bot_token)
+
+    if args.next:
+        # Режим очереди: первый запуск дня составляет очередь, каждый запуск публикует один пост
+        first_hour, last_hour = cfg["posting"].get("hours", [0, 24])
+        if not args.force and not first_hour <= now_msk.hour < last_hour:
+            print(f"Сейчас {now_msk:%H:%M} МСК — вне времени публикаций ({first_hour}–{last_hour}).")
+            return
+        if state.get("queue_date") != today:
+            queue, checked = pick_tickets(cfg, skip, tp_token)
+            state["queue"], state["queue_date"] = queue, today
+            if is_real_run:
+                save_state(state, state_path)
+            if queue:
+                report(f"📋 {channel}: план на сегодня — постов: {len(queue)} "
+                       f"(проверено направлений: {checked}).")
+            else:
+                report(f"⚠️ {channel}: сегодня публиковать нечего, подходящих билетов не найдено.")
+        while state["queue"]:
+            ticket = refresh(state["queue"].pop(0), cfg, skip, tp_token)
+            if ticket:
+                publish(ticket)
+                break
+            print("Билета по маршруту больше нет — беру следующий из очереди.")
+        else:
+            print("Очередь на сегодня пуста.")
+        print(f"Осталось в очереди: {len(state['queue'])}.")
+    else:
+        # Всё сразу: ручной запуск и тесты
+        if is_real_run and not args.force and state.get("last_run") == today:
+            print(f"Сегодня ({today}) уже публиковали — пропускаю.")
+            return
+        top, checked = pick_tickets(cfg, skip, tp_token)
+        for ticket in top:
+            publish(ticket)
+            if not args.dry_run:
+                time.sleep(3)
+        if is_real_run:
+            if top:
+                state["last_run"] = today
+                report(f"✅ {channel}: опубликовано постов: {len(top)} (проверено направлений: {checked}).")
+            else:
+                report(f"⚠️ {channel}: сегодня ничего не опубликовано, подходящих билетов не найдено.")
+        print(f"Готово. Проверено направлений: {checked}, постов: {len(top)}.")
 
     if is_real_run:
         # Храним только то, что ещё нужно для проверки повторов
         cutoff = time.time() - max(skip_days, 1) * 86400
         state["posted"] = [p for p in state["posted"] if p["time"] >= cutoff]
-        if posted:
-            state["last_run"] = today
-        save_state(state)
-        if admin_chat:
-            if posted:
-                report = f"✅ Опубликовано постов: {posted} (проверено направлений: {len(candidates)})."
-            else:
-                report = "⚠️ Сегодня ничего не опубликовано: подходящих билетов не найдено."
-            send_telegram(report, admin_chat, bot_token)
-    print(f"Готово. Кандидатов: {len(candidates)}, опубликовано: {posted}.")
+        save_state(state, state_path)
 
 
 if __name__ == "__main__":

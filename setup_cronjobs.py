@@ -1,10 +1,11 @@
 """Будильники на cron-job.org: в нужное время просят GitHub запустить воркфлоу.
 
-Расписание GitHub иногда пропускает запуски, а cron-job.org срабатывает точно.
-Дубли не страшны: бот сам пропускает запуск, если сегодня уже публиковал.
+Расписание GitHub опаздывает на часы, а cron-job.org срабатывает точно.
+Каждый запуск публикует один пост из очереди на день; лишний запуск вне часов
+публикаций бот просто пропускает.
 
 Запуск:
-    python setup_cronjobs.py          — создать или обновить задания
+    python setup_cronjobs.py          — создать или обновить задания, удалить старые
     python setup_cronjobs.py --list   — показать задания и последний ответ
 
 Нужны в .env (или в переменных окружения):
@@ -24,13 +25,15 @@ from pathlib import Path
 
 API = "https://api.cron-job.org"
 REPO = "romandarkcox-hue/tickettchina-bot"
-WORKFLOW = "post.yml"
 POST = 1  # код метода POST в API cron-job.org
+PREFIX = "tickettchina"  # задания с этим началом названия — наши; лишние из них удаляются
 
 JOBS = [
-    # Время по Москве. 09:05 — страховка основного запуска, 10:35 — запасного.
-    {"title": "tickettchina: билеты 9:05", "hours": [9], "minutes": [5]},
-    {"title": "tickettchina: билеты 10:35", "hours": [10], "minutes": [35]},
+    # Время по Москве. Китай — в :15 и :45, Турция — в :00 и :30, чтобы не совпадали.
+    {"title": "tickettchina: Китай каждые 30 мин", "workflow": "post.yml",
+     "hours": list(range(9, 16)), "minutes": [15, 45]},
+    {"title": "tickettchina: Турция каждые 30 мин", "workflow": "post_turkey.yml",
+     "hours": list(range(9, 17)), "minutes": [0, 30]},
 ]
 
 
@@ -60,7 +63,7 @@ def api(key, method, path, body=None):
 
 def job_body(job, gh_token):
     return {
-        "url": f"https://api.github.com/repos/{REPO}/actions/workflows/{WORKFLOW}/dispatches",
+        "url": f"https://api.github.com/repos/{REPO}/actions/workflows/{job['workflow']}/dispatches",
         "title": job["title"],
         "enabled": True,
         "saveResponses": True,
@@ -99,7 +102,7 @@ def main():
     if "--list" in sys.argv:
         msk = timezone(timedelta(hours=3))
         for j in jobs:
-            if not j["title"].startswith("tickettchina"):
+            if not j["title"].startswith(PREFIX):
                 continue
             nxt = j.get("nextExecution")
             nxt = datetime.fromtimestamp(nxt, msk).strftime("%d.%m %H:%M") if nxt else "—"
@@ -118,6 +121,12 @@ def main():
             job_id = api(key, "PUT", "/jobs", {"job": job_body(job, gh_token)})["jobId"]
             print(f"Создано: {job['title']} (№ {job_id})")
             time.sleep(1.5)  # не больше одного создания в секунду
+    # Старые задания (например, прежние 9:05 и 10:35) иначе публиковали бы лишние посты
+    titles = {job["title"] for job in JOBS}
+    for j in jobs:
+        if j["title"].startswith(PREFIX) and j["title"] not in titles:
+            api(key, "DELETE", f"/jobs/{j['jobId']}")
+            print(f"Удалено старое: {j['title']}")
 
 
 if __name__ == "__main__":
