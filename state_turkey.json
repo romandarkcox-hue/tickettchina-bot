@@ -15,27 +15,13 @@
     {
       "id": "TBS-IST-2026-11-27-7023",
       "time": 1793172648.259441
+    },
+    {
+      "id": "TJM-AYT-2026-10-29-4746",
+      "time": 1793174458.7314794
     }
   ],
   "queue": [
-    {
-      "flight_number": "064",
-      "link": "/search/TJM2910AYT1?t=2S17932440001793256300000325TJMAYT_be9f065fc259284373dbcbcefa4fecf8_4752&search_date=28102026&expected_price_uuid=01a18115-7888-8030-2292-4b29563b9ff9&static_fare_key=TY%7CP1%7CH1%7CL1_1_10%7CCH0%7CR0%7CTBC1&itinerary_key=yZhjOvjUycMLH73lE18S5Q&expected_price_source=share&expected_price_currency=rub&expected_price=4752",
-      "origin_airport": "TJM",
-      "destination_airport": "AYT",
-      "departure_at": "2026-10-29T03:20:00+05:00",
-      "airline": "2S",
-      "destination": "AYT",
-      "origin": "TJM",
-      "price": 4752,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 325,
-      "duration_to": 325,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 4.360344827586207
-    },
     {
       "flight_number": "118",
       "link": "/search/LED2011IST1?t=2S17951856001795199700000235LEDIST_807c755ffe0f8d3c605c2fc6cff3f5c7_8103&search_date=28102026&expected_price_uuid=01a180f4-9ae9-8031-6121-39413abf5e67&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jCpl3tL4zjOfnXFjwARWEw&expected_price_source=share&expected_price_currency=rub&expected_price=8103",
