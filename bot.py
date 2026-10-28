@@ -223,10 +223,9 @@ def format_post(ticket, cfg):
     if show_hotels:
         text = cfg["links"].get("hotels_text", "Отели тут")
         lines += [f'<blockquote>🏨 <a href="{hotels}">{text}</a></blockquote>', ""]
-    lines += [
-        # Хэштег — город за границей, у обратных билетов это город вылета
-        "#" + (origin if ticket.get("reverse") else destination).replace(" ", "").replace("-", ""),
-    ]
+    # Хэштеги: сначала город за границей, потом домашний — по нему люди ищут билеты из своего города
+    abroad, home = (origin, destination) if ticket.get("reverse") else (destination, origin)
+    lines += [" ".join("#" + city.replace(" ", "").replace("-", "") for city in (abroad, home))]
     labels = [cfg["links"].get("ad_label")]
     if show_hotels:
         labels.append(cfg["links"].get("hotels_ad_label"))
