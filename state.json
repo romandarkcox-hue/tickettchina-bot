@@ -167,28 +167,14 @@
     {
       "id": "MOW-URC-2026-10-31-17857",
       "time": 1793180734.3176665
+    },
+    {
+      "id": "VVO-YNJ-2026-11-06-10356",
+      "time": 1793182535.9113026
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "8299",
-      "link": "/search/VVO0611YNJ1?t=MU17939919001794042900000970VVOPKXYNJ_a7de30604cc1b0e1e74e4509867c043a_10356&search_date=27102026&expected_price_uuid=01a17fa6-120f-8030-aeef-b232a889b6bf&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH1%7CR0%7CTBC1&itinerary_key=u7unjUDAXvWm7uxUFkcQlA&expected_price_source=share&expected_price_currency=rub&expected_price=10356",
-      "origin_airport": "VVO",
-      "destination_airport": "YNJ",
-      "departure_at": "2026-11-06T19:05:00+10:00",
-      "airline": "MU",
-      "destination": "YNJ",
-      "origin": "VVO",
-      "price": 10356,
-      "gate": "Т-Банк",
-      "return_transfers": 0,
-      "duration": 970,
-      "duration_to": 305,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 22
-    },
     {
       "flight_number": "301",
       "link": "/search/LED1211HRB1?t=N417944422001794528900001145LEDKJAHRB_6f39e3deffc95d7b5e08189779975e18_26135&search_date=25102026&expected_price_uuid=01a173fd-5ecc-8031-6f02-dc8e65f1af98&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=J3Q1SvXvacVH4rZ0OKljXw&expected_price_source=share&expected_price_currency=rub&expected_price=25679",
