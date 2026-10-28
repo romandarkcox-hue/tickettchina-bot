@@ -11,27 +11,13 @@
     {
       "id": "OVB-AYT-2026-10-30-4709",
       "time": 1793170860.7531023
+    },
+    {
+      "id": "TBS-IST-2026-11-27-7023",
+      "time": 1793172648.259441
     }
   ],
   "queue": [
-    {
-      "flight_number": "228",
-      "link": "/search/TBS2711IST1?t=VF17957595001795765500000160TBSSAW_25c337e79f518a51a4f0082481cf591b_7023&search_date=28102026&expected_price_uuid=01a180d0-18dc-8030-2794-4bc72dcb74c6&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=afRty9eSVKI1E-GlOWjosA&expected_price_source=share&expected_price_currency=rub&expected_price=7023",
-      "origin_airport": "TBS",
-      "destination_airport": "SAW",
-      "departure_at": "2026-11-27T06:05:00+04:00",
-      "airline": "VF",
-      "destination": "IST",
-      "origin": "TBS",
-      "price": 7023,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 160,
-      "duration_to": 160,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 6.251843043995243
-    },
     {
       "flight_number": "064",
       "link": "/search/TJM2910AYT1?t=2S17932440001793256300000325TJMAYT_be9f065fc259284373dbcbcefa4fecf8_4752&search_date=28102026&expected_price_uuid=01a18115-7888-8030-2292-4b29563b9ff9&static_fare_key=TY%7CP1%7CH1%7CL1_1_10%7CCH0%7CR0%7CTBC1&itinerary_key=yZhjOvjUycMLH73lE18S5Q&expected_price_source=share&expected_price_currency=rub&expected_price=4752",
