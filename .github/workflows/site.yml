@@ -1,0 +1,69 @@
+name: Сайт с билетами
+
+# Раз в день пересобирает сайт romandarkcox-hue.github.io/aviabilety со свежими ценами
+# и сообщает Яндексу (IndexNow), что страницы обновились. Точное время не важно,
+# поэтому хватает расписания GitHub.
+on:
+  schedule:
+    - cron: "0 1 * * *" # 04:00 МСК
+  workflow_dispatch:
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Собрать сайт
+        env:
+          TRAVELPAYOUTS_TOKEN: ${{ secrets.TRAVELPAYOUTS_TOKEN }}
+        run: python site/build.py --out _site
+      - name: Опубликовать в репозиторий сайта
+        env:
+          SITE_DEPLOY_KEY: ${{ secrets.SITE_DEPLOY_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SITE_DEPLOY_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
+          cd _site
+          git init -q -b main
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Цены на $(date +%F)"
+          # Сайту история не нужна — каждый день перезаписываем целиком
+          git push -q -f git@github.com:romandarkcox-hue/aviabilety.git main
+      - name: Сообщить Яндексу об обновлении (IndexNow)
+        run: |
+          python - <<'EOF'
+          import json, sys, urllib.request
+          sys.path.insert(0, "site")
+          from build import BASE_URL, INDEXNOW_KEY
+          urls = open("_site/urls.txt", encoding="utf-8").read().split()
+          body = json.dumps({"host": "romandarkcox-hue.github.io", "key": INDEXNOW_KEY,
+                             "keyLocation": f"{BASE_URL}/{INDEXNOW_KEY}.txt", "urlList": urls}).encode()
+          req = urllib.request.Request("https://yandex.com/indexnow", data=body,
+                                       headers={"Content-Type": "application/json; charset=utf-8"})
+          try:
+              with urllib.request.urlopen(req, timeout=30) as resp:
+                  print("IndexNow:", resp.status)
+          except Exception as e:
+              print("IndexNow не ответил:", e)  # не критично: Яндекс всё равно найдёт sitemap
+          EOF
+      - name: Сообщить о сбое
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          ADMIN_CHAT_ID: ${{ secrets.ADMIN_CHAT_ID }}
+        run: |
+          curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${ADMIN_CHAT_ID}" \
+            --data-urlencode "text=❌ Сбой обновления сайта с билетами. Подробности: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
