@@ -103,28 +103,13 @@
     {
       "id": "IST-MOW-2026-11-17-9023",
       "time": 1793271661.2325153
+    },
+    {
+      "id": "AYT-MOW-2026-11-27-11738",
+      "time": 1793273448.911694
     }
   ],
   "queue": [
-    {
-      "flight_number": "4003",
-      "link": "/search/AYT2711MOW1?t=VF17957970001795840200000720AYTESBVKO_c303800940e2b37f7f66a8b27db90762_12038&search_date=29102026&expected_price_uuid=01a18633-abb7-8031-6d43-999819bde760&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=_rAWoRm7wPKB8-VAxPykiA&expected_price_source=share&expected_price_currency=rub&expected_price=12038",
-      "origin_airport": "AYT",
-      "destination_airport": "VKO",
-      "departure_at": "2026-11-27T16:30:00+03:00",
-      "airline": "VF",
-      "destination": "MOW",
-      "origin": "AYT",
-      "price": 12038,
-      "gate": "Trip.com",
-      "return_transfers": 0,
-      "duration": 720,
-      "duration_to": 340,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 31,
-      "reverse": true
-    },
     {
       "flight_number": "3002",
       "link": "/search/IST2711TAS1?t=VF17957736001795842600001030SAWESBTAS_9ba4f7b6cde259a46f101bcafc55405f_13096&search_date=29102026&expected_price_uuid=01a185e4-dae3-8030-a8a0-c5df2d53d68a&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jq_jq6jVC7g0wtamiuNgHQ&expected_price_source=share&expected_price_currency=rub&expected_price=13098",
