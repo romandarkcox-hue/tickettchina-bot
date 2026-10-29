@@ -83,27 +83,13 @@
     {
       "id": "BAK-IST-2026-11-11-8256",
       "time": 1793262649.341006
+    },
+    {
+      "id": "OVB-AYT-2026-10-30-4694",
+      "time": 1793264462.1017795
     }
   ],
   "queue": [
-    {
-      "flight_number": "3313",
-      "link": "/search/OVB3010AYT1?t=N417933835001793393100000400OVBAYT_c0e47138b5b79afb59df6aca1f7f297d_4713&search_date=29102026&expected_price_uuid=01a1863c-0769-8031-65bc-2f300937a11e&static_fare_key=TY%7CP1%7CH1%7CL1_1_10%7CCH0%7CR0%7CTBC1&itinerary_key=C7hlPowpIBs_cWOnXApf7A&expected_price_source=share&expected_price_currency=rub&expected_price=4713",
-      "origin_airport": "OVB",
-      "destination_airport": "AYT",
-      "departure_at": "2026-10-30T18:05:00+07:00",
-      "airline": "N4",
-      "destination": "AYT",
-      "origin": "OVB",
-      "price": 4713,
-      "gate": "Nebo.Travel",
-      "return_transfers": 0,
-      "duration": 400,
-      "duration_to": 400,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 13.793305966064587
-    },
     {
       "flight_number": "118",
       "link": "/search/LED2711IST1?t=2S17957904001795804500000235LEDIST_c685067247afbb235ec373d218e9d150_8103&search_date=29102026&expected_price_uuid=01a1862a-a009-8031-6a33-d5eab1da9149&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jCpl3tL4zjOfnXFjwARWEw&expected_price_source=share&expected_price_currency=rub&expected_price=8102",
