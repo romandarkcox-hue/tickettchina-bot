@@ -203,28 +203,14 @@
     {
       "id": "ALA-URC-2026-11-05-10188",
       "time": 1793259933.9365277
+    },
+    {
+      "id": "NQZ-URC-2026-11-18-6412",
+      "time": 1793261736.908367
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "7961",
-      "link": "/search/NQZ1811URC1?t=FS17950302001795050000000150NQZURC_72626cda944703d5aadd32e2e35c9533_6412&search_date=29102026&expected_price_uuid=01a18648-9ad5-8030-6cbb-9912df435d3a&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=YE09JVIbnt6WgFicfAo2uA&expected_price_source=share&expected_price_currency=rub&expected_price=6412",
-      "origin_airport": "NQZ",
-      "destination_airport": "URC",
-      "departure_at": "2026-11-18T19:30:00+06:00",
-      "airline": "FS",
-      "destination": "URC",
-      "origin": "NQZ",
-      "price": 6412,
-      "gate": "Biletix",
-      "return_transfers": 0,
-      "duration": 150,
-      "duration_to": 150,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 21
-    },
     {
       "flight_number": "406",
       "link": "/search/VVO0611CAN1?t=HU17939676001793991300000515VVOPEKCAN_1f41539d41ac91b81dd1b6ecb6c57454_12955&search_date=29102026&expected_price_uuid=01a18648-6e5d-8030-ee6c-91f4c315f2a8&static_fare_key=TY%7CP1%7CH1%7CL1_1_20%7CCH1%7CR1%7CTBC1&itinerary_key=fWXGrd9VdGFNVY0cU7-mfg&expected_price_source=share&expected_price_currency=rub&expected_price=12955",
