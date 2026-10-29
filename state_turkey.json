@@ -115,28 +115,12 @@
     {
       "id": "AYT-LED-2026-11-24-14200",
       "time": 1793277052.1475809
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "5052",
-      "link": "/search/AYT2711SVX1?t=DP17958072001795929300001915AYTAERSVX_8827dc6c0a73f4f6e5c92a342adb1891_16790&search_date=29102026&expected_price_uuid=01a18623-512e-8030-a25e-dd94127edb74&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=Z5NNmFs8cQF4NqY-KdnCAw&expected_price_source=share&expected_price_currency=rub&expected_price=16787",
-      "origin_airport": "AYT",
-      "destination_airport": "SVX",
-      "departure_at": "2026-11-27T19:20:00+03:00",
-      "airline": "A4",
-      "destination": "SVX",
-      "origin": "AYT",
-      "price": 16787,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 1915,
-      "duration_to": 350,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 31,
-      "reverse": true
+      "id": "AYT-SVX-2026-11-27-16326",
+      "time": 1793278862.6998906
     }
   ],
+  "queue": [],
   "queue_date": "2026-10-29"
 }
