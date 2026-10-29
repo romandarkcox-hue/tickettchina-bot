@@ -71,27 +71,13 @@
     {
       "id": "PEE-AYT-2026-11-01-4633",
       "time": 1793257263.7699976
+    },
+    {
+      "id": "TBS-IST-2026-11-11-7016",
+      "time": 1793259049.6737826
     }
   ],
   "queue": [
-    {
-      "flight_number": "317",
-      "link": "/search/TBS1311IST1?t=PC17945865001794591900000150TBSSAW_29134e2099f4d859dc7782322a9fb2fb_7047&search_date=29102026&expected_price_uuid=01a185e7-bdf5-8031-6160-9452fb30f63f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=lFtJha4H_Ev7cAI9q2dF8A&expected_price_source=share&expected_price_currency=rub&expected_price=7048",
-      "origin_airport": "TBS",
-      "destination_airport": "SAW",
-      "departure_at": "2026-11-13T16:15:00+04:00",
-      "airline": "PC",
-      "destination": "IST",
-      "origin": "TBS",
-      "price": 7048,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 150,
-      "duration_to": 150,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 6.282877526753864
-    },
     {
       "flight_number": "064",
       "link": "/search/TJM0211AYT1?t=2S17935824001793594700000325TJMAYT_05f4dd8770ad0c18a4ea0dc5298885ac_4633&search_date=29102026&expected_price_uuid=01a1863f-4668-8030-e306-55198b88bf96&static_fare_key=TY%7CP1%7CH1%7CL1_1_10%7CCH0%7CR0%7CTBC1&itinerary_key=KCV5nzlHaoM7m5y31OT-hw&expected_price_source=share&expected_price_currency=rub&expected_price=4632",
