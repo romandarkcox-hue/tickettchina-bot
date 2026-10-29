@@ -67,27 +67,13 @@
     {
       "id": "LED-AYT-2026-10-31-5139",
       "time": 1793255450.4784524
+    },
+    {
+      "id": "PEE-AYT-2026-11-01-4633",
+      "time": 1793257263.7699976
     }
   ],
   "queue": [
-    {
-      "flight_number": "134",
-      "link": "/search/PEE0111AYT1?t=2S17934930001793504100000305PEEAYT_2f4798a970de6fb59798a64fea29be4b_4633&search_date=29102026&expected_price_uuid=01a18634-86fe-8030-a0cf-1a701dd8db29&static_fare_key=TY%7CP1%7CH1%7CL1_1_10%7CCH0%7CR0%7CTBC1&itinerary_key=a6fZyuQ5ygSZsj-lWHnK5A&expected_price_source=share&expected_price_currency=rub&expected_price=4632",
-      "origin_airport": "PEE",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-01T00:30:00+05:00",
-      "airline": "2S",
-      "destination": "AYT",
-      "origin": "PEE",
-      "price": 4632,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 305,
-      "duration_to": 305,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 2.479655172413793
-    },
     {
       "flight_number": "317",
       "link": "/search/TBS1311IST1?t=PC17945865001794591900000150TBSSAW_29134e2099f4d859dc7782322a9fb2fb_7047&search_date=29102026&expected_price_uuid=01a185e7-bdf5-8031-6160-9452fb30f63f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=lFtJha4H_Ev7cAI9q2dF8A&expected_price_source=share&expected_price_currency=rub&expected_price=7048",
