@@ -231,29 +231,14 @@
     {
       "id": "BJS-TAS-2026-11-13-18001",
       "time": 1793272538.2656667
+    },
+    {
+      "id": "SHA-MOW-2026-11-19-20181",
+      "time": 1793274335.130195
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "6037",
-      "link": "/search/SHA1711MOW1?t=MU17949228001794974400001160PVGTASDME_4422076c82311db2e1d5ac336cbb62cc_22988&search_date=29102026&expected_price_uuid=01a18632-610f-8031-2596-5d08de7a3be2&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=88JAQ6E39ogoWVL1ynmoGQ&expected_price_source=share&expected_price_currency=rub&expected_price=22988",
-      "origin_airport": "PVG",
-      "destination_airport": "DME",
-      "departure_at": "2026-11-17T13:40:00+08:00",
-      "airline": "MU",
-      "destination": "MOW",
-      "origin": "SHA",
-      "price": 22988,
-      "gate": "Trip.com",
-      "return_transfers": 0,
-      "duration": 1160,
-      "duration_to": 730,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 22,
-      "reverse": true
-    },
     {
       "flight_number": "868",
       "link": "/search/BJS1611MOW1?t=HH17947944001794886800001840PKXTASZIA_a4c859e56d018897df4fe1d17a3227de_25590&search_date=29102026&expected_price_uuid=01a185f8-9d6b-8030-2709-1cdb50f69fca&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=JM_TcfrPGlIf4MLCFA9iMQ&expected_price_source=share&expected_price_currency=rub&expected_price=25590",
