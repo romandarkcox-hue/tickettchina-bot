@@ -199,28 +199,14 @@
     {
       "id": "VVO-HRB-2026-11-15-6311",
       "time": 1793258136.046253
+    },
+    {
+      "id": "ALA-URC-2026-11-05-10188",
+      "time": 1793259933.9365277
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "7199",
-      "link": "/search/ALA0311URC1?t=FS17936844001793791800001610ALAYINURC_2a8d08595a0490f517e717c6222d26c5_10623&search_date=28102026&expected_price_uuid=01a181fe-1554-8031-22df-e7a35bcac975&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=aIyoomp0SKEu1CBLJ2_LbQ&expected_price_source=share&expected_price_currency=rub&expected_price=10590",
-      "origin_airport": "ALA",
-      "destination_airport": "URC",
-      "departure_at": "2026-11-03T05:40:00+06:00",
-      "airline": "FS",
-      "destination": "URC",
-      "origin": "ALA",
-      "price": 10590,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 1610,
-      "duration_to": 155,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 22
-    },
     {
       "flight_number": "7961",
       "link": "/search/NQZ1811URC1?t=FS17950302001795050000000150NQZURC_72626cda944703d5aadd32e2e35c9533_6412&search_date=29102026&expected_price_uuid=01a18648-9ad5-8030-6cbb-9912df435d3a&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=YE09JVIbnt6WgFicfAo2uA&expected_price_source=share&expected_price_currency=rub&expected_price=6412",
