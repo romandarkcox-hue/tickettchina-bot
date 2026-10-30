@@ -131,27 +131,13 @@
     {
       "id": "KJA-AYT-2026-11-01-4696",
       "time": 1793343660.644461
+    },
+    {
+      "id": "MOW-IST-2026-11-02-5880",
+      "time": 1793345449.572272
     }
   ],
   "queue": [
-    {
-      "flight_number": "995",
-      "link": "/search/MOW0211IST1?t=DP17936028001793621700000315VKOIST_1522f71cc34c609b2678758520e21950_5901&search_date=30102026&expected_price_uuid=01a18b64-f2f4-8031-2390-65ccf99ec1af&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=koeZvs5OW2AIKijvqz1lqQ&expected_price_source=share&expected_price_currency=rub&expected_price=5901",
-      "origin_airport": "VKO",
-      "destination_airport": "IST",
-      "departure_at": "2026-11-02T07:00:00+03:00",
-      "airline": "DP",
-      "destination": "IST",
-      "origin": "MOW",
-      "price": 5901,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 315,
-      "duration_to": 315,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 21.97919540229885
-    },
     {
       "flight_number": "1024",
       "link": "/search/KZN0511AYT1?t=2S17939220001793938800000280KZNAYT_79a551811d5b3e59e7b947b8cefe52b7_4749&search_date=30102026&expected_price_uuid=01a18b46-4eef-8031-27cb-d6999dd2f385&static_fare_key=TY%7CP1%7CH0%7CL1_1_10%7CCH0%7CR0%7CTBC1&itinerary_key=wkNxsUP4LcjhYSU9ztyeEQ&expected_price_source=share&expected_price_currency=rub&expected_price=4749",
