@@ -123,27 +123,13 @@
     {
       "id": "MRV-AYT-2026-10-31-4473",
       "time": 1793340143.1160748
+    },
+    {
+      "id": "LED-AYT-2026-11-02-5119",
+      "time": 1793341847.3760965
     }
   ],
   "queue": [
-    {
-      "flight_number": "9287",
-      "link": "/search/LED0211AYT1?t=XC17935908001793607000000270LEDAYT_cef09fb818010e9d05793d83e5a09605_5119&search_date=30102026&expected_price_uuid=01a18b64-5b1b-8030-ab65-e75ed4bbc219&static_fare_key=TY%7CP1%7CH1%7CL1_1_0%7CCH0%7CR0%7CTBC1&itinerary_key=UsEWBB9bAMYr6SBxxEswcQ&expected_price_source=share&expected_price_currency=rub&expected_price=5119",
-      "origin_airport": "LED",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-02T03:40:00+03:00",
-      "airline": "XC",
-      "destination": "AYT",
-      "origin": "LED",
-      "price": 5119,
-      "gate": "City.Travel",
-      "return_transfers": 0,
-      "duration": 270,
-      "duration_to": 270,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 24.393037766830872
-    },
     {
       "flight_number": "3301",
       "link": "/search/KJA0111AYT1?t=N417935632001793575200000440KJAAYT_e6007144c890ff5c405adf483cdca56b_4696&search_date=30102026&expected_price_uuid=01a18b63-c713-8030-ecf2-2eedbd27b263&static_fare_key=TY%7CP1%7CH1%7CL1_1_10%7CCH0%7CR0%7CTBC1&itinerary_key=eg-n2bweUkMeF1B1hHaVuA&expected_price_source=share&expected_price_currency=rub&expected_price=4696",
