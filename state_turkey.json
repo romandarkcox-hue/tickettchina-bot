@@ -143,27 +143,13 @@
     {
       "id": "TBS-IST-2026-11-14-7124",
       "time": 1793349049.4570923
+    },
+    {
+      "id": "TJM-AYT-2026-11-03-4758",
+      "time": 1793350862.3386786
     }
   ],
   "queue": [
-    {
-      "flight_number": "064",
-      "link": "/search/TJM0311AYT1?t=2S17936730001793685300000325TJMAYT_12ccfbb1f87226db55d9eb9295e3caa7_4749&search_date=30102026&expected_price_uuid=01a18b63-0a76-8031-220e-bfbd84a44018&static_fare_key=TY%7CP1%7CH0%7CL1_1_10%7CCH0%7CR0%7CTBC1&itinerary_key=DXf6vVOlcxg0VgvjoyB4lQ&expected_price_source=share&expected_price_currency=rub&expected_price=4749",
-      "origin_airport": "TJM",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-03T02:30:00+05:00",
-      "airline": "2S",
-      "destination": "AYT",
-      "origin": "TJM",
-      "price": 4749,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 325,
-      "duration_to": 325,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 4.511379310344827
-    },
     {
       "flight_number": "182",
       "link": "/search/BAK2511IST1?t=VF17956098001795617900000195GYDSAW_857fdd514bae09bf6a356a19f1ef8ae0_7050&search_date=30102026&expected_price_uuid=01a18b3d-0ade-8030-ae3b-452d5f04a9db&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=gpkhV2v3j1UnTtUEt74J0Q&expected_price_source=share&expected_price_currency=rub&expected_price=7050",
