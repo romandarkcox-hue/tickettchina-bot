@@ -135,27 +135,13 @@
     {
       "id": "MOW-IST-2026-11-02-5880",
       "time": 1793345449.572272
+    },
+    {
+      "id": "KZN-AYT-2026-11-02-4749",
+      "time": 1793347261.3505418
     }
   ],
   "queue": [
-    {
-      "flight_number": "1024",
-      "link": "/search/KZN0511AYT1?t=2S17939220001793938800000280KZNAYT_79a551811d5b3e59e7b947b8cefe52b7_4749&search_date=30102026&expected_price_uuid=01a18b46-4eef-8031-27cb-d6999dd2f385&static_fare_key=TY%7CP1%7CH0%7CL1_1_10%7CCH0%7CR0%7CTBC1&itinerary_key=wkNxsUP4LcjhYSU9ztyeEQ&expected_price_source=share&expected_price_currency=rub&expected_price=4749",
-      "origin_airport": "KZN",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-05T23:40:00+03:00",
-      "airline": "2S",
-      "destination": "AYT",
-      "origin": "KZN",
-      "price": 4749,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 280,
-      "duration_to": 280,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 13.531669403393542
-    },
     {
       "flight_number": "228",
       "link": "/search/TBS1111IST1?t=VF17943771001794383100000160TBSSAW_4b421d3adb768d71a4ea30bdf759ddc2_6957&search_date=29102026&expected_price_uuid=01a18a0c-cd45-8031-6dd3-6cfaa80c4f13&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=afRty9eSVKI1E-GlOWjosA&expected_price_source=share&expected_price_currency=rub&expected_price=6957",
