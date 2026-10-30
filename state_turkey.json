@@ -147,27 +147,13 @@
     {
       "id": "TJM-AYT-2026-11-03-4758",
       "time": 1793350862.3386786
+    },
+    {
+      "id": "BAK-IST-2026-11-26-7251",
+      "time": 1793352652.3184257
     }
   ],
   "queue": [
-    {
-      "flight_number": "182",
-      "link": "/search/BAK2511IST1?t=VF17956098001795617900000195GYDSAW_857fdd514bae09bf6a356a19f1ef8ae0_7050&search_date=30102026&expected_price_uuid=01a18b3d-0ade-8030-ae3b-452d5f04a9db&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=gpkhV2v3j1UnTtUEt74J0Q&expected_price_source=share&expected_price_currency=rub&expected_price=7050",
-      "origin_airport": "GYD",
-      "destination_airport": "SAW",
-      "departure_at": "2026-11-25T12:30:00+04:00",
-      "airline": "VF",
-      "destination": "IST",
-      "origin": "BAK",
-      "price": 7050,
-      "gate": "Kiwi.com",
-      "return_transfers": 0,
-      "duration": 195,
-      "duration_to": 195,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 12.37487684729064
-    },
     {
       "flight_number": "066",
       "link": "/search/OMS3110AYT1?t=2S17934540001793463600000340OMSAYT_672f60744e81dd22f2dfa18cabe3b63f_4750&search_date=30102026&expected_price_uuid=01a18b5d-5842-8030-aca3-406970e19095&static_fare_key=TY%7CP1%7CH0%7CL1_1_10%7CCH0%7CR0%7CTBC1&itinerary_key=XGXTy941h2uLxr-fE4F0kQ&expected_price_source=share&expected_price_currency=rub&expected_price=4750",
