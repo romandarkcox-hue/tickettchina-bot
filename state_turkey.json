@@ -155,27 +155,13 @@
     {
       "id": "OMS-AYT-2026-10-31-4783",
       "time": 1793354459.587896
+    },
+    {
+      "id": "TAS-IST-2026-11-02-10774",
+      "time": 1793356248.515767
     }
   ],
   "queue": [
-    {
-      "flight_number": "2462",
-      "link": "/search/TAS0211IST1?t=U617935827001793632500000950TASZIADMEIST_aa4efea259be7a7640256860a72cb4c1_12075&search_date=30102026&expected_price_uuid=01a18b66-2741-8030-ec15-4aeadac572fd&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=owzus30g5Fdij1gYgzrnJQ&expected_price_source=share&expected_price_currency=rub&expected_price=12075",
-      "origin_airport": "TAS",
-      "destination_airport": "IST",
-      "departure_at": "2026-11-02T01:25:00+05:00",
-      "airline": "U6",
-      "destination": "IST",
-      "origin": "TAS",
-      "price": 12075,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 950,
-      "duration_to": 570,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 23.16543513957307
-    },
     {
       "flight_number": "996",
       "link": "/search/IST2611MOW1?t=DP17957220001795739100000285ISTVKO_e139cc6f37d448886af556bca4de2cb8_8990&search_date=30102026&expected_price_uuid=01a18b53-a393-8030-690b-479941afefed&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=gfsX28j17eNLRelP9N5a7w&expected_price_source=share&expected_price_currency=rub&expected_price=8990",
