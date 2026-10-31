@@ -203,27 +203,13 @@
     {
       "id": "TBS-IST-2026-11-11-6883",
       "time": 1793435447.9274185
+    },
+    {
+      "id": "KJA-AYT-2026-11-03-4688",
+      "time": 1793437258.9472353
     }
   ],
   "queue": [
-    {
-      "flight_number": "3303",
-      "link": "/search/KJA0311AYT1?t=N417937405001793752500000440KJAAYT_c457735c6d72f70421ff018408f3bc59_4688&search_date=31102026&expected_price_uuid=01a1908a-71fe-8031-2ccc-31d3880cddfb&static_fare_key=TY%7CP1%7CH1%7CL1_1_10%7CCH0%7CR0%7CTBC1&itinerary_key=okrrw3Wf3g1j6J7k_1-zlQ&expected_price_source=share&expected_price_currency=rub&expected_price=4688",
-      "origin_airport": "KJA",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-03T21:15:00+07:00",
-      "airline": "N4",
-      "destination": "AYT",
-      "origin": "KJA",
-      "price": 4688,
-      "gate": "Nebo.Travel",
-      "return_transfers": 0,
-      "duration": 440,
-      "duration_to": 440,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 4.607586206896552
-    },
     {
       "flight_number": "182",
       "link": "/search/BAK1811IST1?t=VF17950050001795013100000195GYDSAW_a7fb5a1df15c611cb037f4b42204a619_7279&search_date=31102026&expected_price_uuid=01a19039-e9e4-8031-283f-7a362af86c27&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=gpkhV2v3j1UnTtUEt74J0Q&expected_price_source=share&expected_price_currency=rub&expected_price=7279",
