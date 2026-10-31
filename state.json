@@ -291,28 +291,14 @@
     {
       "id": "VVO-YNJ-2026-11-14-8371",
       "time": 1793438134.7386172
+    },
+    {
+      "id": "MOW-URC-2026-11-04-16908",
+      "time": 1793439933.5659423
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "1956",
-      "link": "/search/MOW0411URC1?t=SU17938350001793926800001230SVONQZURC_4154643af25b58872321b2ea40232a2b_16934&search_date=31102026&expected_price_uuid=01a19072-2bbc-8031-2448-2cf4fa576feb&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=OGYBFboXtIHPhb6cfsKWLQ&expected_price_source=share&expected_price_currency=rub&expected_price=16934",
-      "origin_airport": "SVO",
-      "destination_airport": "URC",
-      "departure_at": "2026-11-04T23:30:00+03:00",
-      "airline": "SU",
-      "destination": "URC",
-      "origin": "MOW",
-      "price": 16934,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 1230,
-      "duration_to": 365,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 21
-    },
     {
       "flight_number": "6501",
       "link": "/search/KHV2011BJS1?t=S717951346001795139400000200KHVPKX_0352e52896627dcd5c02dc15d9e4361a_8824&search_date=30102026&expected_price_uuid=01a18f22-9105-8031-65ee-6229715ee953&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=OKXod97njM-VtQyD27Vo_w&expected_price_source=share&expected_price_currency=rub&expected_price=8859",
