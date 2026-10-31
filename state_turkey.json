@@ -223,28 +223,13 @@
     {
       "id": "IST-MOW-2026-11-26-7963",
       "time": 1793444459.5300894
+    },
+    {
+      "id": "AYT-MOW-2026-11-24-11965",
+      "time": 1793446247.2197583
     }
   ],
   "queue": [
-    {
-      "flight_number": "2019",
-      "link": "/search/AYT2611MOW1?t=2S17957367001795823400001445AYTSAWISTSVO_c234e76716ae312e5c5080b8fd47d8ec_11435&search_date=31102026&expected_price_uuid=01a1908b-cc6c-8030-e15a-79c8af58658d&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=CziF6Hufj80_GhcVf6jt1g&expected_price_source=share&expected_price_currency=rub&expected_price=11435",
-      "origin_airport": "AYT",
-      "destination_airport": "SVO",
-      "departure_at": "2026-11-26T23:45:00+03:00",
-      "airline": "PC",
-      "destination": "MOW",
-      "origin": "AYT",
-      "price": 11435,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 1445,
-      "duration_to": 310,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "568",
       "link": "/search/IST0111TAS1?t=2U17934960001793571000001130SAWSSHTAS_e1bea77efc6f9ec063753e50071a5b0a_12796&search_date=31102026&expected_price_uuid=01a19077-6d93-8030-210b-c4353ae42923&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=L3cdD2FAjNJbqvzJ1C0wLA&expected_price_source=share&expected_price_currency=rub&expected_price=12796",
