@@ -291,28 +291,12 @@
     {
       "id": "AYT-LED-2026-11-24-14640",
       "time": 1793534457.7848969
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "840",
-      "link": "/search/AYT2911SVX1?t=DP17959602001796012400000750AYTVKOSVX_91bea592f29089d4814d4bfbed97a21d_17536&search_date=01112026&expected_price_uuid=01a1950a-254f-8030-6ea7-dc8a2066e534&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=2Q3Cmm70nmwqUFLwa886_w&expected_price_source=share&expected_price_currency=rub&expected_price=17536",
-      "origin_airport": "AYT",
-      "destination_airport": "SVX",
-      "departure_at": "2026-11-29T13:50:00+03:00",
-      "airline": "DP",
-      "destination": "SVX",
-      "origin": "AYT",
-      "price": 17536,
-      "gate": "OneTwoTrip",
-      "return_transfers": 0,
-      "duration": 750,
-      "duration_to": 440,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
+      "id": "AYT-SVX-2026-11-29-17778",
+      "time": 1793536247.8678167
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-01"
 }
