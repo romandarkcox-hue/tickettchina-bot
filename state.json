@@ -327,29 +327,14 @@
     {
       "id": "LED-HRB-2026-11-15-22618",
       "time": 1793529933.6299384
+    },
+    {
+      "id": "CAN-MOW-2026-11-19-22736",
+      "time": 1793531735.2261336
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "872",
-      "link": "/search/CAN1911MOW1?t=HH17950674001795203600002570CANTASDME_686a48f827f4e63eb704cba1be0571bb_22736&search_date=01112026&expected_price_uuid=01a195b4-429c-8031-6878-ddbbdba3d29e&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=TpXGzRJrP2zgNz6QzGoJfA&expected_price_source=share&expected_price_currency=rub&expected_price=22736",
-      "origin_airport": "CAN",
-      "destination_airport": "DME",
-      "departure_at": "2026-11-19T05:50:00+08:00",
-      "airline": "HH",
-      "destination": "MOW",
-      "origin": "CAN",
-      "price": 22736,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 2570,
-      "duration_to": 720,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 21,
-      "reverse": true
-    },
     {
       "flight_number": "6037",
       "link": "/search/SHA1711MOW1?t=MU17949228001794973200001140PVGTASZIA_0b1ec37ce1eab65792c4ba13a1d06512_23847&search_date=01112026&expected_price_uuid=01a19572-2311-8031-25bf-b9191c92e39e&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=SilspDknMQiWfSh2rYg9Lw&expected_price_source=share&expected_price_currency=rub&expected_price=23847",
