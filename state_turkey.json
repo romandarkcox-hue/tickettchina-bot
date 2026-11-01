@@ -283,28 +283,13 @@
     {
       "id": "AYT-MOW-2026-12-01-11632",
       "time": 1793530857.5672462
+    },
+    {
+      "id": "IST-TAS-2026-11-25-13198",
+      "time": 1793532648.591758
     }
   ],
   "queue": [
-    {
-      "flight_number": "3012",
-      "link": "/search/IST2211TAS1?t=VF17953344001795409700001135SAWESBTAS_cdd1f6f1a7bda30bfcf404dcf27f8044_13198&search_date=01112026&expected_price_uuid=01a1956e-7923-8030-2d48-5baf12206602&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=uIauDkVH49eEgaC6wwbsVA&expected_price_source=share&expected_price_currency=rub&expected_price=13198",
-      "origin_airport": "SAW",
-      "destination_airport": "TAS",
-      "departure_at": "2026-11-22T08:00:00+03:00",
-      "airline": "VF",
-      "destination": "TAS",
-      "origin": "IST",
-      "price": 13198,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 1135,
-      "duration_to": 320,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "3037",
       "link": "/search/AYT2411LED1?t=2S17955540001795614000001000AYTSAWISTLED_abd503a819090487747a03dbbfde8fbf_14640&search_date=01112026&expected_price_uuid=01a195a5-0142-8030-6934-01f5cf6f6a81&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=wugLRRhfDFfiDBBa-VMqmg&expected_price_source=share&expected_price_currency=rub&expected_price=14640",
