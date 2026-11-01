@@ -315,28 +315,14 @@
     {
       "id": "KHV-HRB-2026-11-16-9703",
       "time": 1793524538.926857
+    },
+    {
+      "id": "MOW-URC-2026-11-04-16900",
+      "time": 1793526333.317729
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "1956",
-      "link": "/search/MOW0411URC1?t=SU17938350001793926800001230SVONQZURC_4154643af25b58872321b2ea40232a2b_16900&search_date=31102026&expected_price_uuid=01a193c9-0f8d-8031-25ef-d942cdf840cb&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=OGYBFboXtIHPhb6cfsKWLQ&expected_price_source=share&expected_price_currency=rub&expected_price=16900",
-      "origin_airport": "SVO",
-      "destination_airport": "URC",
-      "departure_at": "2026-11-04T23:30:00+03:00",
-      "airline": "SU",
-      "destination": "URC",
-      "origin": "MOW",
-      "price": 16900,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 1230,
-      "duration_to": 365,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 21
-    },
     {
       "flight_number": "878",
       "link": "/search/VVO1411SZX1?t=KN17946831001794747000001185VVOPKXSZX_725de4bf5506753f93e50a4d94819829_9685&search_date=29102026&expected_price_uuid=01a187e0-71c0-8030-e22f-250067d72e0b&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=KsZNSwi9V92F6X4B87l7Vg&expected_price_source=share&expected_price_currency=rub&expected_price=9767",
