@@ -1,34 +1,6 @@
 {
   "posted": [
     {
-      "id": "NQZ-URC-2026-11-05-5176",
-      "time": 1792908411.658492
-    },
-    {
-      "id": "VVO-HRB-2026-11-07-8292",
-      "time": 1792908415.036623
-    },
-    {
-      "id": "KHV-BJS-2026-11-15-9740",
-      "time": 1792908418.4325938
-    },
-    {
-      "id": "VVO-YNJ-2026-11-04-10407",
-      "time": 1792908421.872872
-    },
-    {
-      "id": "ALA-URC-2026-11-12-10609",
-      "time": 1792908425.2576745
-    },
-    {
-      "id": "MOW-URC-2026-11-10-18849",
-      "time": 1792908428.681677
-    },
-    {
-      "id": "LED-BJS-2026-11-13-25326",
-      "time": 1792908432.1301396
-    },
-    {
       "id": "VVO-BJS-2026-11-08-5428",
       "time": 1792994819.5674596
     },
@@ -315,9 +287,233 @@
     {
       "id": "BJS-MOW-2026-11-20-26399",
       "time": 1793448934.5215275
+    },
+    {
+      "id": "VVO-BJS-2026-11-10-5344",
+      "time": 1793513802.8200188
     }
   ],
   "last_run": "2026-10-27",
-  "queue": [],
-  "queue_date": "2026-10-31"
+  "queue": [
+    {
+      "flight_number": "7199",
+      "link": "/search/ALA0311URC1?t=FS17936844001793751600000940ALAYINURC_2ed65a243b4cd4580469c2f7f3370c9e_10499&search_date=29102026&expected_price_uuid=01a18869-4fb8-8031-2b13-acaf565c940b&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Qbugn7qH3f3UCzEOnTmToQ&expected_price_source=share&expected_price_currency=rub&expected_price=10551",
+      "origin_airport": "ALA",
+      "destination_airport": "URC",
+      "departure_at": "2026-11-03T05:40:00+06:00",
+      "airline": "FS",
+      "destination": "URC",
+      "origin": "ALA",
+      "price": 10551,
+      "gate": "Clickavia",
+      "return_transfers": 0,
+      "duration": 940,
+      "duration_to": 155,
+      "duration_back": 0,
+      "transfers": 1,
+      "popularity": 22
+    },
+    {
+      "flight_number": "7961",
+      "link": "/search/NQZ0511URC1?t=FS17939070001793926800000150NQZURC_61830a3686e7c2de6f67889a558d369c_7454&search_date=01112026&expected_price_uuid=01a1952b-0ba4-8030-2cab-33db4bea4d23&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=YE09JVIbnt6WgFicfAo2uA&expected_price_source=share&expected_price_currency=rub&expected_price=7454",
+      "origin_airport": "NQZ",
+      "destination_airport": "URC",
+      "departure_at": "2026-11-05T19:30:00+06:00",
+      "airline": "FS",
+      "destination": "URC",
+      "origin": "NQZ",
+      "price": 7454,
+      "gate": "Авиасейлс",
+      "return_transfers": 0,
+      "duration": 150,
+      "duration_to": 150,
+      "duration_back": 0,
+      "transfers": 0,
+      "popularity": 20
+    },
+    {
+      "flight_number": "6315",
+      "link": "/search/IKT1711BJS1?t=S717948754001794886200000180IKTPKX_f49186608c4f5f0d99ad36f70f154fff_14245&search_date=01112026&expected_price_uuid=01a195ae-58fc-8031-64b0-3b735ab2edfd&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=FETN2c6y7voQ84tF5OYd-A&expected_price_source=share&expected_price_currency=rub&expected_price=14245",
+      "origin_airport": "IKT",
+      "destination_airport": "PKX",
+      "departure_at": "2026-11-17T00:30:00+08:00",
+      "airline": "S7",
+      "destination": "BJS",
+      "origin": "IKT",
+      "price": 14245,
+      "gate": "S7 Airlines",
+      "return_transfers": 0,
+      "duration": 180,
+      "duration_to": 180,
+      "duration_back": 0,
+      "transfers": 0,
+      "popularity": 22
+    },
+    {
+      "flight_number": "878",
+      "link": "/search/VVO0911YNJ1?t=KN17942580001794302100000855VVOPKXYNJ_1fbfa526379c2781d2bf8bba778ae6d9_8417&search_date=01112026&expected_price_uuid=01a194ab-b618-8030-a2ea-474d12a9b71f&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=YbnJV5sj_Fphn-FDXQ72LQ&expected_price_source=share&expected_price_currency=rub&expected_price=8417",
+      "origin_airport": "VVO",
+      "destination_airport": "YNJ",
+      "departure_at": "2026-11-09T21:00:00+10:00",
+      "airline": "KN",
+      "destination": "YNJ",
+      "origin": "VVO",
+      "price": 8417,
+      "gate": "Trip.com",
+      "return_transfers": 0,
+      "duration": 855,
+      "duration_to": 320,
+      "duration_back": 0,
+      "transfers": 1,
+      "popularity": 21
+    },
+    {
+      "flight_number": "7199",
+      "link": "/search/ALA1711CTU1?t=9C17948940001794937500000545ALAYINTFU_b11e72b6c4d11b93b12fd9b170e20d69_14996&search_date=30102026&expected_price_uuid=01a18c6b-0d0f-8030-e639-95638c1f9199&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=CHMM_eckjOMo9A20cMEluQ&expected_price_source=share&expected_price_currency=rub&expected_price=15069",
+      "origin_airport": "ALA",
+      "destination_airport": "TFU",
+      "departure_at": "2026-11-17T05:40:00+06:00",
+      "airline": "FS",
+      "destination": "CTU",
+      "origin": "ALA",
+      "price": 15069,
+      "gate": "Kiwi.com",
+      "return_transfers": 0,
+      "duration": 545,
+      "duration_to": 325,
+      "duration_back": 0,
+      "transfers": 1,
+      "popularity": 22
+    },
+    {
+      "flight_number": "5456",
+      "link": "/search/KHV1311HRB1?t=SU17945574001794555900000095KHVHRB_1dd34c547cc834d2b903bed2fdf2d4a1_9728&search_date=01112026&expected_price_uuid=01a1959d-0c51-8031-23f2-05c24101f41f&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=TwRGJr5bIrXnk1tUOfuabg&expected_price_source=share&expected_price_currency=rub&expected_price=9728",
+      "origin_airport": "KHV",
+      "destination_airport": "HRB",
+      "departure_at": "2026-11-13T08:10:00+10:00",
+      "airline": "HZ",
+      "destination": "HRB",
+      "origin": "KHV",
+      "price": 9728,
+      "gate": "Aviakassa",
+      "return_transfers": 0,
+      "duration": 95,
+      "duration_to": 95,
+      "duration_back": 0,
+      "transfers": 0,
+      "popularity": 22
+    },
+    {
+      "flight_number": "1956",
+      "link": "/search/MOW0411URC1?t=SU17938350001793926800001230SVONQZURC_4154643af25b58872321b2ea40232a2b_16900&search_date=31102026&expected_price_uuid=01a193c9-0f8d-8031-25ef-d942cdf840cb&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=OGYBFboXtIHPhb6cfsKWLQ&expected_price_source=share&expected_price_currency=rub&expected_price=16900",
+      "origin_airport": "SVO",
+      "destination_airport": "URC",
+      "departure_at": "2026-11-04T23:30:00+03:00",
+      "airline": "SU",
+      "destination": "URC",
+      "origin": "MOW",
+      "price": 16900,
+      "gate": "Авиасейлс",
+      "return_transfers": 0,
+      "duration": 1230,
+      "duration_to": 365,
+      "duration_back": 0,
+      "transfers": 1,
+      "popularity": 21
+    },
+    {
+      "flight_number": "878",
+      "link": "/search/VVO1411SZX1?t=KN17946831001794747000001185VVOPKXSZX_725de4bf5506753f93e50a4d94819829_9685&search_date=29102026&expected_price_uuid=01a187e0-71c0-8030-e22f-250067d72e0b&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=KsZNSwi9V92F6X4B87l7Vg&expected_price_source=share&expected_price_currency=rub&expected_price=9767",
+      "origin_airport": "VVO",
+      "destination_airport": "SZX",
+      "departure_at": "2026-11-14T19:05:00+10:00",
+      "airline": "KN",
+      "destination": "SZX",
+      "origin": "VVO",
+      "price": 9767,
+      "gate": "Trip.com",
+      "return_transfers": 0,
+      "duration": 1185,
+      "duration_to": 385,
+      "duration_back": 0,
+      "transfers": 1,
+      "popularity": 19
+    },
+    {
+      "flight_number": "6475",
+      "link": "/search/LED0911HRB1?t=SU17942106001794356100002125LEDKJAHRB_1340862087a3ad894744aa48c493b884_22449&search_date=31102026&expected_price_uuid=01a190e8-f765-8030-6e9f-dd42980ee168&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=JiF4qM1tPTU22HN4Skeaaw&expected_price_source=share&expected_price_currency=rub&expected_price=22449",
+      "origin_airport": "LED",
+      "destination_airport": "HRB",
+      "departure_at": "2026-11-09T07:50:00+03:00",
+      "airline": "FV",
+      "destination": "HRB",
+      "origin": "LED",
+      "price": 22449,
+      "gate": "Aviakassa",
+      "return_transfers": 0,
+      "duration": 2125,
+      "duration_to": 520,
+      "duration_back": 0,
+      "transfers": 1,
+      "popularity": 21
+    },
+    {
+      "flight_number": "872",
+      "link": "/search/CAN1911MOW1?t=HH17950674001795203600002570CANTASDME_686a48f827f4e63eb704cba1be0571bb_22736&search_date=01112026&expected_price_uuid=01a195b4-429c-8031-6878-ddbbdba3d29e&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=TpXGzRJrP2zgNz6QzGoJfA&expected_price_source=share&expected_price_currency=rub&expected_price=22736",
+      "origin_airport": "CAN",
+      "destination_airport": "DME",
+      "departure_at": "2026-11-19T05:50:00+08:00",
+      "airline": "HH",
+      "destination": "MOW",
+      "origin": "CAN",
+      "price": 22736,
+      "gate": "Kupi.com",
+      "return_transfers": 0,
+      "duration": 2570,
+      "duration_to": 720,
+      "duration_back": 0,
+      "transfers": 1,
+      "popularity": 21,
+      "reverse": true
+    },
+    {
+      "flight_number": "6037",
+      "link": "/search/SHA1711MOW1?t=MU17949228001794973200001140PVGTASZIA_0b1ec37ce1eab65792c4ba13a1d06512_23847&search_date=01112026&expected_price_uuid=01a19572-2311-8031-25bf-b9191c92e39e&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=SilspDknMQiWfSh2rYg9Lw&expected_price_source=share&expected_price_currency=rub&expected_price=23847",
+      "origin_airport": "PVG",
+      "destination_airport": "ZIA",
+      "departure_at": "2026-11-17T13:40:00+08:00",
+      "airline": "MU",
+      "destination": "MOW",
+      "origin": "SHA",
+      "price": 23847,
+      "gate": "Clickavia",
+      "return_transfers": 0,
+      "duration": 1140,
+      "duration_to": 735,
+      "duration_back": 0,
+      "transfers": 1,
+      "popularity": 21,
+      "reverse": true
+    },
+    {
+      "flight_number": "506",
+      "link": "/search/BJS1011MOW1?t=HY17943021001794368400001405PKXTASZIA_315fb3652c4972e0057d92d0ff7ee88c_26173&search_date=01112026&expected_price_uuid=01a195be-6f12-8031-62f5-81436830e01b&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=BTzlrqWE_hWOrWtLLcbdRw&expected_price_source=share&expected_price_currency=rub&expected_price=26173",
+      "origin_airport": "PKX",
+      "destination_airport": "ZIA",
+      "departure_at": "2026-11-10T09:15:00+08:00",
+      "airline": "HY",
+      "destination": "MOW",
+      "origin": "BJS",
+      "price": 26173,
+      "gate": "Авиасейлс",
+      "return_transfers": 0,
+      "duration": 1405,
+      "duration_to": 635,
+      "duration_back": 0,
+      "transfers": 1,
+      "popularity": 22,
+      "reverse": true
+    }
+  ],
+  "queue_date": "2026-11-01"
 }
