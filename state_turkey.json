@@ -287,28 +287,13 @@
     {
       "id": "IST-TAS-2026-11-25-13198",
       "time": 1793532648.591758
+    },
+    {
+      "id": "AYT-LED-2026-11-24-14640",
+      "time": 1793534457.7848969
     }
   ],
   "queue": [
-    {
-      "flight_number": "3037",
-      "link": "/search/AYT2411LED1?t=2S17955540001795614000001000AYTSAWISTLED_abd503a819090487747a03dbbfde8fbf_14640&search_date=01112026&expected_price_uuid=01a195a5-0142-8030-6934-01f5cf6f6a81&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=wugLRRhfDFfiDBBa-VMqmg&expected_price_source=share&expected_price_currency=rub&expected_price=14640",
-      "origin_airport": "AYT",
-      "destination_airport": "LED",
-      "departure_at": "2026-11-24T21:00:00+03:00",
-      "airline": "VF",
-      "destination": "LED",
-      "origin": "AYT",
-      "price": 14640,
-      "gate": "Aviakassa",
-      "return_transfers": 0,
-      "duration": 1000,
-      "duration_to": 310,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "840",
       "link": "/search/AYT2911SVX1?t=DP17959602001796012400000750AYTVKOSVX_91bea592f29089d4814d4bfbed97a21d_17536&search_date=01112026&expected_price_uuid=01a1950a-254f-8030-6ea7-dc8a2066e534&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=2Q3Cmm70nmwqUFLwa886_w&expected_price_source=share&expected_price_currency=rub&expected_price=17536",
