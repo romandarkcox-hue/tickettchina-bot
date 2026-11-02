@@ -307,27 +307,13 @@
     {
       "id": "MOW-AYT-2026-11-12-4245",
       "time": 1793602864.5037515
+    },
+    {
+      "id": "TBS-IST-2026-12-01-6665",
+      "time": 1793604647.6341698
     }
   ],
   "queue": [
-    {
-      "flight_number": "228",
-      "link": "/search/TBS0112IST1?t=VF17961051001796111100000160TBSSAW_2d986df77b61a1a2fb0c6f41e0307294_6665&search_date=01112026&expected_price_uuid=01a1977b-7290-8030-a105-8d121dbf1da5&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=afRty9eSVKI1E-GlOWjosA&expected_price_source=share&expected_price_currency=rub&expected_price=6665",
-      "origin_airport": "TBS",
-      "destination_airport": "SAW",
-      "departure_at": "2026-12-01T06:05:00+04:00",
-      "airline": "VF",
-      "destination": "IST",
-      "origin": "TBS",
-      "price": 6665,
-      "gate": "Kiwi.com",
-      "return_transfers": 0,
-      "duration": 160,
-      "duration_to": 160,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 6.3310344827586205
-    },
     {
       "flight_number": "3051",
       "link": "/search/KRR0411AYT1?t=A417938197001793828700000150KRRAYT_40e7ae5cd713b8754bba6602b1ed616b_4560&search_date=02112026&expected_price_uuid=01a19ad8-760c-8030-647d-407e08999410&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=glQGRiFEYWLmYMpXBQT6tQ&expected_price_source=share&expected_price_currency=rub&expected_price=4564",
