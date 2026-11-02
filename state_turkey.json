@@ -347,28 +347,13 @@
     {
       "id": "IST-TAS-2026-11-23-13188",
       "time": 1793620865.7757921
+    },
+    {
+      "id": "AYT-LED-2026-12-01-14592",
+      "time": 1793622659.1627266
     }
   ],
   "queue": [
-    {
-      "flight_number": "3037",
-      "link": "/search/AYT2711LED1?t=2S17958132001795873200001000AYTSAWISTLED_bdc7f569a4b04dcd6292c5129bb751c9_13842&search_date=02112026&expected_price_uuid=01a19ad8-95b9-8030-ee9c-0027b3be2497&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=wugLRRhfDFfiDBBa-VMqmg&expected_price_source=share&expected_price_currency=rub&expected_price=13848",
-      "origin_airport": "AYT",
-      "destination_airport": "LED",
-      "departure_at": "2026-11-27T21:00:00+03:00",
-      "airline": "VF",
-      "destination": "LED",
-      "origin": "AYT",
-      "price": 13848,
-      "gate": "City.Travel",
-      "return_transfers": 0,
-      "duration": 1000,
-      "duration_to": 310,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "840",
       "link": "/search/AYT3011SVX1?t=DP17960430001796097000000780AYTVKOSVOSVX_e074678b4d187b43921e20fee03a03f4_17778&search_date=02112026&expected_price_uuid=01a19a92-c29b-8030-eedb-e00733e0dbf4&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=c-DlkNsmQKsFWTzqiQq3Ig&expected_price_source=share&expected_price_currency=rub&expected_price=17785",
