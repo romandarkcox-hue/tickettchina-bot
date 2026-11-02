@@ -331,28 +331,14 @@
     {
       "id": "MOW-URC-2026-11-10-17680",
       "time": 1793612735.1948948
+    },
+    {
+      "id": "KHV-BJS-2026-11-22-8767",
+      "time": 1793614534.3262627
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "6501",
-      "link": "/search/KHV2011BJS1?t=S717951346001795139400000200KHVPKX_0352e52896627dcd5c02dc15d9e4361a_8824&search_date=02112026&expected_price_uuid=01a19abd-ca25-8031-22eb-130dbb585b6d&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=OKXod97njM-VtQyD27Vo_w&expected_price_source=share&expected_price_currency=rub&expected_price=8828",
-      "origin_airport": "KHV",
-      "destination_airport": "PKX",
-      "departure_at": "2026-11-20T00:30:00+10:00",
-      "airline": "S7",
-      "destination": "BJS",
-      "origin": "KHV",
-      "price": 8828,
-      "gate": "S7 Airlines",
-      "return_transfers": 0,
-      "duration": 200,
-      "duration_to": 200,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 22
-    },
     {
       "flight_number": "6410",
       "link": "/search/LED1911BJS1?t=S717950914001795160100000845LEDIKTPKX_b530bd0317ba3c7667cb32c530a25c17_20906&search_date=01112026&expected_price_uuid=01a198ee-876b-8030-6e99-dd4416700d39&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=s7L4j0xkySVRB-VTzetQkg&expected_price_source=share&expected_price_currency=rub&expected_price=20906",
