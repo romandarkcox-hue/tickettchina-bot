@@ -93,6 +93,9 @@ SKIP_HOLIDAYS = ("культ", "бахаи", "девятнадцатого дн�
 MORNING_TAGS ="#доброеутро #сдобрымутром #открытки #пожелания"
 NIGHT_TAGS = "#добройночи #спокойнойночи #открытки #пожелания"
 DAY_TAGS = "#какойсегоднядень #праздники #календарь"
+HISTORY_TAGS = "#этотденьвистории #история #календарь"
+HISTORY_THEMES = ["vintage books", "old map", "antique globe", "vintage clock", "old letters",
+                  "antique compass", "old library", "vintage typewriter"]
 
 
 # ---------- общее ----------
@@ -290,6 +293,23 @@ def world_holidays(day):
     return out
 
 
+def history_events(day):
+    """Главные события дня в истории (России и мира) с calend.ru: (год, событие), по порядку лет."""
+    url = f"https://www.calend.ru/events/{day.month}-{day.day}/"
+    s = http_get(url).decode("utf-8", "replace")
+    out = []
+    for li in re.findall(r'<li class="three-three">(.*?)</li>', s, re.S):
+        t = re.search(r'<span class="title">\s*<a[^>]*>([^<]+)', li)
+        y = re.search(r'<span class="year[^"]*">\s*(\d{1,4})', li)
+        if not t:
+            continue
+        name = html.unescape(t.group(1)).strip()
+        if any(w in name.lower() for w in SKIP_HOLIDAYS):
+            continue
+        out.append((int(y.group(1)) if y else 0, name))
+    return sorted(out)
+
+
 def get_holidays(day):
     for source in (holidays_my_calend, holidays_calend):
         try:
@@ -371,6 +391,23 @@ def post_day(state, today):
     return card, text, short
 
 
+def post_history(state, today):
+    events = history_events(today)
+    if not events:
+        raise RuntimeError("calend.ru не вернул исторических событий на сегодня")
+    date_str = f"{today.day} {MONTHS[today.month - 1]}"
+    img = pick_photo(HISTORY_THEMES, state)
+    card = make_card(img, "Этот день в истории", date_str, color=(240, 220, 180))
+    lines = []
+    for year, name in events[:8]:
+        lines.append(f"📌 <b>{year} г.</b> — {html.escape(name)}" if year else f"📌 {html.escape(name)}")
+    text = (f"📜 <b>Этот день в истории — {date_str}</b>\n\n" + "\n\n".join(lines)
+            + f"\n\nА какое событие удивило вас больше всего? 🤔\n\n{HISTORY_TAGS} "
+            f"#{today.day}{MONTHS[today.month - 1]}\n👉 {CHANNEL}")
+    short = f"📜 <b>Этот день в истории — {date_str}</b>. Рассказываем ниже 👇"
+    return card, text, short
+
+
 def tg_call(token, method, data):
     req = urllib.request.Request(
         f"https://api.telegram.org/bot{token}/{method}",
@@ -402,7 +439,7 @@ def send_photo(token, chat, img, caption):
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--mode", choices=["morning", "day", "night"], required=True)
+    p.add_argument("--mode", choices=["morning", "day", "history", "night"], required=True)
     p.add_argument("--chat", help="тест: отправить в этот чат вместо канала, state.json не меняется")
     p.add_argument("--dry-run", action="store_true", help="не отправлять, сохранить preview_<mode>.jpg")
     p.add_argument("--force", action="store_true", help="публиковать, даже если сегодня уже было")
@@ -415,7 +452,8 @@ def main():
         print(f"{a.mode}: сегодня уже опубликовано, пропускаю")
         return
 
-    build = {"morning": post_morning, "day": post_day, "night": post_night}[a.mode]
+    build = {"morning": post_morning, "day": post_day, "history": post_history,
+             "night": post_night}[a.mode]
     img, caption, *rest = build(state, today)
 
     if a.dry_run:

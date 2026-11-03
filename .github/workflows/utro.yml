@@ -1,14 +1,15 @@
 name: Доброе утро — открытки
 
 # Канал @dobroeytroru. Запускают будильники cron-job.org по Москве:
-# 06:30 — «Доброе утро», 08:00 — «Какой сегодня день», 21:30 — «Доброй ночи».
+# 06:30 — «Доброе утро», 08:00 — «Какой сегодня день», 12:00 — «Этот день в истории»,
+# 21:30 — «Доброй ночи».
 on:
   workflow_dispatch:
     inputs:
       mode:
         description: "Какой пост"
         type: choice
-        options: [morning, day, night]
+        options: [morning, day, history, night]
         default: morning
       test_chat:
         description: "Тест: отправить в этот чат вместо канала"
