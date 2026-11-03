@@ -39,8 +39,8 @@ JOBS = [
      "hours": [6], "minutes": [30], "inputs": {"mode": "morning"}},
     {"title": "dobroeytro: Какой сегодня день 08:00", "workflow": "utro.yml",
      "hours": [8], "minutes": [0], "inputs": {"mode": "day"}},
-    {"title": "dobroeytro: Этот день в истории 12:00", "workflow": "utro.yml",
-     "hours": [12], "minutes": [0], "inputs": {"mode": "history"}},
+    {"title": "dobroeytro: Этот день в истории 11:00", "workflow": "utro.yml",
+     "hours": [11], "minutes": [0], "inputs": {"mode": "history"}},
     {"title": "dobroeytro: Доброй ночи 21:30", "workflow": "utro.yml",
      "hours": [21], "minutes": [30], "inputs": {"mode": "night"}},
 ]
