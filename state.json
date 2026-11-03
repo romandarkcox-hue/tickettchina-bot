@@ -343,28 +343,14 @@
     {
       "id": "MOW-BJS-2026-11-17-15995",
       "time": 1793699139.12545
+    },
+    {
+      "id": "VVO-YNJ-2026-11-12-7649",
+      "time": 1793700935.1516445
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "878",
-      "link": "/search/VVO2011YNJ1?t=KN17952015001795252500000970VVOPKXYNJ_7aaec266d1c196d4ef24edddba9f1f96_8418&search_date=01112026&expected_price_uuid=01a19966-e8ee-8040-66cd-a623cafdfa22&static_fare_key=TY%7CP0%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=DFRzVpVrzGMHUsS9d6wIBQ&expected_price_source=share&expected_price_currency=rub&expected_price=8380",
-      "origin_airport": "VVO",
-      "destination_airport": "YNJ",
-      "departure_at": "2026-11-20T19:05:00+10:00",
-      "airline": "KN",
-      "destination": "YNJ",
-      "origin": "VVO",
-      "price": 8380,
-      "gate": "Trip.com",
-      "return_transfers": 0,
-      "duration": 970,
-      "duration_to": 310,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 21
-    },
     {
       "flight_number": "6410",
       "link": "/search/LED1911BJS1?t=S717950914001795160100000845LEDIKTPKX_b530bd0317ba3c7667cb32c530a25c17_20906&search_date=02112026&expected_price_uuid=01a19d75-1d05-8031-21ab-9bd6431c755c&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=s7L4j0xkySVRB-VTzetQkg&expected_price_source=share&expected_price_currency=rub&expected_price=20907",
