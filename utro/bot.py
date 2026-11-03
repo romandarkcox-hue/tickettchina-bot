@@ -88,7 +88,7 @@ def off_season_tags(month):
 
 
 # Пункты календаря, которые не подходят для доброго канала
-SKIP_HOLIDAYS = ("культ",)
+SKIP_HOLIDAYS = ("культ", "бахаи", "девятнадцатого дня", "католикос", "интронизац")
 
 MORNING_TAGS ="#доброеутро #сдобрымутром #открытки #пожелания"
 NIGHT_TAGS = "#добройночи #спокойнойночи #открытки #пожелания"
@@ -230,6 +230,66 @@ def holidays_calend(day):
             for n in re.findall(r'<span class="title">\s*<a[^>]*>([^<]+)</a>', s)]
 
 
+COUNTRY_FLAGS = {
+    "японии": "🇯🇵", "китая": "🇨🇳", "сша": "🇺🇸", "великобритании": "🇬🇧", "германии": "🇩🇪",
+    "франции": "🇫🇷", "италии": "🇮🇹", "испании": "🇪🇸", "португалии": "🇵🇹", "австралии": "🇦🇺",
+    "канады": "🇨🇦", "бразилии": "🇧🇷", "мексики": "🇲🇽", "аргентины": "🇦🇷", "панамы": "🇵🇦",
+    "индии": "🇮🇳", "турции": "🇹🇷", "оаэ": "🇦🇪", "египта": "🇪🇬", "израиля": "🇮🇱",
+    "казахстана": "🇰🇿", "беларуси": "🇧🇾", "белоруссии": "🇧🇾", "украины": "🇺🇦", "армении": "🇦🇲",
+    "грузии": "🇬🇪", "азербайджана": "🇦🇿", "узбекистана": "🇺🇿", "киргизии": "🇰🇬",
+    "кыргызстана": "🇰🇬", "таджикистана": "🇹🇯", "туркменистана": "🇹🇲", "молдовы": "🇲🇩",
+    "молдавии": "🇲🇩", "польши": "🇵🇱", "чехии": "🇨🇿", "сербии": "🇷🇸", "болгарии": "🇧🇬",
+    "греции": "🇬🇷", "финляндии": "🇫🇮", "швеции": "🇸🇪", "норвегии": "🇳🇴", "дании": "🇩🇰",
+    "нидерландов": "🇳🇱", "бельгии": "🇧🇪", "австрии": "🇦🇹", "швейцарии": "🇨🇭", "ирландии": "🇮🇪",
+    "кореи": "🇰🇷", "южной кореи": "🇰🇷", "вьетнама": "🇻🇳", "таиланда": "🇹🇭", "индонезии": "🇮🇩",
+    "мальдив": "🇲🇻", "кубы": "🇨🇺", "монголии": "🇲🇳", "латвии": "🇱🇻", "литвы": "🇱🇹",
+    "эстонии": "🇪🇪", "туниса": "🇹🇳", "марокко": "🇲🇦", "кипра": "🇨🇾", "черногории": "🇲🇪",
+    "абхазии": "🇬🇪", "филиппин": "🇵🇭", "малайзии": "🇲🇾", "сингапура": "🇸🇬", "пакистана": "🇵🇰",
+    "ирана": "🇮🇷", "ирака": "🇮🇶", "сирии": "🇸🇾", "колумбии": "🇨🇴", "чили": "🇨🇱", "перу": "🇵🇪",
+    "венесуэлы": "🇻🇪", "новой зеландии": "🇳🇿", "юар": "🇿🇦", "нигерии": "🇳🇬", "кении": "🇰🇪", "румынии": "🇷🇴", "венгрии": "🇭🇺", "словакии": "🇸🇰", "хорватии": "🇭🇷",
+}
+
+
+def first_sentence(text):
+    """Первое предложение описания, если оно короткое и законченное, иначе пусто."""
+    text = re.sub(r"\s+", " ", text).strip()
+    s = re.split(r"(?<=[.!?])\s+(?=[А-ЯЁ0-9«])", text)[0]
+    if s.endswith((".", "!")) and 25 <= len(s) <= 170 and s.count("(") == s.count(")"):
+        return s
+    return ""
+
+
+def world_holidays(day):
+    """Праздники других стран и международные — с calend.ru, с флагом и коротким пояснением."""
+    url = f"https://www.calend.ru/holidays/{day.month}-{day.day}/"
+    s = http_get(url).decode("utf-8", "replace")
+    out = []
+    for li in re.findall(r'<li class="three-three">(.*?)</li>', s, re.S):
+        t = re.search(r'<span class="title">\s*<a[^>]*>([^<]+)', li)
+        c = re.search(r'<div class="link">\s*<a[^>]*>([^<]+)', li)
+        d = re.search(r'<p class="descr[^"]*">\s*<a[^>]*>([^<]+)', li)
+        if not t or not c:
+            continue
+        cat = html.unescape(c.group(1)).strip()
+        low = cat.lower()
+        if "росси" in low or "православ" in low or "церков" in low or "именин" in low:
+            continue
+        if low.startswith("международ"):
+            flag = "🌍"
+        else:
+            country = low.replace("праздники", "").strip()
+            flag = COUNTRY_FLAGS.get(country, "🌐")
+        name = html.unescape(t.group(1)).strip()
+        descr = first_sentence(html.unescape(d.group(1))) if d else ""
+        if any(w in (name + " " + descr).lower() for w in SKIP_HOLIDAYS):
+            continue
+        # пояснение, которое лишь повторяет название, не нужно
+        if " ".join(name.lower().split()[:3]) in descr.lower():
+            descr = ""
+        out.append((flag, name, descr))
+    return out
+
+
 def get_holidays(day):
     for source in (holidays_my_calend, holidays_calend):
         try:
@@ -287,18 +347,38 @@ def post_day(state, today):
     img = pick_photo(DAY_THEMES + SEASON_THEMES[season(today.month)][0], state)
     card = make_card(img, date_str, f"{WEEKDAYS[today.weekday()].capitalize()}. Какой сегодня праздник?")
 
-    head = f"📅 Сегодня {date_str}, {WEEKDAYS[today.weekday()]}\n\nКакой сегодня день:\n"
-    tail = (f"\n\nА что сегодня празднуете вы? 😊\n\n{DAY_TAGS} "
-            f"#{today.day}{MONTHS[today.month - 1]}\n👉 {CHANNEL}")
-    lines = []
+    try:
+        world = world_holidays(today)
+    except Exception as e:
+        print(f"calend.ru (праздники мира): {e}", file=sys.stderr)
+        world = []
+
+    esc = html.escape
+    weekday = WEEKDAYS[today.weekday()]
+    parts = [f"📅 <b>Сегодня {date_str}, {weekday}</b>"]
     items = [(n, k) for n, k in items if not any(w in n.lower() for w in SKIP_HOLIDAYS)]
-    for name, kinds in items[:12]:
-        line = f"{holiday_icon(name, kinds)} {name}"
-        # подпись к фото в Telegram — не длиннее 1024 знаков
-        if len(head) + len("\n".join(lines + [line])) + len(tail) > 1000:
-            break
-        lines.append(line)
-    return card, head + "\n".join(lines) + tail
+    parts.append("\n\n🇷🇺 <b>Праздники в России</b>\n" + "\n".join(
+        f"{holiday_icon(n, k)} {esc(n)}" for n, k in items[:10]))
+    if world:
+        lines = []
+        for flag, name, descr in world[:6]:
+            lines.append(f"{flag} <b>{esc(name)}</b>" + (f". {esc(descr)}" if descr else ""))
+        parts.append("\n\n🌍 <b>Праздники в мире</b>\n" + "\n".join(lines))
+    parts.append(f"\n\nА что сегодня празднуете вы? 😊\n\n{DAY_TAGS} "
+                 f"#{today.day}{MONTHS[today.month - 1]}\n👉 {CHANNEL}")
+    text = "".join(parts)[:4000]
+    short = f"📅 <b>{date_str}, {weekday}</b> — какой сегодня день? Рассказываем ниже 👇"
+    return card, text, short
+
+
+def tg_call(token, method, data):
+    req = urllib.request.Request(
+        f"https://api.telegram.org/bot{token}/{method}",
+        data=urllib.parse.urlencode(data).encode())
+    with urllib.request.urlopen(req, timeout=60) as r:
+        res = json.loads(r.read())
+    if not res.get("ok"):
+        raise RuntimeError(f"Telegram: {res}")
 
 
 def send_photo(token, chat, img, caption):
@@ -306,7 +386,7 @@ def send_photo(token, chat, img, caption):
     img.save(buf, "JPEG", quality=90)
     boundary = "----utro" + str(random.randint(10**8, 10**9))
     parts = []
-    for k, v in (("chat_id", str(chat)), ("caption", caption)):
+    for k, v in (("chat_id", str(chat)), ("caption", caption), ("parse_mode", "HTML")):
         parts.append(f'--{boundary}\r\nContent-Disposition: form-data; name="{k}"\r\n\r\n{v}\r\n'.encode())
     parts.append(f'--{boundary}\r\nContent-Disposition: form-data; name="photo"; filename="card.jpg"\r\n'
                  f"Content-Type: image/jpeg\r\n\r\n".encode() + buf.getvalue() + b"\r\n")
@@ -336,7 +416,7 @@ def main():
         return
 
     build = {"morning": post_morning, "day": post_day, "night": post_night}[a.mode]
-    img, caption = build(state, today)
+    img, caption, *rest = build(state, today)
 
     if a.dry_run:
         out = HERE / f"preview_{a.mode}.jpg"
@@ -345,7 +425,15 @@ def main():
         print(caption)
         return
 
-    send_photo(os.environ["UTRO_BOT_TOKEN"], a.chat or CHANNEL, img, caption)
+    token, chat = os.environ["UTRO_BOT_TOKEN"], a.chat or CHANNEL
+    # Подпись к фото в Telegram — не длиннее 1024 знаков. Длинный текст идёт следом
+    # отдельным сообщением, а под открыткой — короткая подпись.
+    if len(caption) <= 1024 or not rest:
+        send_photo(token, chat, img, caption[:1024])
+    else:
+        send_photo(token, chat, img, rest[0])
+        tg_call(token, "sendMessage", {"chat_id": chat, "text": caption, "parse_mode": "HTML",
+                                       "link_preview_options": json.dumps({"is_disabled": True})})
     print(f"{a.mode}: отправлено в {a.chat or CHANNEL}")
     if not a.chat:
         state[done_key] = today.isoformat()
