@@ -399,28 +399,13 @@
     {
       "id": "IST-MOW-2026-11-19-7944",
       "time": 1793703663.6556125
+    },
+    {
+      "id": "AYT-MOW-2026-12-01-10427",
+      "time": 1793705452.3768666
     }
   ],
   "queue": [
-    {
-      "flight_number": "5052",
-      "link": "/search/AYT0212MOW1?t=S717962446001796319300001245AYTAERDME_0d354bea8bd644f63d3862a145cb4fb4_9446&search_date=03112026&expected_price_uuid=01a19ff9-ada9-8030-af53-7707f27be719&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=OoRkL1fkVynYif_NaY8JQg&expected_price_source=share&expected_price_currency=rub&expected_price=9446",
-      "origin_airport": "AYT",
-      "destination_airport": "DME",
-      "departure_at": "2026-12-02T20:50:00+03:00",
-      "airline": "A4",
-      "destination": "MOW",
-      "origin": "AYT",
-      "price": 9446,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 1245,
-      "duration_to": 340,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "3000",
       "link": "/search/IST2211TAS1?t=VF17953263001795409700001270SAWESBTAS_ca689deb0f2864ea7c93d2623c32a65b_13008&search_date=03112026&expected_price_uuid=01a19fd0-abe0-8031-29cb-9e707547e1d4&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=kqWsPB4RdYF02T_T7_6b7g&expected_price_source=share&expected_price_currency=rub&expected_price=13008",
