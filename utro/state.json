@@ -1,6 +1,7 @@
 {
  "used_photos": [
-  3971068
+  3971068,
+  9139154
  ],
  "wish_order": {
   "morning": [
@@ -85,5 +86,6 @@
    45
   ]
  },
- "done_morning": "2026-11-03"
+ "done_morning": "2026-11-03",
+ "done_day": "2026-11-03"
 }
