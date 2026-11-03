@@ -26,7 +26,7 @@ from pathlib import Path
 API = "https://api.cron-job.org"
 REPO = "romandarkcox-hue/tickettchina-bot"
 POST = 1  # код метода POST в API cron-job.org
-PREFIX = "tickettchina"  # задания с этим началом названия — наши; лишние из них удаляются
+PREFIX = ("tickettchina", "dobroeytro")  # задания с таким началом названия — наши; лишние удаляются
 
 JOBS = [
     # Время по Москве. Китай — в :15 и :45, Турция — в :00 и :30, чтобы не совпадали.
@@ -34,6 +34,13 @@ JOBS = [
      "hours": list(range(9, 16)), "minutes": [15, 45]},
     {"title": "tickettchina: Турция каждые 30 мин", "workflow": "post_turkey.yml",
      "hours": list(range(9, 17)), "minutes": [0, 30]},
+    # Канал @dobroeytroru: у каждого поста своё время и свой режим
+    {"title": "dobroeytro: Доброе утро 06:30", "workflow": "utro.yml",
+     "hours": [6], "minutes": [30], "inputs": {"mode": "morning"}},
+    {"title": "dobroeytro: Какой сегодня день 08:00", "workflow": "utro.yml",
+     "hours": [8], "minutes": [0], "inputs": {"mode": "day"}},
+    {"title": "dobroeytro: Доброй ночи 21:30", "workflow": "utro.yml",
+     "hours": [21], "minutes": [30], "inputs": {"mode": "night"}},
 ]
 
 
@@ -83,7 +90,7 @@ def job_body(job, gh_token):
                 "Accept": "application/vnd.github+json",
                 "X-GitHub-Api-Version": "2022-11-28",
             },
-            "body": json.dumps({"ref": "main"}),
+            "body": json.dumps({"ref": "main", **({"inputs": job["inputs"]} if "inputs" in job else {})}),
         },
         # Письмо на почту аккаунта, если GitHub перестал принимать запуск (например, истёк токен)
         "notification": {"onFailure": True, "onSuccess": False, "onDisable": True},

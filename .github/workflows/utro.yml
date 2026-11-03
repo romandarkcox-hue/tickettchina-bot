@@ -1,0 +1,64 @@
+name: Доброе утро — открытки
+
+# Канал @dobroeytroru. Запускают будильники cron-job.org по Москве:
+# 06:30 — «Доброе утро», 08:00 — «Какой сегодня день», 21:30 — «Доброй ночи».
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Какой пост"
+        type: choice
+        options: [morning, day, night]
+        default: morning
+      test_chat:
+        description: "Тест: отправить в этот чат вместо канала"
+        type: string
+        default: ""
+      force:
+        description: "Опубликовать, даже если сегодня такой пост уже был"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: utro
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q pillow
+      - name: Опубликовать
+        working-directory: utro
+        env:
+          UTRO_BOT_TOKEN: ${{ secrets.UTRO_BOT_TOKEN }}
+          PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
+        run: python bot.py --mode ${{ inputs.mode }} ${{ inputs.test_chat && format('--chat {0}', inputs.test_chat) || '' }} ${{ inputs.force && '--force' || '' }}
+      - name: Сохранить использованные картинки
+        if: always()
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add utro/state.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Доброе утро: обновить использованные картинки"
+          git pull --rebase -q && git push
+      - name: Сообщить о сбое
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          ADMIN_CHAT_ID: ${{ secrets.ADMIN_CHAT_ID }}
+        run: |
+          curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${ADMIN_CHAT_ID}" \
+            --data-urlencode "text=❌ Сбой в @dobroeytroru (${{ inputs.mode }}). Подробности: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            > /dev/null
