@@ -371,27 +371,13 @@
     {
       "id": "TBS-IST-2026-12-02-7061",
       "time": 1793691054.1093707
+    },
+    {
+      "id": "AER-AYT-2026-11-10-4485",
+      "time": 1793692862.6712773
     }
   ],
   "queue": [
-    {
-      "flight_number": "1823",
-      "link": "/search/AER1011AYT1?t=IO17943156001794322800000120AERAYT_c10e6e1c92f4cb4080ee92bc971b8758_4485&search_date=03112026&expected_price_uuid=01a19ff5-283d-8030-a075-30f4c2f2359c&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=f4Mwl0jZcSdRkaU5UXt-2A&expected_price_source=share&expected_price_currency=rub&expected_price=4485",
-      "origin_airport": "AER",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-10T13:00:00+03:00",
-      "airline": "IO",
-      "destination": "AYT",
-      "origin": "AER",
-      "price": 4485,
-      "gate": "ИрАэро",
-      "return_transfers": 0,
-      "duration": 120,
-      "duration_to": 120,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 13.261759715380405
-    },
     {
       "flight_number": "180",
       "link": "/search/BAK2411IST1?t=VF17954994001795507500000195GYDSAW_826d3f296885e8df79fa4eefbaa9363c_7276&search_date=02112026&expected_price_uuid=01a19d20-57a9-8030-a0b6-a307c49008ec&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=rQysV1SFDQNB9Xxi54tvuw&expected_price_source=share&expected_price_currency=rub&expected_price=7272",
