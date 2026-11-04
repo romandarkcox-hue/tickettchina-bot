@@ -415,27 +415,13 @@
     {
       "id": "LED-IST-2026-11-05-6919",
       "time": 1793781052.3804762
+    },
+    {
+      "id": "MOW-AYT-2026-11-07-4634",
+      "time": 1793782862.3327441
     }
   ],
   "queue": [
-    {
-      "flight_number": "783",
-      "link": "/search/MOW0711AYT1?t=UT17940474001794066600000320VKOAYT_725efc081b93a1786f5881d48164e3eb_4642&search_date=04112026&expected_price_uuid=01a1a522-c17e-8030-6ded-1785d3a8b479&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=tAPMa0n1EP1gIFN5-8lHgA&expected_price_source=share&expected_price_currency=rub&expected_price=4642",
-      "origin_airport": "VKO",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-07T10:30:00+03:00",
-      "airline": "UT",
-      "destination": "AYT",
-      "origin": "MOW",
-      "price": 4642,
-      "gate": "OneTwoTrip",
-      "return_transfers": 0,
-      "duration": 320,
-      "duration_to": 320,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 27.26911877394636
-    },
     {
       "flight_number": "317",
       "link": "/search/TBS1211IST1?t=PC17945034001794508800000150TBSSAW_b1a436a1083adf37b0ee7f7b3d74bf0f_7082&search_date=04112026&expected_price_uuid=01a1a505-bca2-8030-a136-ff1fa40531ee&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=xPZT-moycG2zNsjDcJdc9A&expected_price_source=share&expected_price_currency=rub&expected_price=7082",
