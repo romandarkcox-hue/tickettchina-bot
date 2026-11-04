@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "KZN-AYT-2026-10-29-4753",
-      "time": 1793178064.9914289
-    },
-    {
-      "id": "BAK-IST-2026-11-24-8257",
-      "time": 1793179847.199789
-    },
-    {
       "id": "AER-AYT-2026-10-29-4755",
       "time": 1793181663.2329566
     },
@@ -419,27 +411,13 @@
     {
       "id": "MOW-AYT-2026-11-07-4634",
       "time": 1793782862.3327441
+    },
+    {
+      "id": "TBS-IST-2026-11-12-6932",
+      "time": 1793784651.7671185
     }
   ],
   "queue": [
-    {
-      "flight_number": "317",
-      "link": "/search/TBS1211IST1?t=PC17945034001794508800000150TBSSAW_b1a436a1083adf37b0ee7f7b3d74bf0f_7082&search_date=04112026&expected_price_uuid=01a1a505-bca2-8030-a136-ff1fa40531ee&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=xPZT-moycG2zNsjDcJdc9A&expected_price_source=share&expected_price_currency=rub&expected_price=7082",
-      "origin_airport": "TBS",
-      "destination_airport": "SAW",
-      "departure_at": "2026-11-12T17:10:00+04:00",
-      "airline": "PC",
-      "destination": "IST",
-      "origin": "TBS",
-      "price": 7082,
-      "gate": "Kiwi.com",
-      "return_transfers": 0,
-      "duration": 150,
-      "duration_to": 150,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 6.4209274673008325
-    },
     {
       "flight_number": "086",
       "link": "/search/MOW0511IST1?t=2S17938908001793904300000225SVOIST_ac418cb895c848e36a2d8923ebb3f4d7_4653&search_date=04112026&expected_price_uuid=01a1a521-c2b7-8030-a1f4-59e235741ba8&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=zheqUACHvtgw3T8rpLl5Wg&expected_price_source=share&expected_price_currency=rub&expected_price=4653",
