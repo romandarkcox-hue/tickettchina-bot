@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "IST-TAS-2026-11-27-12716",
-      "time": 1793188861.6940734
-    },
-    {
-      "id": "AYT-LED-2026-11-24-14393",
-      "time": 1793190651.6713653
-    },
-    {
       "id": "AYT-SVX-2026-11-23-18548",
       "time": 1793192466.3098962
     },
@@ -415,28 +407,13 @@
     {
       "id": "AYT-MOW-2026-12-02-10980",
       "time": 1793793661.1650221
+    },
+    {
+      "id": "IST-TAS-2026-11-22-13034",
+      "time": 1793795453.8858337
     }
   ],
   "queue": [
-    {
-      "flight_number": "3002",
-      "link": "/search/IST2211TAS1?t=VF17953416001795409700001015SAWESBTAS_ccbc5c342afeeeae9d61b4d63f83bd60_13138&search_date=04112026&expected_price_uuid=01a1a4d8-3cdf-8030-2a34-329cc8392e66&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=EmecWrBZRtE3xVv0iffZDQ&expected_price_source=share&expected_price_currency=rub&expected_price=13138",
-      "origin_airport": "SAW",
-      "destination_airport": "TAS",
-      "departure_at": "2026-11-22T10:00:00+03:00",
-      "airline": "VF",
-      "destination": "TAS",
-      "origin": "IST",
-      "price": 13138,
-      "gate": "City.Travel",
-      "return_transfers": 0,
-      "duration": 1015,
-      "duration_to": 320,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 31,
-      "reverse": true
-    },
     {
       "flight_number": "3037",
       "link": "/search/AYT0112LED1?t=2S17961588001796218800001000AYTSAWISTLED_124969e198c5014139a2c5ea03000743_14573&search_date=03112026&expected_price_uuid=01a1a36c-a182-8030-23be-618ab47baf50&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=wugLRRhfDFfiDBBa-VMqmg&expected_price_source=share&expected_price_currency=rub&expected_price=14573",
