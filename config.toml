@@ -38,6 +38,8 @@ skip_same_ticket_days = 7
 marker = "794600"
 # Добавлять к marker метку направления (794600.VVO-BJS) — видно в статистике Travelpayouts
 sub_id_per_route = true
+# Номер проекта в Travelpayouts: ссылки идут через tp.media, и партнёрка считает клики
+trs = 590120
 # Токен маркировки рекламы (erid) из кабинета Travelpayouts
 erid = "2Vtzqx5PLYd"
 # Ссылка на отели (Trip.com) — цитатой под ссылкой на билет. У обратных билетов не показывается.

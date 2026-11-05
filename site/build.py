@@ -24,7 +24,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from bot import (AIRLINES, API_URL, MONTHS, MSK, WEEKDAYS, format_price,  # noqa: E402
+from bot import (AIRLINES, API_URL, MONTHS, MSK, WEEKDAYS, build_link, format_price,  # noqa: E402
                  http_get_json, load_config, months_to_search)
 
 BASE_URL = "https://romandarkcox-hue.github.io/aviabilety"
@@ -130,11 +130,7 @@ def fetch_by_day(origin, destination, cfg, token):
 
 def ticket_link(ticket, links):
     # Отдельная метка «site», чтобы в статистике Travelpayouts продажи с сайта были видны отдельно
-    params = {"marker": f"{links['marker']}.site_{ticket['origin']}-{ticket['destination']}"}
-    if links.get("erid"):
-        params["erid"] = links["erid"]
-    link = "https://www.aviasales.ru" + ticket["link"]
-    return link + ("&" if "?" in link else "?") + urllib.parse.urlencode(params)
+    return build_link(ticket, links, sub_id=f"site_{ticket['origin']}-{ticket['destination']}")
 
 
 def page(title, description, canonical, body, schema=None):

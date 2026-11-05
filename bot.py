@@ -167,19 +167,26 @@ def search_popularity(origins, token):
             for o, r in ranks.items() for d, score in r.items()}
 
 
-def build_link(ticket, links):
-    params = {}
-    if links["marker"]:
-        marker = links["marker"]
-        if links.get("sub_id_per_route"):
-            marker += f".{ticket['origin']}-{ticket['destination']}"
-        params["marker"] = marker
+def build_link(ticket, links, sub_id=None):
+    """Ссылка на билет. С trs (номер проекта Travelpayouts) — через переадресацию tp.media,
+    тогда партнёрка считает клики. Без trs — прямая ссылка на Aviasales с marker."""
+    url = "https://www.aviasales.ru" + ticket["link"]
+    if not links["marker"]:
+        return url
+    if sub_id is None and links.get("sub_id_per_route"):
+        sub_id = f"{ticket['origin']}-{ticket['destination']}"
+    if links.get("trs"):
+        params = {"campaign_id": 100, "marker": links["marker"], "p": 4114, "trs": links["trs"]}
+        if sub_id:
+            params["sub_id"] = sub_id
+        if links.get("erid"):
+            params["erid"] = links["erid"]
+        params["u"] = url
+        return "https://tp.media/r?" + urllib.parse.urlencode(params)
+    params = {"marker": links["marker"] + (f".{sub_id}" if sub_id else "")}
     if links.get("erid"):
         params["erid"] = links["erid"]
-    link = "https://www.aviasales.ru" + ticket["link"]
-    if params:
-        link += ("&" if "?" in link else "?") + urllib.parse.urlencode(params)
-    return link
+    return url + ("&" if "?" in url else "?") + urllib.parse.urlencode(params)
 
 
 def format_date(iso):
