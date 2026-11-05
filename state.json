@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "ALA-URC-2026-11-05-10188",
-      "time": 1793259933.9365277
-    },
-    {
       "id": "NQZ-URC-2026-11-18-6412",
       "time": 1793261736.908367
     },
@@ -359,28 +355,14 @@
     {
       "id": "YKS-BJS-2026-11-23-13343",
       "time": 1793862937.0809355
+    },
+    {
+      "id": "KHV-HRB-2026-11-23-7293",
+      "time": 1793864737.5171223
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "5456",
-      "link": "/search/KHV2311HRB1?t=SU17954661001795464900000100KHVHRB_8432da55f007a870e7b5d583c5458446_7293&search_date=05112026&expected_price_uuid=01a1a9e0-54bc-8031-2636-f563f1e2abf3&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=NiMlEZd2EVqnYBFliXNJeA&expected_price_source=share&expected_price_currency=rub&expected_price=7293",
-      "origin_airport": "KHV",
-      "destination_airport": "HRB",
-      "departure_at": "2026-11-23T20:35:00+10:00",
-      "airline": "HZ",
-      "destination": "HRB",
-      "origin": "KHV",
-      "price": 7293,
-      "gate": "Aviakassa",
-      "return_transfers": 0,
-      "duration": 100,
-      "duration_to": 100,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 22
-    },
     {
       "flight_number": "2462",
       "link": "/search/BQS2511BJS1?t=SU17956206001795656000000650BQSVVOPKX_abdbf8d3e37b4d496ba83c2676206a8c_13472&search_date=04112026&expected_price_uuid=01a1a6f0-0109-8030-61e9-09624fea8c4e&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=YzP8cVCsQGJHZl_ovyP6pA&expected_price_source=share&expected_price_currency=rub&expected_price=13464",
