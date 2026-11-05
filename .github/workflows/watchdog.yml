@@ -28,6 +28,10 @@ jobs:
             config: config_turkey.toml
             state: state_turkey.json
             group: post-turkey
+          - channel: "@bilety_dubai"
+            config: config_uae.toml
+            state: state_uae.json
+            group: post-uae
     # Та же группа, что у воркфлоу канала: не запускаемся одновременно с обычной публикацией
     concurrency:
       group: ${{ matrix.group }}
@@ -66,6 +70,7 @@ jobs:
           TRAVELPAYOUTS_TOKEN: ${{ secrets.TRAVELPAYOUTS_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TURKEY_BOT_TOKEN: ${{ secrets.TURKEY_BOT_TOKEN }}
+          UAE_BOT_TOKEN: ${{ secrets.UAE_BOT_TOKEN }}
           ADMIN_CHAT_ID: ${{ secrets.ADMIN_CHAT_ID }}
         run: python bot.py --config ${{ matrix.config }} --next
       - name: Сохранить опубликованные билеты

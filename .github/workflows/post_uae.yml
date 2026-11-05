@@ -1,0 +1,59 @@
+name: Постинг билетов — ОАЭ
+
+# Запускают будильники cron-job.org каждые 30 минут с 9:05 до 13:35 по Москве.
+# Первый запуск дня ищет билеты и составляет очередь, каждый запуск публикует один пост.
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Опубликовать следующий пост, даже если сейчас не время публикаций"
+        type: boolean
+        default: false
+      test_chat:
+        description: "Тест: отправить все посты дня сразу в этот чат вместо канала"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+
+# Запуски не идут параллельно: второй ждёт окончания первого
+concurrency:
+  group: post-uae
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main # свежий state_uae.json, даже если запуск ждал в очереди
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Опубликовать следующий пост
+        env:
+          TRAVELPAYOUTS_TOKEN: ${{ secrets.TRAVELPAYOUTS_TOKEN }}
+          UAE_BOT_TOKEN: ${{ secrets.UAE_BOT_TOKEN }}
+          ADMIN_CHAT_ID: ${{ secrets.ADMIN_CHAT_ID }}
+        run: python bot.py --config config_uae.toml ${{ inputs.test_chat && format('--chat {0}', inputs.test_chat) || '--next' }} ${{ inputs.force && '--force' || '' }}
+      - name: Сохранить опубликованные билеты
+        if: always()
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add state_uae.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Обновить опубликованные билеты (ОАЭ)"
+          # Другие каналы тоже сохраняют свой файл — подтягиваем его изменения перед отправкой
+          git pull --rebase -q && git push
+      - name: Сообщить о сбое
+        if: failure()
+        env:
+          UAE_BOT_TOKEN: ${{ secrets.UAE_BOT_TOKEN }}
+          ADMIN_CHAT_ID: ${{ secrets.ADMIN_CHAT_ID }}
+        run: |
+          curl -s "https://api.telegram.org/bot${UAE_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${ADMIN_CHAT_ID}" \
+            --data-urlencode "text=❌ Сбой автопостинга в @bilety_dubai. Подробности: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
