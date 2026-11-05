@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "PEE-AYT-2026-11-01-4633",
-      "time": 1793257263.7699976
-    },
-    {
       "id": "TBS-IST-2026-11-11-7016",
       "time": 1793259049.6737826
     },
@@ -415,27 +411,13 @@
     {
       "id": "LED-AYT-2026-11-05-6542",
       "time": 1793860252.2855563
+    },
+    {
+      "id": "KRR-AYT-2026-11-07-4515",
+      "time": 1793862064.8804073
     }
   ],
   "queue": [
-    {
-      "flight_number": "3051",
-      "link": "/search/KRR0511AYT1?t=A417939004001793909100000145KRRAYT_4f16d779f389c0f7808d241d018379d7_4515&search_date=05112026&expected_price_uuid=01a1aa4a-0497-8030-6cc4-4c8bade863af&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=pFxduxHFphXd6uYFiVL6sw&expected_price_source=share&expected_price_currency=rub&expected_price=4515",
-      "origin_airport": "KRR",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-05T17:40:00+03:00",
-      "airline": "A4",
-      "destination": "AYT",
-      "origin": "KRR",
-      "price": 4515,
-      "gate": "Azimuth",
-      "return_transfers": 0,
-      "duration": 145,
-      "duration_to": 145,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 10.489868637110016
-    },
     {
       "flight_number": "313",
       "link": "/search/TBS2811IST1?t=PC17958477001795853100000150TBSSAW_05ed688cb2bf33e65338e5e81da9b6dc_6976&search_date=04112026&expected_price_uuid=01a1a650-0b16-8030-ada9-ff5995eca957&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Gv9QZ-QCArl7RFSmZgESzw&expected_price_source=share&expected_price_currency=rub&expected_price=6962",
