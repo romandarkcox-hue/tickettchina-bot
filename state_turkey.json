@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "AYT-SVX-2026-11-27-16326",
-      "time": 1793278862.6998906
-    },
-    {
       "id": "MRV-AYT-2026-10-31-4473",
       "time": 1793340143.1160748
     },
@@ -415,28 +411,12 @@
     {
       "id": "IST-TAS-2026-11-24-13244",
       "time": 1793881854.4078984
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "3033",
-      "link": "/search/AYT2511LED1?t=2S17956158001795700400001410AYTSAWISTLED_702d779bdb82cfd9a00b9ed85e81fa15_14633&search_date=05112026&expected_price_uuid=01a1aa4b-4366-8031-6b0d-9afbfb589665&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=7yPFNQYa-J8fSDwNPxeMlg&expected_price_source=share&expected_price_currency=rub&expected_price=14633",
-      "origin_airport": "AYT",
-      "destination_airport": "LED",
-      "departure_at": "2026-11-25T14:10:00+03:00",
-      "airline": "VF",
-      "destination": "LED",
-      "origin": "AYT",
-      "price": 14633,
-      "gate": "Aviakassa",
-      "return_transfers": 0,
-      "duration": 1410,
-      "duration_to": 310,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 31,
-      "reverse": true
+      "id": "AYT-LED-2026-11-25-12630",
+      "time": 1793883668.6312976
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-05"
 }
