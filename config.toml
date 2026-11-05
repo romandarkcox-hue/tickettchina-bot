@@ -40,6 +40,10 @@ marker = "794600"
 sub_id_per_route = true
 # Токен маркировки рекламы (erid) из кабинета Travelpayouts
 erid = "2Vtzqx5PLYd"
+# Ссылка на отели (Trip.com) — цитатой под ссылкой на билет. У обратных билетов не показывается.
+# Маркировки (erid) у ссылки нет — добавлена по решению владельца канала.
+hotels_url = "https://www.trip.com/t/O7OuvKN0ZT2"
+hotels_text = "Отели тут"
 # Строка о рекламе в конце поста. Пусто — не добавлять.
 ad_label = "Реклама. Go Travel Un Limited, ИНН 9909520797. erid: 2Vtzqx5PLYd"
 
