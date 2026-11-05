@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "OVB-AYT-2026-10-30-4694",
-      "time": 1793264462.1017795
-    },
-    {
       "id": "LED-IST-2026-11-25-8070",
       "time": 1793266248.9675858
     },
@@ -415,27 +411,13 @@
     {
       "id": "BAK-IST-2026-11-27-7310",
       "time": 1793867451.111646
+    },
+    {
+      "id": "OVB-AYT-2026-11-07-4796",
+      "time": 1793869266.3261006
     }
   ],
   "queue": [
-    {
-      "flight_number": "3311",
-      "link": "/search/OVB0711AYT1?t=N417940381001794047700000400OVBAYT_23923c2bb5fd53be52ea34ea1e025d0d_4788&search_date=05112026&expected_price_uuid=01a1aa4b-1a81-8031-2e6c-849d77370dbd&static_fare_key=TY%7CP1%7CH1%7CL1_1_10%7CCH0%7CR0%7CTBC1&itinerary_key=-81oLQSua3fhaSgPZP68FA&expected_price_source=share&expected_price_currency=rub&expected_price=4788",
-      "origin_airport": "OVB",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-07T07:55:00+07:00",
-      "airline": "N4",
-      "destination": "AYT",
-      "origin": "OVB",
-      "price": 4788,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 400,
-      "duration_to": 400,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 13.93575807334428
-    },
     {
       "flight_number": "202",
       "link": "/search/LED0511IST1?t=DP17939169001793961900000750LEDVKOIST_b363c140a38382de4a76bcbdf7634507_7687&search_date=05112026&expected_price_uuid=01a1aa31-fa99-8030-ea0d-d94fd7559684&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=kSYLNrLwvbnP_BsykU6miA&expected_price_source=share&expected_price_currency=rub&expected_price=7687",
