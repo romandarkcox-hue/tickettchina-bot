@@ -67,29 +67,54 @@ def totals(token, date_from, date_to):
 
 
 def route_name(sub_id, cities):
-    origin, _, destination = sub_id.partition("-")
+    origin, _, destination = sub_id.removeprefix("site_").partition("-")
     if origin in cities and destination in cities:
         return f"{cities[origin]} – {cities[destination]}"
     return sub_id or "без метки"
 
 
-def top_routes(token, date_from, date_to, cities, limit=5):
-    """Направления с переходами за период (по меткам sub_id в ссылках)."""
+def source_of(sub_id, turkey_cities):
+    if sub_id.startswith("site_"):
+        return "сайт"
+    if sub_id == "TURK" or any(code in turkey_cities and code not in ("MOW", "LED", "KZN", "SVX", "OVB")
+                               for code in sub_id.split("-")):
+        return "Турция"
+    return "Китай"
+
+
+def events(token, date_from, date_to):
+    """Сырые события (переходы и поиски) с меткой направления.
+    Группировка в API не работает, поэтому считаем сами."""
+    body = {"fields": ["date", "sub_id", "type"], "limit": 1000, "filters": [
+        {"field": "date", "op": "ge", "value": date_from},
+        {"field": "date", "op": "le", "value": date_to}]}
+    return tp_request(STATS_URL, token, body).get("results", [])
+
+
+def breakdown(token, date_from, date_to, cities, turkey_cities, limit=7):
     try:
-        rows = query(token, COUNTS, date_from, date_to, group_by=["sub_id"])
+        rows = events(token, date_from, date_to)
     except Exception as e:
         print(f"Разбивка по направлениям недоступна: {e}", file=sys.stderr)
-        return []
-    rows = [r for r in rows if r.get("sub_id") is not None and r.get("clicks_count")]
-    rows.sort(key=lambda r: r["clicks_count"], reverse=True)
-    return [(route_name(r["sub_id"], cities), r["clicks_count"], r["actions_count"]) for r in rows[:limit]]
+        return {}, []
+    by_source, by_route = {}, {}
+    for r in rows:
+        sub = r.get("sub_id") or ""
+        if sub == "TEST":
+            continue
+        src = source_of(sub, turkey_cities)
+        by_source[src] = by_source.get(src, 0) + 1
+        name = route_name(sub, cities) + (" (сайт)" if sub.startswith("site_") else "")
+        by_route[name] = by_route.get(name, 0) + 1
+    top = sorted(by_route.items(), key=lambda kv: kv[1], reverse=True)[:limit]
+    return by_source, top
 
 
 def rub(value):
     return format_price(round(float(value)), "rub")
 
 
-def build_report(token, cfg):
+def build_report(token, cfg, cfg_turkey):
     today = datetime.now(MSK).date()
     date_from = (today - timedelta(days=7)).isoformat()
     date_to = (today - timedelta(days=1)).isoformat()
@@ -97,10 +122,12 @@ def build_report(token, cfg):
     month_start = today.replace(day=1).isoformat()
     month = totals(token, month_start, today.isoformat())
     balance = tp_request(BALANCE_URL, token).get("balance", {}).get("rub", "0")
+    cities = {**cfg_turkey["cities"], **cfg["cities"]}
+    by_source, routes = breakdown(token, date_from, date_to, cities, cfg_turkey["cities"])
 
     period = f"{datetime.fromisoformat(date_from):%d.%m} – {datetime.fromisoformat(date_to):%d.%m}"
     lines = [
-        f"📊 <b>Статистика @tickettchina за неделю</b> ({period})",
+        f"📊 <b>Статистика за неделю</b> ({period})",
         "",
         f"👆 Переходы по ссылкам: <b>{week['clicks_count']}</b>",
         f"🔎 Поиски билетов: {week['searches_count']}",
@@ -110,14 +137,17 @@ def build_report(token, cfg):
         f"💰 Заработано: <b>{rub(week['paid_profit_rub'])}</b>"
         f" + в обработке {rub(week['processing_profit_rub'])}",
     ]
-    routes = top_routes(token, date_from, date_to, cfg["cities"])
+    if by_source:
+        lines += ["", "📍 Откуда: " + ", ".join(f"{k} — {v}" for k, v in
+                                               sorted(by_source.items(), key=lambda kv: -kv[1]))]
     if routes:
-        lines += ["", "🏆 <b>Направления по переходам:</b>"]
-        lines += [f"{i}. {name} — {clicks} перех., {sales} покуп." for i, (name, clicks, sales) in enumerate(routes, 1)]
+        lines += ["", "🏆 <b>Направления:</b>"]
+        lines += [f"{i}. {name} — {n}" for i, (name, n) in enumerate(routes, 1)]
     lines += [
         "",
-        f"📅 С начала месяца: {month['clicks_count']} перех., {month['actions_count']} покуп.,"
-        f" {rub(month['paid_profit_rub'])} + {rub(month['processing_profit_rub'])} в обработке",
+        f"📅 С начала месяца: {month['clicks_count']} перех., {month['searches_count']} поисков,"
+        f" {month['actions_count']} покуп., {rub(month['paid_profit_rub'])}"
+        f" + {rub(month['processing_profit_rub'])} в обработке",
         f"🏦 Баланс к выплате: <b>{rub(balance)}</b>",
     ]
     return "\n".join(lines)
@@ -136,7 +166,7 @@ def main():
     if not args.dry_run and not (bot_token and admin_chat):
         sys.exit("Не заданы TELEGRAM_BOT_TOKEN и ADMIN_CHAT_ID")
 
-    text = build_report(tp_token, load_config())
+    text = build_report(tp_token, load_config("config.toml"), load_config("config_turkey.toml"))
     print(text)
     if not args.dry_run:
         send_telegram(text, admin_chat, bot_token)  # только в личку, не в канал
