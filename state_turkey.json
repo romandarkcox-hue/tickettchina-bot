@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "KJA-AYT-2026-11-01-4696",
-      "time": 1793343660.644461
-    },
-    {
       "id": "MOW-IST-2026-11-02-5880",
       "time": 1793345449.572272
     },
@@ -415,27 +411,13 @@
     {
       "id": "LED-AYT-2026-11-12-6393",
       "time": 1793946651.839557
+    },
+    {
+      "id": "MOW-AYT-2026-11-09-4353",
+      "time": 1793948464.9348207
     }
   ],
   "queue": [
-    {
-      "flight_number": "839",
-      "link": "/search/MOW0911AYT1?t=DP17942076001794226200000310VKOAYT_eb7d86829ae567d5b331c9dc60ff33ac_4355&search_date=06112026&expected_price_uuid=01a1af71-ebab-8030-2568-9a89e9fc2e25&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=HB8jsrug2Ap1fjvdGFaxkQ&expected_price_source=share&expected_price_currency=rub&expected_price=4355",
-      "origin_airport": "VKO",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-09T07:00:00+03:00",
-      "airline": "DP",
-      "destination": "AYT",
-      "origin": "MOW",
-      "price": 4355,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 310,
-      "duration_to": 310,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 25.17241379310345
-    },
     {
       "flight_number": "182",
       "link": "/search/BAK2711IST1?t=VF17957829001795791000000195GYDSAW_9ad8867dfc938ea532412b7d22d35899_6641&search_date=05112026&expected_price_uuid=01a1acf1-200c-8031-29d0-a246d8584b2d&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ONl2EolfJVrTNnKQpSxE6A&expected_price_source=share&expected_price_currency=rub&expected_price=6635",
