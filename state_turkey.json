@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "AYT-LED-2026-11-28-13991",
-      "time": 1793363449.2909825
-    },
-    {
       "id": "AYT-SVX-2026-11-29-18189",
       "time": 1793365265.268789
     },
@@ -415,28 +411,13 @@
     {
       "id": "AYT-LED-2026-12-02-12674",
       "time": 1793966466.1899056
+    },
+    {
+      "id": "IST-TAS-2026-12-02-12773",
+      "time": 1793968254.1066258
     }
   ],
   "queue": [
-    {
-      "flight_number": "3006",
-      "link": "/search/IST2811TAS1?t=VF17958894001795926000000490SAWESBTAS_4ddaf1ab6933bbce950f55eb1e96a0f2_12994&search_date=06112026&expected_price_uuid=01a1af22-13f5-8030-2437-f745fe495b6a&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Qrfxo0x7Eozj9awRUsOIuQ&expected_price_source=share&expected_price_currency=rub&expected_price=12995",
-      "origin_airport": "SAW",
-      "destination_airport": "TAS",
-      "departure_at": "2026-11-28T18:10:00+03:00",
-      "airline": "VF",
-      "destination": "TAS",
-      "origin": "IST",
-      "price": 12995,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 490,
-      "duration_to": 320,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "840",
       "link": "/search/AYT0212SVX1?t=DP17962158001796271600000810AYTVKOSVX_fa1117d60871f8d902fc8d52e19eea0c_14084&search_date=06112026&expected_price_uuid=01a1af3c-05ac-8031-68fc-c2bc57435877&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=k2bAeuCuEjq4U98ExQXZ1Q&expected_price_source=share&expected_price_currency=rub&expected_price=14085",
