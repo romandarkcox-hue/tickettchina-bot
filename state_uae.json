@@ -7,27 +7,13 @@
     {
       "id": "LED-DXB-2026-11-07-7807",
       "time": 1793946926.3480122
+    },
+    {
+      "id": "KZN-DXB-2026-11-07-7058",
+      "time": 1793948727.8492658
     }
   ],
   "queue": [
-    {
-      "flight_number": "6842",
-      "link": "/search/KZN0611DXB1?t=DP17940003001794062100000970KZNSVOVKODWC_a6f9bb24db682e419fc2a471987ee9e3_7114&search_date=06112026&expected_price_uuid=01a1af30-2abf-8031-2c32-4adbc7dd85b9&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=oTxSlar76ey8oKBBBnAKmw&expected_price_source=share&expected_price_currency=rub&expected_price=7114",
-      "origin_airport": "KZN",
-      "destination_airport": "DWC",
-      "departure_at": "2026-11-06T21:25:00+03:00",
-      "airline": "DP",
-      "destination": "DXB",
-      "origin": "KZN",
-      "price": 7114,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 970,
-      "duration_to": 500,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 7.920963327859879
-    },
     {
       "flight_number": "6187",
       "link": "/search/MRV1511DXB1?t=A417947014001794718500000225MRVDWC_680e83f4e1f3359d4854375279bd01da_9099&search_date=06112026&expected_price_uuid=01a1af74-9736-8030-64aa-4914d8a1b8d0&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=0Sq3g4auiGZ9B_jX8veB3Q&expected_price_source=share&expected_price_currency=rub&expected_price=9100",
