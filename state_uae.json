@@ -35,28 +35,12 @@
     {
       "id": "SHJ-BAK-2026-11-26-15322",
       "time": 1793959529.668035
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "992",
-      "link": "/search/DXB1111KRR1?t=DP17944077001794496200001535DWCVKOKRR_5d15d0940c58e7a5bed24a31b4fcc29a_18115&search_date=06112026&expected_price_uuid=01a1af69-f8d1-8030-6b4d-d913dcee9fbb&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=0dz_pPtYIrTvqCjWhM9YJg&expected_price_source=share&expected_price_currency=rub&expected_price=18116",
-      "origin_airport": "DWC",
-      "destination_airport": "KRR",
-      "departure_at": "2026-11-11T14:35:00+04:00",
-      "airline": "DP",
-      "destination": "KRR",
-      "origin": "DXB",
-      "price": 18116,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 1535,
-      "duration_to": 620,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
+      "id": "DXB-KRR-2026-12-03-17882",
+      "time": 1793961328.0600088
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-06"
 }
