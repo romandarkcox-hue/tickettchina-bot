@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "TBS-IST-2026-11-11-6883",
-      "time": 1793435447.9274185
-    },
-    {
       "id": "KJA-AYT-2026-11-03-4688",
       "time": 1793437258.9472353
     },
@@ -415,27 +411,13 @@
     {
       "id": "AER-AYT-2026-11-07-4515",
       "time": 1794038469.6652715
+    },
+    {
+      "id": "TBS-IST-2026-11-27-6607",
+      "time": 1794040250.1139088
     }
   ],
   "queue": [
-    {
-      "flight_number": "228",
-      "link": "/search/TBS2711IST1?t=VF17957595001795765500000160TBSSAW_25c337e79f518a51a4f0082481cf591b_6611&search_date=06112026&expected_price_uuid=01a1b294-5e2e-8031-6ac4-382641b18665&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=afRty9eSVKI1E-GlOWjosA&expected_price_source=share&expected_price_currency=rub&expected_price=6611",
-      "origin_airport": "TBS",
-      "destination_airport": "SAW",
-      "departure_at": "2026-11-27T06:05:00+04:00",
-      "airline": "VF",
-      "destination": "IST",
-      "origin": "TBS",
-      "price": 6611,
-      "gate": "City.Travel",
-      "return_transfers": 0,
-      "duration": 160,
-      "duration_to": 160,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 6.595555555555555
-    },
     {
       "flight_number": "088",
       "link": "/search/MOW0911IST1?t=2S17941854001794198900000225SVOIST_91734e28b3dee33f87c65cc89466d967_4746&search_date=07112026&expected_price_uuid=01a1b498-17dc-8031-69b5-53ec5dc552d5&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=pa1KqLHu8_otYIgvDZmU3g&expected_price_source=share&expected_price_currency=rub&expected_price=4746",
