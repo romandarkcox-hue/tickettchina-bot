@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "VVO-HRB-2026-11-02-6276",
-      "time": 1793430934.3378742
-    },
-    {
       "id": "YKS-BJS-2026-10-31-13093",
       "time": 1793432736.1241453
     },
@@ -355,28 +351,14 @@
     {
       "id": "VVO-YNJ-2026-11-15-9244",
       "time": 1794033937.812522
+    },
+    {
+      "id": "VVO-HRB-2026-11-08-5976",
+      "time": 1794035737.5025077
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "5472",
-      "link": "/search/VVO0811HRB1?t=SU17941026001794100500000085VVOHRB_d77b917b3f350a986e2b17f51a975e4c_5976&search_date=07112026&expected_price_uuid=01a1b4a0-9dbf-8030-232a-857caa10cbd7&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=PpiBVD1SH4Ye8Q2GNR4W7Q&expected_price_source=share&expected_price_currency=rub&expected_price=5976",
-      "origin_airport": "VVO",
-      "destination_airport": "HRB",
-      "departure_at": "2026-11-08T01:50:00+10:00",
-      "airline": "HZ",
-      "destination": "HRB",
-      "origin": "VVO",
-      "price": 5976,
-      "gate": "Aviakassa",
-      "return_transfers": 0,
-      "duration": 85,
-      "duration_to": 85,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 22
-    },
     {
       "flight_number": "878",
       "link": "/search/VVO1511SHA1?t=KN17947695001794857700001590VVOPKXSHA_3b4a533e1d158aac03218fb7fc27eb22_10589&search_date=07112026&expected_price_uuid=01a1b479-4a0c-8040-2ce2-057b950389fc&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=pchkLW1gOQDsH2B17U5WAA&expected_price_source=share&expected_price_currency=rub&expected_price=10589",
