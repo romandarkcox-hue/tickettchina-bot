@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "KZN-AYT-2026-11-03-4737",
-      "time": 1793440857.892322
-    },
-    {
       "id": "TAS-IST-2026-11-02-10998",
       "time": 1793442649.7373123
     },
@@ -415,27 +411,13 @@
     {
       "id": "LED-IST-2026-11-08-7356",
       "time": 1794043851.7683504
+    },
+    {
+      "id": "KZN-AYT-2026-11-11-4846",
+      "time": 1794045664.336298
     }
   ],
   "queue": [
-    {
-      "flight_number": "1024",
-      "link": "/search/KZN0811AYT1?t=2S17941812001794198000000280KZNAYT_fd4d322f5e73bbfddc2bd85bbe848282_4846&search_date=07112026&expected_price_uuid=01a1b46e-e9b2-8031-692d-77c79b920195&static_fare_key=TY%7CP1%7CH1%7CL1_1_10%7CCH0%7CR0%7CTBC1&itinerary_key=wkNxsUP4LcjhYSU9ztyeEQ&expected_price_source=share&expected_price_currency=rub&expected_price=4846",
-      "origin_airport": "KZN",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-08T23:40:00+03:00",
-      "airline": "2S",
-      "destination": "AYT",
-      "origin": "KZN",
-      "price": 4846,
-      "gate": "Nebo.Travel",
-      "return_transfers": 0,
-      "duration": 280,
-      "duration_to": 280,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 13.717952928297757
-    },
     {
       "flight_number": "742",
       "link": "/search/TAS1011IST1?t=DP17942790001794312900000685TASVKOIST_b289e7914f759abcd411fb1c9ae243bc_10178&search_date=07112026&expected_price_uuid=01a1b47b-d122-8030-a375-8629b8750d0d&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=eTOjny-5QOo8WvOKX49LXw&expected_price_source=share&expected_price_currency=rub&expected_price=10178",
