@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "LED-AYT-2026-11-02-5110",
-      "time": 1793428247.2570724
-    },
-    {
       "id": "KRR-AYT-2026-11-03-4560",
       "time": 1793430058.651407
     },
@@ -415,27 +411,13 @@
     {
       "id": "KRR-IST-2026-11-07-4265",
       "time": 1794031343.3635375
+    },
+    {
+      "id": "LED-AYT-2026-11-09-6250",
+      "time": 1794033058.7450047
     }
   ],
   "queue": [
-    {
-      "flight_number": "9287",
-      "link": "/search/LED0911AYT1?t=XC17941956001794211800000270LEDAYT_52c9d75604401114bee276b9c5bff477_6250&search_date=07112026&expected_price_uuid=01a1b492-9d0a-8031-64a6-657a9a591575&static_fare_key=TY%7CP0%7CH1%7CL1_1_0%7CCH0%7CR0%7CTBC1&itinerary_key=UsEWBB9bAMYr6SBxxEswcQ&expected_price_source=share&expected_price_currency=rub&expected_price=6250",
-      "origin_airport": "LED",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-09T03:40:00+03:00",
-      "airline": "XC",
-      "destination": "AYT",
-      "origin": "LED",
-      "price": 6250,
-      "gate": "City.Travel",
-      "return_transfers": 0,
-      "duration": 270,
-      "duration_to": 270,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 22.680328407224962
-    },
     {
       "flight_number": "839",
       "link": "/search/MOW1211AYT1?t=DP17944668001794485400000310VKOAYT_7002010b40acee3d027fe27bdf097879_4364&search_date=07112026&expected_price_uuid=01a1b495-b4b1-8031-68cf-d3eac04c4813&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=HB8jsrug2Ap1fjvdGFaxkQ&expected_price_source=share&expected_price_currency=rub&expected_price=4364",
