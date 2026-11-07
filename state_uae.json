@@ -43,27 +43,13 @@
     {
       "id": "MOW-DXB-2026-11-11-7534",
       "time": 1794031609.207877
+    },
+    {
+      "id": "SVX-DXB-2026-11-10-9254",
+      "time": 1794033327.46159
     }
   ],
   "queue": [
-    {
-      "flight_number": "6542",
-      "link": "/search/SVX1011DXB1?t=DP17942904001794404700001965SVXSVOVKODWC_6edbe88cde9e830a5eef6655e9a435bb_9264&search_date=07112026&expected_price_uuid=01a1b48b-a6ca-8030-a502-7d7517d3521d&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=awJzaL_SGu0bef7MN5C3HA&expected_price_source=share&expected_price_currency=rub&expected_price=9264",
-      "origin_airport": "SVX",
-      "destination_airport": "DWC",
-      "departure_at": "2026-11-10T06:00:00+05:00",
-      "airline": "DP",
-      "destination": "DXB",
-      "origin": "SVX",
-      "price": 9264,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 1965,
-      "duration_to": 555,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 9.329556650246305
-    },
     {
       "flight_number": "6187",
       "link": "/search/MRV2011DXB1?t=A417951331001795150500000230MRVDWC_355ef1c392121840e2fbd7bbfe96c61a_7599&search_date=07112026&expected_price_uuid=01a1b488-8869-8030-e94a-ef0431144a03&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=4p9d-IG5TyK4oivdAFRPjQ&expected_price_source=share&expected_price_currency=rub&expected_price=7599",
