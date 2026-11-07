@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "IST-TAS-2026-11-26-13358",
-      "time": 1793448069.0877504
-    },
-    {
-      "id": "AYT-LED-2026-11-12-14255",
-      "time": 1793449851.3284664
-    },
-    {
       "id": "AYT-SVX-2026-11-29-18090",
       "time": 1793451660.9773188
     },
@@ -419,28 +411,13 @@
     {
       "id": "AYT-LED-2026-12-02-12432",
       "time": 1794052863.9042664
+    },
+    {
+      "id": "IST-TAS-2026-12-01-12802",
+      "time": 1794054652.082425
     }
   ],
   "queue": [
-    {
-      "flight_number": "2664",
-      "link": "/search/IST0212TAS1?t=VF17962005001796274600001115SAWESBTAS_1436b17875e0b72e8519204d3e8bc05d_12780&search_date=07112026&expected_price_uuid=01a1b445-186d-8030-6ad2-78ea4dfd3686&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jq3Na9MDc0sNlxYVooDquA&expected_price_source=share&expected_price_currency=rub&expected_price=12780",
-      "origin_airport": "SAW",
-      "destination_airport": "TAS",
-      "departure_at": "2026-12-02T08:35:00+03:00",
-      "airline": "PC",
-      "destination": "TAS",
-      "origin": "IST",
-      "price": 12780,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 1115,
-      "duration_to": 315,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 31,
-      "reverse": true
-    },
     {
       "flight_number": "840",
       "link": "/search/AYT0212SVX1?t=DP17962158001796269800000780AYTVKOSVOSVX_3c67000f7549d36ec6149f3b016c3999_14091&search_date=07112026&expected_price_uuid=01a1b497-c19d-8030-e359-4165dae8dc06&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=c-DlkNsmQKsFWTzqiQq3Ig&expected_price_source=share&expected_price_currency=rub&expected_price=14091",
