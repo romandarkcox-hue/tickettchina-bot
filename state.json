@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "LED-HRB-2026-11-15-22618",
-      "time": 1793529933.6299384
-    },
-    {
       "id": "CAN-MOW-2026-11-19-22736",
       "time": 1793531735.2261336
     },
@@ -355,28 +351,14 @@
     {
       "id": "BQS-HRB-2026-11-26-8710",
       "time": 1794132938.8510962
+    },
+    {
+      "id": "LED-URC-2026-11-11-24024",
+      "time": 1794134738.1692173
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "1022",
-      "link": "/search/LED1111URC1?t=DV17944035001794531600001835LEDNQZURC_a0c45f3f625e0d5534f666de05f328ed_24024&search_date=07112026&expected_price_uuid=01a1b84c-3b92-8030-68ca-6cbac74edf91&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=a4f218-TcZU3nTkKSHvW1g&expected_price_source=share&expected_price_currency=rub&expected_price=24024",
-      "origin_airport": "LED",
-      "destination_airport": "URC",
-      "departure_at": "2026-11-11T13:25:00+03:00",
-      "airline": "DV",
-      "destination": "URC",
-      "origin": "LED",
-      "price": 24024,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 1835,
-      "duration_to": 380,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 21
-    },
     {
       "flight_number": "5956",
       "link": "/search/SHA1311VVO1?t=MU17946024001794679500001165SHAPKXVVO_631de9c24a907a84d69f6424a325a082_12909&search_date=08112026&expected_price_uuid=01a1b97a-6b9d-8031-299a-e1f87aaf612b&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH1%7CR0%7CTBC1&itinerary_key=hDCrjBAv7GFCMNVKydPwNw&expected_price_source=share&expected_price_currency=rub&expected_price=12909",
