@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "TBS-IST-2026-11-24-6972",
-      "time": 1793518247.5656068
-    },
-    {
       "id": "KRR-AYT-2026-11-05-4560",
       "time": 1793520056.242812
     },
@@ -415,27 +411,13 @@
     {
       "id": "MOW-AYT-2026-11-09-4358",
       "time": 1794121269.9555137
+    },
+    {
+      "id": "BAK-IST-2026-12-05-6580",
+      "time": 1794123053.3206935
     }
   ],
   "queue": [
-    {
-      "flight_number": "180",
-      "link": "/search/BAK0512IST1?t=VF17964498001796457900000195GYDSAW_23b5fa6401704855d9bbda4e8ac6bff7_6580&search_date=07112026&expected_price_uuid=01a1b7c0-90c2-8030-a9f5-80ee53266c0e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=rQysV1SFDQNB9Xxi54tvuw&expected_price_source=share&expected_price_currency=rub&expected_price=6580",
-      "origin_airport": "GYD",
-      "destination_airport": "SAW",
-      "departure_at": "2026-12-05T05:50:00+04:00",
-      "airline": "VF",
-      "destination": "IST",
-      "origin": "BAK",
-      "price": 6580,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 195,
-      "duration_to": 195,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 11.932348111658456
-    },
     {
       "flight_number": "3051",
       "link": "/search/KRR0811AYT1?t=A417941617001794172800000185KRRAYT_a3ee4d42cefa8f790734b2153e392e07_4515&search_date=08112026&expected_price_uuid=01a1b9be-7230-8030-a799-0280d417d5c1&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=2BeWNSaES5kjg5LFqYJoyg&expected_price_source=share&expected_price_currency=rub&expected_price=4515",
