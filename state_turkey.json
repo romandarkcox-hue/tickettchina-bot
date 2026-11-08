@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "AER-AYT-2026-11-10-4560",
-      "time": 1793523658.384526
-    },
-    {
       "id": "LED-IST-2026-11-22-8057",
       "time": 1793525447.1673207
     },
@@ -415,27 +411,13 @@
     {
       "id": "TBS-IST-2026-12-06-6585",
       "time": 1794126653.9448178
+    },
+    {
+      "id": "KZN-AYT-2026-11-09-4846",
+      "time": 1794128462.5011947
     }
   ],
   "queue": [
-    {
-      "flight_number": "024",
-      "link": "/search/KZN1111AYT1?t=2S17943666001794383400000280KZNAYT_d5fa283d505d6b1b093582df6b35c021_4752&search_date=08112026&expected_price_uuid=01a1b9bd-0f05-8030-28ad-fa32eeb606b3&static_fare_key=TY%7CP1%7CH1%7CL1_1_10%7CCH0%7CR0%7CTBC1&itinerary_key=QeFbYoUPZUQ_SQUWSD-tGA&expected_price_source=share&expected_price_currency=rub&expected_price=4752",
-      "origin_airport": "KZN",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-11T03:10:00+03:00",
-      "airline": "2S",
-      "destination": "AYT",
-      "origin": "KZN",
-      "price": 4752,
-      "gate": "Hit ticket",
-      "return_transfers": 0,
-      "duration": 280,
-      "duration_to": 280,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 13.717952928297757
-    },
     {
       "flight_number": "204",
       "link": "/search/LED0911IST1?t=DP17942583001794312900000910LEDVKOIST_662429830dbe4c3644ce867a241dcdbb_7846&search_date=08112026&expected_price_uuid=01a1b9b8-1fb1-8030-ed97-77e809423123&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=mVQo4R2oauCUC_4qYBvcqQ&expected_price_source=share&expected_price_currency=rub&expected_price=7846",
