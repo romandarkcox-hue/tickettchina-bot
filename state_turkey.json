@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "KRR-AYT-2026-11-05-4560",
-      "time": 1793520056.242812
-    },
-    {
       "id": "BAK-IST-2026-11-20-7269",
       "time": 1793521849.021552
     },
@@ -415,27 +411,13 @@
     {
       "id": "BAK-IST-2026-12-05-6580",
       "time": 1794123053.3206935
+    },
+    {
+      "id": "KRR-AYT-2026-11-08-4515",
+      "time": 1794124865.4003654
     }
   ],
   "queue": [
-    {
-      "flight_number": "3051",
-      "link": "/search/KRR0811AYT1?t=A417941617001794172800000185KRRAYT_a3ee4d42cefa8f790734b2153e392e07_4515&search_date=08112026&expected_price_uuid=01a1b9be-7230-8030-a799-0280d417d5c1&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=2BeWNSaES5kjg5LFqYJoyg&expected_price_source=share&expected_price_currency=rub&expected_price=4515",
-      "origin_airport": "KRR",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-08T18:15:00+03:00",
-      "airline": "A4",
-      "destination": "AYT",
-      "origin": "KRR",
-      "price": 4515,
-      "gate": "OneTwoTrip",
-      "return_transfers": 0,
-      "duration": 185,
-      "duration_to": 185,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 10.629332238642585
-    },
     {
       "flight_number": "228",
       "link": "/search/TBS0612IST1?t=VF17965371001796543100000160TBSSAW_bc8972de7d96654e6ad5318b4f0b0f6a_6595&search_date=08112026&expected_price_uuid=01a1b99d-5381-8030-69aa-3168601fe3f2&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=afRty9eSVKI1E-GlOWjosA&expected_price_source=share&expected_price_currency=rub&expected_price=6595",
