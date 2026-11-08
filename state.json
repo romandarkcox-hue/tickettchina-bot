@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "VVO-SZX-2026-11-14-9767",
-      "time": 1793528134.7335851
-    },
-    {
       "id": "LED-HRB-2026-11-15-22618",
       "time": 1793529933.6299384
     },
@@ -355,28 +351,14 @@
     {
       "id": "MOW-HRB-2026-11-10-18175",
       "time": 1794131137.477357
+    },
+    {
+      "id": "BQS-HRB-2026-11-26-8710",
+      "time": 1794132938.8510962
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "875",
-      "link": "/search/BQS2611HRB1?t=IO17956581001795658700000070BQSHRB_900e41584adc5c5d4112a547d67349cc_8710&search_date=08112026&expected_price_uuid=01a1b9ca-c765-8030-a1e3-fad0144c690b&static_fare_key=TY%7CP1%7CH1%7CL1_1_15%7CCH1%7CR1%7CTBC1&itinerary_key=sn4TZzdAP13tJAwAbZ3oDg&expected_price_source=share&expected_price_currency=rub&expected_price=8710",
-      "origin_airport": "BQS",
-      "destination_airport": "HRB",
-      "departure_at": "2026-11-26T01:55:00+09:00",
-      "airline": "IO",
-      "destination": "HRB",
-      "origin": "BQS",
-      "price": 8710,
-      "gate": "ИрАэро",
-      "return_transfers": 0,
-      "duration": 70,
-      "duration_to": 70,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 22
-    },
     {
       "flight_number": "1022",
       "link": "/search/LED1111URC1?t=DV17944035001794531600001835LEDNQZURC_a0c45f3f625e0d5534f666de05f328ed_24024&search_date=07112026&expected_price_uuid=01a1b84c-3b92-8030-68ca-6cbac74edf91&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=a4f218-TcZU3nTkKSHvW1g&expected_price_source=share&expected_price_currency=rub&expected_price=24024",
