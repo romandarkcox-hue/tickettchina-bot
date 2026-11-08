@@ -107,28 +107,13 @@
     {
       "id": "BAK-DXB-2026-11-26-16175",
       "time": 1794128729.1309972
+    },
+    {
+      "id": "DXB-MOW-2026-11-17-12717",
+      "time": 1794130528.8151593
     }
   ],
   "queue": [
-    {
-      "flight_number": "762",
-      "link": "/search/DXB1411MOW1?t=DP17946744001794873000003370DWCMCXSVO_faf89f9df6d939d01c8572dc2f26b11d_12784&search_date=08112026&expected_price_uuid=01a1b9c3-5afa-8030-66b6-3c6c4d112e37&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=TA8pR2cdPHsXzz8h84i1sA&expected_price_source=share&expected_price_currency=rub&expected_price=12784",
-      "origin_airport": "DWC",
-      "destination_airport": "SVO",
-      "departure_at": "2026-11-14T16:40:00+04:00",
-      "airline": "DP",
-      "destination": "MOW",
-      "origin": "DXB",
-      "price": 12784,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 3370,
-      "duration_to": 450,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "300",
       "link": "/search/SHJ2111BAK1?t=G917952603001795276200000265SHJGYD_2d66010f4164de153dafbb0ab201533f_15042&search_date=08112026&expected_price_uuid=01a1b88c-9e0e-8030-6c53-155ac123dab9&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=WnuRdPSMypt3iYOAJ9Eq4g&expected_price_source=share&expected_price_currency=rub&expected_price=15042",
