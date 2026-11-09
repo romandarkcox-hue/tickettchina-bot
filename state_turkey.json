@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "AYT-MOW-2026-11-25-10849",
-      "time": 1793619051.995767
-    },
-    {
       "id": "IST-TAS-2026-11-23-13188",
       "time": 1793620865.7757921
     },
@@ -419,28 +415,13 @@
     {
       "id": "IST-MOW-2026-12-03-8009",
       "time": 1794222068.7815745
+    },
+    {
+      "id": "AYT-MOW-2026-12-07-8578",
+      "time": 1794223860.8524864
     }
   ],
   "queue": [
-    {
-      "flight_number": "5052",
-      "link": "/search/AYT0812MOW1?t=Y717967576001796847600001500AYTAERDME_23dc020fdd8cfa650a2b27cc0b976f0b_9333&search_date=09112026&expected_price_uuid=01a1bee3-4c3e-8030-a88b-570f82a52334&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=1_8iHisPG_8ko6aUjzVSOQ&expected_price_source=share&expected_price_currency=rub&expected_price=9338",
-      "origin_airport": "AYT",
-      "destination_airport": "DME",
-      "departure_at": "2026-12-08T19:20:00+03:00",
-      "airline": "A4",
-      "destination": "MOW",
-      "origin": "AYT",
-      "price": 9338,
-      "gate": "SuperKassa",
-      "return_transfers": 0,
-      "duration": 1500,
-      "duration_to": 355,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "3740",
       "link": "/search/AYT0712LED1?t=S717966607001796751900001520AYTDMELED_813b5063cbda017a9ca3efb7c818e7d7_11292&search_date=09112026&expected_price_uuid=01a1becb-a3d6-8030-a2a4-75d605ebe29e&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=c-29fz85-0rl_JdL-fKnDg&expected_price_source=share&expected_price_currency=rub&expected_price=11298",
