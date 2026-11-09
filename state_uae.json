@@ -139,27 +139,13 @@
     {
       "id": "LED-DXB-2026-11-10-9273",
       "time": 1794211530.499787
+    },
+    {
+      "id": "BAK-DXB-2026-11-26-16172",
+      "time": 1794213329.1327147
     }
   ],
   "queue": [
-    {
-      "flight_number": "578",
-      "link": "/search/BAK2611DXB1?t=VF17957109001795753500000710GYDESBDXB_93b907a778c324d0fc8f6956d2ab382b_16157&search_date=08112026&expected_price_uuid=01a1bc0f-4cae-8030-2d1e-c84073b20bdb&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=5mRH7yDWgepdIu4c1HmRew&expected_price_source=share&expected_price_currency=rub&expected_price=16172",
-      "origin_airport": "GYD",
-      "destination_airport": "DXB",
-      "departure_at": "2026-11-26T16:35:00+04:00",
-      "airline": "VF",
-      "destination": "DXB",
-      "origin": "BAK",
-      "price": 16172,
-      "gate": "Trip.com",
-      "return_transfers": 0,
-      "duration": 710,
-      "duration_to": 465,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 9.086206896551722
-    },
     {
       "flight_number": "247",
       "link": "/search/EVN1011SHJ1?t=G917943135001794326100000210EVNSHJ_7440e34e3f07c855a4ff745192f0c288_17984&search_date=09112026&expected_price_uuid=01a1becc-f5da-8030-23f2-42f8ee853199&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=1ZW9KkG76kkZls36icjXiA&expected_price_source=share&expected_price_currency=rub&expected_price=17994",
