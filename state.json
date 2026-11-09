@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "SHA-MOW-2026-11-19-25699",
-      "time": 1793621734.587474
-    },
-    {
       "id": "VVO-BJS-2026-11-04-5343",
       "time": 1793686601.0390615
     },
@@ -355,29 +351,13 @@
     {
       "id": "BJS-MOW-2026-11-12-23495",
       "time": 1794224739.4923587
+    },
+    {
+      "id": "CAN-MOW-2026-11-19-25742",
+      "time": 1794226538.6606178
     }
   ],
   "last_run": "2026-10-27",
-  "queue": [
-    {
-      "flight_number": "90",
-      "link": "/search/CAN2411MOW1?t=W517955645001795602000000925CANIKASVO_41e596ac0aa153dbb94a0d8b5d633829_26473&search_date=08112026&expected_price_uuid=01a1bcc5-5a72-8031-28ec-5657639dfbd2&static_fare_key=TY%7CP1%7CH1%7CL1_1_30%7CCH1%7CR1%7CTBC1&itinerary_key=07kOAmkn_5Vdgod1mtQQZg&expected_price_source=share&expected_price_currency=rub&expected_price=26466",
-      "origin_airport": "CAN",
-      "destination_airport": "SVO",
-      "departure_at": "2026-11-24T23:55:00+08:00",
-      "airline": "W5",
-      "destination": "MOW",
-      "origin": "CAN",
-      "price": 26466,
-      "gate": "Aviakassa",
-      "return_transfers": 0,
-      "duration": 925,
-      "duration_to": 785,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 22,
-      "reverse": true
-    }
-  ],
+  "queue": [],
   "queue_date": "2026-11-09"
 }
