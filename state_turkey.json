@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "KZN-AYT-2026-11-03-4706",
-      "time": 1793613661.8186061
-    },
-    {
       "id": "TAS-IST-2026-11-04-11515",
       "time": 1793615458.4577975
     },
@@ -419,27 +415,13 @@
     {
       "id": "LED-IST-2026-11-10-6738",
       "time": 1794216655.219875
+    },
+    {
+      "id": "AER-AYT-2026-11-18-4867",
+      "time": 1794218466.0252
     }
   ],
   "queue": [
-    {
-      "flight_number": "5051",
-      "link": "/search/AER2511AYT1?t=A417956278001795636200000140AERAYT_211311303ae8a643d8540569ac1ccbfb_4890&search_date=09112026&expected_price_uuid=01a1bda7-2930-8040-2478-a0e865635d67&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=L1IM5FBP5Mk9vkATBH_Fhg&expected_price_source=share&expected_price_currency=rub&expected_price=4886",
-      "origin_airport": "AER",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-25T17:30:00+03:00",
-      "airline": "A4",
-      "destination": "AYT",
-      "origin": "AER",
-      "price": 4886,
-      "gate": "Azimuth",
-      "return_transfers": 0,
-      "duration": 140,
-      "duration_to": 140,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 13.289140667761357
-    },
     {
       "flight_number": "806",
       "link": "/search/TAS0911IST1?t=DP17942334001794312900001445TASVKOIST_55f58a1911f1b0fbed7b1ff8f084e346_11685&search_date=09112026&expected_price_uuid=01a1bed1-69d6-8030-a7c8-1d9c5ba0b4fe&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=WglGCsW2LOqWzuzR5SPQ5w&expected_price_source=share&expected_price_currency=rub&expected_price=11689",
