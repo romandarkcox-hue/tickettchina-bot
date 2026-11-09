@@ -143,27 +143,13 @@
     {
       "id": "BAK-DXB-2026-11-26-16172",
       "time": 1794213329.1327147
+    },
+    {
+      "id": "EVN-SHJ-2026-11-28-16710",
+      "time": 1794215130.2807126
     }
   ],
   "queue": [
-    {
-      "flight_number": "247",
-      "link": "/search/EVN1011SHJ1?t=G917943135001794326100000210EVNSHJ_7440e34e3f07c855a4ff745192f0c288_17984&search_date=09112026&expected_price_uuid=01a1becc-f5da-8030-23f2-42f8ee853199&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=1ZW9KkG76kkZls36icjXiA&expected_price_source=share&expected_price_currency=rub&expected_price=17994",
-      "origin_airport": "EVN",
-      "destination_airport": "SHJ",
-      "departure_at": "2026-11-10T12:25:00+04:00",
-      "airline": "G9",
-      "destination": "SHJ",
-      "origin": "EVN",
-      "price": 17994,
-      "gate": "Kiwi.com",
-      "return_transfers": 0,
-      "duration": 210,
-      "duration_to": 210,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 9.937137383689107
-    },
     {
       "flight_number": "992",
       "link": "/search/DXB2611MOW1?t=DP17957067001795726200000385DWCVKO_9daf1c25d0e25eb75a4c280c82cc99ea_12736&search_date=09112026&expected_price_uuid=01a1becb-242c-8030-a97e-77aa3cdf5375&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=xPktT0YTstSxAgTN49HhgQ&expected_price_source=share&expected_price_currency=rub&expected_price=12743",
