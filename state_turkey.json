@@ -419,27 +419,13 @@
     {
       "id": "AER-AYT-2026-11-18-4867",
       "time": 1794218466.0252
+    },
+    {
+      "id": "TAS-IST-2026-11-11-9513",
+      "time": 1794220252.8335633
     }
   ],
   "queue": [
-    {
-      "flight_number": "806",
-      "link": "/search/TAS0911IST1?t=DP17942334001794312900001445TASVKOIST_55f58a1911f1b0fbed7b1ff8f084e346_11685&search_date=09112026&expected_price_uuid=01a1bed1-69d6-8030-a7c8-1d9c5ba0b4fe&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=WglGCsW2LOqWzuzR5SPQ5w&expected_price_source=share&expected_price_currency=rub&expected_price=11689",
-      "origin_airport": "TAS",
-      "destination_airport": "IST",
-      "departure_at": "2026-11-09T14:10:00+05:00",
-      "airline": "UT",
-      "destination": "IST",
-      "origin": "TAS",
-      "price": 11689,
-      "gate": "OneTwoTrip",
-      "return_transfers": 0,
-      "duration": 1445,
-      "duration_to": 580,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 23.314860426929393
-    },
     {
       "flight_number": "996",
       "link": "/search/IST2711MOW1?t=DP17958084001795825500000285ISTVKO_b02b62598effc355b88a752ea911636a_7967&search_date=09112026&expected_price_uuid=01a1bee5-a9c1-8031-2227-de3dd41b866c&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=gfsX28j17eNLRelP9N5a7w&expected_price_source=share&expected_price_currency=rub&expected_price=7971",
