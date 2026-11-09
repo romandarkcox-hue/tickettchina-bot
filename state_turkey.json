@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "KRR-AYT-2026-11-04-4571",
-      "time": 1793606462.9869258
-    },
-    {
       "id": "BAK-IST-2026-11-27-7178",
       "time": 1793608260.2357037
     },
@@ -419,27 +415,13 @@
     {
       "id": "BAK-IST-2026-12-06-6622",
       "time": 1794209454.3960152
+    },
+    {
+      "id": "MOW-IST-2026-11-10-4738",
+      "time": 1794211266.3988614
     }
   ],
   "queue": [
-    {
-      "flight_number": "086",
-      "link": "/search/MOW1011IST1?t=2S17942718001794285300000225SVOIST_1b574fe3c853c63ccda3164878d521be_4746&search_date=09112026&expected_price_uuid=01a1bee4-4436-8031-6b7d-4ba997c91c81&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=OfH2UywnV9SCcAG8ApgyLw&expected_price_source=share&expected_price_currency=rub&expected_price=4748",
-      "origin_airport": "SVO",
-      "destination_airport": "IST",
-      "departure_at": "2026-11-10T00:50:00+03:00",
-      "airline": "2S",
-      "destination": "IST",
-      "origin": "MOW",
-      "price": 4748,
-      "gate": "Southwind",
-      "return_transfers": 0,
-      "duration": 225,
-      "duration_to": 225,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 24.123563218390807
-    },
     {
       "flight_number": "228",
       "link": "/search/TBS0412IST1?t=VF17963643001796370300000160TBSSAW_bb490fd84c4b091d74f45bb8195caa07_6627&search_date=07112026&expected_price_uuid=01a1b666-ba84-8030-e28c-bbe0e20025b6&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=afRty9eSVKI1E-GlOWjosA&expected_price_source=share&expected_price_currency=rub&expected_price=6627",
