@@ -1,0 +1,150 @@
+# Настройки бота для канала @ticketthailand (бот @biilettytai_bot)
+
+[telegram]
+# Канал, куда публиковать. Бот должен быть администратором канала с правом публикации.
+chat_id = "@ticketthailand"
+# Переменная окружения с токеном бота этого канала (бот канала Таиланда)
+bot_token_env = "THAI_BOT_TOKEN"
+# Где помнить, что уже опубликовано
+state_file = "state_thai.json"
+
+[search]
+currency = "rub"
+# true — цена в одну сторону, false — туда-обратно
+one_way = true
+# Вылеты от сегодня и на сколько дней вперёд
+days_ahead = 30
+# Только прямые рейсы
+direct_only = false
+# Максимум пересадок (0 — только прямые)
+max_transfers = 1
+
+[posting]
+# Всего постов в день (без обратных)
+posts_per_run = 7
+# Из них самых дешёвых по всем направлениям сразу
+cheapest_count = 3
+# Плюс самый дешёвый билет из каждого из этих городов, если из него ещё нет билета в топе.
+# Остальные места — самые популярные направления (которые чаще всего ищут).
+featured_origins = ["MOW", "LED"]
+# Плюс N самых популярных маршрутов из стран СНГ (по рейтингу поисков, не больше
+# одного из города): билеты оттуда дороже российских и в «самые дешёвые» не попадают.
+cis_count = 2
+cis_origins = ["ALA", "NQZ", "CIT", "TAS", "SKD", "MSQ", "EVN", "BAK", "TBS", "BSZ", "OSS", "DYU"]
+# Как считать популярность: "searches" — рейтинг популярных направлений Aviasales
+# с учётом размера города вылета; "cache" — сколько цен в кэше (почти
+# у всех маршрутов цены на каждый день, поэтому так их не различить)
+popularity = "searches"
+# Плюс обратные билеты (из Таиланда домой): N самых популярных маршрутов по поискам.
+# 0 — не публиковать.
+reverse_count = 3
+# Не больше N обратных из одного города — чтобы были не только из Бангкока и Пхукета
+reverse_max_per_city = 2
+# Часы публикаций по Москве: с 9:20 до 13:50 (запуски каждые 30 минут, по посту за раз)
+hours = [9, 14]
+# Не повторять тот же билет (направление + дата вылета + цена) N дней. 0 — не проверять.
+skip_same_ticket_days = 7
+
+[links]
+# Партнёрский marker Travelpayouts. Пусто — ссылки без партнёрки.
+marker = "794600"
+# Добавлять к marker метку направления (794600.MOW-DXB) — видно в статистике Travelpayouts
+sub_id_per_route = true
+# Номер проекта в Travelpayouts: ссылки идут через tp.media, и партнёрка считает клики
+trs = 590120
+# Токен маркировки рекламы (erid) из кабинета Travelpayouts
+erid = "2Vtzqx5PLYd"
+# Ссылка на отели (Островок через Travelpayouts) — цитатой под ссылкой на билет.
+# Пусто — не добавлять. У обратных билетов не показывается.
+hotels_url = "https://ostrovok.tpk.lu/RY2oOsiC?erid=2VtzqxcX5Ts"
+hotels_text = "Отели тут"
+# Маркировка рекламы Островка — добавляется, только когда в посте есть ссылка на отели
+hotels_ad_label = "Реклама. ООО «Бронирование гостиниц», ИНН 7703389880. erid: 2VtzqxcX5Ts"
+# Строка о рекламе в конце поста. Пусто — не добавлять.
+ad_label = "Реклама. Go Travel Un Limited, ИНН 9909520797. erid: 2Vtzqx5PLYd"
+
+# Города. Ключ — IATA-код города, значение — название для поста.
+[cities]
+MOW = "Москва"
+LED = "Санкт-Петербург"
+KZN = "Казань"
+SVX = "Екатеринбург"
+OVB = "Новосибирск"
+KRR = "Краснодар"
+AER = "Сочи"
+UFA = "Уфа"
+KUF = "Самара"
+KJA = "Красноярск"
+KGD = "Калининград"
+PEE = "Пермь"
+CEK = "Челябинск"
+MRV = "Минеральные Воды"
+TJM = "Тюмень"
+GOJ = "Нижний Новгород"
+VOG = "Волгоград"
+OMS = "Омск"
+SGC = "Сургут"
+VVO = "Владивосток"
+IKT = "Иркутск"
+KHV = "Хабаровск"
+BAX = "Барнаул"
+ALA = "Алматы"
+NQZ = "Астана"
+CIT = "Шымкент"
+TAS = "Ташкент"
+SKD = "Самарканд"
+MSQ = "Минск"
+EVN = "Ереван"
+BAK = "Баку"
+TBS = "Тбилиси"
+BSZ = "Бишкек"
+OSS = "Ош"
+DYU = "Душанбе"
+BKK = "Бангкок"
+HKT = "Пхукет"
+UTP = "Паттайя"
+KBV = "Краби"
+USM = "Самуи"
+CNX = "Чиангмай"
+
+# Направления: откуда → список куда.
+# Отобраны по данным Travelpayouts (10.11.2026, research/thailand.py): Бангкок и Пхукет — в топах
+# популярных направлений; Паттайя (У-Тапао), Краби, Самуи, Чиангмай — с ценами из 22–28 городов.
+# Чианграй (мало и дорого) и Хуахин (нет билетов) не берём. Из Сибири и с Дальнего Востока
+# в Таиланд летают много, поэтому добавлены Владивосток, Иркутск, Хабаровск, Барнаул.
+[routes]
+MOW = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+LED = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+KZN = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+SVX = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+OVB = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+KRR = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+AER = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+UFA = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+KUF = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+KJA = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+KGD = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+PEE = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+CEK = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+MRV = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+TJM = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+GOJ = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+VOG = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+OMS = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+SGC = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+VVO = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+IKT = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+KHV = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+BAX = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+ALA = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+NQZ = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+CIT = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+TAS = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+SKD = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+MSQ = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+EVN = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+BAK = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+TBS = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+BSZ = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+OSS = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]
+DYU = ["BKK", "HKT", "UTP", "KBV", "USM", "CNX"]

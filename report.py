@@ -26,6 +26,7 @@ COUNTS = ["clicks_count", "searches_count", "actions_count", "paid_actions_count
           "processing_actions_count", "cancelled_actions_count"]
 PROFITS = ["paid_profit_rub", "processing_profit_rub"]
 UAE = {"DXB", "AUH", "SHJ", "RKT"}  # города ОАЭ — для разбивки по каналам
+THAI = {"BKK", "HKT", "UTP", "KBV", "USM", "CNX"}  # города Таиланда
 
 
 def tp_request(url, token, body=None):
@@ -79,6 +80,8 @@ def source_of(sub_id, turkey_cities):
         return "сайт"
     if any(code in UAE for code in sub_id.split("-")):
         return "ОАЭ"
+    if any(code in THAI for code in sub_id.split("-")):
+        return "Таиланд"
     if sub_id == "TURK" or any(code in turkey_cities and code not in ("MOW", "LED", "KZN", "SVX", "OVB")
                                for code in sub_id.split("-")):
         return "Турция"
@@ -125,7 +128,9 @@ def build_report(token, cfg, cfg_turkey):
     month_start = today.replace(day=1).isoformat()
     month = totals(token, month_start, today.isoformat())
     balance = tp_request(BALANCE_URL, token).get("balance", {}).get("rub", "0")
-    cities = {**cfg_turkey["cities"], **cfg["cities"], "DXB": "Дубай", "AUH": "Абу-Даби", "SHJ": "Шарджа"}
+    cities = {**cfg_turkey["cities"], **cfg["cities"], "DXB": "Дубай", "AUH": "Абу-Даби", "SHJ": "Шарджа",
+              "BKK": "Бангкок", "HKT": "Пхукет", "UTP": "Паттайя", "KBV": "Краби", "USM": "Самуи",
+              "CNX": "Чиангмай", "VVO": "Владивосток", "IKT": "Иркутск", "KHV": "Хабаровск", "BAX": "Барнаул"}
     by_source, routes = breakdown(token, date_from, date_to, cities, cfg_turkey["cities"])
 
     period = f"{datetime.fromisoformat(date_from):%d.%m} – {datetime.fromisoformat(date_to):%d.%m}"

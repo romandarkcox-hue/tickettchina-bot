@@ -29,13 +29,16 @@ POST = 1  # код метода POST в API cron-job.org
 PREFIX = ("tickettchina", "dobroeytro")  # задания с таким началом названия — наши; лишние удаляются
 
 JOBS = [
-    # Время по Москве. Китай — в :15 и :45, Турция — в :00 и :30, ОАЭ — в :05 и :35, чтобы не совпадали.
+    # Время по Москве. Китай — в :15 и :45, Турция — в :00 и :30, ОАЭ — в :05 и :35,
+    # Таиланд — в :20 и :50, чтобы не совпадали.
     {"title": "tickettchina: Китай каждые 30 мин", "workflow": "post.yml",
      "hours": list(range(9, 16)), "minutes": [15, 45]},
     {"title": "tickettchina: Турция каждые 30 мин", "workflow": "post_turkey.yml",
      "hours": list(range(9, 17)), "minutes": [0, 30]},
     {"title": "tickettchina: ОАЭ каждые 30 мин", "workflow": "post_uae.yml",
      "hours": list(range(9, 14)), "minutes": [5, 35]},
+    {"title": "tickettchina: Таиланд каждые 30 мин", "workflow": "post_thai.yml",
+     "hours": list(range(9, 14)), "minutes": [20, 50]},
     # Канал @dobroeytroru: у каждого поста своё время и свой режим
     {"title": "dobroeytro: Доброе утро 06:30", "workflow": "utro.yml",
      "hours": [6], "minutes": [30], "inputs": {"mode": "morning"}},
