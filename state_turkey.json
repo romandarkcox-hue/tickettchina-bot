@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "MRV-AYT-2026-11-06-4048",
-      "time": 1793685745.5911138
-    },
-    {
-      "id": "LED-AYT-2026-11-08-5155",
-      "time": 1793687452.0610747
-    },
-    {
       "id": "MOW-AYT-2026-11-07-4427",
       "time": 1793689271.7241037
     },
@@ -423,27 +415,13 @@
     {
       "id": "MOW-AYT-2026-11-11-3700",
       "time": 1794290534.3650408
+    },
+    {
+      "id": "LED-AYT-2026-11-12-5499",
+      "time": 1794292255.0622258
     }
   ],
   "queue": [
-    {
-      "flight_number": "202",
-      "link": "/search/LED1111AYT1?t=DP17944119001794485400001225LEDVKOAYT_f0aba297988a721fcfe8aab664757cbe_5474&search_date=10112026&expected_price_uuid=01a1c3ff-8a2b-8030-6aff-f7214af47369&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=h4l1cbPT-OErQkvr_lvngg&expected_price_source=share&expected_price_currency=rub&expected_price=5474",
-      "origin_airport": "LED",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-11T15:45:00+03:00",
-      "airline": "DP",
-      "destination": "AYT",
-      "origin": "LED",
-      "price": 5474,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 1225,
-      "duration_to": 410,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 20.696015325670498
-    },
     {
       "flight_number": "769",
       "link": "/search/KRR1111IST1?t=DP17944038001794412500000145KRRIST_af97adc25b29d3c0a57f3d72bb08adb6_4255&search_date=10112026&expected_price_uuid=01a1c408-387f-8030-2257-fa0d3a658fb6&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=rK75zwV7_rAOInX_rPnaMw&expected_price_source=share&expected_price_currency=rub&expected_price=4255",
