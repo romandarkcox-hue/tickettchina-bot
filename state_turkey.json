@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "AYT-LED-2026-11-29-14495",
-      "time": 1793709054.0989568
-    },
-    {
-      "id": "AYT-SVX-2026-11-27-13606",
-      "time": 1793710866.2204628
-    },
-    {
       "id": "MRV-AYT-2026-11-06-4006",
       "time": 1793772132.023535
     },
@@ -423,28 +415,12 @@
     {
       "id": "IST-TAS-2026-11-29-13523",
       "time": 1794313852.543172
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "840",
-      "link": "/search/AYT0812SVX1?t=DP17967342001796788200000780AYTVKOSVOSVX_a2f8ed3a1f4dac549aa035e2ea3f6707_14828&search_date=10112026&expected_price_uuid=01a1c406-f1ba-8031-2c3e-920236d21c1b&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=c-DlkNsmQKsFWTzqiQq3Ig&expected_price_source=share&expected_price_currency=rub&expected_price=14828",
-      "origin_airport": "AYT",
-      "destination_airport": "SVX",
-      "departure_at": "2026-12-08T12:50:00+03:00",
-      "airline": "DP",
-      "destination": "SVX",
-      "origin": "AYT",
-      "price": 14828,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 780,
-      "duration_to": 435,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
+      "id": "AYT-SVX-2026-12-04-11923",
+      "time": 1794315670.1421137
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-10"
 }
