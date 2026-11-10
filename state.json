@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "LED-BJS-2026-11-19-20857",
-      "time": 1793702737.9887774
-    },
-    {
       "id": "BJS-VVO-2026-11-24-6154",
       "time": 1793704539.3503091
     },
@@ -355,28 +351,14 @@
     {
       "id": "VVO-YNJ-2026-11-26-9270",
       "time": 1794305740.047806
+    },
+    {
+      "id": "LED-HRB-2026-11-11-20298",
+      "time": 1794307539.6910524
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "2874",
-      "link": "/search/LED1111HRB1?t=SU17944410001794614700002595LEDIKTHRB_6d8c16ff8de334e52aafc5e8e89fa357_20298&search_date=10112026&expected_price_uuid=01a1c40e-430e-8030-ea95-0ecc3a043fc6&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=oAFovDYbA9UinRZaxtSZGw&expected_price_source=share&expected_price_currency=rub&expected_price=20298",
-      "origin_airport": "LED",
-      "destination_airport": "HRB",
-      "departure_at": "2026-11-11T23:50:00+03:00",
-      "airline": "SU",
-      "destination": "HRB",
-      "origin": "LED",
-      "price": 20298,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 2595,
-      "duration_to": 570,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 20
-    },
     {
       "flight_number": "6242",
       "link": "/search/BJS1611VVO1?t=S717948196001794835800000150PKXVVO_eb12be688f41abf83cf1fcfa7f132fbd_6254&search_date=10112026&expected_price_uuid=01a1c40e-7ae6-8030-62ee-f4171ea3cae1&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=noJCAukySxfi39sBikV07w&expected_price_source=share&expected_price_currency=rub&expected_price=6254",
