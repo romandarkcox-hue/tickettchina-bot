@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "VVO-SHA-2026-11-19-9808",
-      "time": 1793688336.456709
-    },
-    {
       "id": "VVO-HRB-2026-11-11-6276",
       "time": 1793690136.8998315
     },
@@ -355,28 +351,14 @@
     {
       "id": "VVO-BJS-2026-11-16-5484",
       "time": 1794291441.6291437
+    },
+    {
+      "id": "HTA-HLD-2026-11-14-12893",
+      "time": 1794293143.2756717
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "918",
-      "link": "/search/HTA1411HLD1?t=CA17946666001794667200000070HTAHLD_d4e953d094c5d305992f2b2363df16f7_12893&search_date=10112026&expected_price_uuid=01a1c40c-119f-8030-e7d2-6e94fa28ca2a&static_fare_key=TY%7CP0%7CH1%7CL1_1_0%7CCH1%7CR1%7CTBC1&itinerary_key=BdcA2vYGy7maz9MxV7UISA&expected_price_source=share&expected_price_currency=rub&expected_price=12893",
-      "origin_airport": "HTA",
-      "destination_airport": "HLD",
-      "departure_at": "2026-11-14T14:30:00+09:00",
-      "airline": "CA",
-      "destination": "HLD",
-      "origin": "HTA",
-      "price": 12893,
-      "gate": "OneTwoTrip",
-      "return_transfers": 0,
-      "duration": 70,
-      "duration_to": 70,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 22
-    },
     {
       "flight_number": "5472",
       "link": "/search/VVO1811HRB1?t=SU17949666001794964500000085VVOHRB_161f43110856c384731e1e20c8d62c3b_5976&search_date=10112026&expected_price_uuid=01a1c40b-aaf1-8031-67c1-844e4e7274e7&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=PpiBVD1SH4Ye8Q2GNR4W7Q&expected_price_source=share&expected_price_currency=rub&expected_price=5976",
