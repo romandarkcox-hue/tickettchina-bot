@@ -54,7 +54,7 @@ AIRLINES = {
     "J2": "AZAL", "A9": "Georgian Airways", "SZ": "Somon Air", "ZM": "Air Manas",
     "RM": "Aircompany Armenia", "5F": "FlyOne", "C3": "Centrum Air", "C6": "Centrum Air",
     # Таиланд и пересадки по пути
-    "TG": "Thai Airways", "FD": "Thai AirAsia", "PG": "Bangkok Airways", "SL": "Thai Lion Air",
+    "TG": "Thai Airways", "FD": "Thai AirAsia", "XJ": "Thai AirAsia X", "PG": "Bangkok Airways", "SL": "Thai Lion Air",
     "VZ": "Thai VietJet", "EK": "Emirates", "QR": "Qatar Airways", "EY": "Etihad",
     "FZ": "flydubai", "G9": "Air Arabia", "VN": "Vietnam Airlines", "VJ": "VietJet",
     "MH": "Malaysia Airlines", "AK": "AirAsia", "OD": "Batik Air", "KE": "Korean Air",
