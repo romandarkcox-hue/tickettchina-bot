@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "BJS-MOW-2026-11-12-25034",
-      "time": 1793708135.9471602
-    },
-    {
       "id": "VVO-BJS-2026-11-22-5344",
       "time": 1793772991.6120827
     },
@@ -355,29 +351,13 @@
     {
       "id": "BJS-MOW-2026-11-12-20874",
       "time": 1794311141.825749
+    },
+    {
+      "id": "SHA-MOW-2026-11-12-25763",
+      "time": 1794312948.5638888
     }
   ],
   "last_run": "2026-10-27",
-  "queue": [
-    {
-      "flight_number": "6037",
-      "link": "/search/SHA2611MOW1?t=MU17956995001795808400002115PVGTASDME_862e94e6413bbf7ab88f69825cc7ff35_23554&search_date=10112026&expected_price_uuid=01a1c404-4c92-8031-2a6a-be28677e442e&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=XS1JTvEcjnXx2Q9fE6lKpg&expected_price_source=share&expected_price_currency=rub&expected_price=23553",
-      "origin_airport": "PVG",
-      "destination_airport": "DME",
-      "departure_at": "2026-11-26T13:25:00+08:00",
-      "airline": "MU",
-      "destination": "MOW",
-      "origin": "SHA",
-      "price": 23553,
-      "gate": "Trip.com",
-      "return_transfers": 0,
-      "duration": 2115,
-      "duration_to": 745,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 22,
-      "reverse": true
-    }
-  ],
+  "queue": [],
   "queue_date": "2026-11-10"
 }
