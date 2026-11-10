@@ -167,27 +167,13 @@
     {
       "id": "LED-DXB-2026-11-10-7736",
       "time": 1794292535.649508
+    },
+    {
+      "id": "AER-DXB-2026-11-11-6508",
+      "time": 1794294332.1791785
     }
   ],
   "queue": [
-    {
-      "flight_number": "5087",
-      "link": "/search/AER1111DXB1?t=A417943558001794374400000250AERDWC_bf716d40dd5412eb645b70161e337861_6508&search_date=10112026&expected_price_uuid=01a1c40f-af00-8031-6163-842e79cae25b&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=iTx2CHchwSQI29Dve4dGMA&expected_price_source=share&expected_price_currency=rub&expected_price=6508",
-      "origin_airport": "AER",
-      "destination_airport": "DWC",
-      "departure_at": "2026-11-11T00:10:00+03:00",
-      "airline": "A4",
-      "destination": "DXB",
-      "origin": "AER",
-      "price": 6508,
-      "gate": "Azimuth",
-      "return_transfers": 0,
-      "duration": 250,
-      "duration_to": 250,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 8.520443349753695
-    },
     {
       "flight_number": "6912",
       "link": "/search/MRV1111DXB1?t=DP17944254001794494100001085MRVSVOVKODWC_b876bf4fc59eba75461625c7d39031d7_8379&search_date=10112026&expected_price_uuid=01a1c402-2010-8030-ae5f-b57c4d87d9e8&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=xeU42z060j_UcJeocAI3KA&expected_price_source=share&expected_price_currency=rub&expected_price=8379",
