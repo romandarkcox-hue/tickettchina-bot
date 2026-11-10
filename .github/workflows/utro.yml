@@ -19,6 +19,15 @@ on:
         description: "Опубликовать, даже если сегодня такой пост уже был"
         type: boolean
         default: false
+      only:
+        description: "Куда: всё, только Telegram или только ВК"
+        type: choice
+        options: [all, tg, vk]
+        default: all
+      vk_test:
+        description: "Тест ВК: отложенная запись на завтра (видна только админам)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -44,7 +53,14 @@ jobs:
         env:
           UTRO_BOT_TOKEN: ${{ secrets.UTRO_BOT_TOKEN }}
           PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
-        run: python bot.py --mode ${{ inputs.mode }} ${{ inputs.test_chat && format('--chat {0}', inputs.test_chat) || '' }} ${{ inputs.force && '--force' || '' }}
+          VK_TOKEN: ${{ secrets.VK_TOKEN }}
+          VK_GROUP_ID: ${{ secrets.VK_GROUP_ID }}
+        run: >-
+          python bot.py --mode ${{ inputs.mode }}
+          ${{ inputs.test_chat && format('--chat {0}', inputs.test_chat) || '' }}
+          ${{ inputs.force && '--force' || '' }}
+          ${{ inputs.only != 'all' && inputs.only && format('--only {0}', inputs.only) || '' }}
+          ${{ inputs.vk_test && '--vk-test' || '' }}
       - name: Сохранить использованные картинки
         if: always()
         run: |

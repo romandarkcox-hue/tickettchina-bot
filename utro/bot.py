@@ -8,7 +8,12 @@
     python bot.py --mode morning --chat 460504040     — тест: отправить в личку, без записи в state.json
     python bot.py --mode morning --dry-run            — только собрать картинку в preview_<mode>.jpg
 
+    python bot.py --mode morning --vk-test            — тест ВК: отложенная запись на завтра
+    python bot.py --mode morning --only vk            — только в ВК (например, повторить после сбоя)
+
 Нужны переменные окружения: UTRO_BOT_TOKEN, PIXABAY_KEY.
+Для ВКонтакте ещё VK_TOKEN (ключ пользователя-админа с правами wall, photos, offline)
+и VK_GROUP_ID (номер сообщества). Если их нет, бот публикует только в Telegram.
 """
 
 import argparse
@@ -418,23 +423,61 @@ def tg_call(token, method, data):
         raise RuntimeError(f"Telegram: {res}")
 
 
-def send_photo(token, chat, img, caption):
+def post_multipart(url, fields, img):
+    """POST multipart/form-data с картинкой в поле photo, ответ — JSON."""
     buf = io.BytesIO()
     img.save(buf, "JPEG", quality=90)
     boundary = "----utro" + str(random.randint(10**8, 10**9))
     parts = []
-    for k, v in (("chat_id", str(chat)), ("caption", caption), ("parse_mode", "HTML")):
+    for k, v in fields.items():
         parts.append(f'--{boundary}\r\nContent-Disposition: form-data; name="{k}"\r\n\r\n{v}\r\n'.encode())
     parts.append(f'--{boundary}\r\nContent-Disposition: form-data; name="photo"; filename="card.jpg"\r\n'
                  f"Content-Type: image/jpeg\r\n\r\n".encode() + buf.getvalue() + b"\r\n")
     parts.append(f"--{boundary}--\r\n".encode())
-    req = urllib.request.Request(
-        f"https://api.telegram.org/bot{token}/sendPhoto", data=b"".join(parts),
-        headers={"Content-Type": f"multipart/form-data; boundary={boundary}"})
+    req = urllib.request.Request(url, data=b"".join(parts),
+                                 headers={"Content-Type": f"multipart/form-data; boundary={boundary}"})
     with urllib.request.urlopen(req, timeout=60) as r:
-        res = json.loads(r.read())
+        return json.loads(r.read())
+
+
+def send_photo(token, chat, img, caption):
+    res = post_multipart(f"https://api.telegram.org/bot{token}/sendPhoto",
+                         {"chat_id": str(chat), "caption": caption, "parse_mode": "HTML"}, img)
     if not res.get("ok"):
         raise RuntimeError(f"Telegram: {res}")
+
+
+# ---------- ВКонтакте ----------
+
+def vk_call(method, **params):
+    params.update(access_token=os.environ["VK_TOKEN"], v="5.199")
+    req = urllib.request.Request(f"https://api.vk.com/method/{method}",
+                                 data=urllib.parse.urlencode(params).encode())
+    with urllib.request.urlopen(req, timeout=60) as r:
+        res = json.loads(r.read())
+    if "error" in res:
+        raise RuntimeError(f"ВК {method}: {res['error'].get('error_msg')}")
+    return res["response"]
+
+
+def vk_text(caption):
+    """Текст из Telegram (HTML) → обычный текст для стены ВК."""
+    text = html.unescape(re.sub(r"<[^>]+>", "", caption))
+    return text.replace(f"👉 {CHANNEL}", f"👉 Мы в Telegram: https://t.me/{CHANNEL.lstrip('@')}")
+
+
+def vk_post(img, caption, delayed=False):
+    """Открытка с текстом на стену сообщества. delayed — отложенная запись на завтра (для проверки)."""
+    gid = os.environ["VK_GROUP_ID"].lstrip("-")
+    server = vk_call("photos.getWallUploadServer", group_id=gid)
+    up = post_multipart(server["upload_url"], {}, img)
+    photo = vk_call("photos.saveWallPhoto", group_id=gid, server=up["server"],
+                    photo=up["photo"], hash=up["hash"])[0]
+    params = {"owner_id": f"-{gid}", "from_group": 1, "message": vk_text(caption),
+              "attachments": f"photo{photo['owner_id']}_{photo['id']}"}
+    if delayed:
+        params["publish_date"] = int(time.time()) + 86400
+    return vk_call("wall.post", **params)["post_id"]
 
 
 def main():
@@ -443,13 +486,27 @@ def main():
     p.add_argument("--chat", help="тест: отправить в этот чат вместо канала, state.json не меняется")
     p.add_argument("--dry-run", action="store_true", help="не отправлять, сохранить preview_<mode>.jpg")
     p.add_argument("--force", action="store_true", help="публиковать, даже если сегодня уже было")
+    p.add_argument("--only", choices=["tg", "vk"], help="публиковать только в Telegram или только в ВК")
+    p.add_argument("--vk-test", action="store_true",
+                   help="тест ВК: отложенная запись на завтра (видна только админам), state.json не меняется")
     a = p.parse_args()
 
     today = now().date()
     state = load_state()
-    done_key = f"done_{a.mode}"
-    if not (a.chat or a.dry_run or a.force) and state.get(done_key) == today.isoformat():
-        print(f"{a.mode}: сегодня уже опубликовано, пропускаю")
+    test = bool(a.chat or a.vk_test)
+    # Куда публикуем. ВК — только если заданы VK_TOKEN и VK_GROUP_ID.
+    vk_ready = bool(os.environ.get("VK_TOKEN") and os.environ.get("VK_GROUP_ID"))
+    targets = {"tg": a.only != "vk" and not a.vk_test,
+               "vk": vk_ready and a.only != "tg" and (a.vk_test or not a.chat)}
+    if a.vk_test and not vk_ready:
+        raise SystemExit("для --vk-test нужны VK_TOKEN и VK_GROUP_ID")
+    keys = {"tg": f"done_{a.mode}", "vk": f"done_vk_{a.mode}"}
+    if not (test or a.dry_run or a.force):
+        for t in targets:
+            if targets[t] and state.get(keys[t]) == today.isoformat():
+                print(f"{a.mode} ({t}): сегодня уже опубликовано, пропускаю")
+                targets[t] = False
+    if not a.dry_run and not any(targets.values()):
         return
 
     build = {"morning": post_morning, "day": post_day, "history": post_history,
@@ -463,19 +520,35 @@ def main():
         print(caption)
         return
 
-    token, chat = os.environ["UTRO_BOT_TOKEN"], a.chat or CHANNEL
-    # Подпись к фото в Telegram — не длиннее 1024 знаков. Длинный текст идёт следом
-    # отдельным сообщением, а под открыткой — короткая подпись.
-    if len(caption) <= 1024 or not rest:
-        send_photo(token, chat, img, caption[:1024])
-    else:
-        send_photo(token, chat, img, rest[0])
-        tg_call(token, "sendMessage", {"chat_id": chat, "text": caption, "parse_mode": "HTML",
-                                       "link_preview_options": json.dumps({"is_disabled": True})})
-    print(f"{a.mode}: отправлено в {a.chat or CHANNEL}")
-    if not a.chat:
-        state[done_key] = today.isoformat()
+    errors = []
+    if targets["tg"]:
+        token, chat = os.environ["UTRO_BOT_TOKEN"], a.chat or CHANNEL
+        # Подпись к фото в Telegram — не длиннее 1024 знаков. Длинный текст идёт следом
+        # отдельным сообщением, а под открыткой — короткая подпись.
+        if len(caption) <= 1024 or not rest:
+            send_photo(token, chat, img, caption[:1024])
+        else:
+            send_photo(token, chat, img, rest[0])
+            tg_call(token, "sendMessage", {"chat_id": chat, "text": caption, "parse_mode": "HTML",
+                                           "link_preview_options": json.dumps({"is_disabled": True})})
+        print(f"{a.mode}: отправлено в {chat}")
+        if not test:
+            state[keys["tg"]] = today.isoformat()
+
+    if targets["vk"]:
+        # Сбой ВК не должен мешать Telegram: запоминаем ошибку и сообщаем о ней в конце.
+        try:
+            post_id = vk_post(img, caption, delayed=a.vk_test)
+            print(f"{a.mode}: ВК, запись {post_id}" + (" (отложенная, на завтра)" if a.vk_test else ""))
+            if not test:
+                state[keys["vk"]] = today.isoformat()
+        except Exception as e:
+            errors.append(f"ВК: {e}")
+
+    if not test:
         save_state(state)
+    if errors:
+        raise SystemExit("; ".join(errors))
 
 
 if __name__ == "__main__":
