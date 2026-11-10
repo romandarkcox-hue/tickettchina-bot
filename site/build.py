@@ -39,7 +39,7 @@ SECTIONS = [
         "slug": "turciya",
         "country": "Турцию",
         "country_nom": "Турция",
-        "channel": "antalya_istanbul_bilety",
+        "channel": "bilety_v_turciyu",
         "channel_pitch": "каждый день 15 самых дешёвых билетов в Анталью и Стамбул из России и СНГ",
     },
     {

@@ -24,7 +24,7 @@ jobs:
             config: config.toml
             state: state.json
             group: post
-          - channel: "@antalya_istanbul_bilety"
+          - channel: "@bilety_v_turciyu"
             config: config_turkey.toml
             state: state_turkey.json
             group: post-turkey

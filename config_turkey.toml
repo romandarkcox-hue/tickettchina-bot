@@ -1,8 +1,8 @@
-# Настройки бота для канала @antalya_istanbul_bilety
+# Настройки бота для канала @bilety_v_turciyu
 
 [telegram]
 # Канал, куда публиковать. Бот должен быть администратором канала с правом публикации.
-chat_id = "@antalya_istanbul_bilety"
+chat_id = "@bilety_v_turciyu"
 # Переменная окружения с токеном бота этого канала (@publicerturok_bot)
 bot_token_env = "TURKEY_BOT_TOKEN"
 # Где помнить, что уже опубликовано

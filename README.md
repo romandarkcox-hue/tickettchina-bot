@@ -5,7 +5,7 @@
 | Канал | Настройки | Воркфлоу | Посты |
 |---|---|---|---|
 | @tickettchina (Китай) | `config.toml`, `state.json` | `post.yml` | 9:15–15:45, каждые 30 минут |
-| @antalya_istanbul_bilety (Турция) | `config_turkey.toml`, `state_turkey.json` | `post_turkey.yml` | 9:00–16:30, каждые 30 минут |
+| @bilety_v_turciyu (Турция) | `config_turkey.toml`, `state_turkey.json` | `post_turkey.yml` | 9:00–16:30, каждые 30 минут |
 
 Первый запуск дня проверяет цены по всем направлениям из настроек и составляет очередь:
 самые дешёвые билеты вперемешку с самыми популярными направлениями, плюс самый дешёвый

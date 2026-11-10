@@ -56,4 +56,4 @@ jobs:
         run: |
           curl -s "https://api.telegram.org/bot${TURKEY_BOT_TOKEN}/sendMessage" \
             --data-urlencode "chat_id=${ADMIN_CHAT_ID}" \
-            --data-urlencode "text=❌ Сбой автопостинга в @antalya_istanbul_bilety. Подробности: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            --data-urlencode "text=❌ Сбой автопостинга в @bilety_v_turciyu. Подробности: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
