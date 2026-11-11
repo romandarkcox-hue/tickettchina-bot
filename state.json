@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "CAN-MOW-2026-11-15-23128",
-      "time": 1793794535.5235133
-    },
-    {
       "id": "SHA-MOW-2026-11-14-26478",
       "time": 1793796335.704095
     },
@@ -363,29 +359,13 @@
     {
       "id": "BJS-MOW-2026-12-02-18249",
       "time": 1794397536.4706476
+    },
+    {
+      "id": "SHA-MOW-2026-11-19-11805",
+      "time": 1794399336.3191335
     }
   ],
   "last_run": "2026-10-27",
-  "queue": [
-    {
-      "flight_number": "6650",
-      "link": "/search/SHA1211MOW1?t=SU17944527001794551100001940PVGKJASVO_812eba2b681e5e2bba66cdeebbff2631_25498&search_date=11112026&expected_price_uuid=01a1c939-641d-8030-ef84-9cffdfe26a9f&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=qIKyutnRfAOmcvqgl3paKg&expected_price_source=share&expected_price_currency=rub&expected_price=25498",
-      "origin_airport": "PVG",
-      "destination_airport": "SVO",
-      "departure_at": "2026-11-12T03:05:00+08:00",
-      "airline": "FV",
-      "destination": "MOW",
-      "origin": "SHA",
-      "price": 25498,
-      "gate": "OneTwoTrip",
-      "return_transfers": 0,
-      "duration": 1940,
-      "duration_to": 660,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 22,
-      "reverse": true
-    }
-  ],
+  "queue": [],
   "queue_date": "2026-11-11"
 }
