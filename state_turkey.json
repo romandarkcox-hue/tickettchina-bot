@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "AYT-MOW-2026-12-02-10980",
-      "time": 1793793661.1650221
-    },
-    {
       "id": "IST-TAS-2026-11-22-13034",
       "time": 1793795453.8858337
     },
@@ -423,28 +419,13 @@
     {
       "id": "AYT-MOW-2026-12-09-8366",
       "time": 1794396652.030081
+    },
+    {
+      "id": "AYT-SVX-2026-12-08-14263",
+      "time": 1794398466.402112
     }
   ],
   "queue": [
-    {
-      "flight_number": "5052",
-      "link": "/search/AYT0812SVX1?t=DP17967576001796879700001915AYTAERSVX_a4b5ecaa7b86497ea633f1b4239c2f86_12019&search_date=11112026&expected_price_uuid=01a1c918-68c6-8031-28da-437471b590c0&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=Z5NNmFs8cQF4NqY-KdnCAw&expected_price_source=share&expected_price_currency=rub&expected_price=12020",
-      "origin_airport": "AYT",
-      "destination_airport": "SVX",
-      "departure_at": "2026-12-08T19:20:00+03:00",
-      "airline": "A4",
-      "destination": "SVX",
-      "origin": "AYT",
-      "price": 12020,
-      "gate": "OneTwoTrip",
-      "return_transfers": 0,
-      "duration": 1915,
-      "duration_to": 350,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "840",
       "link": "/search/AYT0712LED1?t=DP17966478001796722500001245AYTVKOSVOLED_a4710a8bc98549526cf1a5d521035555_12972&search_date=11112026&expected_price_uuid=01a1c901-089f-8031-69f9-6674cccc87bc&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=p2Fk2VzehDluYL_0XqYZ1g&expected_price_source=share&expected_price_currency=rub&expected_price=12973",
