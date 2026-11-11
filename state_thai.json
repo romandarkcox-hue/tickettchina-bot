@@ -3,27 +3,13 @@
     {
       "id": "TAS-HKT-2026-11-23-13929",
       "time": 1794378219.2192447
+    },
+    {
+      "id": "MOW-BKK-2026-11-27-23014",
+      "time": 1794379840.4450026
     }
   ],
   "queue": [
-    {
-      "flight_number": "7942",
-      "link": "/search/MOW2711BKK1?t=GS17957937001795862400000905SVOCKGBKK_e835d378c2d4160ac64f16d4c214e45f_23015&search_date=11112026&expected_price_uuid=01a1c93d-c542-8030-e57f-7de4b0332f03&static_fare_key=TY%7CP1%7CH1%7CL1_1_0%7CCH0%7CR0%7CTBC1&itinerary_key=RyKq3INFmYF_gqszZ6azMQ&expected_price_source=share&expected_price_currency=rub&expected_price=23015",
-      "origin_airport": "SVO",
-      "destination_airport": "BKK",
-      "departure_at": "2026-11-27T15:35:00+03:00",
-      "airline": "GS",
-      "destination": "BKK",
-      "origin": "MOW",
-      "price": 23015,
-      "gate": "Biletix",
-      "return_transfers": 0,
-      "duration": 905,
-      "duration_to": 720,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 7.813103448275863
-    },
     {
       "flight_number": "525",
       "link": "/search/TAS1611BKK1?t=C617948661001794897600000405TASBKK_7f93a5b5a0521c9138e733a8682a52bb_13932&search_date=11112026&expected_price_uuid=01a1c93e-6482-8030-651b-fb3a6649e59e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=UFvcF_icv72ZZGPYnPZcSQ&expected_price_source=share&expected_price_currency=rub&expected_price=13932",
