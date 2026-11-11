@@ -223,46 +223,13 @@
     {
       "id": "MSQ-DXB-2026-11-12-10420",
       "time": 1794386130.0294616
+    },
+    {
+      "id": "DXB-TAS-2026-11-16-10955",
+      "time": 1794387932.3748825
     }
   ],
   "queue": [
-    {
-      "flight_number": "6032",
-      "link": "/search/EVN2711DXB1?t=A417958156001795921200001760EVNMRVDWC_69987e03e5690774ba546cf2f5d84392_14597&search_date=10112026&expected_price_uuid=01a1c6c8-8aa8-8031-67a8-7ea755480bea&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=l-APsPAsIg00gaXhoao03A&expected_price_source=share&expected_price_currency=rub&expected_price=14596",
-      "origin_airport": "EVN",
-      "destination_airport": "DWC",
-      "departure_at": "2026-11-27T21:40:00+04:00",
-      "airline": "A4",
-      "destination": "DXB",
-      "origin": "EVN",
-      "price": 14596,
-      "gate": "Azimuth",
-      "return_transfers": 0,
-      "duration": 1760,
-      "duration_to": 325,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 9.779233716475096
-    },
-    {
-      "flight_number": "352",
-      "link": "/search/DXB1411TAS1?t=C617946588001794678600000270DXBTAS_fe320da338a1de315a3bd310e665205b_10952&search_date=11112026&expected_price_uuid=01a1c8f9-2b10-8030-af13-128fcca3114b&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=p_rYp1RxYEvhYmVy5j170Q&expected_price_source=share&expected_price_currency=rub&expected_price=10952",
-      "origin_airport": "DXB",
-      "destination_airport": "TAS",
-      "departure_at": "2026-11-14T12:20:00+04:00",
-      "airline": "C6",
-      "destination": "TAS",
-      "origin": "DXB",
-      "price": 10952,
-      "gate": "Biletix",
-      "return_transfers": 0,
-      "duration": 270,
-      "duration_to": 270,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "794",
       "link": "/search/DXB1711MOW1?t=DP17949396001794959100000385DWCVKO_69e3ef63b4a288bfc53578c527229145_13037&search_date=11112026&expected_price_uuid=01a1c933-1c71-8031-60e8-2921cb70ab4c&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=zRBapLSVxbfPM8yiVkRBng&expected_price_source=share&expected_price_currency=rub&expected_price=13037",
