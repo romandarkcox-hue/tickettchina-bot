@@ -7,27 +7,13 @@
     {
       "id": "MOW-BKK-2026-11-27-23014",
       "time": 1794379840.4450026
+    },
+    {
+      "id": "TAS-BKK-2026-11-16-14023",
+      "time": 1794381639.1558073
     }
   ],
   "queue": [
-    {
-      "flight_number": "525",
-      "link": "/search/TAS1611BKK1?t=C617948661001794897600000405TASBKK_7f93a5b5a0521c9138e733a8682a52bb_13932&search_date=11112026&expected_price_uuid=01a1c93e-6482-8030-651b-fb3a6649e59e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=UFvcF_icv72ZZGPYnPZcSQ&expected_price_source=share&expected_price_currency=rub&expected_price=13932",
-      "origin_airport": "TAS",
-      "destination_airport": "BKK",
-      "departure_at": "2026-11-16T21:55:00+05:00",
-      "airline": "C6",
-      "destination": "BKK",
-      "origin": "TAS",
-      "price": 13932,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 405,
-      "duration_to": 405,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 0
-    },
     {
       "flight_number": "865",
       "link": "/search/ALA2311HKT1?t=XJ17953932001795478100001295ALADMKBKKHKT_0cd71bb5a9796a3e2d03020ed404873d_23973&search_date=11112026&expected_price_uuid=01a1c90f-ee36-8030-e055-87afeed0649e&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=8Uc85h6VUZEyrB0mj5d9KA&expected_price_source=share&expected_price_currency=rub&expected_price=23973",
