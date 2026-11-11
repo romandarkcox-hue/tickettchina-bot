@@ -231,28 +231,12 @@
     {
       "id": "DXB-MOW-2026-11-18-13077",
       "time": 1794389729.8506765
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "300",
-      "link": "/search/SHJ1411BAK1?t=G917946537001794669600000265SHJGYD_97fdebd905cf91ca806fea3c3c37eb89_15119&search_date=10112026&expected_price_uuid=01a1c6b1-6e93-8030-255d-350974f381ad&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=OwUP1g9CA4-pg1yJQ0cxQQ&expected_price_source=share&expected_price_currency=rub&expected_price=15118",
-      "origin_airport": "SHJ",
-      "destination_airport": "GYD",
-      "departure_at": "2026-11-14T10:55:00+04:00",
-      "airline": "G9",
-      "destination": "BAK",
-      "origin": "SHJ",
-      "price": 15118,
-      "gate": "Farera",
-      "return_transfers": 0,
-      "duration": 265,
-      "duration_to": 265,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 18,
-      "reverse": true
+      "id": "SHJ-BAK-2026-11-14-15118",
+      "time": 1794391531.4173937
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-11"
 }
