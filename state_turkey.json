@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "BAK-IST-2026-12-03-6293",
-      "time": 1793777452.4413269
-    },
-    {
       "id": "KRR-AYT-2026-11-04-4515",
       "time": 1793779260.8385162
     },
@@ -423,27 +419,13 @@
     {
       "id": "AER-IST-2026-11-16-6720",
       "time": 1794382250.5623405
+    },
+    {
+      "id": "MOW-IST-2026-11-13-4756",
+      "time": 1794384060.3696537
     }
   ],
   "queue": [
-    {
-      "flight_number": "995",
-      "link": "/search/MOW2311IST1?t=DP17954172001795436100000315VKOIST_f631b4c5c1b88bf8e98a00b9e5bea977_5048&search_date=11112026&expected_price_uuid=01a1c92a-ef93-8031-61f1-ce2c8cb9298e&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=koeZvs5OW2AIKijvqz1lqQ&expected_price_source=share&expected_price_currency=rub&expected_price=5048",
-      "origin_airport": "VKO",
-      "destination_airport": "IST",
-      "departure_at": "2026-11-23T07:00:00+03:00",
-      "airline": "DP",
-      "destination": "IST",
-      "origin": "MOW",
-      "price": 5048,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 315,
-      "duration_to": 315,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 24.123563218390807
-    },
     {
       "flight_number": "551",
       "link": "/search/EVN0412IST1?t=PC17963577001796362800000145EVNSAW_c945a515f2d0991ed342f4f86f0db982_6849&search_date=11112026&expected_price_uuid=01a1c907-6baf-8030-6b43-310d626193c7&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=GIM3yhbqSs_9Ohpld8BOLg&expected_price_source=share&expected_price_currency=rub&expected_price=6849",
