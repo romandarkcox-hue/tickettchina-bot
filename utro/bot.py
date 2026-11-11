@@ -469,15 +469,33 @@ def vk_text(caption):
 def vk_post(img, caption, delayed=False):
     """Открытка с текстом на стену сообщества. delayed — отложенная запись на завтра (для проверки)."""
     gid = os.environ["VK_GROUP_ID"].lstrip("-")
-    server = vk_call("photos.getWallUploadServer", group_id=gid)
-    up = post_multipart(server["upload_url"], {}, img)
-    photo = vk_call("photos.saveWallPhoto", group_id=gid, server=up["server"],
-                    photo=up["photo"], hash=up["hash"])[0]
+
+    def upload():
+        server = vk_call("photos.getWallUploadServer", group_id=gid)
+        up = post_multipart(server["upload_url"], {}, img)
+        return vk_call("photos.saveWallPhoto", group_id=gid, server=up["server"],
+                       photo=up["photo"], hash=up["hash"])[0]
+
+    photo = vk_retry(upload, retry_on=Exception)
     params = {"owner_id": f"-{gid}", "from_group": 1, "message": vk_text(caption),
               "attachments": f"photo{photo['owner_id']}_{photo['id']}"}
     if delayed:
         params["publish_date"] = int(time.time()) + 86400
-    return vk_call("wall.post", **params)["post_id"]
+    # wall.post повторяем только при явной ошибке ВК: тогда записи точно нет.
+    # При обрыве связи запись могла создаться — повтор дал бы дубль.
+    return vk_retry(lambda: vk_call("wall.post", **params), retry_on=RuntimeError)["post_id"]
+
+
+def vk_retry(fn, retry_on, attempts=3, pause=45):
+    """ВК иногда разово сбоит (например, «photo is undefined») — пробуем ещё пару раз."""
+    for i in range(1, attempts + 1):
+        try:
+            return fn()
+        except retry_on as e:
+            if i == attempts:
+                raise
+            print(f"ВК: попытка {i} не удалась ({e}), повтор через {pause} с", file=sys.stderr)
+            time.sleep(pause)
 
 
 def main():
