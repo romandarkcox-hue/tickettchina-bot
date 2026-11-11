@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "VVO-SHA-2026-11-14-9876",
-      "time": 1793774739.4262238
-    },
-    {
-      "id": "VVO-HRB-2026-11-20-6311",
-      "time": 1793776534.9760041
-    },
-    {
       "id": "ALA-URC-2026-11-10-10814",
       "time": 1793778336.2652905
     },
@@ -359,28 +351,14 @@
     {
       "id": "KJA-HRB-2026-11-26-11518",
       "time": 1794379539.2103553
+    },
+    {
+      "id": "VVO-YNJ-2026-12-01-9290",
+      "time": 1794381339.3822138
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "878",
-      "link": "/search/VVO0112YNJ1?t=KN17961519001796202900000970VVOPKXYNJ_a1420c01f07d4deed2923806a3c68be1_9296&search_date=05112026&expected_price_uuid=01a1ac7f-13e0-8030-abfe-88894546f555&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=DFRzVpVrzGMHUsS9d6wIBQ&expected_price_source=share&expected_price_currency=rub&expected_price=9290",
-      "origin_airport": "VVO",
-      "destination_airport": "YNJ",
-      "departure_at": "2026-12-01T19:05:00+10:00",
-      "airline": "KN",
-      "destination": "YNJ",
-      "origin": "VVO",
-      "price": 9290,
-      "gate": "Trip.com",
-      "return_transfers": 0,
-      "duration": 970,
-      "duration_to": 310,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 20
-    },
     {
       "flight_number": "6402",
       "link": "/search/YKS1211BJS1?t=S717944647001794544500001390YKSIKTPKX_488020f3d3f4c70289f27c787e4e80f4_13398&search_date=11112026&expected_price_uuid=01a1c8fb-af1d-8030-20fc-a7e586387777&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=FSHIlOoAIRTv7KVpUXL-Kg&expected_price_source=share&expected_price_currency=rub&expected_price=13398",
