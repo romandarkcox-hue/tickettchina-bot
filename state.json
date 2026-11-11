@@ -355,28 +355,14 @@
     {
       "id": "MOW-BJS-2026-12-01-14277",
       "time": 1794386740.4852548
+    },
+    {
+      "id": "KHV-SHA-2026-11-18-9846",
+      "time": 1794388536.314806
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "6220",
-      "link": "/search/KHV1811SHA1?t=S717950353001795053900000430KHVVVOPVG_0ec9323bfffe72306f4775f7b27846fd_9810&search_date=11112026&expected_price_uuid=01a1c93b-2c71-8030-6e55-0905408af13e&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=4SSlafLpM1k6cK13MemInw&expected_price_source=share&expected_price_currency=rub&expected_price=9810",
-      "origin_airport": "KHV",
-      "destination_airport": "PVG",
-      "departure_at": "2026-11-18T20:55:00+10:00",
-      "airline": "S7",
-      "destination": "SHA",
-      "origin": "KHV",
-      "price": 9810,
-      "gate": "S7 Airlines",
-      "return_transfers": 0,
-      "duration": 430,
-      "duration_to": 320,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 21
-    },
     {
       "flight_number": "6311",
       "link": "/search/IKT2211BJS1?t=S717953113001795322100000180IKTPKX_90678dea51e739e636072e25a598746b_14635&search_date=11112026&expected_price_uuid=01a1c8d7-924f-8030-2b91-a6287772312c&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=WqKKa6om9fg6lkSbeseDXQ&expected_price_source=share&expected_price_currency=rub&expected_price=14634",
