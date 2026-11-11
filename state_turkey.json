@@ -419,27 +419,13 @@
     {
       "id": "BAK-IST-2026-12-11-7414",
       "time": 1794389451.8627691
+    },
+    {
+      "id": "KZN-AYT-2026-11-11-5927",
+      "time": 1794391260.7641418
     }
   ],
   "queue": [
-    {
-      "flight_number": "6842",
-      "link": "/search/KZN1111AYT1?t=DP17944383001794485400000785KZNSVOVKOAYT_2929d140dcd7084b7aaf96c5416ca3e5_5900&search_date=11112026&expected_price_uuid=01a1c92f-0a26-8030-aa8e-09ae0e2dd9e5&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=CasS-rqrRew1NSX9tKNTvg&expected_price_source=share&expected_price_currency=rub&expected_price=5900",
-      "origin_airport": "KZN",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-11T23:05:00+03:00",
-      "airline": "DP",
-      "destination": "AYT",
-      "origin": "KZN",
-      "price": 5900,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 785,
-      "duration_to": 415,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 13.643240284619596
-    },
     {
       "flight_number": "742",
       "link": "/search/TAS1811IST1?t=DP17949702001795018200000920TASVKOIST_97255a9cb0c6b733cb68cefd8487df8b_8976&search_date=11112026&expected_price_uuid=01a1c8f8-5f1e-8031-644d-2b89f96f57e4&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=Ohf-mG7jQ07q_KO3Px14Rw&expected_price_source=share&expected_price_currency=rub&expected_price=8977",
