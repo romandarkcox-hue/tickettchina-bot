@@ -215,27 +215,13 @@
     {
       "id": "AER-DXB-2026-11-19-10035",
       "time": 1794382530.6577413
+    },
+    {
+      "id": "MRV-DXB-2026-11-27-7758",
+      "time": 1794384331.9415402
     }
   ],
   "queue": [
-    {
-      "flight_number": "6187",
-      "link": "/search/MRV2711DXB1?t=A417957379001795755300000230MRVDWC_e8dda777b2152d4fe1b2f9206c35bb0f_7760&search_date=11112026&expected_price_uuid=01a1c936-269a-8031-2292-c29f9df7a147&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=4p9d-IG5TyK4oivdAFRPjQ&expected_price_source=share&expected_price_currency=rub&expected_price=7760",
-      "origin_airport": "MRV",
-      "destination_airport": "DWC",
-      "departure_at": "2026-11-27T00:05:00+03:00",
-      "airline": "A4",
-      "destination": "DXB",
-      "origin": "MRV",
-      "price": 7760,
-      "gate": "Azimuth",
-      "return_transfers": 0,
-      "duration": 230,
-      "duration_to": 230,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 11.12873563218391
-    },
     {
       "flight_number": "968",
       "link": "/search/MSQ1211DXB1?t=DP17945193001794580500000960MSQVKODWC_e908b722fe91386f5d0287ad39761999_10218&search_date=11112026&expected_price_uuid=01a1c934-3b6d-8030-6dff-936d50826e69&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=2EyMQdpK4CBm63EtCVjY5A&expected_price_source=share&expected_price_currency=rub&expected_price=10218",
