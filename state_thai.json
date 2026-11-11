@@ -15,27 +15,13 @@
     {
       "id": "ALA-HKT-2026-11-11-15397",
       "time": 1794383437.0376894
+    },
+    {
+      "id": "VVO-BKK-2026-11-29-16108",
+      "time": 1794385238.0441895
     }
   ],
   "queue": [
-    {
-      "flight_number": "6241",
-      "link": "/search/VVO2911BKK1?t=VZ17959350001796010600001440VVOPKXBKK_a09fdaa66526557c1aff54ae080f5fa2_16107&search_date=11112026&expected_price_uuid=01a1c934-6247-8031-6aaf-989c1288179d&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=LergK8-WISX7ppeq7F8apg&expected_price_source=share&expected_price_currency=rub&expected_price=16107",
-      "origin_airport": "VVO",
-      "destination_airport": "BKK",
-      "departure_at": "2026-11-29T06:50:00+10:00",
-      "airline": "S7",
-      "destination": "BKK",
-      "origin": "VVO",
-      "price": 16107,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 1440,
-      "duration_to": 485,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 7.677857142857143
-    },
     {
       "flight_number": "8004",
       "link": "/search/MOW2211HKT1?t=CZ17953893001795537500002230SVOCANHKT_e33cae48a7bcb0a491e4dd86f38933e4_27062&search_date=11112026&expected_price_uuid=01a1c938-48b3-8030-ae11-682b9cb40f63&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH1%7CR1%7CTBC1&itinerary_key=9itghXX9hEPji0wvpj6iUQ&expected_price_source=share&expected_price_currency=rub&expected_price=27062",
