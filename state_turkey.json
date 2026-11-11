@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "KRR-AYT-2026-11-04-4515",
-      "time": 1793779260.8385162
-    },
-    {
       "id": "LED-IST-2026-11-05-6919",
       "time": 1793781052.3804762
     },
@@ -423,27 +419,13 @@
     {
       "id": "MOW-IST-2026-11-13-4756",
       "time": 1794384060.3696537
+    },
+    {
+      "id": "EVN-IST-2026-12-06-6804",
+      "time": 1794385850.3773336
     }
   ],
   "queue": [
-    {
-      "flight_number": "551",
-      "link": "/search/EVN0412IST1?t=PC17963577001796362800000145EVNSAW_c945a515f2d0991ed342f4f86f0db982_6849&search_date=11112026&expected_price_uuid=01a1c907-6baf-8030-6b43-310d626193c7&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=GIM3yhbqSs_9Ohpld8BOLg&expected_price_source=share&expected_price_currency=rub&expected_price=6849",
-      "origin_airport": "EVN",
-      "destination_airport": "SAW",
-      "departure_at": "2026-12-04T04:15:00+04:00",
-      "airline": "PC",
-      "destination": "IST",
-      "origin": "EVN",
-      "price": 6849,
-      "gate": "City.Travel",
-      "return_transfers": 0,
-      "duration": 145,
-      "duration_to": 145,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 7.001072796934866
-    },
     {
       "flight_number": "202",
       "link": "/search/LED1211AYT1?t=DP17945217001794571800000835LEDVKOAYT_7e5ea5ff2f46bd8f40d149a525b7005b_5770&search_date=11112026&expected_price_uuid=01a1c925-007e-8031-6173-3c8826373baa&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=gTbGzOdygzKBmimIiVVfbg&expected_price_source=share&expected_price_currency=rub&expected_price=5770",
