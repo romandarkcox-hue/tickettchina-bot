@@ -31,28 +31,13 @@
     {
       "id": "BKK-MOW-2026-11-17-20735",
       "time": 1794390637.679741
+    },
+    {
+      "id": "HKT-LED-2026-11-12-23143",
+      "time": 1794392438.5953107
     }
   ],
   "queue": [
-    {
-      "flight_number": "629",
-      "link": "/search/HKT1211LED1?t=SU17944809001794507300000680HKTLED_d96e73f114f8baa5a5d4cac59d63b8d2_23122&search_date=11112026&expected_price_uuid=01a1c945-abb8-8030-227c-673efdf0b96b&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=BgyRvziJfdPzD-ydMgDtTw&expected_price_source=share&expected_price_currency=rub&expected_price=23122",
-      "origin_airport": "HKT",
-      "destination_airport": "LED",
-      "departure_at": "2026-11-12T10:55:00+07:00",
-      "airline": "SU",
-      "destination": "LED",
-      "origin": "HKT",
-      "price": 23122,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 680,
-      "duration_to": 680,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 31,
-      "reverse": true
-    },
     {
       "flight_number": "530",
       "link": "/search/HKT1311MOW1?t=C617945577001794633300001500HKTTASVKO_83f0173f429df348cb7f7ecb7903fa59_23224&search_date=11112026&expected_price_uuid=01a1c943-e174-8030-6fcb-6f659ca4bb52&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=sGWUAjh8qpA3YApq1Yqpgw&expected_price_source=share&expected_price_currency=rub&expected_price=23224",
