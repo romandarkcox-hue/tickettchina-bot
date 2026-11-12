@@ -315,6 +315,59 @@ def history_events(day):
     return sorted(out)
 
 
+# В Википедии много трагедий — для доброго канала их пропускаем.
+WIKI_SKIP = ("погиб", "катастроф", "теракт", "взрыв", "убит", "убийств", "расстрел", "давк",
+             "крушени", "казн", "резн", "жертв", "бомбардир", "землетрясени", "авари")
+
+
+def wiki_clean(s):
+    """Вики-разметку в простой текст."""
+    s = re.sub(r"<ref[^>/]*/>", "", s)
+    s = re.sub(r"<ref[^>]*>.*?</ref>", "", s, flags=re.S)
+    s = re.sub(r"<[^>]+>", "", s)
+    s = re.sub(r"\{\{(?:iw|не переведено[^|]*)\|([^|}]+)[^}]*\}\}", r"\1", s, flags=re.I)
+    for _ in range(3):  # шаблоны бывают вложенными
+        s = re.sub(r"\{\{[^{}]*\}\}", "", s)
+    s = re.sub(r"\[\[(?:Файл|File|Изображение):[^\]]*\]\]", "", s, flags=re.I)
+    s = re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]*)\]\]", r"\1", s)
+    s = re.sub(r"\[https?://\S+ ([^\]]*)\]", r"\1", s)
+    s = re.sub(r"'{2,}", "", s)
+    s = html.unescape(re.sub(r"\s+", " ", s)).strip(" .;:—-")
+    return s[:1].upper() + s[1:]
+
+
+def history_events_wiki(day, count=8):
+    """Запасной источник: раздел «События» страницы дня в ru.wikipedia.
+    Событий там десятки, поэтому берём короткие и равномерно по эпохам."""
+    title = urllib.parse.quote(f"{day.day}_{MONTHS[day.month - 1]}")
+    s = http_get(f"https://ru.wikipedia.org/w/index.php?title={title}&action=raw").decode("utf-8")
+    m = re.search(r"^==\s*События\s*==\s*$(.*?)^==[^=]", s, re.S | re.M)
+    if not m:
+        return []
+    out, year = [], 0
+    for line in m.group(1).splitlines():
+        top = re.match(r"\*(?!\*)\s*(?:\[\[)?(\d{1,4})(?: год)?(?:\|[^\]]*)?(?:\]\])?\s*(?:—|-|–|$)\s*(.*)",
+                       line)
+        if top:
+            year, text = int(top.group(1)), top.group(2)
+        elif line.startswith("**") and year:
+            text = line.lstrip("* ")
+        else:
+            if line.startswith("*") and not line.startswith("**"):
+                year = 0  # строка без года — её подпункты не привязываем к прошлому году
+            continue
+        text = wiki_clean(text)
+        low = text.lower()
+        if (20 <= len(text) <= 180 and year <= day.year - 30
+                and not any(w in low for w in SKIP_HOLIDAYS + WIKI_SKIP)):
+            out.append((year, text))
+    out.sort()
+    if len(out) <= count:
+        return out
+    step = (len(out) - 1) / (count - 1)
+    return [out[round(i * step)] for i in range(count)]
+
+
 def get_holidays(day):
     for source in (holidays_my_calend, holidays_calend):
         try:
@@ -397,9 +450,16 @@ def post_day(state, today):
 
 
 def post_history(state, today):
-    events = history_events(today)
+    try:
+        events = history_events(today)
+    except Exception as e:
+        print(f"calend.ru (события): {e}", file=sys.stderr)
+        events = []
     if not events:
-        raise RuntimeError("calend.ru не вернул исторических событий на сегодня")
+        print("calend.ru не дал событий — беру из Википедии", file=sys.stderr)
+        events = history_events_wiki(today)
+    if not events:
+        raise RuntimeError("не удалось получить события дня ни с calend.ru, ни из Википедии")
     date_str = f"{today.day} {MONTHS[today.month - 1]}"
     img = pick_photo(HISTORY_THEMES, state)
     card = make_card(img, "Этот день в истории", date_str, color=(240, 220, 180))
