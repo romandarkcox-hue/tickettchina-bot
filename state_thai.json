@@ -75,28 +75,12 @@
     {
       "id": "HKT-MOW-2026-11-15-22691",
       "time": 1794478840.5352905
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "202",
-      "link": "/search/HKT1511LED1?t=HH17947443001794813000001385HKTTASLED_917401484666351b760eb8d8f188b21e_25789&search_date=12112026&expected_price_uuid=01a1ce19-1bba-8031-202c-77c9114ccb4e&static_fare_key=TY%7CP1%7CH0%7CL1_1_20%7CCH0%7CR0%7CTBC1&itinerary_key=cUUIsBLCt87fY8_K-Y2fNA&expected_price_source=share&expected_price_currency=rub&expected_price=25789",
-      "origin_airport": "HKT",
-      "destination_airport": "LED",
-      "departure_at": "2026-11-15T12:05:00+07:00",
-      "airline": "HH",
-      "destination": "LED",
-      "origin": "HKT",
-      "price": 25789,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 1385,
-      "duration_to": 680,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
+      "id": "HKT-LED-2026-11-15-25232",
+      "time": 1794480639.2059987
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-12"
 }
