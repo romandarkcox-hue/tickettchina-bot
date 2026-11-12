@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "AYT-SVX-2026-12-04-16764",
-      "time": 1793880069.9225655
-    },
-    {
       "id": "IST-TAS-2026-11-24-13244",
       "time": 1793881854.4078984
     },
@@ -423,28 +419,12 @@
     {
       "id": "IST-TAS-2026-12-03-13586",
       "time": 1794484862.8918707
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "840",
-      "link": "/search/AYT0812SVX1?t=DP17967342001796790000000810AYTVKOSVX_7b55c1208298821298f6b5e7244921d6_13996&search_date=12112026&expected_price_uuid=01a1ce22-881a-8030-61fb-d2edfda3358b&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=k2bAeuCuEjq4U98ExQXZ1Q&expected_price_source=share&expected_price_currency=rub&expected_price=13996",
-      "origin_airport": "AYT",
-      "destination_airport": "SVX",
-      "departure_at": "2026-12-08T12:50:00+03:00",
-      "airline": "DP",
-      "destination": "SVX",
-      "origin": "AYT",
-      "price": 13996,
-      "gate": "SuperKassa",
-      "return_transfers": 0,
-      "duration": 810,
-      "duration_to": 440,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
+      "id": "AYT-SVX-2026-12-04-13630",
+      "time": 1794486651.722437
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-12"
 }
