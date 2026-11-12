@@ -44,6 +44,19 @@ SKIES = {
                      stars=0, clouds=0, dark=False, accent=(0, 112, 128)),
     "sharjah": dict(top=(8, 22, 66), bottom=(22, 92, 158), glow=(0.92, 0.05, 0.40, (70, 160, 220)),
                     stars=0, clouds=0, dark=True, accent=(240, 206, 150)),
+    # Таиланд
+    "bangkok": dict(top=(26, 8, 44), bottom=(96, 22, 96), glow=(0.95, 0.95, 0.45, (226, 52, 140)),
+                    stars=0, clouds=0, dark=True, accent=(255, 206, 96)),
+    "phuket": dict(top=(226, 248, 246), bottom=(20, 172, 188), glow=(0.90, 0.05, 0.40, (255, 252, 236)),
+                   stars=0, clouds=0, dark=False, accent=(0, 96, 120)),
+    "pattaya": dict(top=(48, 26, 92), bottom=(226, 98, 92), glow=(0.92, 1.00, 0.40, (255, 150, 90)),
+                    stars=0, clouds=0, dark=True, accent=(255, 214, 140)),
+    "krabi": dict(top=(4, 34, 32), bottom=(12, 112, 92), glow=(0.92, 0.10, 0.40, (60, 170, 130)),
+                  stars=0, clouds=0, dark=True, accent=(196, 240, 160)),
+    "samui": dict(top=(255, 244, 228), bottom=(255, 188, 156), glow=(0.92, 0.95, 0.40, (255, 222, 170)),
+                  stars=0, clouds=0, dark=False, accent=(206, 72, 52)),
+    "chiangmai": dict(top=(12, 14, 42), bottom=(46, 28, 66), glow=(0.92, 0.92, 0.45, (236, 132, 56)),
+                      stars=0, clouds=0, dark=True, accent=(255, 182, 96)),
 }
 # Популярные города — вручную, чтобы соседние по популярности не совпадали
 CITY_SKY = {
