@@ -55,27 +55,13 @@
     {
       "id": "ALA-HKT-2026-11-23-24259",
       "time": 1794469837.3018231
+    },
+    {
+      "id": "TAS-HKT-2026-11-21-15322",
+      "time": 1794471637.500817
     }
   ],
   "queue": [
-    {
-      "flight_number": "527",
-      "link": "/search/TAS2611HKT1?t=C617956656001795695300000375TASHKT_91a486b548d0b86160a98f7855dddc3e_16374&search_date=12112026&expected_price_uuid=01a1ce3d-ce7e-8031-2b15-dbeba460adae&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=6MywFBjgr4dMKAz_A6v0wg&expected_price_source=share&expected_price_currency=rub&expected_price=16374",
-      "origin_airport": "TAS",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-26T04:00:00+05:00",
-      "airline": "C6",
-      "destination": "HKT",
-      "origin": "TAS",
-      "price": 16374,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 375,
-      "duration_to": 375,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 0
-    },
     {
       "flight_number": "8028",
       "link": "/search/MOW1012HKT1?t=CZ17969142001797006300001295SVOCANHKT_eb513edfcadb606d6ffe649f81544db8_27030&search_date=12112026&expected_price_uuid=01a1ce68-22ac-8030-27d5-8e55bf7204f9&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH1%7CR1%7CTBC1&itinerary_key=49PYoJkreBBQEh0CLKKwLg&expected_price_source=share&expected_price_currency=rub&expected_price=27031",
