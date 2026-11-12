@@ -7,6 +7,7 @@ import io
 import json
 import os
 import random
+import re
 import urllib.parse
 import urllib.request
 import zlib
@@ -133,14 +134,65 @@ PHOTO_BAD_TAGS = {"woman", "women", "girl", "man", "men", "boy", "people", "pers
                   "female", "male", "child", "children", "couple", "wedding", "text", "logo"}
 
 
+# Фото городов вылета — для обратных билетов (фон — город, куда летим).
+# Код города: (темы поиска на Pixabay, слова, одно из которых должно быть в тегах фото)
+HOME_CITY_PHOTOS = {
+    "MOW": (["moscow kremlin", "red square moscow", "moscow city", "moscow"], ["moscow", "kremlin", "red square", "moskva"]),
+    "LED": (["saint petersburg", "st petersburg russia", "hermitage petersburg", "peterhof", "neva river"],
+            ["petersburg", "peterhof", "hermitage", "neva", "sankt"]),
+    "KZN": (["kazan kremlin", "kazan"], ["kazan"]),
+    "SVX": (["yekaterinburg", "ekaterinburg"], ["yekaterinburg", "ekaterinburg"]),
+    "OVB": (["novosibirsk"], ["novosibirsk"]),
+    "KRR": (["krasnodar"], ["krasnodar"]),
+    "AER": (["sochi", "krasnaya polyana"], ["sochi", "krasnaya polyana"]),
+    "UFA": (["ufa bashkortostan", "ufa russia"], ["ufa"]),
+    "KUF": (["samara russia", "samara volga"], ["samara"]),
+    "KJA": (["krasnoyarsk"], ["krasnoyarsk"]),
+    "KGD": (["kaliningrad"], ["kaliningrad"]),
+    "PEE": (["perm russia"], ["perm"]),
+    "CEK": (["chelyabinsk"], ["chelyabinsk"]),
+    "MRV": (["pyatigorsk", "kislovodsk"], ["pyatigorsk", "kislovodsk"]),
+    "TJM": (["tyumen"], ["tyumen"]),
+    "GOJ": (["nizhny novgorod"], ["nizhny novgorod", "nizhny"]),
+    "VOG": (["volgograd", "mamayev kurgan"], ["volgograd", "mamayev"]),
+    "OMS": (["omsk"], ["omsk"]),
+    "SGC": (["surgut"], ["surgut"]),
+    "IKT": (["irkutsk", "baikal"], ["irkutsk", "baikal"]),
+    "VVO": (["vladivostok"], ["vladivostok"]),
+    "KHV": (["khabarovsk"], ["khabarovsk"]),
+    "ALA": (["almaty"], ["almaty"]),
+    "NQZ": (["astana", "baiterek"], ["astana", "baiterek", "nur-sultan"]),
+    "CIT": (["shymkent"], ["shymkent"]),
+    "TAS": (["tashkent"], ["tashkent"]),
+    "SKD": (["samarkand", "registan"], ["samarkand", "registan"]),
+    "MSQ": (["minsk"], ["minsk"]),
+    "EVN": (["yerevan"], ["yerevan"]),
+    "BAK": (["baku", "baku flame towers"], ["baku"]),
+    "TBS": (["tbilisi"], ["tbilisi"]),
+    "BSZ": (["bishkek"], ["bishkek"]),
+    "OSS": (["osh kyrgyzstan"], ["osh"]),
+    "DYU": (["dushanbe"], ["dushanbe"]),
+}
+
+
 def fetch_sky_photo(used_ids, key=None, tries=3):
     """Случайное фото неба, которого ещё не было (по id). Возвращает (PIL.Image, id)."""
+    return fetch_photo(PHOTO_QUERIES, used_ids, key, tries)
+
+
+def fetch_photo(queries, used_ids, key=None, tries=3, must_tags=None):
+    """Случайное фото с Pixabay по одной из тем; сначала те, которых ещё не было (по id).
+    must_tags — фото подходит, только если в его тегах есть одно из этих слов целиком
+    (Pixabay ищет неточно: по «phaselis» находит фазы Луны). Если новых фото не осталось —
+    берёт уже использованное. Возвращает (PIL.Image, id)."""
     key = key or os.environ.get("PIXABAY_KEY")
     if not key:
         raise RuntimeError("не задан PIXABAY_KEY")
     ua = {"User-Agent": "Mozilla/5.0 (compatible; tickettchina-bot/1.0)"}
-    queries = PHOTO_QUERIES[:]
+    patterns = [re.compile(r"\b" + re.escape(m.lower()) + r"\b") for m in (must_tags or [])]
+    queries = list(queries)
     random.shuffle(queries)
+    seen = []
     for q in queries[:tries]:
         params = urllib.parse.urlencode({
             "key": key, "q": q, "image_type": "photo", "orientation": "horizontal",
@@ -148,27 +200,35 @@ def fetch_sky_photo(used_ids, key=None, tries=3):
         })
         req = urllib.request.Request("https://pixabay.com/api/?" + params, headers=ua)
         hits = json.load(urllib.request.urlopen(req, timeout=30)).get("hits", [])
-        fresh = [h for h in hits if h["id"] not in used_ids
-                 and not PHOTO_BAD_TAGS & {t.strip() for t in h.get("tags", "").lower().split(",")}]
+        good = [h for h in hits
+                if not PHOTO_BAD_TAGS & {t.strip() for t in h.get("tags", "").lower().split(",")}
+                and (not patterns or any(p.search(h.get("tags", "").lower()) for p in patterns))]
+        fresh = [h for h in good if h["id"] not in used_ids]
+        seen += good
         if fresh:
-            hit = random.choice(fresh[:40])
-            req = urllib.request.Request(hit["largeImageURL"], headers=ua)
-            data = urllib.request.urlopen(req, timeout=60).read()
-            return Image.open(io.BytesIO(data)), hit["id"]
-    raise RuntimeError("Pixabay не нашёл новых фото неба")
+            return _download(random.choice(fresh[:40]), ua)
+    if seen:  # новые закончились — повторяем
+        return _download(random.choice(seen), ua)
+    raise RuntimeError(f"Pixabay не нашёл фото: {', '.join(queries)}")
+
+
+def _download(hit, ua):
+    req = urllib.request.Request(hit["largeImageURL"], headers=ua)
+    data = urllib.request.urlopen(req, timeout=60).read()
+    return Image.open(io.BytesIO(data)), hit["id"]
 
 
 def photo_background(photo, w, h):
     """Фото на весь кадр (обрезка по центру) + затемнение слева и снизу, где текст."""
     from PIL import ImageOps
     img = ImageOps.fit(photo.convert("RGB"), (w, h), Image.LANCZOS)
-    img = img.filter(ImageFilter.GaussianBlur(w * 0.0015))
+    img = img.filter(ImageFilter.GaussianBlur(w * 0.002))
     shade = Image.new("L", (256, 256))
     for x in range(256):
         for y in range(256):
             left = 1 - x / 255
             bottom = max(0, (y / 255 - 0.5) / 0.5)
-            shade.putpixel((x, y), int(60 + 120 * left ** 1.5 + 70 * bottom ** 1.5))
+            shade.putpixel((x, y), min(235, int(80 + 130 * left ** 1.4 + 70 * bottom ** 1.5)))
     dark = Image.new("RGB", (w, h), (8, 10, 28))
     return Image.composite(dark, img, shade.resize((w, h), Image.BICUBIC))
 

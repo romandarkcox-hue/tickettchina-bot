@@ -45,6 +45,28 @@ hours = [9, 17]
 # Не повторять тот же билет (направление + дата вылета + цена) N дней. 0 — не проверять.
 skip_same_ticket_days = 7
 
+[card]
+# Картинка к каждому посту (card.py). Тест: python bot.py --config config_turkey.toml --card --chat ID
+enabled = true
+# Фон — фото города, куда летим (у обратного билета — домашний город, список в card.py).
+# Города нет ни здесь, ни в card.py — фото неба.
+city_photos = true
+
+# Разные места турецких городов: темы поиска на Pixabay (на английском)
+[card.photos]
+IST = ["istanbul", "bosphorus bridge", "blue mosque istanbul", "sultanahmet", "hagia sophia",
+       "galata tower", "maidens tower istanbul", "ortakoy mosque", "suleymaniye", "dolmabahce",
+       "istanbul skyline", "istanbul ferry", "golden horn istanbul", "istiklal tram", "grand bazaar istanbul"]
+AYT = ["antalya", "kaleici", "antalya old town", "antalya harbor", "antalya marina", "duden waterfall",
+       "konyaalti", "lara beach", "antalya cliffs", "antalya beach", "antalya coast", "yivli minaret"]
+
+# Фото подходит, только если в его тегах есть одно из этих слов — чтобы не попадали чужие места
+[card.photo_tags]
+IST = ["istanbul", "bosphorus", "bosporus", "galata", "sultanahmet", "hagia", "maiden", "kızkulesi",
+       "kiz kulesi", "ortaköy", "ortakoy", "süleymaniye", "suleymaniye", "dolmabahçe", "dolmabahce", "üsküdar", "uskudar",
+       "eminönü", "eminonu", "beyoğlu", "beyoglu", "karaköy", "karakoy", "golden horn", "taksim", "istiklal"]
+AYT = ["antalya", "kaleiçi", "kaleici", "düden", "duden", "konyaaltı", "konyaalti", "lara", "yivli"]
+
 [links]
 # Партнёрский marker Travelpayouts. Пусто — ссылки без партнёрки.
 marker = "794600"

@@ -255,16 +255,35 @@ WEEKDAYS_FULL = ["понедельник", "вторник", "среда", "че
 
 
 def make_ticket_card(ticket, cfg, state):
-    """Картинка к посту (card.py): фото неба с Pixabay, а если не вышло — нарисованное небо.
+    """Картинка к посту (card.py): фото с Pixabay (город из [card.photos] или небо),
+    а если не вышло — нарисованное небо.
     Pillow нужен только здесь, поэтому импорт внутри."""
-    from card import fetch_sky_photo, make_card
+    from card import HOME_CITY_PHOTOS, fetch_photo, fetch_sky_photo, make_card
     photo = None
-    try:
-        used = set(state.get("used_photos", []))
-        photo, photo_id = fetch_sky_photo(used)
-        state["used_photos"] = (state.get("used_photos", []) + [photo_id])[-2000:]
-    except Exception as e:
-        print(f"Фото неба не получено, рисую небо сам: {e}", file=sys.stderr)
+    abroad = ticket["origin"] if ticket.get("reverse") else ticket["destination"]
+    card_cfg = cfg.get("card", {})
+    # Фон — город прилёта, если в [card] включено city_photos (у обратного билета — домашний город).
+    # Темы и теги — из [card.photos]/[card.photo_tags] или из HOME_CITY_PHOTOS. Иначе — фото неба.
+    queries = must = None
+    if card_cfg.get("city_photos"):
+        city = ticket["destination"]
+        queries = card_cfg.get("photos", {}).get(city)
+        must = card_cfg.get("photo_tags", {}).get(city)
+        if not queries and city in HOME_CITY_PHOTOS:
+            queries, must = HOME_CITY_PHOTOS[city]
+    used = set(state.get("used_photos", []))
+    for attempt in ((lambda: fetch_photo(queries, used, tries=len(queries), must_tags=must)) if queries else None,
+                    lambda: fetch_sky_photo(used)):
+        if not attempt:
+            continue
+        try:
+            photo, photo_id = attempt()
+            state["used_photos"] = (state.get("used_photos", []) + [photo_id])[-2000:]
+            break
+        except Exception as e:
+            print(f"Фото не получено: {e}", file=sys.stderr)
+    else:
+        print("Рисую небо сам.", file=sys.stderr)
     cities = cfg["cities"]
     d = datetime.fromisoformat(ticket["departure_at"])
     transfers = ticket.get("transfers", 0)
@@ -281,7 +300,7 @@ def make_ticket_card(ticket, cfg, state):
         details,
         cfg["telegram"]["chat_id"],
         "в одну сторону" if cfg["search"]["one_way"] else "туда-обратно",
-        sky_key=ticket["origin"] if ticket.get("reverse") else ticket["destination"],
+        sky_key=abroad,
         photo=photo,
     )
 
