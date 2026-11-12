@@ -63,27 +63,13 @@
     {
       "id": "MOW-HKT-2026-12-10-27206",
       "time": 1794473437.54792
+    },
+    {
+      "id": "LED-BKK-2026-12-07-27089",
+      "time": 1794475239.1074264
     }
   ],
   "queue": [
-    {
-      "flight_number": "7966",
-      "link": "/search/LED0612BKK1?t=HU17965878001796686500001405LEDPEKBKK_40108f05b386ca10533623f510df7429_27089&search_date=12112026&expected_price_uuid=01a1ce62-428c-8030-6509-f72e64cb3400&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH1%7CR1%7CTBC1&itinerary_key=RUFdz4SNMxwFIx_Vsuhpzw&expected_price_source=share&expected_price_currency=rub&expected_price=27090",
-      "origin_airport": "LED",
-      "destination_airport": "BKK",
-      "departure_at": "2026-12-06T20:10:00+03:00",
-      "airline": "HU",
-      "destination": "BKK",
-      "origin": "LED",
-      "price": 27090,
-      "gate": "Biletix",
-      "return_transfers": 0,
-      "duration": 1405,
-      "duration_to": 785,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 0
-    },
     {
       "flight_number": "6308",
       "link": "/search/BKK1311MOW1?t=SU17945691001794750000003255BKKIKTSVO_bc76c9ec08efe8ea96b46278e6d29835_17463&search_date=12112026&expected_price_uuid=01a1ce62-4c82-8030-e2dc-bf95c210e149&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=hbv8usJC67ocl7gfLk0Z9Q&expected_price_source=share&expected_price_currency=rub&expected_price=17463",
