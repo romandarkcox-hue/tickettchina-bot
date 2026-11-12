@@ -271,8 +271,10 @@ def make_ticket_card(ticket, cfg, state):
         must = card_cfg.get("photo_tags", {}).get(city)
         if not queries and city in HOME_CITY_PHOTOS:
             queries, must = HOME_CITY_PHOTOS[city]
+    # [card.gradients]: без фото — градиент «в цветах города» (SKIES в card.py)
+    gradient = card_cfg.get("gradients", {}).get(abroad)
     used = set(state.get("used_photos", []))
-    for attempt in ((lambda: fetch_photo(queries, used, tries=len(queries), must_tags=must)) if queries else None,
+    for attempt in [] if gradient else ((lambda: fetch_photo(queries, used, tries=len(queries), must_tags=must)) if queries else None,
                     lambda: fetch_sky_photo(used)):
         if not attempt:
             continue
@@ -283,7 +285,8 @@ def make_ticket_card(ticket, cfg, state):
         except Exception as e:
             print(f"Фото не получено: {e}", file=sys.stderr)
     else:
-        print("Рисую небо сам.", file=sys.stderr)
+        if not gradient:
+            print("Рисую небо сам.", file=sys.stderr)
     cities = cfg["cities"]
     d = datetime.fromisoformat(ticket["departure_at"])
     transfers = ticket.get("transfers", 0)
@@ -302,6 +305,7 @@ def make_ticket_card(ticket, cfg, state):
         "в одну сторону" if cfg["search"]["one_way"] else "туда-обратно",
         sky_key=abroad,
         photo=photo,
+        sky_name=gradient,
     )
 
 

@@ -37,6 +37,13 @@ SKIES = {
                  stars=0, clouds=4, dark=False),
     "day": dict(top=(126, 186, 250), bottom=(226, 242, 255), glow=(0.90, 0.05, 0.30, (255, 250, 225)),
                 stars=0, clouds=5, dark=False),
+    # Градиенты «в цветах города» (ОАЭ): без звёзд и облаков, accent — цвет города прилёта
+    "dubai": dict(top=(10, 14, 34), bottom=(34, 30, 52), glow=(1.00, 1.05, 0.50, (226, 168, 70)),
+                  stars=0, clouds=0, dark=True, accent=(255, 208, 110)),
+    "abudhabi": dict(top=(244, 246, 242), bottom=(96, 196, 200), glow=(0.90, 0.10, 0.40, (255, 255, 255)),
+                     stars=0, clouds=0, dark=False, accent=(0, 112, 128)),
+    "sharjah": dict(top=(8, 22, 66), bottom=(22, 92, 158), glow=(0.92, 0.05, 0.40, (70, 160, 220)),
+                    stars=0, clouds=0, dark=True, accent=(240, 206, 150)),
 }
 # Популярные города — вручную, чтобы соседние по популярности не совпадали
 CITY_SKY = {
@@ -264,7 +271,7 @@ def fit(draw, text, path, weight, max_w, size, min_size=40):
 
 
 def make_card(origin, destination, origin_code, dest_code, price, date, details, handle,
-              price_note="в одну сторону", sky_key=None, photo=None):
+              price_note="в одну сторону", sky_key=None, photo=None, sky_name=None):
     """Все аргументы — готовые строки. sky_key — код города, по которому выбирается небо
     (обычно китайский город). Возвращает JPEG-байты."""
     s = SCALE
@@ -273,8 +280,10 @@ def make_card(origin, destination, origin_code, dest_code, price, date, details,
         t = THEMES[True]
         img = photo_background(photo, W * s, H * s)
     else:
-        sky = sky_for(key)
-        t = THEMES[sky["dark"]]
+        sky = SKIES[sky_name] if sky_name else sky_for(key)
+        t = dict(THEMES[sky["dark"]])
+        if sky.get("accent"):
+            t["accent"] = sky["accent"]
         img = sky_image(W * s, H * s, sky, seed=key)   # RGB: полупрозрачное смешивается с фоном
     d = ImageDraw.Draw(img, "RGBA")
     pad = 80
