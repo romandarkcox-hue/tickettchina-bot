@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-AYT-2026-11-07-4486",
-      "time": 1793858540.5490253
-    },
-    {
       "id": "LED-AYT-2026-11-05-6542",
       "time": 1793860252.2855563
     },
@@ -423,27 +419,13 @@
     {
       "id": "MOW-AYT-2026-12-02-3785",
       "time": 1794463334.7760618
+    },
+    {
+      "id": "LED-AYT-2026-11-12-6087",
+      "time": 1794465050.1751223
     }
   ],
   "queue": [
-    {
-      "flight_number": "202",
-      "link": "/search/LED1211AYT1?t=DP17945217001794571800000835LEDVKOAYT_7e5ea5ff2f46bd8f40d149a525b7005b_6087&search_date=12112026&expected_price_uuid=01a1ce49-867a-8030-a48e-1381977ab32a&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=gTbGzOdygzKBmimIiVVfbg&expected_price_source=share&expected_price_currency=rub&expected_price=6087",
-      "origin_airport": "LED",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-12T22:15:00+03:00",
-      "airline": "DP",
-      "destination": "AYT",
-      "origin": "LED",
-      "price": 6087,
-      "gate": "Aviakassa",
-      "return_transfers": 0,
-      "duration": 835,
-      "duration_to": 410,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 20.689151614668855
-    },
     {
       "flight_number": "769",
       "link": "/search/KRR1611IST1?t=DP17948466001794855600000150KRRIST_fedcbe93a03aa9a8df733adf1566999e_4287&search_date=12112026&expected_price_uuid=01a1ce58-462c-8030-ab88-3dcc4d7f962c&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=6D7LCIluI_u7w6aNhXsvtg&expected_price_source=share&expected_price_currency=rub&expected_price=4287",
