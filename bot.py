@@ -5,6 +5,7 @@
 Переменные окружения:
     TRAVELPAYOUTS_TOKEN — токен API Travelpayouts
     TELEGRAM_BOT_TOKEN  — токен бота от @BotFather (имя переменной задаётся в настройках)
+    PIXABAY_KEY         — (для картинок к постам) ключ Pixabay, фото неба на фон
     ADMIN_CHAT_ID       — (необязательно) личный чат для отчётов о публикации
 
 Запуск:
@@ -13,11 +14,13 @@
     python bot.py --dry-run  — только показать посты, ничего не отправлять
     python bot.py --chat ID  — отправить посты в указанный чат вместо канала
     python bot.py --force    — опубликовать, даже если сегодня уже публиковали
+    python bot.py --card     — приложить к постам картинку (card.py), даже если в настройках выключено
 """
 
 import argparse
 import json
 import os
+import re
 import sys
 import time
 import tomllib
@@ -248,6 +251,41 @@ def format_post(ticket, cfg):
     return "\n".join(lines)
 
 
+WEEKDAYS_FULL = ["понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье"]
+
+
+def make_ticket_card(ticket, cfg, state):
+    """Картинка к посту (card.py): фото неба с Pixabay, а если не вышло — нарисованное небо.
+    Pillow нужен только здесь, поэтому импорт внутри."""
+    from card import fetch_sky_photo, make_card
+    photo = None
+    try:
+        used = set(state.get("used_photos", []))
+        photo, photo_id = fetch_sky_photo(used)
+        state["used_photos"] = (state.get("used_photos", []) + [photo_id])[-2000:]
+    except Exception as e:
+        print(f"Фото неба не получено, рисую небо сам: {e}", file=sys.stderr)
+    cities = cfg["cities"]
+    d = datetime.fromisoformat(ticket["departure_at"])
+    transfers = ticket.get("transfers", 0)
+    details = "Прямой рейс" if transfers == 0 else f"Пересадок: {transfers}"
+    airline = AIRLINES.get(ticket.get("airline"), ticket.get("airline", ""))
+    if airline:
+        details += f" · {airline}"
+    return make_card(
+        cities.get(ticket["origin"], ticket["origin"]),
+        cities.get(ticket["destination"], ticket["destination"]),
+        ticket["origin"], ticket["destination"],
+        format_price(ticket["price"], cfg["search"]["currency"]),
+        f"{d.day} {MONTHS[d.month - 1]}, {WEEKDAYS_FULL[d.weekday()]}",
+        details,
+        cfg["telegram"]["chat_id"],
+        "в одну сторону" if cfg["search"]["one_way"] else "туда-обратно",
+        sky_key=ticket["origin"] if ticket.get("reverse") else ticket["destination"],
+        photo=photo,
+    )
+
+
 def ticket_id(ticket):
     return f"{ticket['origin']}-{ticket['destination']}-{ticket['departure_at'][:10]}-{ticket['price']}"
 
@@ -270,6 +308,31 @@ def send_telegram(text, chat_id, bot_token):
         result = json.loads(resp.read().decode("utf-8"))
     if not result.get("ok"):
         raise RuntimeError(f"Telegram: {result}")
+
+
+def send_photo(img, caption, chat_id, bot_token):
+    """Фото с подписью (HTML). multipart собираем вручную, чтобы не тянуть requests."""
+    boundary = "----tickettchina" + str(int(time.time() * 1000))
+    crlf = "\r\n"
+    body = b""
+    for name, value in (("chat_id", chat_id), ("caption", caption), ("parse_mode", "HTML")):
+        body += (f"--{boundary}{crlf}Content-Disposition: form-data; name=\"{name}\"{crlf}{crlf}"
+                 f"{value}{crlf}").encode("utf-8")
+    body += (f"--{boundary}{crlf}Content-Disposition: form-data; name=\"photo\"; "
+             f"filename=\"ticket.jpg\"{crlf}Content-Type: image/jpeg{crlf}{crlf}").encode()
+    body += img + f"{crlf}--{boundary}--{crlf}".encode()
+    req = urllib.request.Request(f"https://api.telegram.org/bot{bot_token}/sendPhoto", data=body,
+                                 headers={"Content-Type": f"multipart/form-data; boundary={boundary}"})
+    with urllib.request.urlopen(req, timeout=60) as resp:
+        result = json.loads(resp.read().decode("utf-8"))
+    if not result.get("ok"):
+        raise RuntimeError(f"Telegram: {result}")
+
+
+def caption_fits(html_text):
+    """Подпись к фото — не больше 1024 символов видимого текста."""
+    plain = re.sub(r"<[^>]+>", "", html_text)
+    return len(plain.replace("&lt;", "<").replace("&gt;", ">").replace("&amp;", "&")) <= 1024
 
 
 def pick_tickets(cfg, skip, tp_token):
@@ -358,6 +421,8 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="не отправлять в Telegram")
     parser.add_argument("--chat", help="отправить в этот чат вместо канала (тест, без записи в state.json)")
     parser.add_argument("--force", action="store_true", help="публиковать, даже если сегодня уже публиковали")
+    parser.add_argument("--card", action="store_true",
+                        help="прикладывать картинку к посту, даже если в настройках [card] выключено (тест)")
     parser.add_argument("--next", action="store_true",
                         help="опубликовать один следующий пост из очереди на сегодня (запуск каждые 30 минут)")
     args = parser.parse_args()
@@ -385,9 +450,23 @@ def main():
     def publish(ticket):
         text = format_post(ticket, cfg)
         print(f"\n--- {ticket['origin']}-{ticket['destination']}: {ticket['price']} ---\n{text}\n")
+        with_card = args.card or cfg.get("card", {}).get("enabled", False)
+        img = None
+        if with_card and caption_fits(text):
+            try:
+                img = make_ticket_card(ticket, cfg, state)
+            except Exception as e:  # картинка не должна срывать публикацию
+                print(f"Картинка не получилась: {e}", file=sys.stderr)
         if args.dry_run:
+            if img:
+                out = ROOT / f"preview_{ticket['origin']}-{ticket['destination']}.jpg"
+                out.write_bytes(img)
+                print(f"Картинка: {out}")
             return
-        send_telegram(text, chat_id or channel, bot_token)
+        if img:
+            send_photo(img, text, chat_id or channel, bot_token)
+        else:
+            send_telegram(text, chat_id or channel, bot_token)
         state["posted"].append({"id": ticket_id(ticket), "time": time.time()})
         skip.add(ticket_id(ticket))
         if is_real_run:

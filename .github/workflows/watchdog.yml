@@ -68,10 +68,13 @@ jobs:
             --data-urlencode "chat_id=${ADMIN_CHAT_ID}" \
             --data-urlencode "text=⚠️ ${{ matrix.channel }}: сегодня ещё ничего не опубликовано — похоже, будильники cron-job.org не сработали. Сторож публикует один пост; проверьте задания на cron-job.org." \
             > /dev/null
+      - if: steps.check.outputs.ok == 'false'
+        run: pip install -q pillow   # картинки к постам (card.py)
       - name: Опубликовать следующий пост
         if: steps.check.outputs.ok == 'false'
         env:
           TRAVELPAYOUTS_TOKEN: ${{ secrets.TRAVELPAYOUTS_TOKEN }}
+          PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TURKEY_BOT_TOKEN: ${{ secrets.TURKEY_BOT_TOKEN }}
           UAE_BOT_TOKEN: ${{ secrets.UAE_BOT_TOKEN }}
