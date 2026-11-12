@@ -243,27 +243,13 @@
     {
       "id": "MSQ-DXB-2026-12-08-8096",
       "time": 1794465335.151048
+    },
+    {
+      "id": "LED-DXB-2026-11-12-7262",
+      "time": 1794467150.5396283
     }
   ],
   "queue": [
-    {
-      "flight_number": "6824",
-      "link": "/search/LED0812DXB1?t=DP17967630001796826000000990LEDSVOVKODWC_5eb4f40321d04642bf2bb683a0efc030_7601&search_date=12112026&expected_price_uuid=01a1ce4b-a363-8031-6ec3-81b93d6a8c58&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=ZoV0vL63rA0dvaBL8GqtRg&expected_price_source=share&expected_price_currency=rub&expected_price=7601",
-      "origin_airport": "LED",
-      "destination_airport": "DWC",
-      "departure_at": "2026-12-08T20:50:00+03:00",
-      "airline": "DP",
-      "destination": "DXB",
-      "origin": "LED",
-      "price": 7601,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 990,
-      "duration_to": 425,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 0
-    },
     {
       "flight_number": "6544",
       "link": "/search/SVX0712DXB1?t=DP17966223001796667000000805SVXSVOVKODWC_7d849f709700d475d5e37eaf03d6d0cb_10694&search_date=12112026&expected_price_uuid=01a1ce4a-6959-8030-656d-8ea41d9173a0&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=6RHzqG2hm-qiBck_uJ6phg&expected_price_source=share&expected_price_currency=rub&expected_price=10694",
