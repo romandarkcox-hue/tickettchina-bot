@@ -59,27 +59,13 @@
     {
       "id": "TAS-HKT-2026-11-21-15322",
       "time": 1794471637.500817
+    },
+    {
+      "id": "MOW-HKT-2026-12-10-27206",
+      "time": 1794473437.54792
     }
   ],
   "queue": [
-    {
-      "flight_number": "8028",
-      "link": "/search/MOW1012HKT1?t=CZ17969142001797006300001295SVOCANHKT_eb513edfcadb606d6ffe649f81544db8_27030&search_date=12112026&expected_price_uuid=01a1ce68-22ac-8030-27d5-8e55bf7204f9&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH1%7CR1%7CTBC1&itinerary_key=49PYoJkreBBQEh0CLKKwLg&expected_price_source=share&expected_price_currency=rub&expected_price=27031",
-      "origin_airport": "SVO",
-      "destination_airport": "HKT",
-      "departure_at": "2026-12-10T14:50:00+03:00",
-      "airline": "CZ",
-      "destination": "HKT",
-      "origin": "MOW",
-      "price": 27031,
-      "gate": "Biletix",
-      "return_transfers": 0,
-      "duration": 1295,
-      "duration_to": 790,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 22.13712643678161
-    },
     {
       "flight_number": "7966",
       "link": "/search/LED0612BKK1?t=HU17965878001796686500001405LEDPEKBKK_40108f05b386ca10533623f510df7429_27089&search_date=12112026&expected_price_uuid=01a1ce62-428c-8030-6509-f72e64cb3400&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH1%7CR1%7CTBC1&itinerary_key=RUFdz4SNMxwFIx_Vsuhpzw&expected_price_source=share&expected_price_currency=rub&expected_price=27090",
