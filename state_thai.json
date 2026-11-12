@@ -51,27 +51,13 @@
     {
       "id": "VVO-BKK-2026-11-29-16184",
       "time": 1794468039.087401
+    },
+    {
+      "id": "ALA-HKT-2026-11-23-24259",
+      "time": 1794469837.3018231
     }
   ],
   "queue": [
-    {
-      "flight_number": "865",
-      "link": "/search/ALA2311HKT1?t=XJ17953932001795460100000995ALADMKHKT_4b77da71b1501c7aab0a49ae8bc6f13b_24136&search_date=11112026&expected_price_uuid=01a1cbf1-d9d8-8030-2884-daadda3c6fc5&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=69eBHLsZqs-xP4HdCllWqA&expected_price_source=share&expected_price_currency=rub&expected_price=24137",
-      "origin_airport": "ALA",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-23T00:20:00+06:00",
-      "airline": "XJ",
-      "destination": "HKT",
-      "origin": "ALA",
-      "price": 24137,
-      "gate": "Trip.com",
-      "return_transfers": 0,
-      "duration": 995,
-      "duration_to": 495,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 5.160153256704981
-    },
     {
       "flight_number": "527",
       "link": "/search/TAS2611HKT1?t=C617956656001795695300000375TASHKT_91a486b548d0b86160a98f7855dddc3e_16374&search_date=12112026&expected_price_uuid=01a1ce3d-ce7e-8031-2b15-dbeba460adae&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=6MywFBjgr4dMKAz_A6v0wg&expected_price_source=share&expected_price_currency=rub&expected_price=16374",
