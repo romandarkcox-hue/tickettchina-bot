@@ -271,28 +271,12 @@
     {
       "id": "DXB-TAS-2026-11-16-11967",
       "time": 1794477932.5738506
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "300",
-      "link": "/search/SHJ1611BAK1?t=G917948265001794842400000265SHJGYD_ded20e20a84339ec7977a2683731d42b_15120&search_date=12112026&expected_price_uuid=01a1cdcf-2c6a-8040-6a2a-f6ff6a585e04&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=OwUP1g9CA4-pg1yJQ0cxQQ&expected_price_source=share&expected_price_currency=rub&expected_price=15121",
-      "origin_airport": "SHJ",
-      "destination_airport": "GYD",
-      "departure_at": "2026-11-16T10:55:00+04:00",
-      "airline": "G9",
-      "destination": "BAK",
-      "origin": "SHJ",
-      "price": 15121,
-      "gate": "Farera",
-      "return_transfers": 0,
-      "duration": 265,
-      "duration_to": 265,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 22,
-      "reverse": true
+      "id": "SHJ-BAK-2026-11-16-15062",
+      "time": 1794479736.1663098
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-12"
 }
