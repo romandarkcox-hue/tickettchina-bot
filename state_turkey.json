@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "KRR-AYT-2026-11-07-4515",
-      "time": 1793862064.8804073
-    },
-    {
-      "id": "TBS-IST-2026-11-26-6965",
-      "time": 1793863851.5388885
-    },
-    {
       "id": "AER-AYT-2026-11-10-4504",
       "time": 1793865666.1464756
     },
@@ -423,27 +415,13 @@
     {
       "id": "KRR-IST-2026-11-13-4321",
       "time": 1794466864.3533673
+    },
+    {
+      "id": "LED-IST-2026-12-07-8754",
+      "time": 1794468661.0517373
     }
   ],
   "queue": [
-    {
-      "flight_number": "6824",
-      "link": "/search/LED0812IST1?t=DP17967630001796832600001160LEDSVOVKOIST_39070394b84bbe65df5a4e9063c60760_6806&search_date=12112026&expected_price_uuid=01a1ce4e-0854-8031-2cad-7884d47e144d&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=lawnA9Y55ompw9yNZLilwQ&expected_price_source=share&expected_price_currency=rub&expected_price=6806",
-      "origin_airport": "LED",
-      "destination_airport": "IST",
-      "departure_at": "2026-12-08T20:50:00+03:00",
-      "airline": "DP",
-      "destination": "IST",
-      "origin": "LED",
-      "price": 6806,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 1160,
-      "duration_to": 405,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 24.450815544608652
-    },
     {
       "flight_number": "5051",
       "link": "/search/AER1711AYT1?t=A417949294001794937800000140AERAYT_df6455a314424abb1029296dee9b6797_4995&search_date=12112026&expected_price_uuid=01a1ce3b-ee4b-8031-6bab-e475ff0aae51&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=OBOKedcnTmwLnE66GWCAsQ&expected_price_source=share&expected_price_currency=rub&expected_price=4995",
