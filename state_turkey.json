@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "LED-IST-2026-11-07-7094",
-      "time": 1793871055.3303587
-    },
-    {
       "id": "KZN-AYT-2026-11-08-4823",
       "time": 1793872866.4890447
     },
@@ -423,27 +419,13 @@
     {
       "id": "KZN-AYT-2026-12-01-6410",
       "time": 1794475848.920892
+    },
+    {
+      "id": "TAS-IST-2026-12-09-9022",
+      "time": 1794477663.561048
     }
   ],
   "queue": [
-    {
-      "flight_number": "742",
-      "link": "/search/TAS0212IST1?t=DP17961798001796227800000920TASVKOIST_fa2d526726ad845cb8b3dd0cb7502597_9015&search_date=12112026&expected_price_uuid=01a1ce2a-7c90-8030-26d2-6a502f2418ee&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=Ohf-mG7jQ07q_KO3Px14Rw&expected_price_source=share&expected_price_currency=rub&expected_price=9015",
-      "origin_airport": "TAS",
-      "destination_airport": "IST",
-      "departure_at": "2026-12-02T02:50:00+05:00",
-      "airline": "DP",
-      "destination": "IST",
-      "origin": "TAS",
-      "price": 9015,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 920,
-      "duration_to": 580,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 23.50911330049261
-    },
     {
       "flight_number": "085",
       "link": "/search/IST0912MOW1?t=2S17968464001796860200000230ISTSVO_8d9c256b9a917d3fb17a0815ba9c7ff8_5676&search_date=12112026&expected_price_uuid=01a1ce57-c535-8030-6bb3-03987381ade6&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=qQ54ePGZZ_ViIKpGMvrdPA&expected_price_source=share&expected_price_currency=rub&expected_price=5676",
