@@ -255,27 +255,13 @@
     {
       "id": "MRV-DXB-2026-11-14-7758",
       "time": 1794470736.598301
+    },
+    {
+      "id": "AER-DXB-2026-12-09-10895",
+      "time": 1794472532.4036088
     }
   ],
   "queue": [
-    {
-      "flight_number": "2042",
-      "link": "/search/AER0812DXB1?t=DP17967387001796826000001395AERDMEVKODWC_43d5dd284334f9d941a3bb0766edc488_10838&search_date=12112026&expected_price_uuid=01a1cdd1-b9dd-8031-2407-32aeb7659ce3&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=DDDozYc7dpWr_Qrczqgvtw&expected_price_source=share&expected_price_currency=rub&expected_price=10838",
-      "origin_airport": "AER",
-      "destination_airport": "DWC",
-      "departure_at": "2026-12-08T14:05:00+03:00",
-      "airline": "S7",
-      "destination": "DXB",
-      "origin": "AER",
-      "price": 10839,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 1395,
-      "duration_to": 545,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 8.475738916256157
-    },
     {
       "flight_number": "6028",
       "link": "/search/EVN1012DXB1?t=A417969268001796964900000635EVNMRVDWC_f5865909ca9b0aecef0a9bb660e24b63_14860&search_date=12112026&expected_price_uuid=01a1ce0d-cf9f-8031-2a5c-0261ab97b273&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=aCSGT2zQKil5RR6WEIHOgA&expected_price_source=share&expected_price_currency=rub&expected_price=14860",
