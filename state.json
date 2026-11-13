@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "LED-BJS-2026-11-25-15868",
-      "time": 1793958337.9669757
-    },
-    {
       "id": "KHV-BJS-2026-11-20-8989",
       "time": 1793960137.749259
     },
@@ -359,28 +355,14 @@
     {
       "id": "KHV-BJS-2026-12-04-9054",
       "time": 1794561343.9367743
+    },
+    {
+      "id": "IKT-CAN-2026-12-01-19724",
+      "time": 1794563144.0677602
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "6403",
-      "link": "/search/IKT0112CAN1?t=S717960853001796179500001570IKTVVOCAN_c79079a69ba32b63aa96407f12fc1a7e_19684&search_date=13112026&expected_price_uuid=01a1d342-82a4-8031-6ac5-49376e235a63&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=kp-l9oJiLn6K9k35gB1DTw&expected_price_source=share&expected_price_currency=rub&expected_price=19684",
-      "origin_airport": "IKT",
-      "destination_airport": "CAN",
-      "departure_at": "2026-12-01T00:35:00+08:00",
-      "airline": "S7",
-      "destination": "CAN",
-      "origin": "IKT",
-      "price": 19684,
-      "gate": "S7 Airlines",
-      "return_transfers": 0,
-      "duration": 1570,
-      "duration_to": 560,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 22
-    },
     {
       "flight_number": "878",
       "link": "/search/VVO2911YNJ1?t=KN17959791001796030100000970VVOPKXYNJ_bd2506ca766a857473a5f8e140c00c7e_9328&search_date=06112026&expected_price_uuid=01a1b311-8c9b-8031-244e-ba4b40881e2a&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=DFRzVpVrzGMHUsS9d6wIBQ&expected_price_source=share&expected_price_currency=rub&expected_price=9326",
@@ -483,6 +465,7 @@
     1555170,
     10222199,
     573566,
-    9271140
+    9271140,
+    8244663
   ]
 }
