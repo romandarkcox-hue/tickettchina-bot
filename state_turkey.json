@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "IST-TAS-2026-12-02-12773",
-      "time": 1793968254.1066258
-    },
-    {
       "id": "AYT-SVX-2026-12-02-14062",
       "time": 1793970065.5333312
     },
@@ -415,29 +411,13 @@
     {
       "id": "AYT-LED-2026-12-09-12148",
       "time": 1794571269.2658262
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "304",
-      "link": "/search/IST1212TAS1?t=C617971194001797143700000285ISTTAS_a524069604ceb8506e2919f98ae47366_14075&search_date=13112026&expected_price_uuid=01a1d346-d909-8031-6724-c29a1be67959&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=8gTCLvK552f9KurDxyuFkg&expected_price_source=share&expected_price_currency=rub&expected_price=14075",
-      "origin_airport": "IST",
-      "destination_airport": "TAS",
-      "departure_at": "2026-12-12T23:50:00+03:00",
-      "airline": "C6",
-      "destination": "TAS",
-      "origin": "IST",
-      "price": 14075,
-      "gate": "Centrum Air",
-      "return_transfers": 0,
-      "duration": 285,
-      "duration_to": 285,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 30,
-      "reverse": true
+      "id": "IST-TAS-2026-12-05-11921",
+      "time": 1794573059.2755136
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-13",
   "used_photos": [
     3855080,
@@ -452,6 +432,7 @@
     2105607,
     1877617,
     6571894,
-    3710243
+    3710243,
+    197035
   ]
 }
