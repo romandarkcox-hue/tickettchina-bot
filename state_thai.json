@@ -107,28 +107,13 @@
     {
       "id": "OVB-HKT-2026-11-17-31823",
       "time": 1794563441.782902
+    },
+    {
+      "id": "BKK-MOW-2026-11-17-23078",
+      "time": 1794565238.8749604
     }
   ],
   "queue": [
-    {
-      "flight_number": "6310",
-      "link": "/search/BKK1311MOW1?t=S717945874001794666300001555BKKIKTSVO_82eb81eadf77c1ac86eb2680c3d04426_17648&search_date=13112026&expected_price_uuid=01a1d38a-d522-8030-2426-dcac30e7175b&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=kWXespoSRjHO82H23uHP1A&expected_price_source=share&expected_price_currency=rub&expected_price=17649",
-      "origin_airport": "BKK",
-      "destination_airport": "SVO",
-      "departure_at": "2026-11-13T16:30:00+07:00",
-      "airline": "S7",
-      "destination": "MOW",
-      "origin": "BKK",
-      "price": 17649,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 1555,
-      "duration_to": 765,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "202",
       "link": "/search/HKT1511MOW1?t=HH17947443001794892200002705HKTTASDME_6d30e94066be5a2f96a540e645eba8d5_19051&search_date=13112026&expected_price_uuid=01a1d390-a581-8031-2d51-684840d6f851&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=0SDq9wfTZ631OhTSRfh3_w&expected_price_source=share&expected_price_currency=rub&expected_price=19052",
