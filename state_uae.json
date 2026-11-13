@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "KZN-DXB-2026-11-07-7058",
-      "time": 1793948727.8492658
-    },
-    {
       "id": "MRV-DXB-2026-11-15-7598",
       "time": 1793950529.0391405
     },
@@ -275,27 +271,13 @@
     {
       "id": "LED-DXB-2026-11-15-9672",
       "time": 1794551734.11071
+    },
+    {
+      "id": "MRV-DXB-2026-11-21-7760",
+      "time": 1794553533.7619994
     }
   ],
   "queue": [
-    {
-      "flight_number": "6287",
-      "link": "/search/MRV2111DXB1?t=A417952219001795242900000290MRVDWC_9fb091199c13e34cc63ac27220ea571d_7760&search_date=13112026&expected_price_uuid=01a1d37e-44c2-8031-6578-8810798bef15&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=yYuwDShoG3jUZlyQtvPnyA&expected_price_source=share&expected_price_currency=rub&expected_price=7761",
-      "origin_airport": "MRV",
-      "destination_airport": "DWC",
-      "departure_at": "2026-11-21T00:45:00+03:00",
-      "airline": "A4",
-      "destination": "DXB",
-      "origin": "MRV",
-      "price": 7761,
-      "gate": "Azimuth",
-      "return_transfers": 0,
-      "duration": 290,
-      "duration_to": 290,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 11.241182266009853
-    },
     {
       "flight_number": "406",
       "link": "/search/SVX1911DXB1?t=DP17950674001795196100002205SVXVKODWC_c31ad026f857731911c7a23dbc5cb1fe_11251&search_date=13112026&expected_price_uuid=01a1d37d-4691-8030-a948-a986ccb6994d&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=1fmi_VmYObDmRjOFIoZzYQ&expected_price_source=share&expected_price_currency=rub&expected_price=11252",
