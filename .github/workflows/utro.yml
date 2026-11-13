@@ -55,6 +55,8 @@ jobs:
           PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
           VK_TOKEN: ${{ secrets.VK_TOKEN }}
           VK_GROUP_ID: ${{ secrets.VK_GROUP_ID }}
+          VK_GROUP_TOKEN: ${{ secrets.VK_GROUP_TOKEN }}
+          ADMIN_CHAT_ID: ${{ secrets.ADMIN_CHAT_ID }}
         run: >-
           python bot.py --mode ${{ inputs.mode }}
           ${{ inputs.test_chat && format('--chat {0}', inputs.test_chat) || '' }}

@@ -507,10 +507,21 @@ def send_photo(token, chat, img, caption):
         raise RuntimeError(f"Telegram: {res}")
 
 
+def warn_admin(text):
+    """Короткое предупреждение админу в личку от бота (не роняет запуск)."""
+    chat = os.environ.get("ADMIN_CHAT_ID")
+    if not chat:
+        return
+    try:
+        tg_call(os.environ["UTRO_BOT_TOKEN"], "sendMessage", {"chat_id": chat, "text": text[:4000]})
+    except Exception as e:
+        print(f"не удалось предупредить админа: {e}", file=sys.stderr)
+
+
 # ---------- ВКонтакте ----------
 
-def vk_call(method, **params):
-    params.update(access_token=os.environ["VK_TOKEN"], v="5.199")
+def vk_call(method, token=None, **params):
+    params.update(access_token=token or os.environ["VK_TOKEN"], v="5.199")
     req = urllib.request.Request(f"https://api.vk.com/method/{method}",
                                  data=urllib.parse.urlencode(params).encode())
     with urllib.request.urlopen(req, timeout=60) as r:
@@ -536,14 +547,25 @@ def vk_post(img, caption, delayed=False):
         return vk_call("photos.saveWallPhoto", group_id=gid, server=up["server"],
                        photo=up["photo"], hash=up["hash"])[0]
 
-    photo = vk_retry(upload, retry_on=Exception)
-    params = {"owner_id": f"-{gid}", "from_group": 1, "message": vk_text(caption),
-              "attachments": f"photo{photo['owner_id']}_{photo['id']}"}
+    params = {"owner_id": f"-{gid}", "from_group": 1, "message": vk_text(caption)}
     if delayed:
         params["publish_date"] = int(time.time()) + 86400
-    # wall.post повторяем только при явной ошибке ВК: тогда записи точно нет.
-    # При обрыве связи запись могла создаться — повтор дал бы дубль.
-    return vk_retry(lambda: vk_call("wall.post", **params), retry_on=RuntimeError)["post_id"]
+    try:
+        photo = vk_retry(upload, retry_on=Exception)
+        params["attachments"] = f"photo{photo['owner_id']}_{photo['id']}"
+        # wall.post повторяем только при явной ошибке ВК: тогда записи точно нет.
+        # При обрыве связи запись могла создаться — повтор дал бы дубль.
+        return vk_retry(lambda: vk_call("wall.post", **params), retry_on=RuntimeError)["post_id"], None
+    except Exception as e:
+        # Подстраховка: ключ пользователя заблокирован (Flood control 12.11) или ВК сбоит —
+        # публикуем хотя бы текст ключом сообщества (фото таким ключом грузить нельзя).
+        group_token = os.environ.get("VK_GROUP_TOKEN")
+        if not group_token or "attachments" in params:
+            raise
+        print(f"ВК: фото не загрузилось ({e}), публикую текст ключом сообщества", file=sys.stderr)
+        post_id = vk_retry(lambda: vk_call("wall.post", token=group_token, **params),
+                           retry_on=RuntimeError)["post_id"]
+        return post_id, e
 
 
 def vk_retry(fn, retry_on, attempts=3, pause=45):
@@ -552,7 +574,8 @@ def vk_retry(fn, retry_on, attempts=3, pause=45):
         try:
             return fn()
         except retry_on as e:
-            if i == attempts:
+            # Flood control — блокировка на часы, повторять через 45 с бессмысленно.
+            if i == attempts or "Flood control" in str(e):
                 raise
             print(f"ВК: попытка {i} не удалась ({e}), повтор через {pause} с", file=sys.stderr)
             time.sleep(pause)
@@ -616,8 +639,12 @@ def main():
     if targets["vk"]:
         # Сбой ВК не должен мешать Telegram: запоминаем ошибку и сообщаем о ней в конце.
         try:
-            post_id = vk_post(img, caption, delayed=a.vk_test)
-            print(f"{a.mode}: ВК, запись {post_id}" + (" (отложенная, на завтра)" if a.vk_test else ""))
+            post_id, photo_err = vk_post(img, caption, delayed=a.vk_test)
+            print(f"{a.mode}: ВК, запись {post_id}" + (" (отложенная, на завтра)" if a.vk_test else "")
+                  + (" — без открытки, только текст" if photo_err else ""))
+            if photo_err and not test:
+                warn_admin(f"⚠️ @dobroeytroru ({a.mode}): в ВК ушёл только текст, "
+                           f"открытка не загрузилась: {photo_err}")
             if not test:
                 state[keys["vk"]] = today.isoformat()
         except Exception as e:
