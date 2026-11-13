@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "DXB-KRR-2026-12-03-17882",
-      "time": 1793961328.0600088
-    },
-    {
       "id": "MOW-DXB-2026-11-11-7534",
       "time": 1794031609.207877
     },
@@ -275,28 +271,12 @@
     {
       "id": "AUH-MOW-2026-11-13-8539",
       "time": 1794564337.1169746
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "352",
-      "link": "/search/DXB1611TAS1?t=C617948340001794851400000230DXBTAS_0fe8eed5a069f9a2d1cff32c545b9a77_12012&search_date=13112026&expected_price_uuid=01a1d37b-bcc9-8031-6e07-824e4bac5f37&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=7Mwhi_i9DdRODrZsNAJlLg&expected_price_source=share&expected_price_currency=rub&expected_price=12013",
-      "origin_airport": "DXB",
-      "destination_airport": "TAS",
-      "departure_at": "2026-11-16T13:00:00+04:00",
-      "airline": "C6",
-      "destination": "TAS",
-      "origin": "DXB",
-      "price": 12013,
-      "gate": "Centrum Air",
-      "return_transfers": 0,
-      "duration": 230,
-      "duration_to": 230,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 30,
-      "reverse": true
+      "id": "DXB-TAS-2026-11-16-12067",
+      "time": 1794566138.1826875
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-13"
 }
