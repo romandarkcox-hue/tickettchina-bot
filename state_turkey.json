@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "LED-AYT-2026-11-12-6393",
-      "time": 1793946651.839557
-    },
-    {
       "id": "MOW-AYT-2026-11-09-4353",
       "time": 1793948464.9348207
     },
@@ -415,27 +411,13 @@
     {
       "id": "MOW-AYT-2026-11-14-3720",
       "time": 1794549745.2688518
+    },
+    {
+      "id": "EVN-IST-2026-12-12-6536",
+      "time": 1794551454.2611268
     }
   ],
   "queue": [
-    {
-      "flight_number": "551",
-      "link": "/search/EVN1212IST1?t=PC17970489001797054000000145EVNSAW_58c4d259f658e57922d93047fc57429b_6536&search_date=12112026&expected_price_uuid=01a1d211-3be1-8030-eb1f-ced2712fba44&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=GIM3yhbqSs_9Ohpld8BOLg&expected_price_source=share&expected_price_currency=rub&expected_price=6536",
-      "origin_airport": "EVN",
-      "destination_airport": "SAW",
-      "departure_at": "2026-12-12T04:15:00+04:00",
-      "airline": "PC",
-      "destination": "IST",
-      "origin": "EVN",
-      "price": 6536,
-      "gate": "Kiwi.com",
-      "return_transfers": 0,
-      "duration": 145,
-      "duration_to": 145,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 6.828888888888889
-    },
     {
       "flight_number": "3069",
       "link": "/search/KRR2211IST1?t=A417953686001795377600000150KRRIST_902b616eac505fc243cfaa6bc64f92d4_4995&search_date=13112026&expected_price_uuid=01a1d351-d77b-8031-2adc-8ee55b4e86d3&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=PbRzrseQyVR10dxJkvHung&expected_price_source=share&expected_price_currency=rub&expected_price=4995",
@@ -678,6 +660,7 @@
   ],
   "queue_date": "2026-11-13",
   "used_photos": [
-    3855080
+    3855080,
+    10525007
   ]
 }
