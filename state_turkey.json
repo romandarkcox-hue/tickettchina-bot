@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "AER-AYT-2026-11-11-4515",
-      "time": 1793952065.7372818
-    },
-    {
       "id": "TBS-IST-2026-12-02-6611",
       "time": 1793953852.3965735
     },
@@ -415,45 +411,13 @@
     {
       "id": "LED-AYT-2026-11-14-5989",
       "time": 1794555054.3476076
+    },
+    {
+      "id": "BAK-IST-2026-12-03-7198",
+      "time": 1794556868.439927
     }
   ],
   "queue": [
-    {
-      "flight_number": "5051",
-      "link": "/search/AER2211AYT1?t=A417953668001795375800000150AERAYT_95fc95c569c351fabb68ccb646383ef6_4995&search_date=13112026&expected_price_uuid=01a1d34d-db6f-8030-2773-4d439f686726&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=TvRQuSYrV-9fY2VNbvvcSg&expected_price_source=share&expected_price_currency=rub&expected_price=4995",
-      "origin_airport": "AER",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-22T17:00:00+03:00",
-      "airline": "A4",
-      "destination": "AYT",
-      "origin": "AER",
-      "price": 4995,
-      "gate": "Azimuth",
-      "return_transfers": 0,
-      "duration": 150,
-      "duration_to": 150,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 13.203409961685825
-    },
-    {
-      "flight_number": "182",
-      "link": "/search/BAK1112IST1?t=VF17969925001797000600000195GYDSAW_157cfb961bb5cfd9ecbb9d9f0184811e_7342&search_date=12112026&expected_price_uuid=01a1d069-6d80-8030-65d7-00e98bfda64d&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ONl2EolfJVrTNnKQpSxE6A&expected_price_source=share&expected_price_currency=rub&expected_price=7347",
-      "origin_airport": "GYD",
-      "destination_airport": "SAW",
-      "departure_at": "2026-12-11T12:35:00+04:00",
-      "airline": "VF",
-      "destination": "IST",
-      "origin": "BAK",
-      "price": 7347,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 195,
-      "duration_to": 195,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 11.805747126436781
-    },
     {
       "flight_number": "6582",
       "link": "/search/KUF1411AYT1?t=DP17946843001794744600001065KUFSVOVKOAYT_82e9029fc72ff13ec8aba91ab3b7e0bd_5959&search_date=13112026&expected_price_uuid=01a1d379-ffea-8030-60e5-6fb57bc6b706&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=d7qt_Tu6sNQFPh-3j_bevQ&expected_price_source=share&expected_price_currency=rub&expected_price=5959",
@@ -627,6 +591,7 @@
     3855080,
     10525007,
     10476496,
-    4124700
+    4124700,
+    2149710
   ]
 }
