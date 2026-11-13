@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "BJS-MOW-2026-11-27-22959",
-      "time": 1793965539.227734
-    },
-    {
       "id": "SHA-MOW-2026-11-19-25793",
       "time": 1793967340.3017757
     },
@@ -359,29 +355,14 @@
     {
       "id": "BJS-MOW-2026-12-03-17870",
       "time": 1794568551.682748
+    },
+    {
+      "id": "CAN-MOW-2026-12-03-24157",
+      "time": 1794570345.0871446
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "6206",
-      "link": "/search/CAN0312MOW1?t=GS17963412001796392500001155CANCKGSVO_6b1c6438a3442f65491eb5a94b14f5df_24311&search_date=13112026&expected_price_uuid=01a1d32e-802f-8030-6fd0-5afd907b9cf2&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=uyesax6sXluFg-DNXKQbAA&expected_price_source=share&expected_price_currency=rub&expected_price=24311",
-      "origin_airport": "CAN",
-      "destination_airport": "SVO",
-      "departure_at": "2026-12-03T23:40:00+08:00",
-      "airline": "PN",
-      "destination": "MOW",
-      "origin": "CAN",
-      "price": 24311,
-      "gate": "Trip.com",
-      "return_transfers": 0,
-      "duration": 1155,
-      "duration_to": 665,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 22,
-      "reverse": true
-    },
     {
       "flight_number": "6374",
       "link": "/search/SHA3011MOW1?t=GS17960430001796136900001865PVGCKGSVO_27abb53ea1a8f0488a078f22ac8adbc3_24373&search_date=13112026&expected_price_uuid=01a1d383-6a3f-8030-e6cf-4b23b0ece620&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=ZS--PN6t_4po9ti3XXDT8A&expected_price_source=share&expected_price_currency=rub&expected_price=24375",
@@ -414,6 +395,7 @@
     8244663,
     8563083,
     2135026,
-    2413404
+    2413404,
+    2191645
   ]
 }
