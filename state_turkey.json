@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "KZN-AYT-2026-11-08-4825",
-      "time": 1793959266.0505533
-    },
-    {
       "id": "TAS-IST-2026-11-08-9906",
       "time": 1793961053.6121166
     },
@@ -415,27 +411,13 @@
     {
       "id": "KZN-IST-2026-11-18-6028",
       "time": 1794562254.2984734
+    },
+    {
+      "id": "TAS-IST-2026-11-28-12912",
+      "time": 1794564066.354857
     }
   ],
   "queue": [
-    {
-      "flight_number": "363",
-      "link": "/search/TAS1212IST1?t=TK17970360001797048900000335TASIST_0fc8f0e5ae402528705deebf59770e3d_12812&search_date=13112026&expected_price_uuid=01a1d31e-9b77-8030-ee79-4f8f1237f283&static_fare_key=TY%7CP0%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=LtD27rr2dWMiJu9wMXmaVQ&expected_price_source=share&expected_price_currency=rub&expected_price=12812",
-      "origin_airport": "TAS",
-      "destination_airport": "IST",
-      "departure_at": "2026-12-12T00:40:00+05:00",
-      "airline": "TK",
-      "destination": "IST",
-      "origin": "TAS",
-      "price": 12812,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 335,
-      "duration_to": 335,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 23.632183908045977
-    },
     {
       "flight_number": "1996",
       "link": "/search/IST0212MOW1?t=DP17962308001796247900000285ISTVKO_1ba3b515470f118834ddc388c2dddc82_8025&search_date=13112026&expected_price_uuid=01a1d377-389a-8031-2f8b-b5a45a98e9bf&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=4XhCx-FOXGyLGYiPNVeQZA&expected_price_source=share&expected_price_currency=rub&expected_price=8026",
@@ -541,6 +523,7 @@
     2149710,
     1444492,
     4199285,
-    776372
+    776372,
+    208306
   ]
 }
