@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "LED-DXB-2026-11-07-7807",
-      "time": 1793946926.3480122
-    },
-    {
       "id": "KZN-DXB-2026-11-07-7058",
       "time": 1793948727.8492658
     },
@@ -275,27 +271,13 @@
     {
       "id": "MOW-DXB-2026-11-17-6303",
       "time": 1794550039.1583867
+    },
+    {
+      "id": "LED-DXB-2026-11-15-9672",
+      "time": 1794551734.11071
     }
   ],
   "queue": [
-    {
-      "flight_number": "1012",
-      "link": "/search/LED1511DXB1?t=DP17947464001794834600001410LEDDMEVKODWC_d2828e003651d9451234350251aaf3cb_9671&search_date=13112026&expected_price_uuid=01a1d379-b82d-8030-e7ad-a13c1855a7bf&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=Boze8KGklesBUpv6wRLjFw&expected_price_source=share&expected_price_currency=rub&expected_price=9672",
-      "origin_airport": "LED",
-      "destination_airport": "DWC",
-      "departure_at": "2026-11-15T12:40:00+03:00",
-      "airline": "S7",
-      "destination": "DXB",
-      "origin": "LED",
-      "price": 9672,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 1410,
-      "duration_to": 490,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 0
-    },
     {
       "flight_number": "6287",
       "link": "/search/MRV2111DXB1?t=A417952219001795242900000290MRVDWC_9fb091199c13e34cc63ac27220ea571d_7760&search_date=13112026&expected_price_uuid=01a1d37e-44c2-8031-6578-8810798bef15&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=yYuwDShoG3jUZlyQtvPnyA&expected_price_source=share&expected_price_currency=rub&expected_price=7761",
