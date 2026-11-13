@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "DXB-MOW-2026-11-11-12803",
-      "time": 1793957730.1279857
-    },
-    {
       "id": "SHJ-BAK-2026-11-26-15322",
       "time": 1793959529.668035
     },
@@ -275,28 +271,13 @@
     {
       "id": "BAK-DXB-2026-12-03-16646",
       "time": 1794560733.2587054
+    },
+    {
+      "id": "DXB-MOW-2026-11-15-7268",
+      "time": 1794562533.0908837
     }
   ],
   "queue": [
-    {
-      "flight_number": "794",
-      "link": "/search/DXB1411MOW1?t=DP17946807001794700200000385DWCVKO_1b3b31cb7c19ad06352403c6ec7cbf12_7185&search_date=13112026&expected_price_uuid=01a1d37e-f55d-8030-e0e7-f17a73a1c4be&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=Ahw7QOyZO-T9yldp7bnG1g&expected_price_source=share&expected_price_currency=rub&expected_price=7186",
-      "origin_airport": "DWC",
-      "destination_airport": "VKO",
-      "departure_at": "2026-11-14T18:25:00+04:00",
-      "airline": "DP",
-      "destination": "MOW",
-      "origin": "DXB",
-      "price": 7186,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 385,
-      "duration_to": 385,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "754",
       "link": "/search/AUH1611MOW1?t=DP17948517001794871200000385AUHVKO_065dc0ce43dfb3e0ed1bd47aaa6b8e40_8442&search_date=13112026&expected_price_uuid=01a1d37e-1f84-8031-2f1f-1bd18dad3aac&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=Li9S4CIJcS651WSQSTVfNg&expected_price_source=share&expected_price_currency=rub&expected_price=8443",
