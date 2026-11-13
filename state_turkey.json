@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "AYT-MOW-2026-12-02-9900",
-      "time": 1793964652.8877723
-    },
-    {
-      "id": "AYT-LED-2026-12-02-12674",
-      "time": 1793966466.1899056
-    },
-    {
       "id": "IST-TAS-2026-12-02-12773",
       "time": 1793968254.1066258
     },
@@ -419,28 +411,13 @@
     {
       "id": "AYT-MOW-2026-12-04-9833",
       "time": 1794569451.2362065
+    },
+    {
+      "id": "AYT-LED-2026-12-09-12148",
+      "time": 1794571269.2658262
     }
   ],
   "queue": [
-    {
-      "flight_number": "1580",
-      "link": "/search/AYT0912LED1?t=PC17968092001796897100001465AYTVKOLED_8899979d1d97ba44a126d008455d4054_12851&search_date=13112026&expected_price_uuid=01a1d373-d510-8031-2c57-934f0907e47a&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=RBOYPcPWrJwEtfPORiOTeQ&expected_price_source=share&expected_price_currency=rub&expected_price=12852",
-      "origin_airport": "AYT",
-      "destination_airport": "LED",
-      "departure_at": "2026-12-09T09:40:00+03:00",
-      "airline": "PC",
-      "destination": "LED",
-      "origin": "AYT",
-      "price": 12852,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 1465,
-      "duration_to": 370,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "304",
       "link": "/search/IST1212TAS1?t=C617971194001797143700000285ISTTAS_a524069604ceb8506e2919f98ae47366_14075&search_date=13112026&expected_price_uuid=01a1d346-d909-8031-6724-c29a1be67959&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=8gTCLvK552f9KurDxyuFkg&expected_price_source=share&expected_price_currency=rub&expected_price=14075",
@@ -474,6 +451,7 @@
     208306,
     2105607,
     1877617,
-    6571894
+    6571894,
+    3710243
   ]
 }
