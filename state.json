@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "VVO-YNJ-2026-11-14-8500",
-      "time": 1793956537.7142577
-    },
-    {
       "id": "LED-BJS-2026-11-25-15868",
       "time": 1793958337.9669757
     },
@@ -359,28 +355,14 @@
     {
       "id": "LED-BJS-2026-12-03-16067",
       "time": 1794559546.617543
+    },
+    {
+      "id": "KHV-BJS-2026-12-04-9054",
+      "time": 1794561343.9367743
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "6501",
-      "link": "/search/KHV2911BJS1?t=S717959152001795920000000200KHVPKX_1d97608cd0cd4d93336452ee21e57f5f_9054&search_date=13112026&expected_price_uuid=01a1d25b-e443-8030-e332-cfff4ef3bdf9&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=IEn3-geTUl4yykqfSbio5A&expected_price_source=share&expected_price_currency=rub&expected_price=9054",
-      "origin_airport": "KHV",
-      "destination_airport": "PKX",
-      "departure_at": "2026-11-29T01:20:00+10:00",
-      "airline": "S7",
-      "destination": "BJS",
-      "origin": "KHV",
-      "price": 9054,
-      "gate": "S7 Airlines",
-      "return_transfers": 0,
-      "duration": 200,
-      "duration_to": 200,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 22
-    },
     {
       "flight_number": "6403",
       "link": "/search/IKT0112CAN1?t=S717960853001796179500001570IKTVVOCAN_c79079a69ba32b63aa96407f12fc1a7e_19684&search_date=13112026&expected_price_uuid=01a1d342-82a4-8031-6ac5-49376e235a63&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=kp-l9oJiLn6K9k35gB1DTw&expected_price_source=share&expected_price_currency=rub&expected_price=19684",
@@ -500,6 +482,7 @@
     1650286,
     1555170,
     10222199,
-    573566
+    573566,
+    9271140
   ]
 }
