@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "KHV-BJS-2026-11-20-8989",
-      "time": 1793960137.749259
-    },
-    {
       "id": "MOW-BJS-2026-11-17-16284",
       "time": 1793961939.6514046
     },
@@ -359,28 +355,14 @@
     {
       "id": "IKT-CAN-2026-12-01-19724",
       "time": 1794563144.0677602
+    },
+    {
+      "id": "VVO-YNJ-2026-11-29-9326",
+      "time": 1794564945.9040692
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "878",
-      "link": "/search/VVO2911YNJ1?t=KN17959791001796030100000970VVOPKXYNJ_bd2506ca766a857473a5f8e140c00c7e_9328&search_date=06112026&expected_price_uuid=01a1b311-8c9b-8031-244e-ba4b40881e2a&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=DFRzVpVrzGMHUsS9d6wIBQ&expected_price_source=share&expected_price_currency=rub&expected_price=9326",
-      "origin_airport": "VVO",
-      "destination_airport": "YNJ",
-      "departure_at": "2026-11-29T19:05:00+10:00",
-      "airline": "KN",
-      "destination": "YNJ",
-      "origin": "VVO",
-      "price": 9326,
-      "gate": "Trip.com",
-      "return_transfers": 0,
-      "duration": 970,
-      "duration_to": 310,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 20
-    },
     {
       "flight_number": "5012",
       "link": "/search/SVX1811BJS1?t=S717950260001795073700000615SVXOVBPKX_b206b3fa0edddd2bb86363343f5815d7_20494&search_date=13112026&expected_price_uuid=01a1d37b-98fa-8031-2e1a-7ab7891d7f98&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=3Am9VQUgZqY3WLLOYaIQKg&expected_price_source=share&expected_price_currency=rub&expected_price=20496",
@@ -466,6 +448,7 @@
     10222199,
     573566,
     9271140,
-    8244663
+    8244663,
+    8563083
   ]
 }
