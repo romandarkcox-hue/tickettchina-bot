@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "BJS-VVO-2026-11-17-6254",
-      "time": 1794050136.5268993
-    },
-    {
       "id": "BJS-MOW-2026-11-27-22999",
       "time": 1794051938.5424306
     },
@@ -359,29 +355,14 @@
     {
       "id": "LED-SHA-2026-11-18-21591",
       "time": 1794653141.227577
+    },
+    {
+      "id": "CAN-MOW-2026-12-05-26210",
+      "time": 1794654943.9675326
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "574",
-      "link": "/search/CAN0512MOW1?t=HY17964486001796487300000945CANTASVKO_80e75d3c8d13ddf72dc9bb8e24bd8251_26237&search_date=14112026&expected_price_uuid=01a1d81d-5765-8030-6cea-4aeec5f0af50&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=UhhhBor-T9q577-_HQ5XWg&expected_price_source=share&expected_price_currency=rub&expected_price=26237",
-      "origin_airport": "CAN",
-      "destination_airport": "VKO",
-      "departure_at": "2026-12-05T05:30:00+08:00",
-      "airline": "HY",
-      "destination": "MOW",
-      "origin": "CAN",
-      "price": 26237,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 945,
-      "duration_to": 685,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 22,
-      "reverse": true
-    },
     {
       "flight_number": "76",
       "link": "/search/SHA1911MOW1?t=W517951319001795170000000935PVGIKASVO_b74cbc52c2a1eff9dd75e806d2485f0f_26492&search_date=14112026&expected_price_uuid=01a1d876-5acd-8031-27fb-d734b678e478&static_fare_key=TY%7CP1%7CH1%7CL1_1_30%7CCH1%7CR1%7CTBC1&itinerary_key=Qq_Rh3fwGzNyGDGoQLGX1A&expected_price_source=share&expected_price_currency=rub&expected_price=26492",
@@ -445,6 +426,7 @@
     1654074,
     2546570,
     6768714,
-    5784006
+    5784006,
+    1802340
   ]
 }
