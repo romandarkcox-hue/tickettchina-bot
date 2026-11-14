@@ -359,28 +359,14 @@
     {
       "id": "YKS-BJS-2026-11-21-13398",
       "time": 1794642343.2873495
+    },
+    {
+      "id": "NQZ-URC-2026-12-03-6530",
+      "time": 1794644141.6167789
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "7961",
-      "link": "/search/NQZ0312URC1?t=FS17963262001796346000000150NQZURC_143a12a4963b86f309cb69e50c99ef0c_6538&search_date=13112026&expected_price_uuid=01a1d2d3-762c-8030-a0e4-223032859a1a&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=YE09JVIbnt6WgFicfAo2uA&expected_price_source=share&expected_price_currency=rub&expected_price=6530",
-      "origin_airport": "NQZ",
-      "destination_airport": "URC",
-      "departure_at": "2026-12-03T19:30:00+06:00",
-      "airline": "FS",
-      "destination": "URC",
-      "origin": "NQZ",
-      "price": 6530,
-      "gate": "Biletix",
-      "return_transfers": 0,
-      "duration": 150,
-      "duration_to": 150,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 21
-    },
     {
       "flight_number": "507",
       "link": "/search/TAS1711URC1?t=HY17949357001794955200000145TASURC_7febb6f708dc40d0a2f888cc6d7b3272_13599&search_date=14112026&expected_price_uuid=01a1d86c-7c99-8030-6188-315fe1fb32f5&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=hE_ZQsRbhGSuu0k3CAgnhg&expected_price_source=share&expected_price_currency=rub&expected_price=13599",
@@ -547,6 +533,7 @@
     10279027,
     2620112,
     799226,
-    1851277
+    1851277,
+    7461792
   ]
 }
