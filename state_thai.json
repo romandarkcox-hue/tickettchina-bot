@@ -139,27 +139,13 @@
     {
       "id": "MOW-HKT-2026-12-10-27172",
       "time": 1794646241.013478
+    },
+    {
+      "id": "OVB-HKT-2026-11-16-30118",
+      "time": 1794648044.1527638
     }
   ],
   "queue": [
-    {
-      "flight_number": "636",
-      "link": "/search/OVB1611HKT1?t=SU17948280001794855600000460OVBHKT_4e8dc22fa017f65eeac0f7938e76e725_30131&search_date=14112026&expected_price_uuid=01a1d8b6-95dc-8030-e519-710428a7dea6&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=G2Xk-zLhmkt2kn8YNKNJVw&expected_price_source=share&expected_price_currency=rub&expected_price=30131",
-      "origin_airport": "OVB",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-16T11:20:00+07:00",
-      "airline": "SU",
-      "destination": "HKT",
-      "origin": "OVB",
-      "price": 30131,
-      "gate": "Biletix",
-      "return_transfers": 0,
-      "duration": 460,
-      "duration_to": 460,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 14.48880374627501
-    },
     {
       "flight_number": "6308",
       "link": "/search/BKK1711MOW1?t=S717949147001795004700001740BKKIKTSVO_b7a399994440069bd548762b4a689cec_17672&search_date=14112026&expected_price_uuid=01a1d8b7-10b9-8040-abfd-c9464dded421&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=0zyHXcBH8zcNT-5uSfjsPA&expected_price_source=share&expected_price_currency=rub&expected_price=17672",
