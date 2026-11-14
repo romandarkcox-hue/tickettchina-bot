@@ -151,28 +151,12 @@
     {
       "id": "HKT-MOW-2026-11-15-20682",
       "time": 1794651640.1728141
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "530",
-      "link": "/search/HKT0112LED1?t=C617961147001796164500001070HKTTASLED_e9b2ed0342772b98d923a11f31fe612f_25643&search_date=14112026&expected_price_uuid=01a1d8b7-848f-8030-62d4-9bdbeee49c51&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=gSGG7hBEtcy9md-fQUPzMA&expected_price_source=share&expected_price_currency=rub&expected_price=25643",
-      "origin_airport": "HKT",
-      "destination_airport": "LED",
-      "departure_at": "2026-12-01T08:45:00+07:00",
-      "airline": "C6",
-      "destination": "LED",
-      "origin": "HKT",
-      "price": 25643,
-      "gate": "Centrum Air",
-      "return_transfers": 0,
-      "duration": 1070,
-      "duration_to": 720,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
+      "id": "HKT-LED-2026-12-01-25643",
+      "time": 1794653445.299351
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-14"
 }
