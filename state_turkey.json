@@ -411,27 +411,13 @@
     {
       "id": "BAK-IST-2026-12-11-7302",
       "time": 1794641452.9461014
+    },
+    {
+      "id": "KRR-IST-2026-11-17-4995",
+      "time": 1794643263.2741208
     }
   ],
   "queue": [
-    {
-      "flight_number": "3069",
-      "link": "/search/KRR1511IST1?t=A417947638001794772800000150KRRIST_33dd3d6a7dda06207ff488d91c0ef502_4995&search_date=14112026&expected_price_uuid=01a1d8a4-7a2d-8030-a7e5-b3f4c1ed4817&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=PbRzrseQyVR10dxJkvHung&expected_price_source=share&expected_price_currency=rub&expected_price=4995",
-      "origin_airport": "KRR",
-      "destination_airport": "IST",
-      "departure_at": "2026-11-15T17:30:00+03:00",
-      "airline": "A4",
-      "destination": "IST",
-      "origin": "KRR",
-      "price": 4995,
-      "gate": "Azimuth",
-      "return_transfers": 0,
-      "duration": 150,
-      "duration_to": 150,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 11.748199233716475
-    },
     {
       "flight_number": "118",
       "link": "/search/LED0912IST1?t=2S17968272001796841300000235LEDIST_209588deaa9c0599496aa95b6ded715a_8281&search_date=14112026&expected_price_uuid=01a1d8a0-e408-8030-620d-fbde5a14b0bd&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jCpl3tL4zjOfnXFjwARWEw&expected_price_source=share&expected_price_currency=rub&expected_price=8281",
@@ -637,6 +623,7 @@
     7572191,
     4043037,
     5408920,
-    3557030
+    3557030,
+    4307665
   ]
 }
