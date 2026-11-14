@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-BJS-2026-11-17-16404",
-      "time": 1794048338.669991
-    },
-    {
       "id": "BJS-VVO-2026-11-17-6254",
       "time": 1794050136.5268993
     },
@@ -359,28 +355,14 @@
     {
       "id": "IKT-HRB-2026-11-27-9719",
       "time": 1794651340.6070497
+    },
+    {
+      "id": "LED-SHA-2026-11-18-21591",
+      "time": 1794653141.227577
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "6410",
-      "link": "/search/LED1811SHA1?t=S717950050001795140900001965LEDIKTPVG_354de9ab2e0843f610ba6bd2bcecff29_21591&search_date=14112026&expected_price_uuid=01a1d896-b58e-8030-28c9-91e9861486b2&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=eJf6I9srSptSZ7g47jVSUQ&expected_price_source=share&expected_price_currency=rub&expected_price=21591",
-      "origin_airport": "LED",
-      "destination_airport": "PVG",
-      "departure_at": "2026-11-18T12:30:00+03:00",
-      "airline": "S7",
-      "destination": "SHA",
-      "origin": "LED",
-      "price": 21591,
-      "gate": "S7 Airlines",
-      "return_transfers": 0,
-      "duration": 1965,
-      "duration_to": 620,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 21
-    },
     {
       "flight_number": "574",
       "link": "/search/CAN0512MOW1?t=HY17964486001796487300000945CANTASVKO_80e75d3c8d13ddf72dc9bb8e24bd8251_26237&search_date=14112026&expected_price_uuid=01a1d81d-5765-8030-6cea-4aeec5f0af50&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=UhhhBor-T9q577-_HQ5XWg&expected_price_source=share&expected_price_currency=rub&expected_price=26237",
@@ -462,6 +444,7 @@
     250232,
     1654074,
     2546570,
-    6768714
+    6768714,
+    5784006
   ]
 }
