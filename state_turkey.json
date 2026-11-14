@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "IST-TAS-2026-12-01-12802",
-      "time": 1794054652.082425
-    },
-    {
       "id": "AYT-SVX-2026-12-02-14091",
       "time": 1794056464.921859
     },
@@ -411,48 +407,13 @@
     {
       "id": "AYT-AER-2026-12-08-9633",
       "time": 1794657665.6173487
-    }
-  ],
-  "queue": [
-    {
-      "flight_number": "840",
-      "link": "/search/AYT0912LED1?t=DP17968206001796897100001275AYTVKOLED_f3ed212bcae0a902b96b868553dd5e62_12088&search_date=14112026&expected_price_uuid=01a1d881-90f4-8030-2ee6-57a31d17bc6a&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=uGfTzitesnzDwbvwe17x2Q&expected_price_source=share&expected_price_currency=rub&expected_price=12088",
-      "origin_airport": "AYT",
-      "destination_airport": "LED",
-      "departure_at": "2026-12-09T12:50:00+03:00",
-      "airline": "DP",
-      "destination": "LED",
-      "origin": "AYT",
-      "price": 12088,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 1275,
-      "duration_to": 385,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
     },
     {
-      "flight_number": "3006",
-      "link": "/search/IST2811TAS1?t=VF17958894001795926000000490SAWESBTAS_4ddaf1ab6933bbce950f55eb1e96a0f2_13272&search_date=14112026&expected_price_uuid=01a1d892-acff-8031-229f-c8fed674d8c1&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Qrfxo0x7Eozj9awRUsOIuQ&expected_price_source=share&expected_price_currency=rub&expected_price=13272",
-      "origin_airport": "SAW",
-      "destination_airport": "TAS",
-      "departure_at": "2026-11-28T18:10:00+03:00",
-      "airline": "VF",
-      "destination": "TAS",
-      "origin": "IST",
-      "price": 13272,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 490,
-      "duration_to": 320,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 31,
-      "reverse": true
+      "id": "IST-TAS-2026-11-28-13000",
+      "time": 1794659465.1573415
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-14",
   "used_photos": [
     3855080,
@@ -481,6 +442,7 @@
     4119706,
     6571902,
     2210338,
-    5921936
+    5921936,
+    196501
   ]
 }
