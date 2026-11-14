@@ -411,27 +411,13 @@
     {
       "id": "LED-AYT-2026-12-05-8931",
       "time": 1794648652.3557131
+    },
+    {
+      "id": "EVN-IST-2026-12-09-6436",
+      "time": 1794650463.1966183
     }
   ],
   "queue": [
-    {
-      "flight_number": "7863",
-      "link": "/search/EVN1412IST1?t=W617972298001797326100001665EVNBUDIST_c45660bc75d5f573a25fb81820ef2134_6330&search_date=13112026&expected_price_uuid=01a1d6a2-878d-8030-25fa-49b5a427bda4&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=pi4aNEhkFkYOax5tw8GI1Q&expected_price_source=share&expected_price_currency=rub&expected_price=6330",
-      "origin_airport": "EVN",
-      "destination_airport": "IST",
-      "departure_at": "2026-12-14T06:30:00+04:00",
-      "airline": "W6",
-      "destination": "IST",
-      "origin": "EVN",
-      "price": 6330,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 1665,
-      "duration_to": 355,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 7.333333333333333
-    },
     {
       "flight_number": "586",
       "link": "/search/TAS3011IST1?t=VF17960193001796106600001575TASESBSAW_39c0ff433401420257b76c5d0044ef68_12852&search_date=14112026&expected_price_uuid=01a1d84c-2164-8030-a901-ab537e573250&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=9iZz6Gku6Fw43Tfsokd3DQ&expected_price_source=share&expected_price_currency=rub&expected_price=12852",
@@ -569,6 +555,7 @@
     4307665,
     4375864,
     3008844,
-    1499840
+    1499840,
+    4196142
   ]
 }
