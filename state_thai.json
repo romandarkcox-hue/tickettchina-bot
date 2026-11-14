@@ -147,28 +147,13 @@
     {
       "id": "BKK-MOW-2026-11-17-17498",
       "time": 1794649842.5656219
+    },
+    {
+      "id": "HKT-MOW-2026-11-15-20682",
+      "time": 1794651640.1728141
     }
   ],
   "queue": [
-    {
-      "flight_number": "202",
-      "link": "/search/HKT2211MOW1?t=HH17953491001795405200001175HKTTASZIA_868ff34c87b351d7a12c76aa42b09303_25553&search_date=14112026&expected_price_uuid=01a1d8aa-346e-8031-2974-bc8f6c558267&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=JIqhCRdleMkp6xyBnoBPSA&expected_price_source=share&expected_price_currency=rub&expected_price=25553",
-      "origin_airport": "HKT",
-      "destination_airport": "ZIA",
-      "departure_at": "2026-11-22T12:05:00+07:00",
-      "airline": "HH",
-      "destination": "MOW",
-      "origin": "HKT",
-      "price": 25553,
-      "gate": "Aviakassa",
-      "return_transfers": 0,
-      "duration": 1175,
-      "duration_to": 630,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "530",
       "link": "/search/HKT0112LED1?t=C617961147001796164500001070HKTTASLED_e9b2ed0342772b98d923a11f31fe612f_25643&search_date=14112026&expected_price_uuid=01a1d8b7-848f-8030-62d4-9bdbeee49c51&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=gSGG7hBEtcy9md-fQUPzMA&expected_price_source=share&expected_price_currency=rub&expected_price=25643",
