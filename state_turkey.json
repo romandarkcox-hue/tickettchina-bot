@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "LED-IST-2026-11-08-7356",
-      "time": 1794043851.7683504
-    },
-    {
       "id": "KZN-AYT-2026-11-11-4846",
       "time": 1794045664.336298
     },
@@ -411,27 +407,13 @@
     {
       "id": "KZN-IST-2026-11-18-6016",
       "time": 1794646866.5317137
+    },
+    {
+      "id": "LED-AYT-2026-12-05-8931",
+      "time": 1794648652.3557131
     }
   ],
   "queue": [
-    {
-      "flight_number": "1016",
-      "link": "/search/LED0512AYT1?t=S717964963001796570700001240LEDDMEAYT_6fb529cd326f71a332f0df2a57e036c7_8961&search_date=14112026&expected_price_uuid=01a1d894-aa20-8031-2bc1-ba656eaa6396&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=U3x3OvVUnsJ-yAq2a5yCUA&expected_price_source=share&expected_price_currency=rub&expected_price=8961",
-      "origin_airport": "LED",
-      "destination_airport": "AYT",
-      "departure_at": "2026-12-05T18:45:00+03:00",
-      "airline": "S7",
-      "destination": "AYT",
-      "origin": "LED",
-      "price": 8961,
-      "gate": "S7 Airlines",
-      "return_transfers": 0,
-      "duration": 1240,
-      "duration_to": 405,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 19.691724137931033
-    },
     {
       "flight_number": "7863",
       "link": "/search/EVN1412IST1?t=W617972298001797326100001665EVNBUDIST_c45660bc75d5f573a25fb81820ef2134_6330&search_date=13112026&expected_price_uuid=01a1d6a2-878d-8030-25fa-49b5a427bda4&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=pi4aNEhkFkYOax5tw8GI1Q&expected_price_source=share&expected_price_currency=rub&expected_price=6330",
@@ -586,6 +568,7 @@
     3557030,
     4307665,
     4375864,
-    3008844
+    3008844,
+    1499840
   ]
 }
