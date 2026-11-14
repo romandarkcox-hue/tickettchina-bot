@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "AUH-MOW-2026-11-09-12849",
-      "time": 1794045936.2533867
-    },
-    {
-      "id": "DXB-KRR-2026-11-11-16573",
-      "time": 1794047730.4166825
-    },
-    {
       "id": "MOW-DXB-2026-11-10-7613",
       "time": 1794118017.9600468
     },
@@ -279,28 +271,12 @@
     {
       "id": "AUH-MOW-2026-11-18-8377",
       "time": 1794650732.7036479
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "992",
-      "link": "/search/DXB1711KRR1?t=DP17949291001795035900001840DWCVKOKRR_fd13addc644a0c9441c98cc4ac8d661d_11618&search_date=14112026&expected_price_uuid=01a1d8a9-6b30-8030-682d-f8bdea82918b&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=gvqHV0OgbFWtmGsTFV7UVA&expected_price_source=share&expected_price_currency=rub&expected_price=11618",
-      "origin_airport": "DWC",
-      "destination_airport": "KRR",
-      "departure_at": "2026-11-17T15:25:00+04:00",
-      "airline": "DP",
-      "destination": "KRR",
-      "origin": "DXB",
-      "price": 11618,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 1840,
-      "duration_to": 625,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 31,
-      "reverse": true
+      "id": "DXB-KRR-2026-11-17-11785",
+      "time": 1794652535.406275
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-14"
 }
