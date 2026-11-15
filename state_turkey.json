@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "KRR-AYT-2026-11-08-4515",
-      "time": 1794124865.4003654
-    },
-    {
-      "id": "TBS-IST-2026-12-06-6585",
-      "time": 1794126653.9448178
-    },
-    {
       "id": "KZN-AYT-2026-11-09-4846",
       "time": 1794128462.5011947
     },
@@ -411,27 +403,13 @@
     {
       "id": "KZN-IST-2026-11-18-6032",
       "time": 1794729661.6583302
+    },
+    {
+      "id": "MOW-AYT-2026-11-15-7733",
+      "time": 1794731454.937575
     }
   ],
   "queue": [
-    {
-      "flight_number": "2144",
-      "link": "/search/MOW1511AYT1?t=SU17947509001794768900000300SVOAYT_692ea0e20388bb477933c8e2a7705c85_7733&search_date=15112026&expected_price_uuid=01a1ddc9-a1f6-8030-e986-2c15368dd165&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=jUuc21DS5W0lNF-xZoa0IA&expected_price_source=share&expected_price_currency=rub&expected_price=7733",
-      "origin_airport": "SVO",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-15T13:55:00+03:00",
-      "airline": "SU",
-      "destination": "AYT",
-      "origin": "MOW",
-      "price": 7733,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 300,
-      "duration_to": 300,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 20.954789272030652
-    },
     {
       "flight_number": "551",
       "link": "/search/EVN1012IST1?t=PC17968761001796881200000145EVNSAW_af5eb04fca3937005c8b75754c6e98ef_6578&search_date=14112026&expected_price_uuid=01a1da8f-c339-8031-640b-2aedeeb516ce&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=GIM3yhbqSs_9Ohpld8BOLg&expected_price_source=share&expected_price_currency=rub&expected_price=6578",
@@ -634,6 +612,7 @@
     4770269,
     73811,
     3994545,
-    1104206
+    1104206,
+    73894
   ]
 }
