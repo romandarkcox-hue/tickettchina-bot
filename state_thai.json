@@ -163,27 +163,13 @@
     {
       "id": "MOW-BKK-2026-12-03-25197",
       "time": 1794725444.1088662
+    },
+    {
+      "id": "OSS-HKT-2026-11-25-19372",
+      "time": 1794727239.7272503
     }
   ],
   "queue": [
-    {
-      "flight_number": "216",
-      "link": "/search/OSS2511HKT1?t=C617956446001795695300000785OSSTASHKT_e35cae620b6670cd2a248033abe9a119_19372&search_date=15112026&expected_price_uuid=01a1dd3b-ea90-8031-26a8-a57a121f729e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=M4NsaXnKItWvzOS-9cZSNA&expected_price_source=share&expected_price_currency=rub&expected_price=19372",
-      "origin_airport": "OSS",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-25T22:10:00+06:00",
-      "airline": "C6",
-      "destination": "HKT",
-      "origin": "OSS",
-      "price": 19372,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 785,
-      "duration_to": 445,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 0
-    },
     {
       "flight_number": "8004",
       "link": "/search/MOW0612HKT1?t=CZ17965989001796747100002230SVOCANHKT_b10f1e81836ddba199cad11102fe87d8_27430&search_date=15112026&expected_price_uuid=01a1ddd6-3dc4-8031-6ceb-21c04b688a8a&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH1%7CR1%7CTBC1&itinerary_key=9itghXX9hEPji0wvpj6iUQ&expected_price_source=share&expected_price_currency=rub&expected_price=27430",
