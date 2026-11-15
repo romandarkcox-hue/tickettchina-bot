@@ -407,27 +407,13 @@
     {
       "id": "EVN-IST-2026-12-10-6578",
       "time": 1794733263.9810133
+    },
+    {
+      "id": "LED-AYT-2026-11-16-10554",
+      "time": 1794735053.148928
     }
   ],
   "queue": [
-    {
-      "flight_number": "114",
-      "link": "/search/LED1611AYT1?t=2S17947911001794806700000260LEDAYT_3b05fb024eca7ac427ffc36a93cd7099_10554&search_date=15112026&expected_price_uuid=01a1ddc3-003c-8030-6d8d-ecb7ce6e1a8c&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=G1MgluvLLcm2Cldt9BftGg&expected_price_source=share&expected_price_currency=rub&expected_price=10554",
-      "origin_airport": "LED",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-16T01:05:00+03:00",
-      "airline": "2S",
-      "destination": "AYT",
-      "origin": "LED",
-      "price": 10554,
-      "gate": "Southwind",
-      "return_transfers": 0,
-      "duration": 260,
-      "duration_to": 260,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 19.703678160919537
-    },
     {
       "flight_number": "086",
       "link": "/search/MOW0812IST1?t=2S17966913001796704800000225SVOIST_413fe9d6f4159380067a4e2f4bc8aba1_6608&search_date=15112026&expected_price_uuid=01a1ddca-65e6-8031-69be-7d9422653ffb&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=tR61r18FmNigVlb2JspBWA&expected_price_source=share&expected_price_currency=rub&expected_price=6608",
@@ -596,6 +582,7 @@
     3994545,
     1104206,
     73894,
-    908510
+    908510,
+    10412381
   ]
 }
