@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-AYT-2026-11-09-4358",
-      "time": 1794121269.9555137
-    },
-    {
-      "id": "BAK-IST-2026-12-05-6580",
-      "time": 1794123053.3206935
-    },
-    {
       "id": "KRR-AYT-2026-11-08-4515",
       "time": 1794124865.4003654
     },
@@ -411,27 +403,13 @@
     {
       "id": "AER-AYT-2026-11-24-4995",
       "time": 1794726064.787386
+    },
+    {
+      "id": "BAK-IST-2026-12-05-7171",
+      "time": 1794727862.5584395
     }
   ],
   "queue": [
-    {
-      "flight_number": "182",
-      "link": "/search/BAK0412IST1?t=VF17963877001796395800000195GYDSAW_b05a81331b3cf4fab355860da50f9f84_7172&search_date=14112026&expected_price_uuid=01a1dad2-93bb-8030-ae8c-1b5dae8753fd&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ONl2EolfJVrTNnKQpSxE6A&expected_price_source=share&expected_price_currency=rub&expected_price=7172",
-      "origin_airport": "GYD",
-      "destination_airport": "SAW",
-      "departure_at": "2026-12-04T12:35:00+04:00",
-      "airline": "VF",
-      "destination": "IST",
-      "origin": "BAK",
-      "price": 7172,
-      "gate": "Kiwi.com",
-      "return_transfers": 0,
-      "duration": 195,
-      "duration_to": 195,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 11.823152709359606
-    },
     {
       "flight_number": "1015",
       "link": "/search/KZN1811IST1?t=N417950005001795018500000300KZNIST_186a428b475540fbb657654b5f797bc7_6032&search_date=15112026&expected_price_uuid=01a1ddc7-2078-8030-afba-0d45d2174949&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=wIddGp12jpTnXZsoYBx8vA&expected_price_source=share&expected_price_currency=rub&expected_price=6032",
@@ -668,6 +646,7 @@
     196501,
     4115381,
     4770269,
-    73811
+    73811,
+    3994545
   ]
 }
