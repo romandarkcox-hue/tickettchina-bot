@@ -50,7 +50,8 @@
   2569200,
   4597415,
   7741260,
-  4545806
+  4545806,
+  5243222
  ],
  "wish_order": {
   "morning": [
@@ -165,9 +166,9 @@
  "done_morning": "2026-11-15",
  "done_day": "2026-11-15",
  "done_night": "2026-11-14",
- "done_history": "2026-11-14",
+ "done_history": "2026-11-15",
  "done_vk_morning": "2026-11-15",
  "done_vk_day": "2026-11-15",
  "done_vk_night": "2026-11-14",
- "done_vk_history": "2026-11-14"
+ "done_vk_history": "2026-11-15"
 }
