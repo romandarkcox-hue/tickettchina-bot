@@ -215,28 +215,13 @@
     {
       "id": "OVB-HKT-2026-11-21-31693",
       "time": 1794819042.9872322
+    },
+    {
+      "id": "BKK-MOW-2026-11-24-22520",
+      "time": 1794820843.8308156
     }
   ],
   "queue": [
-    {
-      "flight_number": "526",
-      "link": "/search/BKK2411MOW1?t=C617955075001795579200001435BKKTASDME_51cb93fa4c45bbaa675e2edcdbb41459_22397&search_date=16112026&expected_price_uuid=01a1e300-8202-8030-6a2a-979f88c5687f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=86_K0IqV3xuM8HObWqU4Ug&expected_price_source=share&expected_price_currency=rub&expected_price=22399",
-      "origin_airport": "BKK",
-      "destination_airport": "DME",
-      "departure_at": "2026-11-24T08:05:00+07:00",
-      "airline": "C6",
-      "destination": "MOW",
-      "origin": "BKK",
-      "price": 22399,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 1435,
-      "duration_to": 660,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "536",
       "link": "/search/HKT0312MOW1?t=HY17962806001796334000001130HKTTASDME_d751426ae90ee947e7f4dd13f90b7b42_23185&search_date=16112026&expected_price_uuid=01a1e2eb-c807-8031-22ea-10ce062bdc7a&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=obAYo5DJNL1ARKzE_mXe2w&expected_price_source=share&expected_price_currency=rub&expected_price=23187",
