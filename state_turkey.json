@@ -407,27 +407,13 @@
     {
       "id": "LED-IST-2026-12-09-8283",
       "time": 1794814256.9820251
+    },
+    {
+      "id": "KZN-IST-2026-11-18-7393",
+      "time": 1794816064.5435371
     }
   ],
   "queue": [
-    {
-      "flight_number": "1015",
-      "link": "/search/KZN1611IST1?t=N417948274001794845700000305KZNIST_b53250caa6eb946c18f8951645ae8317_6101&search_date=16112026&expected_price_uuid=01a1e2ee-faa5-8030-62a4-6775122ea426&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=qV10Zx1lZ6kbUDRK0hBsNQ&expected_price_source=share&expected_price_currency=rub&expected_price=6100",
-      "origin_airport": "KZN",
-      "destination_airport": "IST",
-      "departure_at": "2026-11-16T11:10:00+03:00",
-      "airline": "N4",
-      "destination": "IST",
-      "origin": "KZN",
-      "price": 6100,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 305,
-      "duration_to": 305,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 10.89103448275862
-    },
     {
       "flight_number": "839",
       "link": "/search/MOW1112AYT1?t=DP17969724001796991000000310VKOAYT_bcf8586b3b20af9ad1a8a26bc81ce8ce_8303&search_date=16112026&expected_price_uuid=01a1e2dd-6472-8030-a395-75ff2282498a&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=HB8jsrug2Ap1fjvdGFaxkQ&expected_price_source=share&expected_price_currency=rub&expected_price=8301",
@@ -662,6 +648,7 @@
     7478686,
     4785964,
     4307664,
-    5530797
+    5530797,
+    3905675
   ]
 }
