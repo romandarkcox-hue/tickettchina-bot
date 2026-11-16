@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-IST-2026-11-10-4738",
-      "time": 1794211266.3988614
-    },
-    {
-      "id": "TBS-IST-2026-12-04-6627",
-      "time": 1794213053.2796848
-    },
-    {
       "id": "KZN-AYT-2026-11-11-4814",
       "time": 1794214869.5546837
     },
@@ -411,27 +403,13 @@
     {
       "id": "KZN-IST-2026-11-18-7393",
       "time": 1794816064.5435371
+    },
+    {
+      "id": "MOW-AYT-2026-11-25-6835",
+      "time": 1794817858.370299
     }
   ],
   "queue": [
-    {
-      "flight_number": "839",
-      "link": "/search/MOW1112AYT1?t=DP17969724001796991000000310VKOAYT_bcf8586b3b20af9ad1a8a26bc81ce8ce_8303&search_date=16112026&expected_price_uuid=01a1e2dd-6472-8030-a395-75ff2282498a&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=HB8jsrug2Ap1fjvdGFaxkQ&expected_price_source=share&expected_price_currency=rub&expected_price=8301",
-      "origin_airport": "VKO",
-      "destination_airport": "AYT",
-      "departure_at": "2026-12-11T07:00:00+03:00",
-      "airline": "DP",
-      "destination": "AYT",
-      "origin": "MOW",
-      "price": 8301,
-      "gate": "OneTwoTrip",
-      "return_transfers": 0,
-      "duration": 310,
-      "duration_to": 310,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 20.954789272030652
-    },
     {
       "flight_number": "551",
       "link": "/search/EVN1312IST1?t=PC17971353001797140400000145EVNSAW_41500dcf6dc26d800e894a713710e10c_6520&search_date=15112026&expected_price_uuid=01a1e152-d471-8031-6ac0-67b8417049d3&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=GIM3yhbqSs_9Ohpld8BOLg&expected_price_source=share&expected_price_currency=rub&expected_price=6520",
@@ -649,6 +627,7 @@
     4785964,
     4307664,
     5530797,
-    3905675
+    3905675,
+    3855084
   ]
 }
