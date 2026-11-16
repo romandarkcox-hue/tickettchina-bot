@@ -54,7 +54,8 @@
   5243222,
   6369825,
   8411516,
-  74016
+  74016,
+  7788034
  ],
  "wish_order": {
   "morning": [
@@ -167,9 +168,9 @@
  "done_morning": "2026-11-16",
  "done_day": "2026-11-16",
  "done_night": "2026-11-15",
- "done_history": "2026-11-15",
+ "done_history": "2026-11-16",
  "done_vk_morning": "2026-11-16",
  "done_vk_day": "2026-11-16",
  "done_vk_night": "2026-11-15",
- "done_vk_history": "2026-11-15"
+ "done_vk_history": "2026-11-16"
 }
