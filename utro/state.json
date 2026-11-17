@@ -56,11 +56,11 @@
   8411516,
   74016,
   7788034,
-  5183917
+  5183917,
+  7541423
  ],
  "wish_order": {
   "morning": [
-   15,
    14,
    0,
    11,
@@ -165,11 +165,11 @@
    49
   ]
  },
- "done_morning": "2026-11-16",
+ "done_morning": "2026-11-17",
  "done_day": "2026-11-16",
  "done_night": "2026-11-16",
  "done_history": "2026-11-16",
- "done_vk_morning": "2026-11-16",
+ "done_vk_morning": "2026-11-17",
  "done_vk_day": "2026-11-16",
  "done_vk_night": "2026-11-16",
  "done_vk_history": "2026-11-16"
