@@ -247,27 +247,13 @@
     {
       "id": "LED-HKT-2026-12-08-29349",
       "time": 1794905443.1066673
+    },
+    {
+      "id": "MSQ-BKK-2026-11-28-33859",
+      "time": 1794907241.4044645
     }
   ],
   "queue": [
-    {
-      "flight_number": "710",
-      "link": "/search/MSQ2811BKK1?t=HY17958924001795983000001270MSQTASBKK_f3a22da9a18997fdde1716bae653c5b4_33862&search_date=17112026&expected_price_uuid=01a1e81d-65d7-8030-6a76-ee99f7d24ced&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=RARKfvo4nGr83KX9v-ENMg&expected_price_source=share&expected_price_currency=rub&expected_price=33856",
-      "origin_airport": "MSQ",
-      "destination_airport": "BKK",
-      "departure_at": "2026-11-28T19:00:00+03:00",
-      "airline": "HY",
-      "destination": "BKK",
-      "origin": "MSQ",
-      "price": 33856,
-      "gate": "Uzbekistan airways",
-      "return_transfers": 0,
-      "duration": 1270,
-      "duration_to": 655,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 5.310344827586206
-    },
     {
       "flight_number": "536",
       "link": "/search/HKT0312MOW1?t=HY17962806001796361300001585HKTTASVKO_b6ec763755afbd2128ad412332d3a255_22533&search_date=17112026&expected_price_uuid=01a1e828-ac83-8030-2e62-f7ad2ef7aff1&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Jdc7PjryyRBuNFeVThCcGw&expected_price_source=share&expected_price_currency=rub&expected_price=22529",
