@@ -239,27 +239,13 @@
     {
       "id": "MOW-HKT-2026-12-06-26930",
       "time": 1794901842.0818353
+    },
+    {
+      "id": "IKT-HKT-2026-11-18-9280",
+      "time": 1794903647.3064342
     }
   ],
   "queue": [
-    {
-      "flight_number": "660",
-      "link": "/search/IKT1811HKT1?t=SU17949912001795013700000435IKTHKT_d1512728c5dd0bdcd5280693614e9d9f_16240&search_date=17112026&expected_price_uuid=01a1e82a-5671-8030-a7f4-7f9760602988&static_fare_key=TY%7CP0%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=mX-q7YxRG4O0lkW5ExdI7Q&expected_price_source=share&expected_price_currency=rub&expected_price=16237",
-      "origin_airport": "IKT",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-18T08:40:00+08:00",
-      "airline": "SU",
-      "destination": "HKT",
-      "origin": "IKT",
-      "price": 16237,
-      "gate": "Nebo.Travel",
-      "return_transfers": 0,
-      "duration": 435,
-      "duration_to": 435,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 4.6513793103448275
-    },
     {
       "flight_number": "6026",
       "link": "/search/LED0812HKT1?t=MU17967540001796853600001420LEDPVGHKT_6bdf674a687edee824a34dd0f655ecf2_27223&search_date=17112026&expected_price_uuid=01a1e818-8dec-8030-ae5a-f516aec2d155&static_fare_key=TY%7CP1%7CH1%7CL1_2_46%7CCH1%7CR0%7CTBC1&itinerary_key=mqvQg3aDRofcLTr-i4Ax5A&expected_price_source=share&expected_price_currency=rub&expected_price=27218",
