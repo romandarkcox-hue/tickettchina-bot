@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "IST-MOW-2026-11-26-7960",
-      "time": 1794308470.5870245
-    },
-    {
-      "id": "AYT-MOW-2026-12-10-8755",
-      "time": 1794310253.9538984
-    },
-    {
       "id": "AYT-LED-2026-12-02-12495",
       "time": 1794312067.4970372
     },
@@ -383,28 +375,13 @@
     {
       "id": "IST-MOW-2026-12-08-7877",
       "time": 1794913268.5020783
+    },
+    {
+      "id": "AYT-MOW-2026-12-17-8240",
+      "time": 1794915064.4300985
     }
   ],
   "queue": [
-    {
-      "flight_number": "3740",
-      "link": "/search/AYT1412MOW1?t=S717972655001797282900000290AYTDME_452f9aaefb93c1d6d1f292d29be184d1_8513&search_date=17112026&expected_price_uuid=01a1e806-0eab-8031-6d52-889d58142b1b&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=pW2rKIIFUDXyfXT2vRx4AQ&expected_price_source=share&expected_price_currency=rub&expected_price=8512",
-      "origin_airport": "AYT",
-      "destination_airport": "DME",
-      "departure_at": "2026-12-14T16:25:00+03:00",
-      "airline": "S7",
-      "destination": "MOW",
-      "origin": "AYT",
-      "price": 8512,
-      "gate": "S7 Airlines",
-      "return_transfers": 0,
-      "duration": 290,
-      "duration_to": 290,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "5052",
       "link": "/search/AYT1512AER1?t=A417973624001797370200000130AYTAER_44ae34858656f029fb53ec1d30a5fe3c_8698&search_date=17112026&expected_price_uuid=01a1e7b6-ba4a-8030-27f6-2ba228bc4217&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=2DMfyWXrq9P34uYI7eu2tQ&expected_price_source=share&expected_price_currency=rub&expected_price=8697",
@@ -526,6 +503,7 @@
     2357224,
     7729746,
     2872989,
-    3617064
+    3617064,
+    509095
   ]
 }
