@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "BAK-IST-2026-12-09-7376",
-      "time": 1794303055.2783973
-    },
-    {
       "id": "MOW-IST-2026-11-11-4284",
       "time": 1794304865.531908
     },
@@ -379,27 +375,13 @@
     {
       "id": "KZN-AYT-2026-11-18-5241",
       "time": 1794906068.3791432
+    },
+    {
+      "id": "LED-IST-2026-11-17-7653",
+      "time": 1794907856.2874544
     }
   ],
   "queue": [
-    {
-      "flight_number": "118",
-      "link": "/search/LED0912IST1?t=2S17968272001796841300000235LEDIST_209588deaa9c0599496aa95b6ded715a_8192&search_date=17112026&expected_price_uuid=01a1e812-2b6f-8030-2556-fff2226ab34d&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jCpl3tL4zjOfnXFjwARWEw&expected_price_source=share&expected_price_currency=rub&expected_price=8191",
-      "origin_airport": "LED",
-      "destination_airport": "IST",
-      "departure_at": "2026-12-09T14:40:00+03:00",
-      "airline": "2S",
-      "destination": "IST",
-      "origin": "LED",
-      "price": 8191,
-      "gate": "Biletix",
-      "return_transfers": 0,
-      "duration": 235,
-      "duration_to": 235,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 24.371264367816092
-    },
     {
       "flight_number": "202",
       "link": "/search/LED1811AYT1?t=DP17950203001795090200001165LEDVKOAYT_e2795482d01da4c8bb1ba338dc058b21_5428&search_date=17112026&expected_price_uuid=01a1e816-9009-8031-6e21-eb8ac303a875&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=TDpOduBAByMH7Xl2GMv0Qw&expected_price_source=share&expected_price_currency=rub&expected_price=5428",
@@ -591,6 +573,7 @@
     2727230,
     7395404,
     4055410,
-    5415283
+    5415283,
+    2357224
   ]
 }
