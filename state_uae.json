@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "KZN-DXB-2026-11-10-7487",
-      "time": 1794297931.2205029
-    },
-    {
       "id": "EVN-DXB-2026-12-10-15049",
       "time": 1794299732.1240952
     },
@@ -267,27 +263,13 @@
     {
       "id": "SVX-DXB-2026-11-19-9961",
       "time": 1794900933.8672304
+    },
+    {
+      "id": "MOW-AUH-2026-11-20-8143",
+      "time": 1794902734.6762183
     }
   ],
   "queue": [
-    {
-      "flight_number": "753",
-      "link": "/search/MOW1811AUH1?t=DP17949939001795021500000400VKOAUH_bb62ac40b3459e257bc921f3994ea6b5_8146&search_date=17112026&expected_price_uuid=01a1e81a-facb-8030-a1f9-e2c6ec1154aa&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=y6XL90bUeIqDZ8Wt2DPc2Q&expected_price_source=share&expected_price_currency=rub&expected_price=8145",
-      "origin_airport": "VKO",
-      "destination_airport": "AUH",
-      "departure_at": "2026-11-18T09:25:00+03:00",
-      "airline": "DP",
-      "destination": "AUH",
-      "origin": "MOW",
-      "price": 8145,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 400,
-      "duration_to": 400,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 0
-    },
     {
       "flight_number": "6032",
       "link": "/search/EVN2011DXB1?t=A417952108001795242900000535EVNMRVDWC_bcd1c60ce8bd2a3189be6892b33f0bbc_14860&search_date=17112026&expected_price_uuid=01a1e7e3-fff0-8031-2d10-1cb26103c7bf&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=XIxlhNvcOZCiFKOuky-YUQ&expected_price_source=share&expected_price_currency=rub&expected_price=14860",
