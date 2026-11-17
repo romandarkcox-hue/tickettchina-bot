@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "DXB-MOW-2026-12-01-12713",
-      "time": 1794303332.3961017
-    },
-    {
       "id": "AUH-MOW-2026-11-18-12782",
       "time": 1794305139.3230686
     },
@@ -267,28 +263,13 @@
     {
       "id": "BAK-DXB-2026-12-10-16909",
       "time": 1794906335.9640272
+    },
+    {
+      "id": "DXB-MOW-2026-11-17-7656",
+      "time": 1794908134.8878553
     }
   ],
   "queue": [
-    {
-      "flight_number": "794",
-      "link": "/search/DXB1911MOW1?t=DP17951127001795132200000385DWCVKO_11312c52d35005375be418b6de1ca67e_9378&search_date=17112026&expected_price_uuid=01a1e81b-43c0-8030-2d10-3e9752dff6c1&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=Ahw7QOyZO-T9yldp7bnG1g&expected_price_source=share&expected_price_currency=rub&expected_price=9376",
-      "origin_airport": "DWC",
-      "destination_airport": "VKO",
-      "departure_at": "2026-11-19T18:25:00+04:00",
-      "airline": "DP",
-      "destination": "MOW",
-      "origin": "DXB",
-      "price": 9376,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 385,
-      "duration_to": 385,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "794",
       "link": "/search/DXB1911MRV1?t=DP17951127001795188900001330DWCVKOSVOMRV_edb38175c0c134d673f8f74c82509237_12198&search_date=17112026&expected_price_uuid=01a1e81b-613e-8030-e566-0b5756660a6f&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=gqeaOrS2fOoIFZK9IrQM-A&expected_price_source=share&expected_price_currency=rub&expected_price=12196",
