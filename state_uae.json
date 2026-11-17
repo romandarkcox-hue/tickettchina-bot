@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "EVN-DXB-2026-12-10-15049",
-      "time": 1794299732.1240952
-    },
-    {
       "id": "BAK-DXB-2026-12-08-16341",
       "time": 1794301531.055698
     },
@@ -267,27 +263,13 @@
     {
       "id": "MOW-AUH-2026-11-20-8143",
       "time": 1794902734.6762183
+    },
+    {
+      "id": "EVN-DXB-2026-11-20-14860",
+      "time": 1794904533.1013737
     }
   ],
   "queue": [
-    {
-      "flight_number": "6032",
-      "link": "/search/EVN2011DXB1?t=A417952108001795242900000535EVNMRVDWC_bcd1c60ce8bd2a3189be6892b33f0bbc_14860&search_date=17112026&expected_price_uuid=01a1e7e3-fff0-8031-2d10-1cb26103c7bf&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=XIxlhNvcOZCiFKOuky-YUQ&expected_price_source=share&expected_price_currency=rub&expected_price=14860",
-      "origin_airport": "EVN",
-      "destination_airport": "DWC",
-      "departure_at": "2026-11-20T21:40:00+04:00",
-      "airline": "A4",
-      "destination": "DXB",
-      "origin": "EVN",
-      "price": 14860,
-      "gate": "Azimuth",
-      "return_transfers": 0,
-      "duration": 535,
-      "duration_to": 340,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 9.480873015873016
-    },
     {
       "flight_number": "578",
       "link": "/search/BAK1012DXB1?t=VF17969205001796963100000710GYDESBDXB_f22e291c807ce29ede59b94abb057963_16910&search_date=16112026&expected_price_uuid=01a1e5e4-d614-8030-20e1-131a4c6ff7c2&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=dIcutxUO6yp2DQ6D1ZyYhg&expected_price_source=share&expected_price_currency=rub&expected_price=16909",
