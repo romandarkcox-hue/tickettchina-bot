@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "AER-IST-2026-11-16-6720",
-      "time": 1794382250.5623405
-    },
-    {
       "id": "MOW-IST-2026-11-13-4756",
       "time": 1794384060.3696537
     },
@@ -379,27 +375,13 @@
     {
       "id": "KRR-IST-2026-11-21-4783",
       "time": 1794985267.303892
+    },
+    {
+      "id": "EVN-IST-2026-12-13-6578",
+      "time": 1794987053.4895754
     }
   ],
   "queue": [
-    {
-      "flight_number": "551",
-      "link": "/search/EVN0312IST1?t=PC17962713001796276400000145EVNSAW_34f0d6ee3c0a0efd09ad04bf7858be11_6412&search_date=17112026&expected_price_uuid=01a1eb6c-c860-8030-68f4-f1e569d169ea&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=GIM3yhbqSs_9Ohpld8BOLg&expected_price_source=share&expected_price_currency=rub&expected_price=6412",
-      "origin_airport": "EVN",
-      "destination_airport": "SAW",
-      "departure_at": "2026-12-03T04:15:00+04:00",
-      "airline": "PC",
-      "destination": "IST",
-      "origin": "EVN",
-      "price": 6412,
-      "gate": "Pegasus Airlines",
-      "return_transfers": 0,
-      "duration": 145,
-      "duration_to": 145,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 6.782222222222222
-    },
     {
       "flight_number": "5051",
       "link": "/search/AER2211AYT1?t=A417953668001795375800000150AERAYT_95fc95c569c351fabb68ccb646383ef6_4890&search_date=18112026&expected_price_uuid=01a1ed1d-00ae-8030-ec3c-bca04b5ccd4b&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=TvRQuSYrV-9fY2VNbvvcSg&expected_price_source=share&expected_price_currency=rub&expected_price=4890",
@@ -674,6 +656,7 @@
     4580850,
     73884,
     2864147,
-    1261194
+    1261194,
+    3567395
   ]
 }
