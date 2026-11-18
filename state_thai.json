@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "TAS-BKK-2026-11-16-14023",
-      "time": 1794381639.1558073
-    },
-    {
       "id": "ALA-HKT-2026-11-11-15397",
       "time": 1794383437.0376894
     },
@@ -263,27 +259,13 @@
     {
       "id": "MOW-BKK-2026-12-01-24043",
       "time": 1794984652.0492513
+    },
+    {
+      "id": "TAS-BKK-2026-11-23-15156",
+      "time": 1794986448.888744
     }
   ],
   "queue": [
-    {
-      "flight_number": "531",
-      "link": "/search/TAS2311BKK1?t=HY17954685001795497900000370TASBKK_5d69761d233a42c08c68d3128de9d606_15156&search_date=18112026&expected_price_uuid=01a1ed34-dc47-8030-e092-d59148c20268&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=MBCCYUZ83uEELZfdT6-o1w&expected_price_source=share&expected_price_currency=rub&expected_price=15156",
-      "origin_airport": "TAS",
-      "destination_airport": "BKK",
-      "departure_at": "2026-11-23T21:15:00+05:00",
-      "airline": "HY",
-      "destination": "BKK",
-      "origin": "TAS",
-      "price": 15156,
-      "gate": "Uzbekistan airways",
-      "return_transfers": 0,
-      "duration": 370,
-      "duration_to": 370,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 0
-    },
     {
       "flight_number": "8004",
       "link": "/search/MOW0812HKT1?t=CZ17967717001796919900002230SVOCANHKT_16a3a273e3e0bb58b75615ac706b1694_24854&search_date=18112026&expected_price_uuid=01a1ed4e-12e8-8030-eaf9-a0335f88860d&static_fare_key=TY%7CP0%7CH1%7CL1_1_23%7CCH1%7CR1%7CTBC1&itinerary_key=9itghXX9hEPji0wvpj6iUQ&expected_price_source=share&expected_price_currency=rub&expected_price=24854",
