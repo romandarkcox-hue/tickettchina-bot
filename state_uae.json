@@ -267,28 +267,12 @@
     {
       "id": "DXB-MOW-2026-11-18-9256",
       "time": 1794996347.3837767
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "352",
-      "link": "/search/DXB2011TAS1?t=C617951796001795197000000230DXBTAS_2bda137076215050bd95561d6b5b0040_11455&search_date=18112026&expected_price_uuid=01a1ece8-e977-8030-290a-4aceb092f8f2&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=7Mwhi_i9DdRODrZsNAJlLg&expected_price_source=share&expected_price_currency=rub&expected_price=11455",
-      "origin_airport": "DXB",
-      "destination_airport": "TAS",
-      "departure_at": "2026-11-20T13:00:00+04:00",
-      "airline": "C6",
-      "destination": "TAS",
-      "origin": "DXB",
-      "price": 11455,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 230,
-      "duration_to": 230,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 30,
-      "reverse": true
+      "id": "DXB-TAS-2026-11-20-11331",
+      "time": 1794998134.4666533
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-18"
 }
