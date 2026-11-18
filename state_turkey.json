@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "IST-TAS-2026-11-28-13386",
-      "time": 1794402065.4556828
-    },
-    {
       "id": "MOW-AYT-2026-12-02-3785",
       "time": 1794463334.7760618
     },
@@ -379,29 +375,13 @@
     {
       "id": "AYT-LED-2026-12-17-11862",
       "time": 1795005055.3061132
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "3006",
-      "link": "/search/IST1512TAS1?t=VF17973573001797484200001995SAWESBTAS_4b3fd5209e3e1d1e32476329f068f24e_13359&search_date=18112026&expected_price_uuid=01a1ecff-6c36-8040-a904-aef6694dd49b&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=NwuXoASjFUeR5WqVP463eA&expected_price_source=share&expected_price_currency=rub&expected_price=13359",
-      "origin_airport": "SAW",
-      "destination_airport": "TAS",
-      "departure_at": "2026-12-15T17:55:00+03:00",
-      "airline": "VF",
-      "destination": "TAS",
-      "origin": "IST",
-      "price": 13359,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 1995,
-      "duration_to": 320,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
+      "id": "IST-TAS-2026-12-02-13458",
+      "time": 1795006869.5740035
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-18",
   "used_photos": [
     3855080,
@@ -483,6 +463,7 @@
     1935108,
     1571459,
     3748340,
-    87071
+    87071,
+    1725210
   ]
 }
