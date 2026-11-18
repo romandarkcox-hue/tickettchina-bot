@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "VVO-SHA-2026-11-26-10715",
-      "time": 1794392137.6114998
-    },
-    {
       "id": "LED-BJS-2026-11-30-17218",
       "time": 1794393938.2506855
     },
@@ -339,28 +335,14 @@
     {
       "id": "MOW-BJS-2026-12-06-15844",
       "time": 1794995141.8126585
+    },
+    {
+      "id": "IKT-HRB-2026-11-20-9556",
+      "time": 1794996949.7992375
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "891",
-      "link": "/search/IKT2311HRB1?t=IO17954718001795482300000175IKTHRB_3d6ab95e9f5bdc1590f9a2fdda6895ff_9555&search_date=18112026&expected_price_uuid=01a1ed28-34e8-8031-2e6b-4a9b59e4384b&static_fare_key=TY%7CP1%7CH1%7CL1_1_15%7CCH1%7CR1%7CTBC1&itinerary_key=6V_Px23vL8-AIcjXHjCQ8Q&expected_price_source=share&expected_price_currency=rub&expected_price=9555",
-      "origin_airport": "IKT",
-      "destination_airport": "HRB",
-      "departure_at": "2026-11-23T22:10:00+08:00",
-      "airline": "IO",
-      "destination": "HRB",
-      "origin": "IKT",
-      "price": 9555,
-      "gate": "ИрАэро",
-      "return_transfers": 0,
-      "duration": 175,
-      "duration_to": 175,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 19
-    },
     {
       "flight_number": "5006",
       "link": "/search/LED0812BJS1?t=S717967474001796878800001890LEDOVBPKX_c3861a3be2cadd3a03e5deb2bbcf5ede_17052&search_date=17112026&expected_price_uuid=01a1eb43-57fe-8031-24b8-a592878fb74f&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=_y6jEib5rht1Lw3gvgUfDw&expected_price_source=share&expected_price_currency=rub&expected_price=17053",
@@ -506,6 +488,7 @@
     2826278,
     4790230,
     7744216,
-    7543063
+    7543063,
+    184962
   ]
 }
