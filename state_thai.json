@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "BKK-MOW-2026-11-17-20735",
-      "time": 1794390637.679741
-    },
-    {
       "id": "HKT-LED-2026-11-12-23143",
       "time": 1794392438.5953107
     },
@@ -263,28 +259,13 @@
     {
       "id": "OVB-HKT-2026-11-28-31396",
       "time": 1794993650.0794153
+    },
+    {
+      "id": "BKK-MOW-2026-11-24-22444",
+      "time": 1794995440.576903
     }
   ],
   "queue": [
-    {
-      "flight_number": "526",
-      "link": "/search/BKK2411MOW1?t=C617955075001795670100002950BKKTASVKO_761ea538c2f8868f1dba714c214396e9_21717&search_date=18112026&expected_price_uuid=01a1ed4f-f560-8030-6fb7-61d28ed0654a&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=LAktvLiTNEkoH-5pFmHJcA&expected_price_source=share&expected_price_currency=rub&expected_price=21717",
-      "origin_airport": "BKK",
-      "destination_airport": "VKO",
-      "departure_at": "2026-11-24T08:05:00+07:00",
-      "airline": "C6",
-      "destination": "MOW",
-      "origin": "BKK",
-      "price": 21717,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 2950,
-      "duration_to": 675,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 31,
-      "reverse": true
-    },
     {
       "flight_number": "530",
       "link": "/search/HKT1812MOW1?t=C617975817001797631500001070HKTTASSVO_29019a8ad8d45fa40474bb825e7328fe_22792&search_date=18112026&expected_price_uuid=01a1ed48-2e3c-8030-25de-d87a832d1d27&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=qgroBpn4eGFKigufcvfMmw&expected_price_source=share&expected_price_currency=rub&expected_price=22792",
