@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "TAS-HKT-2026-11-23-13929",
-      "time": 1794378219.2192447
-    },
-    {
-      "id": "MOW-BKK-2026-11-27-23014",
-      "time": 1794379840.4450026
-    },
-    {
       "id": "TAS-BKK-2026-11-16-14023",
       "time": 1794381639.1558073
     },
@@ -267,27 +259,13 @@
     {
       "id": "TAS-HKT-2026-11-19-14704",
       "time": 1794983004.3214197
+    },
+    {
+      "id": "MOW-BKK-2026-12-01-24043",
+      "time": 1794984652.0492513
     }
   ],
   "queue": [
-    {
-      "flight_number": "7942",
-      "link": "/search/MOW0112BKK1?t=GS17961432001796232600001250SVOCKGBKK_6f658ee8d089776a62cb05f19175a15a_24225&search_date=18112026&expected_price_uuid=01a1ed4f-21ac-8030-ee57-50b1146378ea&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=DkZt5d-5i-vSmJyQpJrl5w&expected_price_source=share&expected_price_currency=rub&expected_price=24225",
-      "origin_airport": "SVO",
-      "destination_airport": "BKK",
-      "departure_at": "2026-12-01T16:40:00+03:00",
-      "airline": "GS",
-      "destination": "BKK",
-      "origin": "MOW",
-      "price": 24225,
-      "gate": "Trip.com",
-      "return_transfers": 0,
-      "duration": 1250,
-      "duration_to": 680,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 9.123065134099617
-    },
     {
       "flight_number": "531",
       "link": "/search/TAS2311BKK1?t=HY17954685001795497900000370TASBKK_5d69761d233a42c08c68d3128de9d606_15156&search_date=18112026&expected_price_uuid=01a1ed34-dc47-8030-e092-d59148c20268&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=MBCCYUZ83uEELZfdT6-o1w&expected_price_source=share&expected_price_currency=rub&expected_price=15156",
