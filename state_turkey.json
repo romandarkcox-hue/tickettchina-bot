@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "BAK-IST-2026-12-11-7414",
-      "time": 1794389451.8627691
-    },
-    {
       "id": "KZN-AYT-2026-11-11-5927",
       "time": 1794391260.7641418
     },
@@ -379,27 +375,13 @@
     {
       "id": "KZN-AYT-2026-11-18-5201",
       "time": 1794992472.5283163
+    },
+    {
+      "id": "LED-IST-2026-11-18-7708",
+      "time": 1794994254.391435
     }
   ],
   "queue": [
-    {
-      "flight_number": "537",
-      "link": "/search/LED2411IST1?t=N417955366001795623300001445LEDKZNIST_72cfe21dda929f75e58922ccba0d6a34_8961&search_date=18112026&expected_price_uuid=01a1ed0e-0042-8030-62f0-3ff21c8f95df&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=fFIMQBnqJuOCJfuFdvqopA&expected_price_source=share&expected_price_currency=rub&expected_price=8961",
-      "origin_airport": "LED",
-      "destination_airport": "IST",
-      "departure_at": "2026-11-24T16:10:00+03:00",
-      "airline": "5N",
-      "destination": "IST",
-      "origin": "LED",
-      "price": 8961,
-      "gate": "OneTwoTrip",
-      "return_transfers": 0,
-      "duration": 1445,
-      "duration_to": 435,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 24.371264367816092
-    },
     {
       "flight_number": "6826",
       "link": "/search/LED2411AYT1?t=DP17955570001795629300001205LEDSVOVKOAYT_be44f118d8dc658a6420470bb01e412b_5441&search_date=18112026&expected_price_uuid=01a1ed29-a338-8030-2368-a0e8890b451c&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=GgXIbev_hosN1S1FHnjlNA&expected_price_source=share&expected_price_currency=rub&expected_price=5441",
@@ -606,6 +588,7 @@
     3567395,
     5408988,
     7989254,
-    73895
+    73895,
+    2051448
   ]
 }
