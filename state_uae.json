@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "LED-DXB-2026-11-12-7707",
-      "time": 1794380751.2487726
-    },
-    {
-      "id": "AER-DXB-2026-11-19-10035",
-      "time": 1794382530.6577413
-    },
-    {
       "id": "MRV-DXB-2026-11-27-7758",
       "time": 1794384331.9415402
     },
@@ -271,27 +263,13 @@
     {
       "id": "MRV-DXB-2026-11-22-7623",
       "time": 1794985534.151844
+    },
+    {
+      "id": "SVX-DXB-2026-11-22-10270",
+      "time": 1794987337.702131
     }
   ],
   "queue": [
-    {
-      "flight_number": "406",
-      "link": "/search/SVX1911DXB1?t=DP17950674001795109700000765SVXVKODWC_de88c474001f339838807c78221771e5_10523&search_date=18112026&expected_price_uuid=01a1ed29-cab5-8030-6c72-cc4d92687a03&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=DDqNhbNv4PdXQmQ-B9QETw&expected_price_source=share&expected_price_currency=rub&expected_price=10523",
-      "origin_airport": "SVX",
-      "destination_airport": "DWC",
-      "departure_at": "2026-11-19T05:50:00+05:00",
-      "airline": "DP",
-      "destination": "DXB",
-      "origin": "SVX",
-      "price": 10523,
-      "gate": "Т-Банк",
-      "return_transfers": 0,
-      "duration": 765,
-      "duration_to": 555,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 10.058768472906403
-    },
     {
       "flight_number": "753",
       "link": "/search/MOW2711AUH1?t=DP17957715001795799100000400VKOAUH_aa6fd398c5ba89c6c3264c7041ef49ac_8104&search_date=18112026&expected_price_uuid=01a1ed2a-e456-8030-e158-2682c7a67897&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=y6XL90bUeIqDZ8Wt2DPc2Q&expected_price_source=share&expected_price_currency=rub&expected_price=8104",
