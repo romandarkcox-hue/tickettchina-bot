@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "LED-BKK-2026-12-06-27220",
-      "time": 1794388839.5706165
-    },
-    {
       "id": "BKK-MOW-2026-11-17-20735",
       "time": 1794390637.679741
     },
@@ -263,27 +259,13 @@
     {
       "id": "LED-BKK-2026-12-07-26901",
       "time": 1794991842.2915416
+    },
+    {
+      "id": "OVB-HKT-2026-11-28-31396",
+      "time": 1794993650.0794153
     }
   ],
   "queue": [
-    {
-      "flight_number": "5229",
-      "link": "/search/OVB2111HKT1?t=S717952354001795293300000965OVBIKTHKT_e1208ee33957bd532992904e78a6f68f_31360&search_date=18112026&expected_price_uuid=01a1ecb3-c279-8030-6dc9-813e64570772&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=nNudUP-gkIIvtpgl0i_8BQ&expected_price_source=share&expected_price_currency=rub&expected_price=31360",
-      "origin_airport": "OVB",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-21T04:30:00+07:00",
-      "airline": "S7",
-      "destination": "HKT",
-      "origin": "OVB",
-      "price": 31360,
-      "gate": "S7 Airlines",
-      "return_transfers": 0,
-      "duration": 965,
-      "duration_to": 570,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 15.086206896551724
-    },
     {
       "flight_number": "526",
       "link": "/search/BKK2411MOW1?t=C617955075001795670100002950BKKTASVKO_761ea538c2f8868f1dba714c214396e9_21717&search_date=18112026&expected_price_uuid=01a1ed4f-f560-8030-6fb7-61d28ed0654a&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=LAktvLiTNEkoH-5pFmHJcA&expected_price_source=share&expected_price_currency=rub&expected_price=21717",
