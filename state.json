@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "IKT-HRB-2026-11-16-9632",
-      "time": 1794384937.096099
-    },
-    {
       "id": "MOW-BJS-2026-12-01-14277",
       "time": 1794386740.4852548
     },
@@ -339,28 +335,14 @@
     {
       "id": "YKS-BJS-2026-11-19-13288",
       "time": 1794987939.7298598
+    },
+    {
+      "id": "NQZ-URC-2026-12-07-7507",
+      "time": 1794989746.9393601
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "7961",
-      "link": "/search/NQZ0712URC1?t=FS17966718001796691600000150NQZURC_6f3669c9bf603caf4758fc3b3d063776_7507&search_date=17112026&expected_price_uuid=01a1eae4-5592-8031-6c77-ace6ef1dffcd&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=YE09JVIbnt6WgFicfAo2uA&expected_price_source=share&expected_price_currency=rub&expected_price=7507",
-      "origin_airport": "NQZ",
-      "destination_airport": "URC",
-      "departure_at": "2026-12-07T19:30:00+06:00",
-      "airline": "FS",
-      "destination": "URC",
-      "origin": "NQZ",
-      "price": 7507,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 150,
-      "duration_to": 150,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 21
-    },
     {
       "flight_number": "6325",
       "link": "/search/IKT1911SHA1?t=S717951253001795140900000260IKTPVG_ed31e1df5a99b9c9ee2bc05200c75bc5_13385&search_date=18112026&expected_price_uuid=01a1ed49-67f5-8030-a8ce-6c747f90c41f&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=5a3ZqLIiEoQ_LUSFav3dwA&expected_price_source=share&expected_price_currency=rub&expected_price=13385",
@@ -574,6 +556,7 @@
     1853491,
     190055,
     1236581,
-    9408525
+    9408525,
+    2826278
   ]
 }
