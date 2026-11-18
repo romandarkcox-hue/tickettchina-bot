@@ -62,7 +62,8 @@
   6375804,
   9304011,
   3712549,
-  7544990
+  7544990,
+  436567
  ],
  "wish_order": {
   "morning": [
@@ -171,9 +172,9 @@
  "done_morning": "2026-11-18",
  "done_day": "2026-11-18",
  "done_night": "2026-11-17",
- "done_history": "2026-11-17",
+ "done_history": "2026-11-18",
  "done_vk_morning": "2026-11-18",
  "done_vk_day": "2026-11-18",
  "done_vk_night": "2026-11-17",
- "done_vk_history": "2026-11-17"
+ "done_vk_history": "2026-11-18"
 }
