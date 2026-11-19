@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-HKT-2026-12-10-27206",
-      "time": 1794473437.54792
-    },
-    {
       "id": "LED-BKK-2026-12-07-27089",
       "time": 1794475239.1074264
     },
@@ -263,27 +259,13 @@
     {
       "id": "CIT-BKK-2026-11-19-18241",
       "time": 1795076439.5981374
+    },
+    {
+      "id": "OVB-HKT-2026-11-28-31239",
+      "time": 1795078241.289806
     }
   ],
   "queue": [
-    {
-      "flight_number": "668",
-      "link": "/search/OVB2811HKT1?t=HY17958339001795929600001595OVBTASHKT_7951d0d3efc14167a7deb1ddfc1171e0_31220&search_date=19112026&expected_price_uuid=01a1f1f4-4567-8030-a3bc-72e534c37ada&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=2zfUuzmAKG5m-SblGrLgFQ&expected_price_source=share&expected_price_currency=rub&expected_price=31218",
-      "origin_airport": "OVB",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-28T02:45:00+07:00",
-      "airline": "HY",
-      "destination": "HKT",
-      "origin": "OVB",
-      "price": 31218,
-      "gate": "Uzbekistan airways",
-      "return_transfers": 0,
-      "duration": 1595,
-      "duration_to": 560,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 15.132873563218391
-    },
     {
       "flight_number": "668",
       "link": "/search/OVB0212BKK1?t=HY17961795001796231400000865OVBTASBKK_a62d3f10fe6adbc1ffea18358e9d12b5_31220&search_date=19112026&expected_price_uuid=01a1f26c-bb1c-8030-e4a9-71cbbf88e275&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ltwDli2z70FUQ022MFNCOg&expected_price_source=share&expected_price_currency=rub&expected_price=31220",
