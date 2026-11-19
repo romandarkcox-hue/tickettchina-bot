@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "HKT-LED-2026-11-15-25232",
-      "time": 1794480639.2059987
-    },
-    {
       "id": "TAS-BKK-2026-11-16-14856",
       "time": 1794551052.723648
     },
@@ -263,28 +259,12 @@
     {
       "id": "HKT-MOW-2026-12-18-24265",
       "time": 1795083640.573242
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "530",
-      "link": "/search/HKT0412LED1?t=C617963721001796479800002035HKTTASLED_37fec90927da43cda5f093536daa6555_24957&search_date=19112026&expected_price_uuid=01a1f236-e9a5-8030-2466-3fa26a1d8286&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=XvTt1XehAcKbomd90cECLQ&expected_price_source=share&expected_price_currency=rub&expected_price=24957",
-      "origin_airport": "HKT",
-      "destination_airport": "LED",
-      "departure_at": "2026-12-04T08:15:00+07:00",
-      "airline": "C6",
-      "destination": "LED",
-      "origin": "HKT",
-      "price": 24957,
-      "gate": "Centrum Air",
-      "return_transfers": 0,
-      "duration": 2035,
-      "duration_to": 755,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 31,
-      "reverse": true
+      "id": "HKT-LED-2026-12-18-24532",
+      "time": 1795085440.537431
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-19"
 }
