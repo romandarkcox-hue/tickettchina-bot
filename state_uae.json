@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "DXB-TAS-2026-11-16-11967",
-      "time": 1794477932.5738506
-    },
-    {
       "id": "SHJ-BAK-2026-11-16-15062",
       "time": 1794479736.1663098
     },
@@ -271,28 +267,13 @@
     {
       "id": "DXB-MOW-2026-11-19-7163",
       "time": 1795080935.871162
+    },
+    {
+      "id": "AUH-MOW-2026-11-23-8233",
+      "time": 1795082737.9683056
     }
   ],
   "queue": [
-    {
-      "flight_number": "754",
-      "link": "/search/AUH2311MOW1?t=DP17954565001795476000000385AUHVKO_58eb531056e478a18d5af802710c264f_8202&search_date=19112026&expected_price_uuid=01a1f258-386c-8030-eea2-6a61d9963e79&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=Li9S4CIJcS651WSQSTVfNg&expected_price_source=share&expected_price_currency=rub&expected_price=8202",
-      "origin_airport": "AUH",
-      "destination_airport": "VKO",
-      "departure_at": "2026-11-23T17:55:00+04:00",
-      "airline": "DP",
-      "destination": "MOW",
-      "origin": "AUH",
-      "price": 8202,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 385,
-      "duration_to": 385,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 31,
-      "reverse": true
-    },
     {
       "flight_number": "334",
       "link": "/search/DXB1911TAS1?t=HY17950914001795109400000240DXBTAS_94c1715bbf6487c4763478ae3669aa15_12354&search_date=19112026&expected_price_uuid=01a1f21c-897b-8030-6046-f5c0fbae7832&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=VyeIx2L70c4wkgbCQmzEwg&expected_price_source=share&expected_price_currency=rub&expected_price=12354",
