@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MSQ-DXB-2026-12-08-8096",
-      "time": 1794465335.151048
-    },
-    {
       "id": "LED-DXB-2026-11-12-7262",
       "time": 1794467150.5396283
     },
@@ -271,27 +267,13 @@
     {
       "id": "MOW-DXB-2026-11-25-6730",
       "time": 1795068445.7129915
+    },
+    {
+      "id": "LED-DXB-2026-11-24-8769",
+      "time": 1795070136.6037061
     }
   ],
   "queue": [
-    {
-      "flight_number": "6826",
-      "link": "/search/LED2411DXB1?t=UT17955570001795618800000970LEDSVOVKODWC_10ebe6595bce7991dcb798c3ec372840_8769&search_date=19112026&expected_price_uuid=01a1f255-613a-8030-6138-a2b5952e4e05&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=h-OdYZfcAbirlYJHC9FyFg&expected_price_source=share&expected_price_currency=rub&expected_price=8769",
-      "origin_airport": "LED",
-      "destination_airport": "DWC",
-      "departure_at": "2026-11-24T21:50:00+03:00",
-      "airline": "DP",
-      "destination": "DXB",
-      "origin": "LED",
-      "price": 8769,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 970,
-      "duration_to": 475,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 0
-    },
     {
       "flight_number": "6287",
       "link": "/search/MRV2411DXB1?t=A417954922001795512600000280MRVDWC_e06bf772b0a784ba1b93e1adc40d5cb1_7623&search_date=19112026&expected_price_uuid=01a1f248-d6d7-8030-a249-31dc5478d031&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=sqftP6DiXxJtdwSP48a7mw&expected_price_source=share&expected_price_currency=rub&expected_price=7623",
