@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "AER-DXB-2026-12-09-10895",
-      "time": 1794472532.4036088
-    },
-    {
       "id": "EVN-DXB-2026-12-10-14861",
       "time": 1794474338.2318025
     },
@@ -271,27 +267,13 @@
     {
       "id": "MOW-AUH-2026-11-29-8055",
       "time": 1795075538.531609
+    },
+    {
+      "id": "SVX-DXB-2026-11-22-10338",
+      "time": 1795077343.582369
     }
   ],
   "queue": [
-    {
-      "flight_number": "404",
-      "link": "/search/SVX2211DXB1?t=UT17953302001795532400003430SVXVKODWC_236bbbc48594162038e69f88222f0dc7_10222&search_date=19112026&expected_price_uuid=01a1f261-cb7b-8030-24b0-0874a9f9a16e&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=BfD7Yh3QDp0CPCbA2DI8rA&expected_price_source=share&expected_price_currency=rub&expected_price=10222",
-      "origin_airport": "SVX",
-      "destination_airport": "DWC",
-      "departure_at": "2026-11-22T06:50:00+05:00",
-      "airline": "DP",
-      "destination": "DXB",
-      "origin": "SVX",
-      "price": 10222,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 3430,
-      "duration_to": 540,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 10.079532931946725
-    },
     {
       "flight_number": "7549",
       "link": "/search/BAK2011DXB1?t=FS17951883001795262100001230GYDSCODXB_ccf73487715723140cb1182ecc6eab16_15005&search_date=19112026&expected_price_uuid=01a1f21b-544a-8030-e423-df2d0cfb9a1a&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR1%7CTBC0&itinerary_key=ovVWBGVkv2rwTrgsc3rniw&expected_price_source=share&expected_price_currency=rub&expected_price=15005",
