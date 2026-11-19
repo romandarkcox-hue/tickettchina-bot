@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-BKK-2026-12-04-23709",
-      "time": 1794466236.9188402
-    },
-    {
       "id": "VVO-BKK-2026-11-29-16184",
       "time": 1794468039.087401
     },
@@ -263,27 +259,13 @@
     {
       "id": "TAS-HKT-2026-11-19-13455",
       "time": 1795069425.0677993
+    },
+    {
+      "id": "MOW-HKT-2026-12-06-25059",
+      "time": 1795071037.6632752
     }
   ],
   "queue": [
-    {
-      "flight_number": "8004",
-      "link": "/search/MOW0612HKT1?t=CZ17965989001796747100002230SVOCANHKT_b10f1e81836ddba199cad11102fe87d8_24862&search_date=19112026&expected_price_uuid=01a1f272-5c13-8030-6336-e6c5e492c34d&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH1%7CR1%7CTBC1&itinerary_key=9itghXX9hEPji0wvpj6iUQ&expected_price_source=share&expected_price_currency=rub&expected_price=24862",
-      "origin_airport": "SVO",
-      "destination_airport": "HKT",
-      "departure_at": "2026-12-06T23:15:00+03:00",
-      "airline": "CZ",
-      "destination": "HKT",
-      "origin": "MOW",
-      "price": 24862,
-      "gate": "City.Travel",
-      "return_transfers": 0,
-      "duration": 2230,
-      "duration_to": 995,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 23.478571428571428
-    },
     {
       "flight_number": "533",
       "link": "/search/TAS2511BKK1?t=HY17955972001795626600000370TASBKK_5f6f7300d7eeddca9730175d6f558bc5_15072&search_date=19112026&expected_price_uuid=01a1f20f-9170-8030-ad03-aa9dc721c095&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=OFvgCz-snfaAbV-JirjsWg&expected_price_source=share&expected_price_currency=rub&expected_price=15071",
