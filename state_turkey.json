@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "AYT-MOW-2026-12-04-8584",
-      "time": 1794481266.0156777
-    },
-    {
       "id": "AYT-LED-2026-12-04-10692",
       "time": 1794483053.9994774
     },
@@ -379,28 +375,13 @@
     {
       "id": "TAS-IST-2026-12-06-12613",
       "time": 1795084253.1942637
+    },
+    {
+      "id": "IST-MOW-2026-12-17-7895",
+      "time": 1795086071.1126294
     }
   ],
   "queue": [
-    {
-      "flight_number": "996",
-      "link": "/search/IST0312MOW1?t=DP17963268001796343900000285ISTVKO_920d56fc708ba0a230068fb60397b96b_7840&search_date=19112026&expected_price_uuid=01a1f263-ab7b-8031-61ac-191da8db6e4f&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=gfsX28j17eNLRelP9N5a7w&expected_price_source=share&expected_price_currency=rub&expected_price=7840",
-      "origin_airport": "IST",
-      "destination_airport": "VKO",
-      "departure_at": "2026-12-03T19:40:00+03:00",
-      "airline": "DP",
-      "destination": "MOW",
-      "origin": "IST",
-      "price": 7840,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 285,
-      "duration_to": 285,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "840",
       "link": "/search/AYT1712MOW1?t=DP17975118001797529200000290AYTVKO_dd1d32cfeeb89ede522f56253aa0cd80_8221&search_date=19112026&expected_price_uuid=01a1f24c-631b-8030-ec35-a3b103000707&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=zXL0wfEW6mqySn3mM223vw&expected_price_source=share&expected_price_currency=rub&expected_price=8221",
@@ -570,6 +551,7 @@
     73891,
     4305164,
     4772596,
-    4866138
+    4866138,
+    3622435
   ]
 }
