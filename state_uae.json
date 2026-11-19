@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "SHJ-BAK-2026-11-16-15062",
-      "time": 1794479736.1663098
-    },
-    {
       "id": "MOW-DXB-2026-11-17-6303",
       "time": 1794550039.1583867
     },
@@ -271,28 +267,12 @@
     {
       "id": "AUH-MOW-2026-11-23-8233",
       "time": 1795082737.9683056
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "334",
-      "link": "/search/DXB1911TAS1?t=HY17950914001795109400000240DXBTAS_94c1715bbf6487c4763478ae3669aa15_12354&search_date=19112026&expected_price_uuid=01a1f21c-897b-8030-6046-f5c0fbae7832&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=VyeIx2L70c4wkgbCQmzEwg&expected_price_source=share&expected_price_currency=rub&expected_price=12354",
-      "origin_airport": "DXB",
-      "destination_airport": "TAS",
-      "departure_at": "2026-11-19T12:30:00+04:00",
-      "airline": "HY",
-      "destination": "TAS",
-      "origin": "DXB",
-      "price": 12354,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 240,
-      "duration_to": 240,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 30,
-      "reverse": true
+      "id": "DXB-TAS-2026-11-20-11445",
+      "time": 1795084538.087452
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-19"
 }
