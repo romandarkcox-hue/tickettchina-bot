@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "YKS-BJS-2026-11-22-13398",
-      "time": 1794469537.6227825
-    },
-    {
       "id": "KHV-BJS-2026-11-27-9053",
       "time": 1794471337.108897
     },
@@ -339,28 +335,14 @@
     {
       "id": "VVO-HRB-2026-11-21-5886",
       "time": 1795072549.2007735
+    },
+    {
+      "id": "TAS-URC-2026-11-30-13019",
+      "time": 1795074343.8618488
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "780",
-      "link": "/search/TAS3011URC1?t=CA17960004001796022600000190TASURC_79d2b88b97cb868f190b31e0557a0c06_13020&search_date=19112026&expected_price_uuid=01a1f203-e03a-8030-6a47-da671f1311e1&static_fare_key=TY%7CP0%7CH1%7CL1_1_0%7CCH1%7CR0%7CTBC1&itinerary_key=o7tKYpznuNQUxoMlvF0AqA&expected_price_source=share&expected_price_currency=rub&expected_price=13019",
-      "origin_airport": "TAS",
-      "destination_airport": "URC",
-      "departure_at": "2026-11-30T01:00:00+05:00",
-      "airline": "CA",
-      "destination": "URC",
-      "origin": "TAS",
-      "price": 13019,
-      "gate": "OneTwoTrip",
-      "return_transfers": 0,
-      "duration": 190,
-      "duration_to": 190,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 22
-    },
     {
       "flight_number": "5456",
       "link": "/search/KHV3011HRB1?t=SU17960709001796069700000100KHVHRB_eb4c7e11395cdd4854d183cfd48c5fec_7221&search_date=19112026&expected_price_uuid=01a1f1fc-3162-8030-ab3b-5b5fbd62adb8&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=NiMlEZd2EVqnYBFliXNJeA&expected_price_source=share&expected_price_currency=rub&expected_price=7221",
@@ -604,6 +586,7 @@
     2695569,
     2180346,
     2230827,
-    2582691
+    2582691,
+    2588202
   ]
 }
