@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-BJS-2026-11-27-14282",
-      "time": 1794476737.438188
-    },
-    {
       "id": "LED-BJS-2026-12-02-15992",
       "time": 1794478539.070701
     },
@@ -339,28 +335,14 @@
     {
       "id": "NQZ-URC-2026-12-07-4973",
       "time": 1795079756.4825568
+    },
+    {
+      "id": "MOW-BJS-2026-12-09-14129",
+      "time": 1795081546.0128417
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "261",
-      "link": "/search/MOW0712BJS1?t=U617966376001796702100000775DMESVXPKX_ed09183c359316bf213ee227d7e289ae_15771&search_date=19112026&expected_price_uuid=01a1f233-8afc-8031-2eaf-c4a170686f8a&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=yjszaSGcanPKyuuC0bGnVQ&expected_price_source=share&expected_price_currency=rub&expected_price=15771",
-      "origin_airport": "DME",
-      "destination_airport": "PKX",
-      "departure_at": "2026-12-07T10:00:00+03:00",
-      "airline": "U6",
-      "destination": "BJS",
-      "origin": "MOW",
-      "price": 15771,
-      "gate": "Ural Airlines",
-      "return_transfers": 0,
-      "duration": 775,
-      "duration_to": 525,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 22
-    },
     {
       "flight_number": "5430",
       "link": "/search/KHV0112BJS1?t=SU17961693001796173500000190KHVPKX_8c95078f7f65232f98d045151aa88e51_7946&search_date=19112026&expected_price_uuid=01a1f25a-1fa3-8030-a896-ed8b7fa5e6b2&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=HiM7LGDYb5zOsJKsgiLlIg&expected_price_source=share&expected_price_currency=rub&expected_price=7946",
@@ -536,6 +518,7 @@
     2588202,
     2823723,
     1589616,
-    3015326
+    3015326,
+    5296614
   ]
 }
