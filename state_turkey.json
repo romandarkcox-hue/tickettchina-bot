@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "BAK-IST-2026-12-08-7353",
-      "time": 1794474064.071674
-    },
-    {
       "id": "KZN-AYT-2026-12-01-6410",
       "time": 1794475848.920892
     },
@@ -379,27 +375,13 @@
     {
       "id": "BAK-IST-2026-12-16-6794",
       "time": 1795077057.1405525
+    },
+    {
+      "id": "KZN-AYT-2026-11-24-5644",
+      "time": 1795078867.7237504
     }
   ],
   "queue": [
-    {
-      "flight_number": "5844",
-      "link": "/search/KZN2111AYT1?t=DP17953005001795435800002255KZNSVOVKOAYT_217739a0443b1749d51e382c1c78a9bf_5696&search_date=19112026&expected_price_uuid=01a1f23b-20c4-8030-648c-60a30fdaa9e6&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=zAVIYFG0XVOtjIhzyz3PXQ&expected_price_source=share&expected_price_currency=rub&expected_price=5696",
-      "origin_airport": "KZN",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-21T22:35:00+03:00",
-      "airline": "DP",
-      "destination": "AYT",
-      "origin": "KZN",
-      "price": 5696,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 2255,
-      "duration_to": 420,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 13.516015325670498
-    },
     {
       "flight_number": "118",
       "link": "/search/LED0812IST1?t=2S17967408001796754900000235LEDIST_1f2bfa1dd28a21f46b4caf0b9df30205_9112&search_date=19112026&expected_price_uuid=01a1f25a-cfbf-8030-6968-2778ab8f19c6&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jCpl3tL4zjOfnXFjwARWEw&expected_price_source=share&expected_price_currency=rub&expected_price=9113",
@@ -638,6 +620,7 @@
     7382008,
     4208805,
     73897,
-    7058791
+    7058791,
+    73891
   ]
 }
