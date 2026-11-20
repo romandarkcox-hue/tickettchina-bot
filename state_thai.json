@@ -263,27 +263,13 @@
     {
       "id": "CIT-BKK-2026-11-21-17990",
       "time": 1795162840.5984359
+    },
+    {
+      "id": "OVB-HKT-2026-12-02-30962",
+      "time": 1795164637.65037
     }
   ],
   "queue": [
-    {
-      "flight_number": "5503",
-      "link": "/search/OVB2411HKT1?t=DV17954802001795590300001835OVBALAHKT_91d87f6c18e2ecc7ae622f704c8d8de4_29970&search_date=20112026&expected_price_uuid=01a1f767-8952-8030-e397-1422c91634ce&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=f_Bii9s7s9TeWWdcQShqXA&expected_price_source=share&expected_price_currency=rub&expected_price=29970",
-      "origin_airport": "OVB",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-24T00:30:00+07:00",
-      "airline": "S7",
-      "destination": "HKT",
-      "origin": "OVB",
-      "price": 29970,
-      "gate": "Aviakassa",
-      "return_transfers": 0,
-      "duration": 1835,
-      "duration_to": 605,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 16.497432950191573
-    },
     {
       "flight_number": "1018",
       "link": "/search/LED2011BKK1?t=DV17952030001795326600001820LEDCITBKK_6afc23f92f8b5f1ea56e8ca17516db4d_30033&search_date=20112026&expected_price_uuid=01a1f718-9c59-8030-e3f5-f8a76dc4a7b8&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=4Wd-uvtBAOIEpfJw5usAXA&expected_price_source=share&expected_price_currency=rub&expected_price=30019",
