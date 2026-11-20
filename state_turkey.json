@@ -383,29 +383,13 @@
     {
       "id": "AYT-LED-2026-12-14-10881",
       "time": 1795177864.2364647
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "3006",
-      "link": "/search/IST0312TAS1?t=VF17963205001796360100000540SAWESBTAS_fec39db553e1684bd4fc40cc101f9c32_13011&search_date=20112026&expected_price_uuid=01a1f755-376b-8040-ad6d-edf0d8c89695&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=9VfdfiLWVxqSczPOdjPxqA&expected_price_source=share&expected_price_currency=rub&expected_price=13017",
-      "origin_airport": "SAW",
-      "destination_airport": "TAS",
-      "departure_at": "2026-12-03T17:55:00+03:00",
-      "airline": "VF",
-      "destination": "TAS",
-      "origin": "IST",
-      "price": 13017,
-      "gate": "City.Travel",
-      "return_transfers": 0,
-      "duration": 540,
-      "duration_to": 320,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
+      "id": "IST-TAS-2026-12-04-12836",
+      "time": 1795179667.5776317
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-20",
   "used_photos": [
     3855080,
@@ -517,6 +501,7 @@
     2210335,
     2259724,
     5693190,
-    196372
+    196372,
+    196522
   ]
 }
