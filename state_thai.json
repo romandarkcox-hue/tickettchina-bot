@@ -263,27 +263,13 @@
     {
       "id": "TAS-HKT-2026-11-30-14682",
       "time": 1795159242.4594228
+    },
+    {
+      "id": "MOW-HKT-2026-11-23-27784",
+      "time": 1795161039.4738488
     }
   ],
   "queue": [
-    {
-      "flight_number": "3888",
-      "link": "/search/MOW2311HKT1?t=3U17954709001795542000000945SVOTFUHKT_32e3bcbf622f9c406dbcfcda26aa56b1_27692&search_date=20112026&expected_price_uuid=01a1f79a-fd1d-8030-e7b1-8dccdfef8784&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH1%7CR0%7CTBC1&itinerary_key=s6-CEQfE-5yJeKTsJEUegw&expected_price_source=share&expected_price_currency=rub&expected_price=27703",
-      "origin_airport": "SVO",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-23T21:55:00+03:00",
-      "airline": "3U",
-      "destination": "HKT",
-      "origin": "MOW",
-      "price": 27703,
-      "gate": "Biletix",
-      "return_transfers": 0,
-      "duration": 945,
-      "duration_to": 720,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 23.459310344827585
-    },
     {
       "flight_number": "833",
       "link": "/search/CIT2111BKK1?t=DV17952969001795326600000375CITBKK_6a4525ecd6df4eb692ab69a0eda4b979_17991&search_date=19112026&expected_price_uuid=01a1f50c-7452-8031-611e-2c4cf30c14b0&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=Zy_GoCJvLgz_e2zELExI1A&expected_price_source=share&expected_price_currency=rub&expected_price=17990",
