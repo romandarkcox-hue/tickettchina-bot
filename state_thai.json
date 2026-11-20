@@ -267,28 +267,13 @@
     {
       "id": "LED-BKK-2026-11-20-29945",
       "time": 1795166438.852141
+    },
+    {
+      "id": "BKK-MOW-2026-11-24-21433",
+      "time": 1795168238.3670862
     }
   ],
   "queue": [
-    {
-      "flight_number": "526",
-      "link": "/search/BKK2411MOW1?t=C617955075001795654200002685BKKTASZIA_26fb09af5ee1adb2e1988b0f7137e9f2_22076&search_date=20112026&expected_price_uuid=01a1f79e-f63e-8031-6d92-0f25d3995dd1&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=h0Mj1wYpqiUcM3ZcbYkdIQ&expected_price_source=share&expected_price_currency=rub&expected_price=22084",
-      "origin_airport": "BKK",
-      "destination_airport": "ZIA",
-      "departure_at": "2026-11-24T08:05:00+07:00",
-      "airline": "C6",
-      "destination": "MOW",
-      "origin": "BKK",
-      "price": 22084,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 2685,
-      "duration_to": 680,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 31,
-      "reverse": true
-    },
     {
       "flight_number": "530",
       "link": "/search/HKT1812MOW1?t=C617975817001797631500001070HKTTASSVO_29019a8ad8d45fa40474bb825e7328fe_22753&search_date=20112026&expected_price_uuid=01a1f792-d738-8030-e52e-a67514f5f385&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=qgroBpn4eGFKigufcvfMmw&expected_price_source=share&expected_price_currency=rub&expected_price=22762",
