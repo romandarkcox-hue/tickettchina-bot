@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "TAS-IST-2026-11-28-12912",
-      "time": 1794564066.354857
-    },
-    {
       "id": "IST-MOW-2026-12-02-8078",
       "time": 1794565854.3031883
     },
@@ -387,27 +383,13 @@
     {
       "id": "LED-AYT-2026-11-21-5327",
       "time": 1795168863.7892857
+    },
+    {
+      "id": "TAS-IST-2026-11-27-11961",
+      "time": 1795170653.4784758
     }
   ],
   "queue": [
-    {
-      "flight_number": "586",
-      "link": "/search/TAS1312IST1?t=VF17971404001797172200000650TASESBSAW_62937e456f53288e9e0a74e6c2cc4c21_12534&search_date=20112026&expected_price_uuid=01a1f754-5c1a-8031-27be-bf08d4a25c66&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=xKP_mpItYXStn6BK1spDEQ&expected_price_source=share&expected_price_currency=rub&expected_price=12540",
-      "origin_airport": "TAS",
-      "destination_airport": "SAW",
-      "departure_at": "2026-12-13T05:40:00+05:00",
-      "airline": "VF",
-      "destination": "IST",
-      "origin": "TAS",
-      "price": 12540,
-      "gate": "City.Travel",
-      "return_transfers": 0,
-      "duration": 650,
-      "duration_to": 370,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 24.032183908045976
-    },
     {
       "flight_number": "085",
       "link": "/search/IST0912MOW1?t=2S17968464001796860200000230ISTSVO_8d9c256b9a917d3fb17a0815ba9c7ff8_5609&search_date=20112026&expected_price_uuid=01a1f78b-75e4-8030-2984-ab95dd7dc532&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=qQ54ePGZZ_ViIKpGMvrdPA&expected_price_source=share&expected_price_currency=rub&expected_price=5614",
@@ -610,6 +592,7 @@
     4126140,
     2708343,
     3231214,
-    484060
+    484060,
+    2912249
   ]
 }
