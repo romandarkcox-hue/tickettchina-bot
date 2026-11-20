@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "LED-IST-2026-12-09-8344",
-      "time": 1794560469.3355727
-    },
-    {
-      "id": "KZN-IST-2026-11-18-6028",
-      "time": 1794562254.2984734
-    },
-    {
       "id": "TAS-IST-2026-11-28-12912",
       "time": 1794564066.354857
     },
@@ -387,27 +379,13 @@
     {
       "id": "KZN-AYT-2026-11-23-5109",
       "time": 1795165266.837069
+    },
+    {
+      "id": "LED-IST-2026-11-24-8905",
+      "time": 1795167056.1268556
     }
   ],
   "queue": [
-    {
-      "flight_number": "118",
-      "link": "/search/LED0812IST1?t=2S17967408001796754900000235LEDIST_1f2bfa1dd28a21f46b4caf0b9df30205_9063&search_date=20112026&expected_price_uuid=01a1f789-6d3f-8031-6f5a-217f86e57631&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jCpl3tL4zjOfnXFjwARWEw&expected_price_source=share&expected_price_currency=rub&expected_price=9071",
-      "origin_airport": "LED",
-      "destination_airport": "IST",
-      "departure_at": "2026-12-08T14:40:00+03:00",
-      "airline": "2S",
-      "destination": "IST",
-      "origin": "LED",
-      "price": 9071,
-      "gate": "Biletix",
-      "return_transfers": 0,
-      "duration": 235,
-      "duration_to": 235,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 24.342375478927206
-    },
     {
       "flight_number": "6826",
       "link": "/search/LED2411AYT1?t=DP17955570001795629300001205LEDSVOVKOAYT_be44f118d8dc658a6420470bb01e412b_5394&search_date=20112026&expected_price_uuid=01a1f787-a65c-8031-297a-c9987babacd1&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=GgXIbev_hosN1S1FHnjlNA&expected_price_source=share&expected_price_currency=rub&expected_price=5398",
@@ -644,6 +622,7 @@
     4402277,
     7833977,
     4126140,
-    2708343
+    2708343,
+    3231214
   ]
 }
