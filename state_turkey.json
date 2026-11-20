@@ -383,27 +383,13 @@
     {
       "id": "KRR-IST-2026-11-23-4759",
       "time": 1795158070.2531483
+    },
+    {
+      "id": "MOW-IST-2026-11-28-6373",
+      "time": 1795159852.6291819
     }
   ],
   "queue": [
-    {
-      "flight_number": "839",
-      "link": "/search/MOW2911IST1?t=DP17959392001796029800001510VKOAYTSAW_b37449545ab75c9a70fcb006ac2c48a1_6352&search_date=20112026&expected_price_uuid=01a1f784-9a40-8030-aaba-62b4ccbebc85&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=EP9JSsxGnUq9Qie8_QDt5Q&expected_price_source=share&expected_price_currency=rub&expected_price=6357",
-      "origin_airport": "VKO",
-      "destination_airport": "SAW",
-      "departure_at": "2026-11-29T08:00:00+03:00",
-      "airline": "DP",
-      "destination": "IST",
-      "origin": "MOW",
-      "price": 6357,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 1510,
-      "duration_to": 400,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 24.123563218390807
-    },
     {
       "flight_number": "5051",
       "link": "/search/AER2211AYT1?t=A417953668001795375800000150AERAYT_95fc95c569c351fabb68ccb646383ef6_4890&search_date=20112026&expected_price_uuid=01a1f75a-e520-8030-e39a-3ad0a2caf80f&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=TvRQuSYrV-9fY2VNbvvcSg&expected_price_source=share&expected_price_currency=rub&expected_price=4892",
@@ -708,6 +694,7 @@
     4580841,
     73845,
     686022,
-    2923304
+    2923304,
+    4402277
   ]
 }
