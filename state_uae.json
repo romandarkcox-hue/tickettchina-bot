@@ -271,27 +271,13 @@
     {
       "id": "MSQ-DXB-2026-11-23-8922",
       "time": 1795160134.7038128
+    },
+    {
+      "id": "MOW-AUH-2026-11-27-8029",
+      "time": 1795161933.0915105
     }
   ],
   "queue": [
-    {
-      "flight_number": "753",
-      "link": "/search/MOW2911AUH1?t=DP17959443001795971900000400VKOAUH_4d41e40dea36fe691c29ba57f5f9ec66_8019&search_date=20112026&expected_price_uuid=01a1f774-6083-8031-6cc5-b9ab377574b5&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=y6XL90bUeIqDZ8Wt2DPc2Q&expected_price_source=share&expected_price_currency=rub&expected_price=8022",
-      "origin_airport": "VKO",
-      "destination_airport": "AUH",
-      "departure_at": "2026-11-29T09:25:00+03:00",
-      "airline": "DP",
-      "destination": "AUH",
-      "origin": "MOW",
-      "price": 8022,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 400,
-      "duration_to": 400,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 0
-    },
     {
       "flight_number": "6542",
       "link": "/search/SVX2211DXB1?t=DP17953272001795439400001930SVXSVOVKODWC_4bfeaa1db8a0fc64f7453a4586fa03a6_9745&search_date=20112026&expected_price_uuid=01a1f784-b7de-8031-6029-7bd6024585cf&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=kWoCp4oFpbSakaZG_5kV-w&expected_price_source=share&expected_price_currency=rub&expected_price=9749",
