@@ -343,28 +343,14 @@
     {
       "id": "VVO-HRB-2026-12-04-5833",
       "time": 1795162540.369353
+    },
+    {
+      "id": "VVO-CAN-2026-12-05-14880",
+      "time": 1795164346.015007
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "812",
-      "link": "/search/VVO0512CAN1?t=CA17964948001796552700001085VVOPEKCAN_19293e9ad919852f544d6052621e1306_14704&search_date=19112026&expected_price_uuid=01a1f48c-a4b9-8030-ab6d-f35b51a463d5&static_fare_key=TY%7CP1%7CH1%7CL1_1_0%7CCH1%7CR0%7CTBC1&itinerary_key=buqWcKXf6rGi4a-bepkKCg&expected_price_source=share&expected_price_currency=rub&expected_price=14731",
-      "origin_airport": "VVO",
-      "destination_airport": "CAN",
-      "departure_at": "2026-12-05T18:20:00+10:00",
-      "airline": "CA",
-      "destination": "CAN",
-      "origin": "VVO",
-      "price": 14731,
-      "gate": "OneTwoTrip",
-      "return_transfers": 0,
-      "duration": 1085,
-      "duration_to": 360,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 22
-    },
     {
       "flight_number": "5456",
       "link": "/search/KHV0412HRB1?t=SU17963718001796370300000095KHVHRB_d4077481532e3ffd4b63c7ea5154f0d1_7186&search_date=20112026&expected_price_uuid=01a1f789-07bd-8030-a346-279940666fe0&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=TwRGJr5bIrXnk1tUOfuabg&expected_price_source=share&expected_price_currency=rub&expected_price=7189",
@@ -587,6 +573,7 @@
     5001995,
     2179083,
     1014711,
-    2590916
+    2590916,
+    4130931
   ]
 }
