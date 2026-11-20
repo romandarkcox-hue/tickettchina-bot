@@ -271,28 +271,13 @@
     {
       "id": "AUH-MOW-2026-11-23-8197",
       "time": 1795167334.1335106
+    },
+    {
+      "id": "DXB-TAS-2026-11-21-11410",
+      "time": 1795169134.3630977
     }
   ],
   "queue": [
-    {
-      "flight_number": "334",
-      "link": "/search/DXB2111TAS1?t=HY17952642001795282200000240DXBTAS_a4af8f0ae9499790155c57bb688007ee_12315&search_date=20112026&expected_price_uuid=01a1f78d-197e-8030-e90e-2b02bb0498fa&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=VyeIx2L70c4wkgbCQmzEwg&expected_price_source=share&expected_price_currency=rub&expected_price=12320",
-      "origin_airport": "DXB",
-      "destination_airport": "TAS",
-      "departure_at": "2026-11-21T12:30:00+04:00",
-      "airline": "HY",
-      "destination": "TAS",
-      "origin": "DXB",
-      "price": 12320,
-      "gate": "Uzbekistan airways",
-      "return_transfers": 0,
-      "duration": 240,
-      "duration_to": 240,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "992",
       "link": "/search/DXB2011MOW1?t=DP17951883001795207800000385DWCVKO_48f72d76494c493d3e9f9fdf2b75bebe_12817&search_date=20112026&expected_price_uuid=01a1f78f-07f5-8030-e387-50cb7bbdb3a9&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=xPktT0YTstSxAgTN49HhgQ&expected_price_source=share&expected_price_currency=rub&expected_price=12822",
