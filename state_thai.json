@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "TAS-BKK-2026-11-16-14856",
-      "time": 1794551052.723648
-    },
-    {
       "id": "MOW-BKK-2026-11-24-23872",
       "time": 1794552640.6309903
     },
@@ -267,27 +263,13 @@
     {
       "id": "TAS-BKK-2026-11-23-13422",
       "time": 1795155808.9605792
+    },
+    {
+      "id": "MOW-BKK-2026-12-12-24807",
+      "time": 1795157437.9667664
     }
   ],
   "queue": [
-    {
-      "flight_number": "766",
-      "link": "/search/MOW1212BKK1?t=HU17970783001797156300001060SVOHAKBKK_bd6f6a34bcbb8e8ac29ffc6f39939528_24715&search_date=20112026&expected_price_uuid=01a1f799-f8bc-8030-2c7f-b92115ca7071&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH1%7CR1%7CTBC1&itinerary_key=5jdKDl64AqJ5AO4pwxBuHA&expected_price_source=share&expected_price_currency=rub&expected_price=24724",
-      "origin_airport": "SVO",
-      "destination_airport": "BKK",
-      "departure_at": "2026-12-12T12:25:00+03:00",
-      "airline": "HU",
-      "destination": "BKK",
-      "origin": "MOW",
-      "price": 24724,
-      "gate": "Biletix",
-      "return_transfers": 0,
-      "duration": 1060,
-      "duration_to": 720,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 6.51647509578544
-    },
     {
       "flight_number": "529",
       "link": "/search/TAS3011HKT1?t=C617960796001796109000000370TASHKT_75fd058f59c8203e6728a334ea45ba4f_14633&search_date=20112026&expected_price_uuid=01a1f770-6070-8030-a81c-c2be6db43ebf&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=C8WvjDX_ubJ9aPqSLM6gPQ&expected_price_source=share&expected_price_currency=rub&expected_price=14633",
