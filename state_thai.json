@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "LED-BKK-2026-12-06-27266",
-      "time": 1794559839.3061645
-    },
-    {
       "id": "OVB-HKT-2026-11-17-31823",
       "time": 1794563441.782902
     },
@@ -267,27 +263,13 @@
     {
       "id": "OVB-HKT-2026-12-02-30962",
       "time": 1795164637.65037
+    },
+    {
+      "id": "LED-BKK-2026-11-20-29945",
+      "time": 1795166438.852141
     }
   ],
   "queue": [
-    {
-      "flight_number": "1018",
-      "link": "/search/LED2011BKK1?t=DV17952030001795326600001820LEDCITBKK_6afc23f92f8b5f1ea56e8ca17516db4d_30033&search_date=20112026&expected_price_uuid=01a1f718-9c59-8030-e3f5-f8a76dc4a7b8&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=4Wd-uvtBAOIEpfJw5usAXA&expected_price_source=share&expected_price_currency=rub&expected_price=30019",
-      "origin_airport": "LED",
-      "destination_airport": "BKK",
-      "departure_at": "2026-11-20T19:30:00+03:00",
-      "airline": "DV",
-      "destination": "BKK",
-      "origin": "LED",
-      "price": 30019,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 1820,
-      "duration_to": 675,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 0
-    },
     {
       "flight_number": "526",
       "link": "/search/BKK2411MOW1?t=C617955075001795654200002685BKKTASZIA_26fb09af5ee1adb2e1988b0f7137e9f2_22076&search_date=20112026&expected_price_uuid=01a1f79e-f63e-8031-6d92-0f25d3995dd1&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=h0Mj1wYpqiUcM3ZcbYkdIQ&expected_price_source=share&expected_price_currency=rub&expected_price=22084",
