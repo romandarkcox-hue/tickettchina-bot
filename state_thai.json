@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "BKK-MOW-2026-11-17-17498",
-      "time": 1794649842.5656219
-    },
-    {
-      "id": "HKT-MOW-2026-11-15-20682",
-      "time": 1794651640.1728141
-    },
-    {
       "id": "HKT-LED-2026-12-01-25643",
       "time": 1794653445.299351
     },
@@ -271,28 +263,13 @@
     {
       "id": "BKK-MOW-2026-11-24-21453",
       "time": 1795254637.9333837
+    },
+    {
+      "id": "HKT-MOW-2026-12-18-22578",
+      "time": 1795256446.7979395
     }
   ],
   "queue": [
-    {
-      "flight_number": "530",
-      "link": "/search/HKT1812MOW1?t=C617975817001797631500001070HKTTASSVO_29019a8ad8d45fa40474bb825e7328fe_22578&search_date=21112026&expected_price_uuid=01a1fcc0-28e1-8031-6796-a9ee04a11e8f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=qgroBpn4eGFKigufcvfMmw&expected_price_source=share&expected_price_currency=rub&expected_price=22578",
-      "origin_airport": "HKT",
-      "destination_airport": "SVO",
-      "departure_at": "2026-12-18T08:15:00+07:00",
-      "airline": "C6",
-      "destination": "MOW",
-      "origin": "HKT",
-      "price": 22578,
-      "gate": "Centrum Air",
-      "return_transfers": 0,
-      "duration": 1070,
-      "duration_to": 720,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "530",
       "link": "/search/HKT1812LED1?t=C617975817001797689400002035HKTTASLED_4536f67f15930bd1ab7563fc433b4417_24395&search_date=20112026&expected_price_uuid=01a1fb39-370b-8030-a9b7-de8a6a976700&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=XvTt1XehAcKbomd90cECLQ&expected_price_source=share&expected_price_currency=rub&expected_price=24395",
