@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "SKD-HKT-2026-11-21-17977",
-      "time": 1794644443.6642687
-    },
-    {
       "id": "MOW-HKT-2026-12-10-27172",
       "time": 1794646241.013478
     },
@@ -271,27 +267,13 @@
     {
       "id": "CIT-BKK-2026-11-23-16116",
       "time": 1795249239.8660595
+    },
+    {
+      "id": "MOW-HKT-2026-11-23-27567",
+      "time": 1795251039.702483
     }
   ],
   "queue": [
-    {
-      "flight_number": "3888",
-      "link": "/search/MOW2411HKT1?t=3U17955573001795650300001310SVOTFUHKT_1c26a8144cbe4712f9512297b6e1e838_27567&search_date=21112026&expected_price_uuid=01a1fcbf-4fe2-8030-219f-ffaf41ee4dac&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH1%7CR0%7CTBC1&itinerary_key=cRAHWn53YnA3Ld7kzlovOg&expected_price_source=share&expected_price_currency=rub&expected_price=27567",
-      "origin_airport": "SVO",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-24T21:55:00+03:00",
-      "airline": "3U",
-      "destination": "HKT",
-      "origin": "MOW",
-      "price": 27567,
-      "gate": "Biletix",
-      "return_transfers": 0,
-      "duration": 1310,
-      "duration_to": 720,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 23.46
-    },
     {
       "flight_number": "6026",
       "link": "/search/LED1012CNX1?t=MU17969268001796998800000960LEDPVGCNX_6d3c39190f67013f104174ad94cf05fb_30899&search_date=18112026&expected_price_uuid=01a1edc7-c244-8031-2ca1-91d570be128e&static_fare_key=TY%7CP1%7CH1%7CL1_2_46%7CCH1%7CR0%7CTBC1&itinerary_key=zeh8ctJtAopRqtVtfbAM3Q&expected_price_source=share&expected_price_currency=rub&expected_price=30976",
