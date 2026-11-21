@@ -343,28 +343,14 @@
     {
       "id": "TAS-URC-2026-12-05-12932",
       "time": 1795247148.1623797
+    },
+    {
+      "id": "VVO-HRB-2026-11-22-5826",
+      "time": 1795248937.1958055
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "5472",
-      "link": "/search/VVO2211HRB1?t=SU17953122001795310100000085VVOHRB_6e882bebfddd8c4aec038233209530c4_5826&search_date=21112026&expected_price_uuid=01a1fcb1-c7a0-8030-68ce-f5cfaf00ad4b&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=PpiBVD1SH4Ye8Q2GNR4W7Q&expected_price_source=share&expected_price_currency=rub&expected_price=5826",
-      "origin_airport": "VVO",
-      "destination_airport": "HRB",
-      "departure_at": "2026-11-22T01:50:00+10:00",
-      "airline": "HZ",
-      "destination": "HRB",
-      "origin": "VVO",
-      "price": 5826,
-      "gate": "Aviakassa",
-      "return_transfers": 0,
-      "duration": 85,
-      "duration_to": 85,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 22
-    },
     {
       "flight_number": "6402",
       "link": "/search/YKS2411BJS1?t=S717955015001795581300001390YKSIKTPKX_2982ff1f67a363cdcfac97376e7f6b85_13118&search_date=21112026&expected_price_uuid=01a1fcb7-01b9-8030-e4c6-b00cbc7eccb5&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=FSHIlOoAIRTv7KVpUXL-Kg&expected_price_source=share&expected_price_currency=rub&expected_price=13118",
@@ -617,6 +603,7 @@
     1846734,
     8149111,
     3093099,
-    2836300
+    2836300,
+    6574455
   ]
 }
