@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "VVO-SHA-2026-11-19-11869",
-      "time": 1794638743.2280524
-    },
-    {
       "id": "VVO-HRB-2026-11-14-5976",
       "time": 1794640539.4396741
     },
@@ -347,28 +343,14 @@
     {
       "id": "BQS-HRB-2026-12-10-10155",
       "time": 1795243537.4401715
+    },
+    {
+      "id": "NQZ-SYX-2026-11-21-5786",
+      "time": 1795245337.8680758
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "475",
-      "link": "/search/NQZ2111SYX1?t=DV17952918001795326000000390NQZSYX_5c9c43da4b47d4592c5c8e8b3fe26f47_5786&search_date=21112026&expected_price_uuid=01a1fcbf-2ea2-8031-2b6b-88c389932b07&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=nOx3VyjN1wZLOfJ-7GyyNw&expected_price_source=share&expected_price_currency=rub&expected_price=5786",
-      "origin_airport": "NQZ",
-      "destination_airport": "SYX",
-      "departure_at": "2026-11-21T20:10:00+06:00",
-      "airline": "DV",
-      "destination": "SYX",
-      "origin": "NQZ",
-      "price": 5786,
-      "gate": "Biletix",
-      "return_transfers": 0,
-      "duration": 390,
-      "duration_to": 390,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 22
-    },
     {
       "flight_number": "780",
       "link": "/search/TAS0512URC1?t=CA17964324001796454600000190TASURC_e358555d95474d585915243fb1da94d8_12932&search_date=21112026&expected_price_uuid=01a1fc89-e089-8031-69c6-a3c15c8bf7ff&static_fare_key=TY%7CP0%7CH1%7CL1_1_0%7CCH1%7CR1%7CTBC1&itinerary_key=o7tKYpznuNQUxoMlvF0AqA&expected_price_source=share&expected_price_currency=rub&expected_price=12932",
@@ -655,6 +637,7 @@
     7993656,
     3608029,
     1846734,
-    8149111
+    8149111,
+    3093099
   ]
 }
