@@ -271,27 +271,13 @@
     {
       "id": "LED-DXB-2026-11-24-8369",
       "time": 1795248341.3286495
+    },
+    {
+      "id": "TAS-DXB-2026-11-25-10778",
+      "time": 1795250132.6208658
     }
   ],
   "queue": [
-    {
-      "flight_number": "351",
-      "link": "/search/TAS2511DXB1?t=C617955921001795606500000300TASDXB_ad3d18533ffd4af0e992635a754fa393_10778&search_date=21112026&expected_price_uuid=01a1fca9-050f-8031-6855-428e65f31136&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=icOyWo5pESvtsQ_Ittb1zA&expected_price_source=share&expected_price_currency=rub&expected_price=10778",
-      "origin_airport": "TAS",
-      "destination_airport": "DXB",
-      "departure_at": "2026-11-25T07:35:00+05:00",
-      "airline": "C6",
-      "destination": "DXB",
-      "origin": "TAS",
-      "price": 10778,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 300,
-      "duration_to": 300,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 22.153571732652193
-    },
     {
       "flight_number": "6028",
       "link": "/search/EVN2611DXB1?t=A417957172001795755300000635EVNMRVDWC_63bc38e5e10c061e886d992aed8e48a8_16126&search_date=20112026&expected_price_uuid=01a1fb19-2641-8031-25e9-fba2ca5293ed&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=aCSGT2zQKil5RR6WEIHOgA&expected_price_source=share&expected_price_currency=rub&expected_price=16126",
