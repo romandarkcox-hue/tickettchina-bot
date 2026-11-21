@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "TAS-HKT-2026-11-21-15323",
-      "time": 1794640839.5530982
-    },
-    {
       "id": "LED-BKK-2026-12-06-27097",
       "time": 1794642639.9678102
     },
@@ -271,27 +267,13 @@
     {
       "id": "TAS-HKT-2026-11-30-13349",
       "time": 1795245639.2295477
+    },
+    {
+      "id": "MOW-BKK-2026-12-08-24554",
+      "time": 1795247437.8255239
     }
   ],
   "queue": [
-    {
-      "flight_number": "8004",
-      "link": "/search/MOW0812BKK1?t=CZ17967717001796855400001155SVOCANBKK_ac1dc453fb476741d32b67a64c827647_24554&search_date=21112026&expected_price_uuid=01a1fcbc-bf5c-8030-a8fa-558697622abe&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH1%7CR1%7CTBC1&itinerary_key=mlEW_pb1zmPRYBL2sSR1_w&expected_price_source=share&expected_price_currency=rub&expected_price=24554",
-      "origin_airport": "SVO",
-      "destination_airport": "BKK",
-      "departure_at": "2026-12-08T23:15:00+03:00",
-      "airline": "CZ",
-      "destination": "BKK",
-      "origin": "MOW",
-      "price": 24554,
-      "gate": "Biletix",
-      "return_transfers": 0,
-      "duration": 1155,
-      "duration_to": 950,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 6.516666666666667
-    },
     {
       "flight_number": "833",
       "link": "/search/CIT2311BKK1?t=DV17954697001795499400000375CITBKK_b93f5000bf9b54c2a0b8956877db9966_16116&search_date=20112026&expected_price_uuid=01a1faf3-e65c-8030-2090-0c69d421d132&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=Zy_GoCJvLgz_e2zELExI1A&expected_price_source=share&expected_price_currency=rub&expected_price=16116",
