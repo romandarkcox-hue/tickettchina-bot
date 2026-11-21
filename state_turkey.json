@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "AER-AYT-2026-11-14-4550",
-      "time": 1794639663.914281
-    },
-    {
-      "id": "BAK-IST-2026-12-11-7302",
-      "time": 1794641452.9461014
-    },
-    {
       "id": "KRR-IST-2026-11-17-4995",
       "time": 1794643263.2741208
     },
@@ -391,27 +383,13 @@
     {
       "id": "KRR-IST-2026-11-25-3690",
       "time": 1795244462.5581868
+    },
+    {
+      "id": "EVN-IST-2026-12-17-6508",
+      "time": 1795246263.093108
     }
   ],
   "queue": [
-    {
-      "flight_number": "551",
-      "link": "/search/EVN1712IST1?t=PC17974809001797486000000145EVNSAW_b68436fbf719d07b81584a55541b81f2_6488&search_date=20112026&expected_price_uuid=01a1f99e-b379-8030-6429-d30d1d3241a1&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=GIM3yhbqSs_9Ohpld8BOLg&expected_price_source=share&expected_price_currency=rub&expected_price=6508",
-      "origin_airport": "EVN",
-      "destination_airport": "SAW",
-      "departure_at": "2026-12-17T04:15:00+04:00",
-      "airline": "PC",
-      "destination": "IST",
-      "origin": "EVN",
-      "price": 6508,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 145,
-      "duration_to": 145,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 6.766666666666667
-    },
     {
       "flight_number": "6842",
       "link": "/search/KZN2311AYT1?t=DP17954691001795531200001035KZNSVOVKOAYT_c2130a84d353c89154d6cc519fdebcaf_5097&search_date=21112026&expected_price_uuid=01a1fc87-4538-8030-6f1a-cbe6180357f9&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=CsddqraPMZ8yImelp296aA&expected_price_source=share&expected_price_currency=rub&expected_price=5097",
@@ -731,6 +709,7 @@
     196522,
     7449743,
     4798245,
-    2805839
+    2805839,
+    4003109
   ]
 }
