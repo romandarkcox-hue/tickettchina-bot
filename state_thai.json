@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-BKK-2026-11-20-23482",
-      "time": 1794639039.6061862
-    },
-    {
       "id": "TAS-HKT-2026-11-21-15323",
       "time": 1794640839.5530982
     },
@@ -267,27 +263,13 @@
     {
       "id": "TAS-BKK-2026-11-23-13349",
       "time": 1795242242.4660714
+    },
+    {
+      "id": "OVB-HKT-2026-11-23-23524",
+      "time": 1795243843.1465387
     }
   ],
   "queue": [
-    {
-      "flight_number": "636",
-      "link": "/search/OVB2311HKT1?t=SU17954328001795460400000460OVBHKT_259f845db89296b77f516f4d203ccad7_23524&search_date=21112026&expected_price_uuid=01a1fcc2-d15f-8030-aa1d-a5a663f4d486&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=G2Xk-zLhmkt2kn8YNKNJVw&expected_price_source=share&expected_price_currency=rub&expected_price=23524",
-      "origin_airport": "OVB",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-23T11:20:00+07:00",
-      "airline": "SU",
-      "destination": "HKT",
-      "origin": "OVB",
-      "price": 23524,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 460,
-      "duration_to": 460,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 16.445440613026822
-    },
     {
       "flight_number": "529",
       "link": "/search/TAS3011HKT1?t=C617960796001796109000000370TASHKT_75fd058f59c8203e6728a334ea45ba4f_13349&search_date=21112026&expected_price_uuid=01a1fcb9-b755-8030-6d97-c1a3168c06eb&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=C8WvjDX_ubJ9aPqSLM6gPQ&expected_price_source=share&expected_price_currency=rub&expected_price=13349",
