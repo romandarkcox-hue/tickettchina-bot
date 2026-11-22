@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "AER-AYT-2026-11-24-4995",
-      "time": 1794726064.787386
-    },
-    {
       "id": "BAK-IST-2026-12-05-7171",
       "time": 1794727862.5584395
     },
@@ -391,27 +387,13 @@
     {
       "id": "MOW-IST-2026-11-23-5792",
       "time": 1795329060.2714617
+    },
+    {
+      "id": "KRR-IST-2026-11-23-3690",
+      "time": 1795330866.3077514
     }
   ],
   "queue": [
-    {
-      "flight_number": "769",
-      "link": "/search/KRR2311IST1?t=DP17954514001795460400000150KRRIST_f90764cf92393f68108980332bb5d655_3690&search_date=22112026&expected_price_uuid=01a201b7-f586-8031-6b82-f22cfd7706e3&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=6D7LCIluI_u7w6aNhXsvtg&expected_price_source=share&expected_price_currency=rub&expected_price=3690",
-      "origin_airport": "KRR",
-      "destination_airport": "IST",
-      "departure_at": "2026-11-23T16:30:00+03:00",
-      "airline": "DP",
-      "destination": "IST",
-      "origin": "KRR",
-      "price": 3690,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 150,
-      "duration_to": 150,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 11.903754789272032
-    },
     {
       "flight_number": "551",
       "link": "/search/EVN1312IST1?t=PC17971353001797140400000145EVNSAW_41500dcf6dc26d800e894a713710e10c_6513&search_date=22112026&expected_price_uuid=01a2011c-79bf-8031-679b-d1b844e7eba3&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=GIM3yhbqSs_9Ohpld8BOLg&expected_price_source=share&expected_price_currency=rub&expected_price=6513",
@@ -763,6 +745,7 @@
     1984011,
     4580839,
     7408352,
-    4793425
+    4793425,
+    4013091
   ]
 }
