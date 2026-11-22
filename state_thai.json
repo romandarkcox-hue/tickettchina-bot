@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "OSS-HKT-2026-11-25-19372",
-      "time": 1794727239.7272503
-    },
-    {
       "id": "MOW-HKT-2026-12-10-27430",
       "time": 1794729047.5270972
     },
@@ -271,27 +267,13 @@
     {
       "id": "TAS-HKT-2026-11-30-15415",
       "time": 1795332038.0719488
+    },
+    {
+      "id": "LED-BKK-2026-11-27-26822",
+      "time": 1795333839.844665
     }
   ],
   "queue": [
-    {
-      "flight_number": "3816",
-      "link": "/search/LED2711BKK1?t=3U17958180001795886400000900LEDTFUBKK_7bd12e61a66186c7991e38534dd9f889_26822&search_date=22112026&expected_price_uuid=01a201d4-a18d-8030-209b-e484af4e0792&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH1%7CR0%7CTBC1&itinerary_key=UOrqSXpU6yRL_6c5ZTUS3w&expected_price_source=share&expected_price_currency=rub&expected_price=26822",
-      "origin_airport": "LED",
-      "destination_airport": "BKK",
-      "departure_at": "2026-11-27T22:20:00+03:00",
-      "airline": "3U",
-      "destination": "BKK",
-      "origin": "LED",
-      "price": 26822,
-      "gate": "Biletix",
-      "return_transfers": 0,
-      "duration": 900,
-      "duration_to": 705,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 0
-    },
     {
       "flight_number": "270",
       "link": "/search/MOW2211BKK1?t=SU17953752001795422000000540SVOBKK_f4cb94551a8a58c2a039c82f9642b5a3_18820&search_date=22112026&expected_price_uuid=01a201e8-3db6-8030-ac15-759a0705e2a4&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=0qZbUDsm12f8zDGGl72ujw&expected_price_source=share&expected_price_currency=rub&expected_price=18820",
