@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "DXB-MOW-2026-11-15-7217",
-      "time": 1794735332.1668415
-    },
-    {
       "id": "AUH-MOW-2026-11-15-8415",
       "time": 1794737132.8036861
     },
@@ -271,28 +267,13 @@
     {
       "id": "EVN-SHJ-2026-11-28-17472",
       "time": 1795338338.6462963
+    },
+    {
+      "id": "AUH-MOW-2026-12-18-12860",
+      "time": 1795340135.241353
     }
   ],
   "queue": [
-    {
-      "flight_number": "754",
-      "link": "/search/AUH2012MOW1?t=DP17977893001797808800000385AUHVKO_4832432984745341d66fe367e8a0513d_12813&search_date=21112026&expected_price_uuid=01a20006-766b-8030-60d2-2abe978d7edf&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=Li9S4CIJcS651WSQSTVfNg&expected_price_source=share&expected_price_currency=rub&expected_price=12813",
-      "origin_airport": "AUH",
-      "destination_airport": "VKO",
-      "departure_at": "2026-12-20T17:55:00+04:00",
-      "airline": "DP",
-      "destination": "MOW",
-      "origin": "AUH",
-      "price": 12813,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 385,
-      "duration_to": 385,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 31,
-      "reverse": true
-    },
     {
       "flight_number": "992",
       "link": "/search/DXB2511MOW1?t=DP17956173001795636800000385DWCVKO_ac69ed6161888243a1ba090daf1ead8f_12849&search_date=22112026&expected_price_uuid=01a201d3-e7c3-8030-ab13-a74bb75b9227&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=5x45_avwfj8PBl1Yta8XSg&expected_price_source=share&expected_price_currency=rub&expected_price=12849",
