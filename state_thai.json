@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-HKT-2026-12-10-27430",
-      "time": 1794729047.5270972
-    },
-    {
       "id": "LED-HKT-2026-12-08-27455",
       "time": 1794730842.521351
     },
@@ -271,45 +267,13 @@
     {
       "id": "LED-BKK-2026-11-27-26822",
       "time": 1795333839.844665
+    },
+    {
+      "id": "OVB-HKT-2026-11-28-30877",
+      "time": 1795335640.0756066
     }
   ],
   "queue": [
-    {
-      "flight_number": "270",
-      "link": "/search/MOW2211BKK1?t=SU17953752001795422000000540SVOBKK_f4cb94551a8a58c2a039c82f9642b5a3_18820&search_date=22112026&expected_price_uuid=01a201e8-3db6-8030-ac15-759a0705e2a4&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=0qZbUDsm12f8zDGGl72ujw&expected_price_source=share&expected_price_currency=rub&expected_price=18820",
-      "origin_airport": "SVO",
-      "destination_airport": "BKK",
-      "departure_at": "2026-11-22T19:20:00+03:00",
-      "airline": "SU",
-      "destination": "BKK",
-      "origin": "MOW",
-      "price": 18820,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 540,
-      "duration_to": 540,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 6.516666666666667
-    },
-    {
-      "flight_number": "668",
-      "link": "/search/OVB2811HKT1?t=HY17958339001795929600001595OVBTASHKT_7951d0d3efc14167a7deb1ddfc1171e0_30877&search_date=22112026&expected_price_uuid=01a201cc-a761-8030-2959-33707d66f743&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=2zfUuzmAKG5m-SblGrLgFQ&expected_price_source=share&expected_price_currency=rub&expected_price=30877",
-      "origin_airport": "OVB",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-28T02:45:00+07:00",
-      "airline": "HY",
-      "destination": "HKT",
-      "origin": "OVB",
-      "price": 30877,
-      "gate": "Uzbekistan airways",
-      "return_transfers": 0,
-      "duration": 1595,
-      "duration_to": 560,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 15.883218390804599
-    },
     {
       "flight_number": "953",
       "link": "/search/MSQ2211HKT1?t=SU17953533001795436400001145MSQZIASVOHKT_6364e29b81d7f7c82e531a64f1aa7354_33943&search_date=22112026&expected_price_uuid=01a201e5-4e32-8031-24e7-caa719732771&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=RNyi11o_-GMhlJ2LY6wc1g&expected_price_source=share&expected_price_currency=rub&expected_price=33943",
