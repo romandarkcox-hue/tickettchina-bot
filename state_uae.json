@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MRV-DXB-2026-11-18-12620",
-      "time": 1794726331.795325
-    },
-    {
       "id": "SVX-DXB-2026-11-19-11518",
       "time": 1794728131.7725337
     },
@@ -275,27 +271,13 @@
     {
       "id": "KZN-DXB-2026-11-23-8186",
       "time": 1795331130.4417617
+    },
+    {
+      "id": "TAS-DXB-2026-11-27-10783",
+      "time": 1795332928.5357547
     }
   ],
   "queue": [
-    {
-      "flight_number": "351",
-      "link": "/search/TAS2611DXB1?t=C617956770001795690200000280TASDXB_e1a7ba306cc4b37dea57480e5d68f2a6_10783&search_date=22112026&expected_price_uuid=01a201a7-c80e-8030-6c68-5194004b66b8&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=6AyuqevQ5uqCTsB35Df-sw&expected_price_source=share&expected_price_currency=rub&expected_price=10783",
-      "origin_airport": "TAS",
-      "destination_airport": "DXB",
-      "departure_at": "2026-11-26T07:10:00+05:00",
-      "airline": "C6",
-      "destination": "DXB",
-      "origin": "TAS",
-      "price": 10783,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 280,
-      "duration_to": 280,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 22.153571732652193
-    },
     {
       "flight_number": "6824",
       "link": "/search/LED2511DXB1?t=DP17956431001795714500001130LEDSVOVKODWC_1f845f925bbb53cd735126f32f64c918_9335&search_date=22112026&expected_price_uuid=01a201a8-896b-8030-ebf9-9f5c398ab74e&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=BEn7Qjmle3cwN54uaGTPSg&expected_price_source=share&expected_price_currency=rub&expected_price=9335",
