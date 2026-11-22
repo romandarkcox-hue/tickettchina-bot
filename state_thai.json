@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-BKK-2026-12-03-25197",
-      "time": 1794725444.1088662
-    },
-    {
       "id": "OSS-HKT-2026-11-25-19372",
       "time": 1794727239.7272503
     },
@@ -271,27 +267,13 @@
     {
       "id": "MOW-HKT-2026-11-24-27567",
       "time": 1795330238.7628608
+    },
+    {
+      "id": "TAS-HKT-2026-11-30-15415",
+      "time": 1795332038.0719488
     }
   ],
   "queue": [
-    {
-      "flight_number": "529",
-      "link": "/search/TAS3011HKT1?t=C617960796001796109000000370TASHKT_75fd058f59c8203e6728a334ea45ba4f_15724&search_date=22112026&expected_price_uuid=01a201be-c07a-8030-2480-19b7e187e586&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=C8WvjDX_ubJ9aPqSLM6gPQ&expected_price_source=share&expected_price_currency=rub&expected_price=15724",
-      "origin_airport": "TAS",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-30T23:00:00+05:00",
-      "airline": "C6",
-      "destination": "HKT",
-      "origin": "TAS",
-      "price": 15724,
-      "gate": "Aviakassa",
-      "return_transfers": 0,
-      "duration": 370,
-      "duration_to": 370,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 0
-    },
     {
       "flight_number": "3816",
       "link": "/search/LED2711BKK1?t=3U17958180001795886400000900LEDTFUBKK_7bd12e61a66186c7991e38534dd9f889_26822&search_date=22112026&expected_price_uuid=01a201d4-a18d-8030-209b-e484af4e0792&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH1%7CR0%7CTBC1&itinerary_key=UOrqSXpU6yRL_6c5ZTUS3w&expected_price_source=share&expected_price_currency=rub&expected_price=26822",
