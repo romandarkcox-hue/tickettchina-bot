@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "BQS-HRB-2026-11-26-11378",
-      "time": 1794737740.324142
-    },
-    {
-      "id": "SVX-BJS-2026-11-26-20538",
-      "time": 1794739542.9676938
-    },
-    {
       "id": "BJS-VVO-2026-11-23-6573",
       "time": 1794741344.3599336
     },
@@ -347,28 +339,14 @@
     {
       "id": "KJA-HRB-2026-12-03-10894",
       "time": 1795342537.352602
+    },
+    {
+      "id": "LED-BJS-2026-12-08-18717",
+      "time": 1795344345.2603467
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "5006",
-      "link": "/search/LED0812BJS1?t=S717967474001796878800001890LEDOVBPKX_c3861a3be2cadd3a03e5deb2bbcf5ede_18717&search_date=22112026&expected_price_uuid=01a2009e-8336-8030-e1b9-fc88aaafafa3&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=_y6jEib5rht1Lw3gvgUfDw&expected_price_source=share&expected_price_currency=rub&expected_price=18717",
-      "origin_airport": "LED",
-      "destination_airport": "PKX",
-      "departure_at": "2026-12-08T16:30:00+03:00",
-      "airline": "S7",
-      "destination": "BJS",
-      "origin": "LED",
-      "price": 18717,
-      "gate": "S7 Airlines",
-      "return_transfers": 0,
-      "duration": 1890,
-      "duration_to": 535,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 21
-    },
     {
       "flight_number": "6242",
       "link": "/search/BJS0612VVO1?t=S717965470001796563200000150PKXVVO_b7ebeeb46f7afbf9f4f85b2dfd4ff0b3_6154&search_date=22112026&expected_price_uuid=01a20184-b994-8031-6439-86873cd47424&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=ze37l3eitK46eXF7wYthhA&expected_price_source=share&expected_price_currency=rub&expected_price=6154",
@@ -549,6 +527,7 @@
     3445328,
     2127433,
     3447463,
-    5076435
+    5076435,
+    1869692
   ]
 }
