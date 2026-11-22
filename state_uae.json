@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "EVN-DXB-2026-11-25-17366",
-      "time": 1794731733.0273566
-    },
-    {
-      "id": "BAK-DXB-2026-12-03-17432",
-      "time": 1794733533.0600128
-    },
-    {
       "id": "DXB-MOW-2026-11-15-7217",
       "time": 1794735332.1668415
     },
@@ -275,27 +267,13 @@
     {
       "id": "MRV-DXB-2026-11-24-12037",
       "time": 1795336529.2170749
+    },
+    {
+      "id": "EVN-SHJ-2026-11-28-17472",
+      "time": 1795338338.6462963
     }
   ],
   "queue": [
-    {
-      "flight_number": "247",
-      "link": "/search/EVN2411SHJ1?t=G917955225001795535100000210EVNSHJ_da41875834a1c9d210297bde2bd8d6df_17722&search_date=21112026&expected_price_uuid=01a20030-d8ce-8030-a09f-6964b33978d5&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=6Fc8k9pKXrXiWa5OHqVLyQ&expected_price_source=share&expected_price_currency=rub&expected_price=17722",
-      "origin_airport": "EVN",
-      "destination_airport": "SHJ",
-      "departure_at": "2026-11-24T12:15:00+04:00",
-      "airline": "G9",
-      "destination": "SHJ",
-      "origin": "EVN",
-      "price": 17722,
-      "gate": "Kiwi.com",
-      "return_transfers": 0,
-      "duration": 210,
-      "duration_to": 210,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 9.324814814814815
-    },
     {
       "flight_number": "754",
       "link": "/search/AUH2012MOW1?t=DP17977893001797808800000385AUHVKO_4832432984745341d66fe367e8a0513d_12813&search_date=21112026&expected_price_uuid=01a20006-766b-8030-60d2-2abe978d7edf&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=Li9S4CIJcS651WSQSTVfNg&expected_price_source=share&expected_price_currency=rub&expected_price=12813",
