@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-SHA-2026-12-05-17190",
-      "time": 1794732341.0358455
-    },
-    {
       "id": "KHV-SHA-2026-11-18-9810",
       "time": 1794734145.0355916
     },
@@ -347,28 +343,14 @@
     {
       "id": "TAS-SIA-2026-12-05-14472",
       "time": 1795337137.669908
+    },
+    {
+      "id": "IKT-HRB-2026-12-04-9435",
+      "time": 1795338940.2513697
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "891",
-      "link": "/search/IKT2311HRB1?t=IO17954718001795482300000175IKTHRB_3d6ab95e9f5bdc1590f9a2fdda6895ff_9435&search_date=22112026&expected_price_uuid=01a2019d-9e18-8030-2dd6-b348850930be&static_fare_key=TY%7CP1%7CH1%7CL1_1_15%7CCH1%7CR1%7CTBC1&itinerary_key=6V_Px23vL8-AIcjXHjCQ8Q&expected_price_source=share&expected_price_currency=rub&expected_price=9435",
-      "origin_airport": "IKT",
-      "destination_airport": "HRB",
-      "departure_at": "2026-11-23T22:10:00+08:00",
-      "airline": "IO",
-      "destination": "HRB",
-      "origin": "IKT",
-      "price": 9435,
-      "gate": "ИрАэро",
-      "return_transfers": 0,
-      "duration": 175,
-      "duration_to": 175,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 17
-    },
     {
       "flight_number": "1004",
       "link": "/search/MOW0112URC1?t=DV17961516001796266500001615VKOCITURC_150e216778bb0bb6d4ae10a3bde833a7_18636&search_date=21112026&expected_price_uuid=01a1fc0e-c31e-8030-a1e8-19668c0e716a&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=vogX64vmNDC3kA4jzVMfNg&expected_price_source=share&expected_price_currency=rub&expected_price=18636",
@@ -600,6 +582,7 @@
     6530523,
     4212274,
     2609647,
-    3445328
+    3445328,
+    2127433
   ]
 }
