@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "KHV-SHA-2026-11-18-9810",
-      "time": 1794734145.0355916
-    },
-    {
-      "id": "KJA-SHA-2026-12-04-20146",
-      "time": 1794735938.2771125
-    },
-    {
       "id": "BQS-HRB-2026-11-26-11378",
       "time": 1794737740.324142
     },
@@ -347,28 +339,14 @@
     {
       "id": "IKT-HRB-2026-12-04-9435",
       "time": 1795338940.2513697
+    },
+    {
+      "id": "MOW-URC-2026-12-08-18671",
+      "time": 1795340742.6582263
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "1004",
-      "link": "/search/MOW0112URC1?t=DV17961516001796266500001615VKOCITURC_150e216778bb0bb6d4ae10a3bde833a7_18636&search_date=21112026&expected_price_uuid=01a1fc0e-c31e-8030-a1e8-19668c0e716a&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=vogX64vmNDC3kA4jzVMfNg&expected_price_source=share&expected_price_currency=rub&expected_price=18636",
-      "origin_airport": "VKO",
-      "destination_airport": "URC",
-      "departure_at": "2026-12-01T19:00:00+03:00",
-      "airline": "DV",
-      "destination": "URC",
-      "origin": "MOW",
-      "price": 18636,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 1615,
-      "duration_to": 375,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 21
-    },
     {
       "flight_number": "6635",
       "link": "/search/KJA0312HRB1?t=SU17963259001796343300000230KJAHRB_304250ff932aba7985777af7e6edecf6_10974&search_date=22112026&expected_price_uuid=01a201b1-ef2b-8031-25a8-22150674be3b&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=nBBXveA9wMbjiVLKEaeKMQ&expected_price_source=share&expected_price_currency=rub&expected_price=10974",
@@ -583,6 +561,7 @@
     4212274,
     2609647,
     3445328,
-    2127433
+    2127433,
+    3447463
   ]
 }
