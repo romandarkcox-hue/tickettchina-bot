@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "IKT-HRB-2026-11-16-9635",
-      "time": 1794730553.0413222
-    },
-    {
       "id": "MOW-SHA-2026-12-05-17190",
       "time": 1794732341.0358455
     },
@@ -347,28 +343,14 @@
     {
       "id": "NQZ-URC-2026-12-12-7544",
       "time": 1795335338.322796
+    },
+    {
+      "id": "TAS-SIA-2026-12-05-14472",
+      "time": 1795337137.669908
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "778",
-      "link": "/search/TAS0512SIA1?t=CA17965050001796554800000650TASPEKXIY_375783999c62ae2020f740812be666d7_14472&search_date=21112026&expected_price_uuid=01a1fe90-b018-8030-e281-199a138debf5&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=iHafC_RdT6F34arNqVGV_w&expected_price_source=share&expected_price_currency=rub&expected_price=14472",
-      "origin_airport": "TAS",
-      "destination_airport": "XIY",
-      "departure_at": "2026-12-05T21:10:00+05:00",
-      "airline": "CA",
-      "destination": "SIA",
-      "origin": "TAS",
-      "price": 14472,
-      "gate": "Flightnetwork",
-      "return_transfers": 0,
-      "duration": 650,
-      "duration_to": 490,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 22
-    },
     {
       "flight_number": "891",
       "link": "/search/IKT2311HRB1?t=IO17954718001795482300000175IKTHRB_3d6ab95e9f5bdc1590f9a2fdda6895ff_9435&search_date=22112026&expected_price_uuid=01a2019d-9e18-8030-2dd6-b348850930be&static_fare_key=TY%7CP1%7CH1%7CL1_1_15%7CCH1%7CR1%7CTBC1&itinerary_key=6V_Px23vL8-AIcjXHjCQ8Q&expected_price_source=share&expected_price_currency=rub&expected_price=9435",
@@ -617,6 +599,7 @@
     497934,
     6530523,
     4212274,
-    2609647
+    2609647,
+    3445328
   ]
 }
