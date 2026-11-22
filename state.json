@@ -343,28 +343,14 @@
     {
       "id": "TAS-CTU-2026-12-12-14446",
       "time": 1795333539.518655
+    },
+    {
+      "id": "NQZ-URC-2026-12-12-7544",
+      "time": 1795335338.322796
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "7961",
-      "link": "/search/NQZ1212URC1?t=FS17971038001797123600000150NQZURC_2dfec7cac4cd46cd64e44afe2e4a80de_7544&search_date=21112026&expected_price_uuid=01a1ffd6-bb02-8030-61b4-b5414ba86396&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=YE09JVIbnt6WgFicfAo2uA&expected_price_source=share&expected_price_currency=rub&expected_price=7544",
-      "origin_airport": "NQZ",
-      "destination_airport": "URC",
-      "departure_at": "2026-12-12T19:30:00+06:00",
-      "airline": "FS",
-      "destination": "URC",
-      "origin": "NQZ",
-      "price": 7544,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 150,
-      "duration_to": 150,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 20
-    },
     {
       "flight_number": "778",
       "link": "/search/TAS0512SIA1?t=CA17965050001796554800000650TASPEKXIY_375783999c62ae2020f740812be666d7_14472&search_date=21112026&expected_price_uuid=01a1fe90-b018-8030-e281-199a138debf5&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=iHafC_RdT6F34arNqVGV_w&expected_price_source=share&expected_price_currency=rub&expected_price=14472",
@@ -630,6 +616,7 @@
     7766082,
     497934,
     6530523,
-    4212274
+    4212274,
+    2609647
   ]
 }
