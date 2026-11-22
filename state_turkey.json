@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "AYT-SVX-2026-12-07-14849",
-      "time": 1794747665.2079377
-    },
-    {
       "id": "AER-AYT-2026-12-08-4981",
       "time": 1794808939.0781176
     },
@@ -391,29 +387,13 @@
     {
       "id": "AYT-KZN-2026-12-18-12728",
       "time": 1795350656.2581553
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "3000",
-      "link": "/search/IST0412TAS1?t=VF17963631001796447400001285SAWESBTAS_71f91facb7dbc3c09b1cf2b9a0048d5c_13090&search_date=22112026&expected_price_uuid=01a201b9-50d4-8030-2a9d-5bdecc51d20f&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=BZEqUgUAogTU9QpEImXIWA&expected_price_source=share&expected_price_currency=rub&expected_price=13090",
-      "origin_airport": "SAW",
-      "destination_airport": "TAS",
-      "departure_at": "2026-12-04T05:45:00+03:00",
-      "airline": "VF",
-      "destination": "TAS",
-      "origin": "IST",
-      "price": 13090,
-      "gate": "City.Travel",
-      "return_transfers": 0,
-      "duration": 1285,
-      "duration_to": 320,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
+      "id": "IST-TAS-2026-12-10-12995",
+      "time": 1795352470.4337127
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-22",
   "used_photos": [
     3855080,
@@ -555,6 +535,7 @@
     92689,
     2642284,
     538960,
-    5222620
+    5222620,
+    4580848
   ]
 }
