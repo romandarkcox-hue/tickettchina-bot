@@ -395,27 +395,13 @@
     {
       "id": "LED-AYT-2026-11-24-5269",
       "time": 1795428073.4128926
+    },
+    {
+      "id": "TAS-IST-2026-11-26-10440",
+      "time": 1795429853.0882158
     }
   ],
   "queue": [
-    {
-      "flight_number": "742",
-      "link": "/search/TAS0712IST1?t=DP17966118001796645700000685TASVKOIST_20240413d404a3d9245a74a3ca4bf961_12628&search_date=23112026&expected_price_uuid=01a206ae-0fac-8030-6769-ae6ea535dd6b&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=eTOjny-5QOo8WvOKX49LXw&expected_price_source=share&expected_price_currency=rub&expected_price=12628",
-      "origin_airport": "TAS",
-      "destination_airport": "IST",
-      "departure_at": "2026-12-07T02:50:00+05:00",
-      "airline": "DP",
-      "destination": "IST",
-      "origin": "TAS",
-      "price": 12628,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 685,
-      "duration_to": 580,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 24.097619047619048
-    },
     {
       "flight_number": "085",
       "link": "/search/IST1712MOW1?t=2S17975361001797549900000230ISTSVO_b94737538f8c630c51b31e71717e17f1_5576&search_date=23112026&expected_price_uuid=01a206ec-f370-8031-220d-726f3b9e1f6a&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=9NuQU1ERk3prptizHWNGZQ&expected_price_source=share&expected_price_currency=rub&expected_price=5575",
@@ -663,6 +649,7 @@
     7353335,
     73836,
     4455899,
-    7345439
+    7345439,
+    4519040
   ]
 }
