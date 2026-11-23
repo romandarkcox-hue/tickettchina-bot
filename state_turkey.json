@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-AYT-2026-11-25-6835",
-      "time": 1794817858.370299
-    },
-    {
       "id": "EVN-IST-2026-12-13-6520",
       "time": 1794819667.0285807
     },
@@ -391,27 +387,13 @@
     {
       "id": "AER-AYT-2026-11-25-4857",
       "time": 1795420866.2981746
+    },
+    {
+      "id": "BAK-IST-2026-12-16-6814",
+      "time": 1795422659.391601
     }
   ],
   "queue": [
-    {
-      "flight_number": "182",
-      "link": "/search/BAK1612IST1?t=VF17974242001797432300000195GYDSAW_7ffeba5eb22db0145028fcacf426f423_6821&search_date=23112026&expected_price_uuid=01a206bb-b198-8030-a6d0-d9917eafc4db&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=gpkhV2v3j1UnTtUEt74J0Q&expected_price_source=share&expected_price_currency=rub&expected_price=6821",
-      "origin_airport": "GYD",
-      "destination_airport": "SAW",
-      "departure_at": "2026-12-16T12:30:00+04:00",
-      "airline": "VF",
-      "destination": "IST",
-      "origin": "BAK",
-      "price": 6821,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 195,
-      "duration_to": 195,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 11.724302134646962
-    },
     {
       "flight_number": "6842",
       "link": "/search/KZN2311AYT1?t=DP17954751001795531200000935KZNSVOVKOAYT_a432055a9fd810133ccbdb7f22919bf6_5077&search_date=23112026&expected_price_uuid=01a206f2-5126-8031-2280-3839d405b176&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=t0G9b8FJtjJRnRgJYvRS4w&expected_price_source=share&expected_price_currency=rub&expected_price=5076",
@@ -727,6 +709,7 @@
     5050643,
     4793225,
     2809936,
-    3976569
+    3976569,
+    7353335
   ]
 }
