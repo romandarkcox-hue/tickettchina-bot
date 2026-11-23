@@ -271,27 +271,13 @@
     {
       "id": "MOW-DXB-2026-11-25-6627",
       "time": 1795414017.1704445
+    },
+    {
+      "id": "MRV-DXB-2026-11-24-7630",
+      "time": 1795415731.1201463
     }
   ],
   "queue": [
-    {
-      "flight_number": "6011",
-      "link": "/search/MRV2311DXB1?t=DP17954667001795535400001085MRVMCXDWC_6d16d59a3d8b86b4f614002296c00fc5_8706&search_date=23112026&expected_price_uuid=01a206ee-4b05-8031-25c8-2bf3a0628367&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=qyJ2Ash4Pe7d5cycmAiVnQ&expected_price_source=share&expected_price_currency=rub&expected_price=8705",
-      "origin_airport": "MRV",
-      "destination_airport": "DWC",
-      "departure_at": "2026-11-23T20:45:00+03:00",
-      "airline": "A4",
-      "destination": "DXB",
-      "origin": "MRV",
-      "price": 8705,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 1085,
-      "duration_to": 295,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 11.342564102564104
-    },
     {
       "flight_number": "6842",
       "link": "/search/KZN2311DXB1?t=DP17954751001795530900000870KZNSVOVKODWC_87eab1a1b2c25a8ae693d3a202ce1a29_8122&search_date=23112026&expected_price_uuid=01a206d7-d453-8030-ed5a-1ed75fae9ebb&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=x5J6IljK9dgqx63XXyXDcA&expected_price_source=share&expected_price_currency=rub&expected_price=8122",
