@@ -407,28 +407,13 @@
     {
       "id": "AYT-MOW-2026-12-23-8127",
       "time": 1795433452.3774939
+    },
+    {
+      "id": "AYT-AER-2026-12-02-9594",
+      "time": 1795435277.612905
     }
   ],
   "queue": [
-    {
-      "flight_number": "5052",
-      "link": "/search/AYT2212AER1?t=A417979672001797975000000130AYTAER_c12fa1c82a5949a91aeafea8a983aca4_9597&search_date=23112026&expected_price_uuid=01a2060d-49d4-8031-29be-19e057b6da50&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=2DMfyWXrq9P34uYI7eu2tQ&expected_price_source=share&expected_price_currency=rub&expected_price=9595",
-      "origin_airport": "AYT",
-      "destination_airport": "AER",
-      "departure_at": "2026-12-22T19:20:00+03:00",
-      "airline": "A4",
-      "destination": "AER",
-      "origin": "AYT",
-      "price": 9595,
-      "gate": "Azimuth",
-      "return_transfers": 0,
-      "duration": 130,
-      "duration_to": 130,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "840",
       "link": "/search/AYT1612LED1?t=DP17974254001797504000001310AYTVKOSVOLED_226e497ca73968f9d8fac7878c29d87c_12653&search_date=23112026&expected_price_uuid=01a206e9-7f52-8030-270e-96f55fa52262&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=RBzkMtlvUpF_e83q0DqqRQ&expected_price_source=share&expected_price_currency=rub&expected_price=12652",
@@ -622,6 +607,7 @@
     7345439,
     4519040,
     8569243,
-    4998149
+    4998149,
+    2434688
   ]
 }
