@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "KRR-IST-2026-11-17-4996",
-      "time": 1794812469.7014425
-    },
-    {
       "id": "LED-IST-2026-12-09-8283",
       "time": 1794814256.9820251
     },
@@ -391,27 +387,13 @@
     {
       "id": "MOW-IST-2026-11-24-5853",
       "time": 1795415463.3083072
+    },
+    {
+      "id": "KRR-IST-2026-11-23-3694",
+      "time": 1795417269.950791
     }
   ],
   "queue": [
-    {
-      "flight_number": "769",
-      "link": "/search/KRR2311IST1?t=DP17954514001795460400000150KRRIST_f90764cf92393f68108980332bb5d655_3690&search_date=23112026&expected_price_uuid=01a206f5-9316-8030-a27f-9741099d3210&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=6D7LCIluI_u7w6aNhXsvtg&expected_price_source=share&expected_price_currency=rub&expected_price=3689",
-      "origin_airport": "KRR",
-      "destination_airport": "IST",
-      "departure_at": "2026-11-23T16:30:00+03:00",
-      "airline": "DP",
-      "destination": "IST",
-      "origin": "KRR",
-      "price": 3689,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 150,
-      "duration_to": 150,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 11.891111111111112
-    },
     {
       "flight_number": "551",
       "link": "/search/EVN1512IST1?t=PC17973081001797313200000145EVNSAW_f9effa4ab9e9bb75c2c5236c73e3356e_6542&search_date=23112026&expected_price_uuid=01a206f2-016a-8031-274f-1bfdfe8ce719&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=GIM3yhbqSs_9Ohpld8BOLg&expected_price_source=share&expected_price_currency=rub&expected_price=6541",
@@ -778,6 +760,7 @@
     5222620,
     4580848,
     1162824,
-    5050643
+    5050643,
+    4793225
   ]
 }
