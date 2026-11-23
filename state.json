@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "KJA-HRB-2026-12-01-12476",
-      "time": 1794811554.3625562
-    },
-    {
       "id": "KHV-HRB-2026-12-04-7330",
       "time": 1794813339.5736306
     },
@@ -347,28 +343,14 @@
     {
       "id": "VVO-SHA-2026-11-26-11553",
       "time": 1795416337.3153262
+    },
+    {
+      "id": "KHV-HRB-2026-12-04-7146",
+      "time": 1795418139.4163356
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "5456",
-      "link": "/search/KHV3011HRB1?t=SU17960709001796069700000100KHVHRB_eb4c7e11395cdd4854d183cfd48c5fec_7146&search_date=23112026&expected_price_uuid=01a206fd-e558-8030-a698-72ec4da59acf&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=NiMlEZd2EVqnYBFliXNJeA&expected_price_source=share&expected_price_currency=rub&expected_price=7145",
-      "origin_airport": "KHV",
-      "destination_airport": "HRB",
-      "departure_at": "2026-11-30T20:35:00+10:00",
-      "airline": "HZ",
-      "destination": "HRB",
-      "origin": "KHV",
-      "price": 7145,
-      "gate": "Aviakassa",
-      "return_transfers": 0,
-      "duration": 100,
-      "duration_to": 100,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 21
-    },
     {
       "flight_number": "780",
       "link": "/search/TAS0512URC1?t=CA17964324001796454600000190TASURC_e358555d95474d585915243fb1da94d8_12681&search_date=23112026&expected_price_uuid=01a206c7-c6f5-8030-a18b-c3df9f855a69&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=o7tKYpznuNQUxoMlvF0AqA&expected_price_source=share&expected_price_currency=rub&expected_price=12681",
@@ -681,6 +663,7 @@
     10431379,
     1632598,
     7118843,
-    2148189
+    2148189,
+    4456459
   ]
 }
