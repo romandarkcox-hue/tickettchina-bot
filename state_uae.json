@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-AUH-2026-11-22-8195",
-      "time": 1794812751.991469
-    },
-    {
       "id": "MRV-DXB-2026-11-30-12343",
       "time": 1794814532.5075436
     },
@@ -275,27 +271,13 @@
     {
       "id": "KZN-DXB-2026-11-23-8131",
       "time": 1795417537.6955073
+    },
+    {
+      "id": "SVX-DXB-2026-11-25-10706",
+      "time": 1795419331.245503
     }
   ],
   "queue": [
-    {
-      "flight_number": "408",
-      "link": "/search/SVX2511DXB1?t=DP17955900001795628100000695SVXVKODWC_2be3a332618b8e8b36c06f337d95ab72_10747&search_date=23112026&expected_price_uuid=01a206ec-6103-8030-67df-ed6b0fbdf4cb&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=FWmi6qFyAGUJufI-EdoWkg&expected_price_source=share&expected_price_currency=rub&expected_price=10746",
-      "origin_airport": "SVX",
-      "destination_airport": "DWC",
-      "departure_at": "2026-11-25T07:00:00+05:00",
-      "airline": "DP",
-      "destination": "DXB",
-      "origin": "SVX",
-      "price": 10746,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 695,
-      "duration_to": 555,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 10.301582249168455
-    },
     {
       "flight_number": "204",
       "link": "/search/LED2411DXB1?t=DP17955516001795614300000985LEDVKODWC_3767b282717f07ffeca2ad462e3e5748_8312&search_date=23112026&expected_price_uuid=01a206fa-ec88-8030-67f5-a646e2d4ebd9&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=LPCwAn6Zjffu44w28UrCQw&expected_price_source=share&expected_price_currency=rub&expected_price=8311",
