@@ -391,27 +391,13 @@
     {
       "id": "LED-IST-2026-11-25-7489",
       "time": 1795426258.290988
+    },
+    {
+      "id": "LED-AYT-2026-11-24-5269",
+      "time": 1795428073.4128926
     }
   ],
   "queue": [
-    {
-      "flight_number": "6824",
-      "link": "/search/LED2711AYT1?t=DP17958159001795883400001125LEDSVOVKOAYT_6d24a0e68bf637380b1d25c69de6d08c_5795&search_date=23112026&expected_price_uuid=01a206f7-d72f-8030-ea7a-894d2dfcb445&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=UWCQXxUDaruZW6xA7i40Ww&expected_price_source=share&expected_price_currency=rub&expected_price=5794",
-      "origin_airport": "LED",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-27T21:45:00+03:00",
-      "airline": "DP",
-      "destination": "AYT",
-      "origin": "LED",
-      "price": 5794,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 1125,
-      "duration_to": 410,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 15.933661740558291
-    },
     {
       "flight_number": "742",
       "link": "/search/TAS0712IST1?t=DP17966118001796645700000685TASVKOIST_20240413d404a3d9245a74a3ca4bf961_12628&search_date=23112026&expected_price_uuid=01a206ae-0fac-8030-6769-ae6ea535dd6b&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=eTOjny-5QOo8WvOKX49LXw&expected_price_source=share&expected_price_currency=rub&expected_price=12628",
@@ -676,6 +662,7 @@
     3976569,
     7353335,
     73836,
-    4455899
+    4455899,
+    7345439
   ]
 }
