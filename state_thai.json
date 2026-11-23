@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "TAS-BKK-2026-11-16-15323",
-      "time": 1794810213.8597457
-    },
-    {
       "id": "MOW-BKK-2026-12-06-25200",
       "time": 1794811842.3117108
     },
@@ -271,27 +267,13 @@
     {
       "id": "TAS-BKK-2026-11-23-13356",
       "time": 1795414999.8390584
+    },
+    {
+      "id": "ALA-HKT-2026-12-05-22026",
+      "time": 1795416639.313838
     }
   ],
   "queue": [
-    {
-      "flight_number": "601",
-      "link": "/search/ALA0512HKT1?t=D717964972001796571000001110ALAKULHKT_731792acd129d6ba046ae825235c8a7f_22031&search_date=23112026&expected_price_uuid=01a20614-d2ef-8031-6a08-b6c84c7121e6&static_fare_key=TY%7CP1_JW%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=TIx3FdL032SFWEKw3HoXmw&expected_price_source=share&expected_price_currency=rub&expected_price=22026",
-      "origin_airport": "ALA",
-      "destination_airport": "HKT",
-      "departure_at": "2026-12-05T19:00:00+06:00",
-      "airline": "D7",
-      "destination": "HKT",
-      "origin": "ALA",
-      "price": 22026,
-      "gate": "City.Travel",
-      "return_transfers": 0,
-      "duration": 1110,
-      "duration_to": 585,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 5.247816091954023
-    },
     {
       "flight_number": "529",
       "link": "/search/TAS3011HKT1?t=C617960796001796109000000370TASHKT_75fd058f59c8203e6728a334ea45ba4f_15415&search_date=23112026&expected_price_uuid=01a20710-8291-8031-2b8f-4851ca5240f6&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=C8WvjDX_ubJ9aPqSLM6gPQ&expected_price_source=share&expected_price_currency=rub&expected_price=15414",
