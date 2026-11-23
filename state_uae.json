@@ -275,28 +275,12 @@
     {
       "id": "DXB-MOW-2026-11-25-12809",
       "time": 1795428334.9160976
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "5088",
-      "link": "/search/DXB1912MRV1?t=A417976597001797689100000550DWCAERMRV_666721d2ef4a011fe18555ba1dbf32aa_14739&search_date=23112026&expected_price_uuid=01a206db-383c-8030-2e00-87b0ca649091&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=aiPH2MZgJk2F_4DGAG49Hg&expected_price_source=share&expected_price_currency=rub&expected_price=14739",
-      "origin_airport": "DWC",
-      "destination_airport": "MRV",
-      "departure_at": "2026-12-19T05:55:00+04:00",
-      "airline": "A4",
-      "destination": "MRV",
-      "origin": "DXB",
-      "price": 14739,
-      "gate": "Azimuth",
-      "return_transfers": 0,
-      "duration": 550,
-      "duration_to": 315,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 31,
-      "reverse": true
+      "id": "DXB-MRV-2026-12-19-14735",
+      "time": 1795430133.2024858
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-23"
 }
