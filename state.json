@@ -343,28 +343,14 @@
     {
       "id": "HTA-BJS-2026-12-09-11535",
       "time": 1795427141.880349
+    },
+    {
+      "id": "LED-HRB-2026-11-25-18320",
+      "time": 1795428942.0040193
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "6475",
-      "link": "/search/LED2411HRB1?t=SU17955066001795565700000685LEDKJAHRB_7ecffbe3b61c3710c6807b4c85cce826_18217&search_date=22112026&expected_price_uuid=01a20520-79c4-8030-22b7-73439269ee7a&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=yqokmEl9CwTNoEdrT0SUFw&expected_price_source=share&expected_price_currency=rub&expected_price=18217",
-      "origin_airport": "LED",
-      "destination_airport": "HRB",
-      "departure_at": "2026-11-24T07:50:00+03:00",
-      "airline": "FV",
-      "destination": "HRB",
-      "origin": "LED",
-      "price": 18217,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 685,
-      "duration_to": 520,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 21
-    },
     {
       "flight_number": "6242",
       "link": "/search/BJS0812VVO1?t=S717967204001796736600000150PKXVVO_3072f22af612751ac06ee8a672c18340_6154&search_date=23112026&expected_price_uuid=01a205fd-4e07-8030-add7-c27595a855c1&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=noJCAukySxfi39sBikV07w&expected_price_source=share&expected_price_currency=rub&expected_price=6149",
@@ -557,6 +543,7 @@
     1837306,
     6785763,
     2615863,
-    221524
+    221524,
+    100961
   ]
 }
