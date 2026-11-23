@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "BAK-DXB-2026-12-10-16151",
-      "time": 1794818131.9154532
-    },
-    {
       "id": "EVN-DXB-2026-12-11-18274",
       "time": 1794819935.721461
     },
@@ -271,27 +267,13 @@
     {
       "id": "LED-DXB-2026-11-24-8247",
       "time": 1795421133.6342363
+    },
+    {
+      "id": "EVN-DXB-2026-11-28-15623",
+      "time": 1795422933.2837458
     }
   ],
   "queue": [
-    {
-      "flight_number": "718",
-      "link": "/search/EVN0412DXB1?t=FZ17963877001796400300000210EVNDXB_db806ed95eb486b7b7ae5a3ba10a9203_16562&search_date=22112026&expected_price_uuid=01a205a2-8d18-8030-a739-5c125430d1b7&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=59qk8nyeo58wPTt4cP9WfQ&expected_price_source=share&expected_price_currency=rub&expected_price=16577",
-      "origin_airport": "EVN",
-      "destination_airport": "DXB",
-      "departure_at": "2026-12-04T12:35:00+04:00",
-      "airline": "FZ",
-      "destination": "DXB",
-      "origin": "EVN",
-      "price": 16577,
-      "gate": "City.Travel",
-      "return_transfers": 0,
-      "duration": 210,
-      "duration_to": 210,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 9.352204538756261
-    },
     {
       "flight_number": "578",
       "link": "/search/BAK1112DXB1?t=VF17970069001797054600000795GYDESBDXB_bc714750b8ec1f550221928e0c03dded_16592&search_date=22112026&expected_price_uuid=01a203c8-fff3-8030-2fd8-bb11c767e93a&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=-WczdQPYrBADy7VwVC7QNQ&expected_price_source=share&expected_price_currency=rub&expected_price=16609",
