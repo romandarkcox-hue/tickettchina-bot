@@ -82,7 +82,8 @@
   416492,
   1445835,
   8357154,
-  5037800
+  5037800,
+  4046841
  ],
  "wish_order": {
   "morning": [
@@ -181,9 +182,9 @@
  "done_morning": "2026-11-23",
  "done_day": "2026-11-23",
  "done_night": "2026-11-22",
- "done_history": "2026-11-22",
+ "done_history": "2026-11-23",
  "done_vk_morning": "2026-11-23",
  "done_vk_day": "2026-11-23",
  "done_vk_night": "2026-11-22",
- "done_vk_history": "2026-11-22"
+ "done_vk_history": "2026-11-23"
 }
