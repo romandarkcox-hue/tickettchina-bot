@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "LED-IST-2026-12-09-8283",
-      "time": 1794814256.9820251
-    },
-    {
-      "id": "KZN-IST-2026-11-18-7393",
-      "time": 1794816064.5435371
-    },
-    {
       "id": "MOW-AYT-2026-11-25-6835",
       "time": 1794817858.370299
     },
@@ -395,27 +387,13 @@
     {
       "id": "EVN-IST-2026-12-08-6537",
       "time": 1795419052.3170109
+    },
+    {
+      "id": "AER-AYT-2026-11-25-4857",
+      "time": 1795420866.2981746
     }
   ],
   "queue": [
-    {
-      "flight_number": "5051",
-      "link": "/search/AER2911AYT1?t=A417959716001795980600000150AERAYT_2669bb8bc6f302d5c213fd8d6e64d921_4890&search_date=23112026&expected_price_uuid=01a206f5-c168-8031-6e3c-8997d26719a0&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=TvRQuSYrV-9fY2VNbvvcSg&expected_price_source=share&expected_price_currency=rub&expected_price=4889",
-      "origin_airport": "AER",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-29T17:00:00+03:00",
-      "airline": "A4",
-      "destination": "AYT",
-      "origin": "AER",
-      "price": 4889,
-      "gate": "Azimuth",
-      "return_transfers": 0,
-      "duration": 150,
-      "duration_to": 150,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 12.44920634920635
-    },
     {
       "flight_number": "182",
       "link": "/search/BAK1612IST1?t=VF17974242001797432300000195GYDSAW_7ffeba5eb22db0145028fcacf426f423_6821&search_date=23112026&expected_price_uuid=01a206bb-b198-8030-a6d0-d9917eafc4db&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=gpkhV2v3j1UnTtUEt74J0Q&expected_price_source=share&expected_price_currency=rub&expected_price=6821",
@@ -748,6 +726,7 @@
     1162824,
     5050643,
     4793225,
-    2809936
+    2809936,
+    3976569
   ]
 }
