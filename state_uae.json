@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "SVX-DXB-2026-11-19-9961",
-      "time": 1794900933.8672304
-    },
-    {
       "id": "MOW-AUH-2026-11-20-8143",
       "time": 1794902734.6762183
     },
@@ -283,27 +279,13 @@
     {
       "id": "SVX-DXB-2026-11-26-9516",
       "time": 1795505731.177717
+    },
+    {
+      "id": "KZN-DXB-2026-11-25-8159",
+      "time": 1795507533.7590601
     }
   ],
   "queue": [
-    {
-      "flight_number": "6842",
-      "link": "/search/KZN2511DXB1?t=DP17956419001795703700000970KZNSVOVKODWC_a990728bd1181e4dd8268859761f6eb7_8164&search_date=24112026&expected_price_uuid=01a20c16-0d7f-8030-69c1-b3caf7e98a19&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=oTxSlar76ey8oKBBBnAKmw&expected_price_source=share&expected_price_currency=rub&expected_price=8164",
-      "origin_airport": "KZN",
-      "destination_airport": "DWC",
-      "departure_at": "2026-11-25T21:25:00+03:00",
-      "airline": "DP",
-      "destination": "DXB",
-      "origin": "KZN",
-      "price": 8164,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 970,
-      "duration_to": 500,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 9.1084350132626
-    },
     {
       "flight_number": "6028",
       "link": "/search/EVN2611DXB1?t=A417957172001795755300000635EVNMRVDWC_63bc38e5e10c061e886d992aed8e48a8_14621&search_date=24112026&expected_price_uuid=01a20ae0-0d2f-8031-664c-b1bcce2faf73&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=aCSGT2zQKil5RR6WEIHOgA&expected_price_source=share&expected_price_currency=rub&expected_price=14599",
