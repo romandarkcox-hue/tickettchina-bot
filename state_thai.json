@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "TAS-BKK-2026-11-23-15488",
-      "time": 1794900040.2316482
-    },
-    {
       "id": "MOW-HKT-2026-12-06-26930",
       "time": 1794901842.0818353
     },
@@ -279,27 +275,13 @@
     {
       "id": "LED-BKK-2026-12-07-26581",
       "time": 1795504839.2422798
+    },
+    {
+      "id": "VVO-BKK-2026-11-29-15954",
+      "time": 1795506638.7193232
     }
   ],
   "queue": [
-    {
-      "flight_number": "6241",
-      "link": "/search/VVO2911BKK1?t=VZ17959350001796010600001440VVOPKXBKK_a09fdaa66526557c1aff54ae080f5fa2_15954&search_date=24112026&expected_price_uuid=01a20c1c-7835-8030-2090-0b15d13af69d&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=LergK8-WISX7ppeq7F8apg&expected_price_source=share&expected_price_currency=rub&expected_price=15955",
-      "origin_airport": "VVO",
-      "destination_airport": "BKK",
-      "departure_at": "2026-11-29T06:50:00+10:00",
-      "airline": "S7",
-      "destination": "BKK",
-      "origin": "VVO",
-      "price": 15955,
-      "gate": "Aviakassa",
-      "return_transfers": 0,
-      "duration": 1440,
-      "duration_to": 485,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 6.859616858237548
-    },
     {
       "flight_number": "3888",
       "link": "/search/MOW2611HKT1?t=3U17957301001795823100001310SVOTFUHKT_f2f97a281b75a9f9c46a5d0172a42e87_27689&search_date=24112026&expected_price_uuid=01a20c2d-fe56-8031-2c45-b9594fecc9f3&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH1%7CR0%7CTBC1&itinerary_key=cRAHWn53YnA3Ld7kzlovOg&expected_price_source=share&expected_price_currency=rub&expected_price=27690",
