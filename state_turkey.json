@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-IST-2026-11-17-6017",
-      "time": 1794897066.3216934
-    },
-    {
       "id": "KRR-IST-2026-11-21-4788",
       "time": 1794898868.3160052
     },
@@ -423,27 +419,13 @@
     {
       "id": "MOW-IST-2026-11-25-5852",
       "time": 1795501862.3349962
+    },
+    {
+      "id": "KRR-IST-2026-11-24-3715",
+      "time": 1795503667.2573118
     }
   ],
   "queue": [
-    {
-      "flight_number": "769",
-      "link": "/search/KRR2811IST1?t=DP17958834001795892400000150KRRIST_c73b67b030df2e012bae5ffb5ba86fb4_3583&search_date=24112026&expected_price_uuid=01a20c22-5878-8030-636a-1dc903434652&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=6D7LCIluI_u7w6aNhXsvtg&expected_price_source=share&expected_price_currency=rub&expected_price=3583",
-      "origin_airport": "KRR",
-      "destination_airport": "IST",
-      "departure_at": "2026-11-28T16:30:00+03:00",
-      "airline": "DP",
-      "destination": "IST",
-      "origin": "KRR",
-      "price": 3583,
-      "gate": "SuperKassa",
-      "return_transfers": 0,
-      "duration": 150,
-      "duration_to": 150,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 11.967049808429119
-    },
     {
       "flight_number": "551",
       "link": "/search/EVN0812IST1?t=PC17967033001796708400000145EVNSAW_e5fff7a744876b0faa6c53b004a4549f_6357&search_date=24112026&expected_price_uuid=01a20bf3-28d6-8030-e1d0-55786611b388&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=GIM3yhbqSs_9Ohpld8BOLg&expected_price_source=share&expected_price_currency=rub&expected_price=6357",
@@ -825,6 +807,7 @@
     6902548,
     4761901,
     3968538,
-    705689
+    705689,
+    1239457
   ]
 }
