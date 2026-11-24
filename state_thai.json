@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "IKT-HKT-2026-11-18-9280",
-      "time": 1794903647.3064342
-    },
-    {
-      "id": "LED-HKT-2026-12-08-29349",
-      "time": 1794905443.1066673
-    },
-    {
       "id": "MSQ-BKK-2026-11-28-33859",
       "time": 1794907241.4044645
     },
@@ -279,46 +271,13 @@
     {
       "id": "MOW-HKT-2026-11-25-27672",
       "time": 1795508441.008315
+    },
+    {
+      "id": "HKT-MOW-2026-12-22-21439",
+      "time": 1795510258.0340643
     }
   ],
   "queue": [
-    {
-      "flight_number": "1831",
-      "link": "/search/MSQ2411BKK1?t=SU17955189001795594800001025MSQSVOBKK_a53fad25748155ecd604d892844bb16d_29637&search_date=24112026&expected_price_uuid=01a20b9a-fc6d-8040-2e9f-fba7bc8f4791&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=YvrO6A4SxE3AG3aOiY7Jjw&expected_price_source=share&expected_price_currency=rub&expected_price=29638",
-      "origin_airport": "MSQ",
-      "destination_airport": "BKK",
-      "departure_at": "2026-11-24T11:15:00+03:00",
-      "airline": "SU",
-      "destination": "BKK",
-      "origin": "MSQ",
-      "price": 29638,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 1025,
-      "duration_to": 635,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 5.426666666666666
-    },
-    {
-      "flight_number": "530",
-      "link": "/search/HKT2212MOW1?t=C617979291001797976800001035HKTTASSVO_0b4e9b3327eed4e4e29e257d48207584_21452&search_date=24112026&expected_price_uuid=01a20c37-35c5-8031-2a73-86d53e4d89b1&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=4EoxS1p2dog5tji0CD6CnQ&expected_price_source=share&expected_price_currency=rub&expected_price=21453",
-      "origin_airport": "HKT",
-      "destination_airport": "SVO",
-      "departure_at": "2026-12-22T08:45:00+07:00",
-      "airline": "C6",
-      "destination": "MOW",
-      "origin": "HKT",
-      "price": 21453,
-      "gate": "Centrum Air",
-      "return_transfers": 0,
-      "duration": 1035,
-      "duration_to": 675,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "629",
       "link": "/search/HKT2412LED1?t=SU17981097001798136100000680HKTLED_b57ab6aa5bbe5c0c97194a057e452bd9_22538&search_date=24112026&expected_price_uuid=01a20c28-6683-8030-2611-c09e29bf49db&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=BgyRvziJfdPzD-ydMgDtTw&expected_price_source=share&expected_price_currency=rub&expected_price=22539",
