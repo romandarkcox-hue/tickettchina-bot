@@ -419,28 +419,13 @@
     {
       "id": "AYT-AER-2026-12-02-9570",
       "time": 1795521667.471063
+    },
+    {
+      "id": "AYT-LED-2026-12-16-11263",
+      "time": 1795523457.2461653
     }
   ],
   "queue": [
-    {
-      "flight_number": "840",
-      "link": "/search/AYT1612LED1?t=DP17974254001797504000001310AYTVKOSVOLED_226e497ca73968f9d8fac7878c29d87c_11152&search_date=24112026&expected_price_uuid=01a20c16-01d4-8030-6204-546855603f44&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=RBzkMtlvUpF_e83q0DqqRQ&expected_price_source=share&expected_price_currency=rub&expected_price=11152",
-      "origin_airport": "AYT",
-      "destination_airport": "LED",
-      "departure_at": "2026-12-16T12:50:00+03:00",
-      "airline": "DP",
-      "destination": "LED",
-      "origin": "AYT",
-      "price": 11152,
-      "gate": "SuperKassa",
-      "return_transfers": 0,
-      "duration": 1310,
-      "duration_to": 380,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "3000",
       "link": "/search/IST1612TAS1?t=VF17973999001797484200001285SAWESBTAS_805e22c8a845998ff5d53cae8a87cc83_13014&search_date=24112026&expected_price_uuid=01a20c15-9549-8030-25ba-0ce5bc21f754&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=BZEqUgUAogTU9QpEImXIWA&expected_price_source=share&expected_price_currency=rub&expected_price=13014",
@@ -631,6 +616,7 @@
     4109182,
     3872942,
     183032,
-    268695
+    268695,
+    5029876
   ]
 }
