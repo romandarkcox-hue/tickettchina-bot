@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-BKK-2026-12-06-24969",
-      "time": 1794898251.961829
-    },
-    {
       "id": "TAS-BKK-2026-11-23-15488",
       "time": 1794900040.2316482
     },
@@ -279,45 +275,13 @@
     {
       "id": "MOW-BKK-2026-12-07-24772",
       "time": 1795503040.4633942
+    },
+    {
+      "id": "LED-BKK-2026-12-07-26581",
+      "time": 1795504839.2422798
     }
   ],
   "queue": [
-    {
-      "flight_number": "529",
-      "link": "/search/TAS3011HKT1?t=C617960796001796109000000370TASHKT_75fd058f59c8203e6728a334ea45ba4f_15415&search_date=24112026&expected_price_uuid=01a20c38-16cd-8031-2a7b-e0e3a7a75e91&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=C8WvjDX_ubJ9aPqSLM6gPQ&expected_price_source=share&expected_price_currency=rub&expected_price=15416",
-      "origin_airport": "TAS",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-30T23:00:00+05:00",
-      "airline": "C6",
-      "destination": "HKT",
-      "origin": "TAS",
-      "price": 15416,
-      "gate": "Aviakassa",
-      "return_transfers": 0,
-      "duration": 370,
-      "duration_to": 370,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 0
-    },
-    {
-      "flight_number": "7966",
-      "link": "/search/LED0712BKK1?t=HU17966742001796772900001405LEDPEKBKK_4b929e22e7f75b02db9ee2fa175b900b_26581&search_date=24112026&expected_price_uuid=01a20c1a-17cd-8030-6d77-81b8106cdbce&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH1%7CR1%7CTBC1&itinerary_key=RUFdz4SNMxwFIx_Vsuhpzw&expected_price_source=share&expected_price_currency=rub&expected_price=26582",
-      "origin_airport": "LED",
-      "destination_airport": "BKK",
-      "departure_at": "2026-12-07T20:10:00+03:00",
-      "airline": "HU",
-      "destination": "BKK",
-      "origin": "LED",
-      "price": 26582,
-      "gate": "Biletix",
-      "return_transfers": 0,
-      "duration": 1405,
-      "duration_to": 785,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 1.132911877394636
-    },
     {
       "flight_number": "6241",
       "link": "/search/VVO2911BKK1?t=VZ17959350001796010600001440VVOPKXBKK_a09fdaa66526557c1aff54ae080f5fa2_15954&search_date=24112026&expected_price_uuid=01a20c1c-7835-8030-2090-0b15d13af69d&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=LergK8-WISX7ppeq7F8apg&expected_price_source=share&expected_price_currency=rub&expected_price=15955",
