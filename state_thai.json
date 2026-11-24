@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-HKT-2026-12-06-26930",
-      "time": 1794901842.0818353
-    },
-    {
       "id": "IKT-HKT-2026-11-18-9280",
       "time": 1794903647.3064342
     },
@@ -279,27 +275,13 @@
     {
       "id": "VVO-BKK-2026-11-29-15954",
       "time": 1795506638.7193232
+    },
+    {
+      "id": "MOW-HKT-2026-11-25-27672",
+      "time": 1795508441.008315
     }
   ],
   "queue": [
-    {
-      "flight_number": "3888",
-      "link": "/search/MOW2611HKT1?t=3U17957301001795823100001310SVOTFUHKT_f2f97a281b75a9f9c46a5d0172a42e87_27689&search_date=24112026&expected_price_uuid=01a20c2d-fe56-8031-2c45-b9594fecc9f3&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH1%7CR0%7CTBC1&itinerary_key=cRAHWn53YnA3Ld7kzlovOg&expected_price_source=share&expected_price_currency=rub&expected_price=27690",
-      "origin_airport": "SVO",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-26T21:55:00+03:00",
-      "airline": "3U",
-      "destination": "HKT",
-      "origin": "MOW",
-      "price": 27690,
-      "gate": "Biletix",
-      "return_transfers": 0,
-      "duration": 1310,
-      "duration_to": 720,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 24.762605363984672
-    },
     {
       "flight_number": "1831",
       "link": "/search/MSQ2411BKK1?t=SU17955189001795594800001025MSQSVOBKK_a53fad25748155ecd604d892844bb16d_29637&search_date=24112026&expected_price_uuid=01a20b9a-fc6d-8040-2e9f-fba7bc8f4791&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=YvrO6A4SxE3AG3aOiY7Jjw&expected_price_source=share&expected_price_currency=rub&expected_price=29638",
