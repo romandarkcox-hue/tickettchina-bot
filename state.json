@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "IKT-CAN-2026-11-17-14309",
-      "time": 1794908741.0353634
-    },
-    {
       "id": "KHV-BJS-2026-11-27-7996",
       "time": 1794910542.189634
     },
@@ -359,28 +355,14 @@
     {
       "id": "KJA-HRB-2026-11-26-8905",
       "time": 1795511748.9527879
+    },
+    {
+      "id": "LED-HRB-2026-11-25-16121",
+      "time": 1795513541.4708884
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "6573",
-      "link": "/search/LED2511HRB1?t=SU17956395001795738500001350LEDKJAHRB_5688f62d640ed804aaa17992af37afaf_16121&search_date=23112026&expected_price_uuid=01a20a16-c1e3-8030-e713-4ca7d545d473&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=BShrZHaldZueRjL9eFBU_w&expected_price_source=share&expected_price_currency=rub&expected_price=16121",
-      "origin_airport": "LED",
-      "destination_airport": "HRB",
-      "departure_at": "2026-11-25T20:45:00+03:00",
-      "airline": "FV",
-      "destination": "HRB",
-      "origin": "LED",
-      "price": 16121,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 1350,
-      "duration_to": 520,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 22
-    },
     {
       "flight_number": "2891",
       "link": "/search/IKT1112HRB1?t=IO17970225001797033900000190IKTHRB_00fdd5176e37d023b9ab5d2580b0108e_9568&search_date=24112026&expected_price_uuid=01a20b2b-c5b1-8030-6372-396706e82da4&static_fare_key=TY%7CP1%7CH1%7CL1_1_32%7CCH1%7CR1%7CTBC1&itinerary_key=SDw_UW7Wdyn2qemR0uiy1A&expected_price_source=share&expected_price_currency=rub&expected_price=9553",
@@ -620,6 +602,7 @@
     2355373,
     815270,
     1543757,
-    1691960
+    1691960,
+    5992075
   ]
 }
