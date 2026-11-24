@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "KHV-BJS-2026-11-27-7996",
-      "time": 1794910542.189634
-    },
-    {
       "id": "LED-BJS-2026-12-02-17005",
       "time": 1794912344.5030434
     },
@@ -359,28 +355,14 @@
     {
       "id": "LED-HRB-2026-11-25-16121",
       "time": 1795513541.4708884
+    },
+    {
+      "id": "IKT-HRB-2026-12-11-9578",
+      "time": 1795515342.5987244
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "2891",
-      "link": "/search/IKT1112HRB1?t=IO17970225001797033900000190IKTHRB_00fdd5176e37d023b9ab5d2580b0108e_9568&search_date=24112026&expected_price_uuid=01a20b2b-c5b1-8030-6372-396706e82da4&static_fare_key=TY%7CP1%7CH1%7CL1_1_32%7CCH1%7CR1%7CTBC1&itinerary_key=SDw_UW7Wdyn2qemR0uiy1A&expected_price_source=share&expected_price_currency=rub&expected_price=9553",
-      "origin_airport": "IKT",
-      "destination_airport": "HRB",
-      "departure_at": "2026-12-11T20:55:00+08:00",
-      "airline": "IO",
-      "destination": "HRB",
-      "origin": "IKT",
-      "price": 9553,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 190,
-      "duration_to": 190,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 17
-    },
     {
       "flight_number": "571",
       "link": "/search/MOW2511HRB1?t=UT17956422001795738500001305VKOKJAHRB_6e0a7c3fe90169556faff01eb897349b_17409&search_date=24112026&expected_price_uuid=01a20c06-8d97-8030-ab4e-083a3398f7da&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=mYfoGoNcE6z4T1IQbmEQ9A&expected_price_source=share&expected_price_currency=rub&expected_price=17409",
@@ -603,6 +585,7 @@
     815270,
     1543757,
     1691960,
-    5992075
+    5992075,
+    8031511
   ]
 }
