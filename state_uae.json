@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "EVN-DXB-2026-11-26-14621",
-      "time": 1794990932.6118462
-    },
-    {
       "id": "BAK-DXB-2026-12-10-16232",
       "time": 1794992735.5632453
     },
@@ -279,27 +275,13 @@
     {
       "id": "MRV-DXB-2026-11-28-7460",
       "time": 1795593934.2431142
+    },
+    {
+      "id": "EVN-DXB-2026-11-27-14646",
+      "time": 1795595736.0554693
     }
   ],
   "queue": [
-    {
-      "flight_number": "3393",
-      "link": "/search/EVN2711DXB1?t=A417957688001795819500000845EVNKRRDWC_600200af3f2d372183e8c0d139bc3e59_14567&search_date=24112026&expected_price_uuid=01a20f07-3509-8030-a030-5ee899750682&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=nwu7PYAkA0op7JEK2pxFAg&expected_price_source=share&expected_price_currency=rub&expected_price=14566",
-      "origin_airport": "EVN",
-      "destination_airport": "DWC",
-      "departure_at": "2026-11-27T08:40:00+04:00",
-      "airline": "3F",
-      "destination": "DXB",
-      "origin": "EVN",
-      "price": 14566,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 845,
-      "duration_to": 360,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 9.145190476190475
-    },
     {
       "flight_number": "578",
       "link": "/search/BAK1012DXB1?t=VF17969205001796963100000710GYDESBDXB_f56c843b3a6f0e6e2b4911bcb717d47f_16379&search_date=24112026&expected_price_uuid=01a20d19-0bb6-8030-26ef-372d7b1faf43&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Ho_jDBJitmPsl901zuPFYA&expected_price_source=share&expected_price_currency=rub&expected_price=16419",
