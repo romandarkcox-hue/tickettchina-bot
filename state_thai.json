@@ -267,27 +267,13 @@
     {
       "id": "LED-HKT-2026-11-25-22675",
       "time": 1795596643.6903646
+    },
+    {
+      "id": "OVB-HKT-2026-11-26-26337",
+      "time": 1795598439.8259234
     }
   ],
   "queue": [
-    {
-      "flight_number": "6526",
-      "link": "/search/OVB2611HKT1?t=SU17956794001795766400001450OVBSVOHKT_184a039885c979e952c6e60a5de9bdee_25405&search_date=25112026&expected_price_uuid=01a2114c-36b2-8030-2682-c5416e9878ac&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=0fHGqZC-gW3WI3ywuAlxmQ&expected_price_source=share&expected_price_currency=rub&expected_price=25405",
-      "origin_airport": "OVB",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-26T07:50:00+07:00",
-      "airline": "DP",
-      "destination": "HKT",
-      "origin": "OVB",
-      "price": 25405,
-      "gate": "OneTwoTrip",
-      "return_transfers": 0,
-      "duration": 1450,
-      "duration_to": 845,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 16.629885057471267
-    },
     {
       "flight_number": "530",
       "link": "/search/HKT2512MOW1?t=C617981865001798295100002050HKTTASDME_89b8d9d747d1c7c336ba7c5091b27aaf_21080&search_date=25112026&expected_price_uuid=01a2115c-f0f1-8030-2336-0e9056daae2b&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=lhCp5VPbwX2x1oqoYcpxZA&expected_price_source=share&expected_price_currency=rub&expected_price=21080",
