@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-BKK-2026-12-01-24043",
-      "time": 1794984652.0492513
-    },
-    {
       "id": "TAS-BKK-2026-11-23-15156",
       "time": 1794986448.888744
     },
@@ -271,27 +267,13 @@
     {
       "id": "MOW-HKT-2026-11-25-19538",
       "time": 1795589438.964821
+    },
+    {
+      "id": "CIT-BKK-2026-11-28-14509",
+      "time": 1795591240.2500906
     }
   ],
   "queue": [
-    {
-      "flight_number": "833",
-      "link": "/search/CIT2811BKK1?t=DV17959017001795931400000375CITBKK_7c4d304c549f3b44ba766f9e42c2dc05_14509&search_date=24112026&expected_price_uuid=01a20fb3-6f5a-8031-27ee-0cefe5d4cbd4&static_fare_key=TY%7CP1%7CH0%7CL1_1_0%7CCH0%7CR0%7CTBC1&itinerary_key=Zy_GoCJvLgz_e2zELExI1A&expected_price_source=share&expected_price_currency=rub&expected_price=14509",
-      "origin_airport": "CIT",
-      "destination_airport": "BKK",
-      "departure_at": "2026-11-28T21:35:00+06:00",
-      "airline": "DV",
-      "destination": "BKK",
-      "origin": "CIT",
-      "price": 14509,
-      "gate": "City.Travel",
-      "return_transfers": 0,
-      "duration": 375,
-      "duration_to": 375,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 0.7666666666666666
-    },
     {
       "flight_number": "202",
       "link": "/search/LED2511BKK1?t=SU17956281001795776000002225LEDVKOSVOBKK_7b2ce6465eca522c2d8f80e7dca5b8d6_21627&search_date=25112026&expected_price_uuid=01a21152-b346-8030-24ac-ea7359d8ae96&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=zfuBij5OTrCY9aHYyd40vA&expected_price_source=share&expected_price_currency=rub&expected_price=21627",
