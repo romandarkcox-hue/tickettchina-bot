@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "SVX-DXB-2026-11-22-10270",
-      "time": 1794987337.702131
-    },
-    {
-      "id": "MOW-AUH-2026-11-27-8104",
-      "time": 1794989134.0846786
-    },
-    {
       "id": "EVN-DXB-2026-11-26-14621",
       "time": 1794990932.6118462
     },
@@ -283,27 +275,13 @@
     {
       "id": "SVX-DXB-2026-11-26-9521",
       "time": 1795592133.385992
+    },
+    {
+      "id": "MRV-DXB-2026-11-28-7460",
+      "time": 1795593934.2431142
     }
   ],
   "queue": [
-    {
-      "flight_number": "6187",
-      "link": "/search/MRV2811DXB1?t=A417959029001795921200000245MRVDWC_bdb8d439a4245d1c476a4be2e2e71748_7459&search_date=25112026&expected_price_uuid=01a2113b-5d42-8031-6d7c-4939c0fa284d&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=gpSPqxVg1UqThFzhl-Aemw&expected_price_source=share&expected_price_currency=rub&expected_price=7459",
-      "origin_airport": "MRV",
-      "destination_airport": "DWC",
-      "departure_at": "2026-11-28T21:55:00+03:00",
-      "airline": "A4",
-      "destination": "DXB",
-      "origin": "MRV",
-      "price": 7459,
-      "gate": "Azimuth",
-      "return_transfers": 0,
-      "duration": 245,
-      "duration_to": 245,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 11.428229885057473
-    },
     {
       "flight_number": "3393",
       "link": "/search/EVN2711DXB1?t=A417957688001795819500000845EVNKRRDWC_600200af3f2d372183e8c0d139bc3e59_14567&search_date=24112026&expected_price_uuid=01a20f07-3509-8030-a030-5ee899750682&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=nwu7PYAkA0op7JEK2pxFAg&expected_price_source=share&expected_price_currency=rub&expected_price=14566",
