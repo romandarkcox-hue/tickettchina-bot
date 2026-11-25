@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "TAS-IST-2026-11-19-11060",
-      "time": 1794997858.2752774
-    },
-    {
       "id": "IST-MOW-2026-12-11-7877",
       "time": 1794999672.3210166
     },
@@ -419,27 +415,13 @@
     {
       "id": "LED-AYT-2026-11-25-5013",
       "time": 1795600870.3210921
+    },
+    {
+      "id": "TAS-IST-2026-12-18-10703",
+      "time": 1795602661.3588533
     }
   ],
   "queue": [
-    {
-      "flight_number": "2462",
-      "link": "/search/TAS2511IST1?t=DP17956452001795695300000955TASZIAVKOIST_3b4239bc55c9d2c3cae6c12ae02fc3c3_11952&search_date=25112026&expected_price_uuid=01a210fd-f65f-8030-e178-e7c600e4aad6&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=NTnQjx7ZSgbW25eUt0-PPg&expected_price_source=share&expected_price_currency=rub&expected_price=11952",
-      "origin_airport": "TAS",
-      "destination_airport": "IST",
-      "departure_at": "2026-11-25T22:20:00+05:00",
-      "airline": "U6",
-      "destination": "IST",
-      "origin": "TAS",
-      "price": 11952,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 955,
-      "duration_to": 585,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 24.23218390804598
-    },
     {
       "flight_number": "085",
       "link": "/search/IST2212MOW1?t=2S17979696001797983400000230ISTSVO_e2a9e7749282dd1f1a3401335c6da826_5609&search_date=25112026&expected_price_uuid=01a21142-f5a6-8031-29e2-80abd7d6d762&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=qQ54ePGZZ_ViIKpGMvrdPA&expected_price_source=share&expected_price_currency=rub&expected_price=5609",
@@ -717,6 +699,7 @@
     2799842,
     7162669,
     2892031,
-    115054
+    115054,
+    1261148
   ]
 }
