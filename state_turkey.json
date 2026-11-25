@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "AYT-AER-2026-12-08-8646",
-      "time": 1795003267.2872486
-    },
-    {
       "id": "AYT-LED-2026-12-17-11862",
       "time": 1795005055.3061132
     },
@@ -419,28 +415,13 @@
     {
       "id": "AYT-MOW-2026-12-25-8147",
       "time": 1795606265.3946419
+    },
+    {
+      "id": "AYT-AER-2026-11-29-8450",
+      "time": 1795608071.3419666
     }
   ],
   "queue": [
-    {
-      "flight_number": "2019",
-      "link": "/search/AYT3011AER1?t=A417960805001796223600002385AYTSAWISTAER_c8279a2c023e03d0f9c06d750877b4fc_10051&search_date=25112026&expected_price_uuid=01a2114b-f96b-8030-2e50-31d9de77aa53&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=vplf6Xr1FEY8zMydGxXH8A&expected_price_source=share&expected_price_currency=rub&expected_price=10051",
-      "origin_airport": "AYT",
-      "destination_airport": "AER",
-      "departure_at": "2026-11-30T23:15:00+03:00",
-      "airline": "PC",
-      "destination": "AER",
-      "origin": "AYT",
-      "price": 10051,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 2385,
-      "duration_to": 195,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 31,
-      "reverse": true
-    },
     {
       "flight_number": "840",
       "link": "/search/AYT1612LED1?t=DP17974461001797501900000930AYTVKOLED_9aa9190c9ae2b1164be0dda969fcddc5_11288&search_date=25112026&expected_price_uuid=01a2113f-91e5-8031-26ca-0974470e22c5&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=ZpefeiVJ19Fx5G_DTVqq3g&expected_price_source=share&expected_price_currency=rub&expected_price=11288",
@@ -664,6 +645,7 @@
     115054,
     1261148,
     1556561,
-    2210327
+    2210327,
+    4982333
   ]
 }
