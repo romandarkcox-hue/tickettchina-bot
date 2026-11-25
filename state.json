@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-BJS-2026-12-06-15844",
-      "time": 1794995141.8126585
-    },
-    {
       "id": "IKT-HRB-2026-11-20-9556",
       "time": 1794996949.7992375
     },
@@ -363,28 +359,14 @@
     {
       "id": "LED-HRB-2026-11-26-16152",
       "time": 1795599941.222867
+    },
+    {
+      "id": "KJA-HRB-2026-11-26-8902",
+      "time": 1795601738.8661308
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "6635",
-      "link": "/search/KJA2611HRB1?t=SU17957211001795738500000230KJAHRB_0bb6694a7eb4ac30e3f6a552f65bd9d5_8915&search_date=25112026&expected_price_uuid=01a210dc-c4b0-8031-2b84-50a1ed5831f9&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=nBBXveA9wMbjiVLKEaeKMQ&expected_price_source=share&expected_price_currency=rub&expected_price=8915",
-      "origin_airport": "KJA",
-      "destination_airport": "HRB",
-      "departure_at": "2026-11-26T19:25:00+07:00",
-      "airline": "FV",
-      "destination": "HRB",
-      "origin": "KJA",
-      "price": 8915,
-      "gate": "Aviakassa",
-      "return_transfers": 0,
-      "duration": 230,
-      "duration_to": 230,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 22
-    },
     {
       "flight_number": "1956",
       "link": "/search/MOW2711URC1?t=SU17958225001795914000001225SVONQZURC_bca4cee27b2e1a8c25b17ec98a8d5dfe_17146&search_date=24112026&expected_price_uuid=01a20edb-2567-8031-6b65-605b694f014f&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=E3yp7wg6EL_oK7j1qt0R9w&expected_price_source=share&expected_price_currency=rub&expected_price=17145",
@@ -620,6 +602,7 @@
     8614314,
     8346954,
     859545,
-    1767532
+    1767532,
+    2205553
   ]
 }
