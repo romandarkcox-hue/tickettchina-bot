@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "LED-IST-2026-11-18-7708",
-      "time": 1794994254.391435
-    },
-    {
-      "id": "LED-AYT-2026-11-19-5380",
-      "time": 1794996067.3691323
-    },
-    {
       "id": "TAS-IST-2026-11-19-11060",
       "time": 1794997858.2752774
     },
@@ -423,27 +415,13 @@
     {
       "id": "LED-IST-2026-11-25-7238",
       "time": 1795599054.390179
+    },
+    {
+      "id": "LED-AYT-2026-11-25-5013",
+      "time": 1795600870.3210921
     }
   ],
   "queue": [
-    {
-      "flight_number": "202",
-      "link": "/search/LED2511AYT1?t=DP17956281001795695000001115LEDVKOAYT_95a666440fbe5bcf0933eb232aefe27a_5033&search_date=25112026&expected_price_uuid=01a21146-cf5b-8031-61bc-1aedb75a12fa&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=p6GI-jEWW970S7QTNprWzg&expected_price_source=share&expected_price_currency=rub&expected_price=5033",
-      "origin_airport": "LED",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-25T17:35:00+03:00",
-      "airline": "DP",
-      "destination": "AYT",
-      "origin": "LED",
-      "price": 5033,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 1115,
-      "duration_to": 410,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 15.859501915708812
-    },
     {
       "flight_number": "2462",
       "link": "/search/TAS2511IST1?t=DP17956452001795695300000955TASZIAVKOIST_3b4239bc55c9d2c3cae6c12ae02fc3c3_11952&search_date=25112026&expected_price_uuid=01a210fd-f65f-8030-e178-e7c600e4aad6&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=NTnQjx7ZSgbW25eUt0-PPg&expected_price_source=share&expected_price_currency=rub&expected_price=11952",
@@ -738,6 +716,7 @@
     218626,
     2799842,
     7162669,
-    2892031
+    2892031,
+    115054
   ]
 }
