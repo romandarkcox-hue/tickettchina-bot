@@ -419,27 +419,13 @@
     {
       "id": "AER-AYT-2026-11-25-4785",
       "time": 1795593666.2949536
+    },
+    {
+      "id": "BAK-IST-2026-12-09-6800",
+      "time": 1795595453.3102949
     }
   ],
   "queue": [
-    {
-      "flight_number": "180",
-      "link": "/search/BAK0912IST1?t=VF17967954001796803500000195GYDSAW_b1b46e5490a0eccb79c17394c4052542_6800&search_date=25112026&expected_price_uuid=01a21100-b30f-8031-69c1-d31369e72eba&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=rQysV1SFDQNB9Xxi54tvuw&expected_price_source=share&expected_price_currency=rub&expected_price=6800",
-      "origin_airport": "GYD",
-      "destination_airport": "SAW",
-      "departure_at": "2026-12-09T05:50:00+04:00",
-      "airline": "VF",
-      "destination": "IST",
-      "origin": "BAK",
-      "price": 6800,
-      "gate": "Trip.com",
-      "return_transfers": 0,
-      "duration": 195,
-      "duration_to": 195,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 11.806896551724138
-    },
     {
       "flight_number": "6842",
       "link": "/search/KZN2511AYT1?t=DP17956419001795695000000885KZNSVOVKOAYT_9e36222a07fd8c30b76dfc48dbc3d956_4920&search_date=25112026&expected_price_uuid=01a21147-4304-8030-e050-8538389aac7f&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=0Pv7AXeyOvhUdvdUfvx6pg&expected_price_source=share&expected_price_currency=rub&expected_price=4920",
@@ -785,6 +771,7 @@
     1589062,
     4196145,
     4560724,
-    218626
+    218626,
+    2799842
   ]
 }
