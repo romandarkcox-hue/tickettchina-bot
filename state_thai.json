@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "TAS-BKK-2026-11-23-15156",
-      "time": 1794986448.888744
-    },
-    {
-      "id": "MOW-HKT-2026-12-08-25203",
-      "time": 1794988240.2281938
-    },
-    {
       "id": "SKD-HKT-2026-11-19-18022",
       "time": 1794990047.6122403
     },
@@ -271,27 +263,13 @@
     {
       "id": "CIT-BKK-2026-11-28-14509",
       "time": 1795591240.2500906
+    },
+    {
+      "id": "LED-BKK-2026-11-25-21627",
+      "time": 1795593040.5895512
     }
   ],
   "queue": [
-    {
-      "flight_number": "202",
-      "link": "/search/LED2511BKK1?t=SU17956281001795776000002225LEDVKOSVOBKK_7b2ce6465eca522c2d8f80e7dca5b8d6_21627&search_date=25112026&expected_price_uuid=01a21152-b346-8030-24ac-ea7359d8ae96&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=zfuBij5OTrCY9aHYyd40vA&expected_price_source=share&expected_price_currency=rub&expected_price=21627",
-      "origin_airport": "LED",
-      "destination_airport": "BKK",
-      "departure_at": "2026-11-25T17:35:00+03:00",
-      "airline": "DP",
-      "destination": "BKK",
-      "origin": "LED",
-      "price": 21627,
-      "gate": "OneTwoTrip",
-      "return_transfers": 0,
-      "duration": 2225,
-      "duration_to": 645,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 1.1340229885057471
-    },
     {
       "flight_number": "529",
       "link": "/search/TAS3011HKT1?t=C617960796001796109000000370TASHKT_75fd058f59c8203e6728a334ea45ba4f_14548&search_date=25112026&expected_price_uuid=01a21146-afa8-8031-2532-73c8b38ca383&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=C8WvjDX_ubJ9aPqSLM6gPQ&expected_price_source=share&expected_price_currency=rub&expected_price=14548",
