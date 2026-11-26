@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "TAS-HKT-2026-11-19-13455",
-      "time": 1795069425.0677993
-    },
-    {
-      "id": "MOW-HKT-2026-12-06-25059",
-      "time": 1795071037.6632752
-    },
-    {
       "id": "TAS-BKK-2026-11-23-15072",
       "time": 1795072838.8297677
     },
@@ -271,27 +263,13 @@
     {
       "id": "CIT-BKK-2026-11-28-9940",
       "time": 1795674208.3177185
+    },
+    {
+      "id": "MOW-HKT-2026-11-27-19507",
+      "time": 1795675838.886491
     }
   ],
   "queue": [
-    {
-      "flight_number": "278",
-      "link": "/search/MOW2711HKT1?t=SU17958042001795852800000570SVOHKT_3d30c460dd3029a31356f6c77946d328_19506&search_date=26112026&expected_price_uuid=01a21682-76a4-8030-a0d7-965253330adb&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=Lc8Lg-qVRMZ9Ypmt7gctIw&expected_price_source=share&expected_price_currency=rub&expected_price=19506",
-      "origin_airport": "SVO",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-27T18:30:00+03:00",
-      "airline": "SU",
-      "destination": "HKT",
-      "origin": "MOW",
-      "price": 19506,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 570,
-      "duration_to": 570,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 26.06590038314176
-    },
     {
       "flight_number": "525",
       "link": "/search/TAS3011BKK1?t=C617960757001796107200000405TASBKK_5345fd10aaa99824fc3e29d7046333ae_12818&search_date=26112026&expected_price_uuid=01a21669-9eed-8030-a628-df36aaad7f7d&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=UFvcF_icv72ZZGPYnPZcSQ&expected_price_source=share&expected_price_currency=rub&expected_price=12818",
