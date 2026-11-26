@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "VVO-HRB-2026-11-21-5886",
-      "time": 1795072549.2007735
-    },
-    {
       "id": "TAS-URC-2026-11-30-13019",
       "time": 1795074343.8618488
     },
@@ -363,28 +359,14 @@
     {
       "id": "VVO-HRB-2026-11-27-5826",
       "time": 1795677341.4451149
+    },
+    {
+      "id": "KHV-SHA-2026-11-29-12983",
+      "time": 1795679140.0266821
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "5476",
-      "link": "/search/KHV2911SHA1?t=SU17959932001796000400000240KHVPVG_0cc97e12e4d4fbe7e08096a09ad24c1c_12983&search_date=26112026&expected_price_uuid=01a2166b-61a4-8030-2e12-f4123891c49d&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=qAByl6-uTM_K9_jgvqs-8A&expected_price_source=share&expected_price_currency=rub&expected_price=12983",
-      "origin_airport": "KHV",
-      "destination_airport": "PVG",
-      "departure_at": "2026-11-29T23:00:00+10:00",
-      "airline": "HZ",
-      "destination": "SHA",
-      "origin": "KHV",
-      "price": 12983,
-      "gate": "Aviakassa",
-      "return_transfers": 0,
-      "duration": 240,
-      "duration_to": 240,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 22
-    },
     {
       "flight_number": "7961",
       "link": "/search/NQZ2811URC1?t=FS17958942001795914000000150NQZURC_f09d5208e998fbb721ef68307cea7c46_6410&search_date=25112026&expected_price_uuid=01a21282-30cb-8031-2836-bfe4045ae0e1&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=YE09JVIbnt6WgFicfAo2uA&expected_price_source=share&expected_price_currency=rub&expected_price=6410",
@@ -718,6 +700,7 @@
     666832,
     8153503,
     2305606,
-    5905903
+    5905903,
+    8764532
   ]
 }
