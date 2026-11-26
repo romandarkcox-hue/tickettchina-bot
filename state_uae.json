@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-DXB-2026-11-25-6730",
-      "time": 1795068445.7129915
-    },
-    {
       "id": "LED-DXB-2026-11-24-8769",
       "time": 1795070136.6037061
     },
@@ -283,27 +279,13 @@
     {
       "id": "MOW-DXB-2026-11-29-5310",
       "time": 1795673234.4068959
+    },
+    {
+      "id": "LED-DXB-2026-11-27-7684",
+      "time": 1795674931.859849
     }
   ],
   "queue": [
-    {
-      "flight_number": "6003",
-      "link": "/search/LED2711DXB1?t=UT17957664001795878000001800LEDVKODWC_b9e59150ae67a4f0aec4826ccfd96ceb_8441&search_date=26112026&expected_price_uuid=01a21671-8778-8030-2163-bf8932db7d8e&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=WCJd60eKzgAb_LTn7Ad4bQ&expected_price_source=share&expected_price_currency=rub&expected_price=8441",
-      "origin_airport": "LED",
-      "destination_airport": "DWC",
-      "departure_at": "2026-11-27T08:00:00+03:00",
-      "airline": "FV",
-      "destination": "DXB",
-      "origin": "LED",
-      "price": 8441,
-      "gate": "SuperKassa",
-      "return_transfers": 0,
-      "duration": 1800,
-      "duration_to": 480,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 0
-    },
     {
       "flight_number": "62",
       "link": "/search/KZN2711DXB1?t=UT17957712001795878000001720KZNSVOVKODWC_957357c80bdda54719b8f990bd5ddd94_6898&search_date=26112026&expected_price_uuid=01a2165a-45df-8030-2664-aa95b0a698b3&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=KHUvTdgIYWMKYgTHnG2MOQ&expected_price_source=share&expected_price_currency=rub&expected_price=6898",
