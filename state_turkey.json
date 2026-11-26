@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "LED-AYT-2026-11-25-5404",
-      "time": 1795075273.5233507
-    },
-    {
       "id": "BAK-IST-2026-12-16-6794",
       "time": 1795077057.1405525
     },
@@ -423,27 +419,13 @@
     {
       "id": "AER-AYT-2026-11-27-4786",
       "time": 1795680066.5214763
+    },
+    {
+      "id": "BAK-IST-2026-12-15-6628",
+      "time": 1795681854.368616
     }
   ],
   "queue": [
-    {
-      "flight_number": "180",
-      "link": "/search/BAK1512IST1?t=VF17973138001797321900000195GYDSAW_6545b2e283e09958b44c5877ff682ba5_6827&search_date=25112026&expected_price_uuid=01a213b9-ecb9-8031-2013-981622b922bb&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=rQysV1SFDQNB9Xxi54tvuw&expected_price_source=share&expected_price_currency=rub&expected_price=6814",
-      "origin_airport": "GYD",
-      "destination_airport": "SAW",
-      "departure_at": "2026-12-15T05:50:00+04:00",
-      "airline": "VF",
-      "destination": "IST",
-      "origin": "BAK",
-      "price": 6814,
-      "gate": "City.Travel",
-      "return_transfers": 0,
-      "duration": 195,
-      "duration_to": 195,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 11.839080459770114
-    },
     {
       "flight_number": "5844",
       "link": "/search/KZN2811AYT1?t=DP17959053001795957800000875KZNSVOVKOAYT_5b7285c5744d8c356a6fb572dfbbf865_4895&search_date=26112026&expected_price_uuid=01a21659-4848-8030-6f72-999de7d624ea&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=KMZQTtpp8u3JxNJq031wcQ&expected_price_source=share&expected_price_currency=rub&expected_price=4895",
@@ -804,6 +786,7 @@
     4188738,
     7670868,
     4019077,
-    928360
+    928360,
+    820108
   ]
 }
