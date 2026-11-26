@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "IKT-BJS-2026-11-22-14405",
-      "time": 1795077939.9751816
-    },
-    {
       "id": "NQZ-URC-2026-12-07-4973",
       "time": 1795079756.4825568
     },
@@ -359,28 +355,14 @@
     {
       "id": "NQZ-URC-2026-11-28-6410",
       "time": 1795680943.2103617
+    },
+    {
+      "id": "TAS-URC-2026-12-12-12991",
+      "time": 1795682741.1246495
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "780",
-      "link": "/search/TAS1212URC1?t=CA17970372001797059400000190TASURC_12b0a630294927b0043091f292bc455e_12991&search_date=26112026&expected_price_uuid=01a21595-6f19-8030-2ec1-35eeae2e9389&static_fare_key=TY%7CP0%7CH1%7CL1_1_0%7CCH1%7CR0%7CTBC1&itinerary_key=o7tKYpznuNQUxoMlvF0AqA&expected_price_source=share&expected_price_currency=rub&expected_price=12991",
-      "origin_airport": "TAS",
-      "destination_airport": "URC",
-      "departure_at": "2026-12-12T01:00:00+05:00",
-      "airline": "CA",
-      "destination": "URC",
-      "origin": "TAS",
-      "price": 12991,
-      "gate": "OneTwoTrip",
-      "return_transfers": 0,
-      "duration": 190,
-      "duration_to": 190,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 22
-    },
     {
       "flight_number": "6220",
       "link": "/search/KHV2911BJS1?t=S717959467001796024100001410KHVVVOPKX_1629128974f949c1ab514b3832fc2f1e_8200&search_date=26112026&expected_price_uuid=01a2166c-b51d-8030-e86a-049c93112012&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=RLxkgeGf2MdavRN9I9upTA&expected_price_source=share&expected_price_currency=rub&expected_price=8200",
@@ -680,6 +662,7 @@
     2305606,
     5905903,
     8764532,
-    3291565
+    3291565,
+    1675369
   ]
 }
