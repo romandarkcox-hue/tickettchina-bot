@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-AUH-2026-11-29-8055",
-      "time": 1795075538.531609
-    },
-    {
       "id": "SVX-DXB-2026-11-22-10338",
       "time": 1795077343.582369
     },
@@ -283,27 +279,13 @@
     {
       "id": "MRV-DXB-2026-12-06-7461",
       "time": 1795680335.4369867
+    },
+    {
+      "id": "EVN-DXB-2026-12-03-15833",
+      "time": 1795682142.4745054
     }
   ],
   "queue": [
-    {
-      "flight_number": "7030",
-      "link": "/search/EVN0712DXB1?t=UT17966502001796742000001530EVNVKODWC_b75d05b552580b1b2b522e630760719c_14686&search_date=26112026&expected_price_uuid=01a215d0-f0ac-8030-6cd7-2bbb57bba733&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=anXEa2eLtrl6F_lfOTknYg&expected_price_source=share&expected_price_currency=rub&expected_price=14686",
-      "origin_airport": "EVN",
-      "destination_airport": "DWC",
-      "departure_at": "2026-12-07T13:30:00+04:00",
-      "airline": "A4",
-      "destination": "DXB",
-      "origin": "EVN",
-      "price": 14686,
-      "gate": "SuperKassa",
-      "return_transfers": 0,
-      "duration": 1530,
-      "duration_to": 580,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 9.126985495347563
-    },
     {
       "flight_number": "242",
       "link": "/search/DYU0512DXB1?t=C617964774001796556900001385DYUTASDXB_40843114dd9ba13d6bf4e0d6fad12377_17293&search_date=24112026&expected_price_uuid=01a20f2c-e687-8030-6e5c-b3f071a0c7b0&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=bXLF3SECaCvNghajWaBUOg&expected_price_source=share&expected_price_currency=rub&expected_price=17293",
