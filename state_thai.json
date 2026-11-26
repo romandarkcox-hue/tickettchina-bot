@@ -267,28 +267,12 @@
     {
       "id": "BKK-MOW-2026-12-01-20270",
       "time": 1795688441.3753302
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "530",
-      "link": "/search/HKT1812LED1?t=C617975817001797689400002035HKTTASLED_4536f67f15930bd1ab7563fc433b4417_21792&search_date=26112026&expected_price_uuid=01a2164e-bdb8-8030-26fc-46c6a9d85562&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=XvTt1XehAcKbomd90cECLQ&expected_price_source=share&expected_price_currency=rub&expected_price=21792",
-      "origin_airport": "HKT",
-      "destination_airport": "LED",
-      "departure_at": "2026-12-18T08:15:00+07:00",
-      "airline": "C6",
-      "destination": "LED",
-      "origin": "HKT",
-      "price": 21792,
-      "gate": "Centrum Air",
-      "return_transfers": 0,
-      "duration": 2035,
-      "duration_to": 755,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 31,
-      "reverse": true
+      "id": "HKT-LED-2026-12-18-21780",
+      "time": 1795690239.6995008
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-26"
 }
