@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "AUH-MOW-2026-11-23-8233",
-      "time": 1795082737.9683056
-    },
-    {
       "id": "DXB-TAS-2026-11-20-11445",
       "time": 1795084538.087452
     },
@@ -283,28 +279,12 @@
     {
       "id": "DXB-MRV-2026-12-04-11358",
       "time": 1795687532.536911
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "300",
-      "link": "/search/SHJ0412BAK1?t=G917963832001796398200000250SHJGYD_4c146bc1a382b9bf922ccf3617317abf_15573&search_date=26112026&expected_price_uuid=01a215e4-cdf6-8030-689a-b387771f8e32&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=U_R0QhPjvVtCpj0rsnnc1Q&expected_price_source=share&expected_price_currency=rub&expected_price=15573",
-      "origin_airport": "SHJ",
-      "destination_airport": "GYD",
-      "departure_at": "2026-12-04T11:20:00+04:00",
-      "airline": "G9",
-      "destination": "BAK",
-      "origin": "SHJ",
-      "price": 15573,
-      "gate": "Farera",
-      "return_transfers": 0,
-      "duration": 250,
-      "duration_to": 250,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 24,
-      "reverse": true
+      "id": "SHJ-BAK-2026-12-04-15531",
+      "time": 1795689331.812458
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-26"
 }
