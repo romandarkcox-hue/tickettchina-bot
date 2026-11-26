@@ -419,27 +419,13 @@
     {
       "id": "EVN-IST-2026-12-13-6493",
       "time": 1795678255.7362044
+    },
+    {
+      "id": "AER-AYT-2026-11-27-4786",
+      "time": 1795680066.5214763
     }
   ],
   "queue": [
-    {
-      "flight_number": "5051",
-      "link": "/search/AER2711AYT1?t=A417957952001795803600000140AERAYT_39ea857c0e87b9ad25122015441cad31_4785&search_date=26112026&expected_price_uuid=01a21666-de02-8030-2ee3-eaf72d5d0db6&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=54WnTJVAzEc6OOcs066Vsg&expected_price_source=share&expected_price_currency=rub&expected_price=4785",
-      "origin_airport": "AER",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-27T16:00:00+03:00",
-      "airline": "A4",
-      "destination": "AYT",
-      "origin": "AER",
-      "price": 4785,
-      "gate": "Azimuth",
-      "return_transfers": 0,
-      "duration": 140,
-      "duration_to": 140,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 11.862988505747126
-    },
     {
       "flight_number": "180",
       "link": "/search/BAK1512IST1?t=VF17973138001797321900000195GYDSAW_6545b2e283e09958b44c5877ff682ba5_6827&search_date=25112026&expected_price_uuid=01a213b9-ecb9-8031-2013-981622b922bb&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=rQysV1SFDQNB9Xxi54tvuw&expected_price_source=share&expected_price_currency=rub&expected_price=6814",
@@ -817,6 +803,7 @@
     7729741,
     4188738,
     7670868,
-    4019077
+    4019077,
+    928360
   ]
 }
