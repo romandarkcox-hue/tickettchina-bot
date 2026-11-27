@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "VVO-CAN-2026-12-05-14880",
-      "time": 1795164346.015007
-    },
-    {
       "id": "KHV-HRB-2026-12-04-7186",
       "time": 1795166153.2621841
     },
@@ -359,28 +355,14 @@
     {
       "id": "NQZ-URC-2026-12-17-7722",
       "time": 1795767346.353424
+    },
+    {
+      "id": "VVO-CAN-2026-12-15-13563",
+      "time": 1795769155.664751
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "406",
-      "link": "/search/VVO1512CAN1?t=HU17973372001797361200000520VVOPEKCAN_f162edf97556b77d3d76cb216f2ba6be_13575&search_date=27112026&expected_price_uuid=01a21b9f-7988-8030-e6a9-6c7719e4e7a3&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH1%7CR1%7CTBC1&itinerary_key=bWfePZF7svHnFPEOkRS97Q&expected_price_source=share&expected_price_currency=rub&expected_price=13575",
-      "origin_airport": "VVO",
-      "destination_airport": "CAN",
-      "departure_at": "2026-12-15T12:20:00+10:00",
-      "airline": "HU",
-      "destination": "CAN",
-      "origin": "VVO",
-      "price": 13575,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 520,
-      "duration_to": 380,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 22
-    },
     {
       "flight_number": "6220",
       "link": "/search/KHV2911BJS1?t=S717959467001796024100001410KHVVVOPKX_1629128974f949c1ab514b3832fc2f1e_8231&search_date=27112026&expected_price_uuid=01a21b9b-44ee-8030-a793-46dfd5997ff2&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=RLxkgeGf2MdavRN9I9upTA&expected_price_source=share&expected_price_currency=rub&expected_price=8231",
@@ -693,6 +675,7 @@
     7429725,
     679011,
     869595,
-    4078628
+    4078628,
+    5353194
   ]
 }
