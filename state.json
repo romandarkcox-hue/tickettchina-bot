@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-BJS-2026-12-06-15652",
-      "time": 1795167940.4327826
-    },
-    {
       "id": "KHV-BJS-2026-12-11-8354",
       "time": 1795169738.4135573
     },
@@ -359,28 +355,14 @@
     {
       "id": "KHV-BJS-2026-11-29-8224",
       "time": 1795770967.7080307
+    },
+    {
+      "id": "MOW-HRB-2026-12-02-17558",
+      "time": 1795772740.4512804
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "6547",
-      "link": "/search/MOW0212HRB1?t=DP17962467001796343300001310SVOKJAHRB_3b1b8b655cc044038203d244dcf86eab_17497&search_date=27112026&expected_price_uuid=01a21b65-9f4a-8030-e2b2-c0f1664ba778&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=dCiG9v9E8wor7FrFUZyk0A&expected_price_source=share&expected_price_currency=rub&expected_price=17497",
-      "origin_airport": "SVO",
-      "destination_airport": "HRB",
-      "departure_at": "2026-12-02T21:25:00+03:00",
-      "airline": "DP",
-      "destination": "HRB",
-      "origin": "MOW",
-      "price": 17497,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 1310,
-      "duration_to": 505,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 21
-    },
     {
       "flight_number": "891",
       "link": "/search/IKT0712HRB1?t=IO17966814001796691900000175IKTHRB_8ca7d674c73ecdcabd792bd9e05df7dc_9475&search_date=26112026&expected_price_uuid=01a21a43-86b9-8030-6a77-453d9bf54707&static_fare_key=TY%7CP1%7CH1%7CL1_1_15%7CCH1%7CR1%7CTBC1&itinerary_key=6V_Px23vL8-AIcjXHjCQ8Q&expected_price_source=share&expected_price_currency=rub&expected_price=9474",
@@ -658,6 +640,7 @@
     679011,
     869595,
     4078628,
-    5353194
+    5353194,
+    7022137
   ]
 }
