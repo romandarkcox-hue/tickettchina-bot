@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "AYT-LED-2026-12-14-10881",
-      "time": 1795177864.2364647
-    },
-    {
-      "id": "IST-TAS-2026-12-04-12836",
-      "time": 1795179667.5776317
-    },
-    {
       "id": "MOW-AYT-2026-11-22-3600",
       "time": 1795240975.2594466
     },
@@ -423,29 +415,13 @@
     {
       "id": "AYT-LED-2026-12-18-11027",
       "time": 1795782659.2624297
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "2668",
-      "link": "/search/IST0912TAS1?t=VF17968176001796964900002335SAWESBTAS_83cebf48633641ce13f919eff9336a7d_11595&search_date=27112026&expected_price_uuid=01a21ac9-e1a3-8030-e003-e2877229268e&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=Erjvj7Bqcry-VirQtKzI1Q&expected_price_source=share&expected_price_currency=rub&expected_price=11596",
-      "origin_airport": "SAW",
-      "destination_airport": "TAS",
-      "departure_at": "2026-12-09T12:00:00+03:00",
-      "airline": "PC",
-      "destination": "TAS",
-      "origin": "IST",
-      "price": 11596,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 2335,
-      "duration_to": 315,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 31,
-      "reverse": true
+      "id": "IST-TAS-2026-12-16-11221",
+      "time": 1795784472.8559525
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-27",
   "used_photos": [
     3855080,
@@ -662,6 +638,7 @@
     2861719,
     7051042,
     1029491,
-    1720773
+    1720773,
+    4580844
   ]
 }
