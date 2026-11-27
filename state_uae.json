@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MSQ-DXB-2026-11-23-8922",
-      "time": 1795160134.7038128
-    },
-    {
       "id": "MOW-AUH-2026-11-27-8029",
       "time": 1795161933.0915105
     },
@@ -283,27 +279,13 @@
     {
       "id": "LED-DXB-2026-11-28-8813",
       "time": 1795764931.5177364
+    },
+    {
+      "id": "KRR-DXB-2026-11-27-6923",
+      "time": 1795766732.0934086
     }
   ],
   "queue": [
-    {
-      "flight_number": "3087",
-      "link": "/search/KRR2711DXB1?t=A417958006001795819500000255KRRDWC_e120709550691cab4d24b2cb0a516b03_6923&search_date=27112026&expected_price_uuid=01a21b97-df3d-8031-698a-01d733cb9372&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=no49uf_7YivZGfohEZ8mxQ&expected_price_source=share&expected_price_currency=rub&expected_price=6923",
-      "origin_airport": "KRR",
-      "destination_airport": "DWC",
-      "departure_at": "2026-11-27T17:30:00+03:00",
-      "airline": "A4",
-      "destination": "DXB",
-      "origin": "KRR",
-      "price": 6923,
-      "gate": "Azimuth",
-      "return_transfers": 0,
-      "duration": 255,
-      "duration_to": 255,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 8.422931034482758
-    },
     {
       "flight_number": "351",
       "link": "/search/TAS3011DXB1?t=C617960241001796038500000300TASDXB_e358704429eede82586d133da190c8e8_10710&search_date=27112026&expected_price_uuid=01a21b97-9b7a-8030-2409-7de6a485aefb&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=icOyWo5pESvtsQ_Ittb1zA&expected_price_source=share&expected_price_currency=rub&expected_price=10710",
