@@ -359,28 +359,14 @@
     {
       "id": "VVO-BJS-2026-11-30-5555",
       "time": 1795760261.1493304
+    },
+    {
+      "id": "KJA-HRB-2026-12-10-11014",
+      "time": 1795761940.5909498
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "6635",
-      "link": "/search/KJA1012HRB1?t=SU17969307001796948100000230KJAHRB_a4102deed29f64ae43fde3921867baf5_11031&search_date=26112026&expected_price_uuid=01a2179e-1339-8041-2d4e-91858caeccf6&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=nBBXveA9wMbjiVLKEaeKMQ&expected_price_source=share&expected_price_currency=rub&expected_price=11014",
-      "origin_airport": "KJA",
-      "destination_airport": "HRB",
-      "departure_at": "2026-12-10T19:25:00+07:00",
-      "airline": "FV",
-      "destination": "HRB",
-      "origin": "KJA",
-      "price": 11014,
-      "gate": "Aviakassa",
-      "return_transfers": 0,
-      "duration": 230,
-      "duration_to": 230,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 22
-    },
     {
       "flight_number": "5472",
       "link": "/search/VVO0212HRB1?t=SU17961762001796174100000085VVOHRB_83215bf27ddd0a5890d5abebdd0b5082_6761&search_date=26112026&expected_price_uuid=01a219fd-3d05-8030-684f-1cb2a54407e0&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=PpiBVD1SH4Ye8Q2GNR4W7Q&expected_price_source=share&expected_price_currency=rub&expected_price=6760",
@@ -761,6 +747,7 @@
     1867202,
     442399,
     4244923,
-    2616537
+    2616537,
+    7429725
   ]
 }
