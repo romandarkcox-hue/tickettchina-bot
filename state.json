@@ -359,29 +359,14 @@
     {
       "id": "LED-BJS-2026-11-29-18493",
       "time": 1795776344.8693316
+    },
+    {
+      "id": "BJS-VVO-2026-12-14-6178",
+      "time": 1795778142.6627448
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "6242",
-      "link": "/search/BJS1412VVO1?t=S717972388001797255000000150PKXVVO_00e57351fc21ff94645398f45d3b5693_6174&search_date=27112026&expected_price_uuid=01a21a67-6c27-8030-e5ee-d0f8586e8f5a&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=noJCAukySxfi39sBikV07w&expected_price_source=share&expected_price_currency=rub&expected_price=6183",
-      "origin_airport": "PKX",
-      "destination_airport": "VVO",
-      "departure_at": "2026-12-14T09:00:00+08:00",
-      "airline": "S7",
-      "destination": "VVO",
-      "origin": "BJS",
-      "price": 6183,
-      "gate": "S7 Airlines",
-      "return_transfers": 0,
-      "duration": 150,
-      "duration_to": 150,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 22,
-      "reverse": true
-    },
     {
       "flight_number": "5724",
       "link": "/search/BJS1712MOW1?t=S717974875001797582000001875PKXOVBSVO_71a90d60e76666780e4eab8a5b86c0b7_20530&search_date=27112026&expected_price_uuid=01a21b59-b4b4-8030-af99-3453ae196763&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=CsZJvXkRcKxIyYchWtUIxg&expected_price_source=share&expected_price_currency=rub&expected_price=20530",
@@ -607,6 +592,7 @@
     5353194,
     7022137,
     2234601,
-    862870
+    862870,
+    3726030
   ]
 }
