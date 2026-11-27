@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "OVB-HKT-2026-12-02-30962",
-      "time": 1795164637.65037
-    },
-    {
       "id": "LED-BKK-2026-11-20-29945",
       "time": 1795166438.852141
     },
@@ -267,27 +263,13 @@
     {
       "id": "IKT-HKT-2026-11-28-9237",
       "time": 1795767641.4524443
+    },
+    {
+      "id": "LED-HKT-2026-11-27-23264",
+      "time": 1795769440.2944393
     }
   ],
   "queue": [
-    {
-      "flight_number": "31",
-      "link": "/search/LED2811HKT1?t=SU17958960001795955100000745LEDSVOHKT_a1d25776714576fb3eb52acd0c73c1f4_22725&search_date=27112026&expected_price_uuid=01a21ba2-13dd-8030-26ed-b64b5fa7e433&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=_JUgczkgCJqCdjBeNGaUGw&expected_price_source=share&expected_price_currency=rub&expected_price=22725",
-      "origin_airport": "LED",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-28T20:00:00+03:00",
-      "airline": "SU",
-      "destination": "HKT",
-      "origin": "LED",
-      "price": 22725,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 745,
-      "duration_to": 655,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 14.774176245210729
-    },
     {
       "flight_number": "1549",
       "link": "/search/OVB2811HKT1?t=SU17958471001795939200001535OVBSVOHKT_7d277a37668326ceab52857392557549_28642&search_date=27112026&expected_price_uuid=01a21b9f-3741-8030-ecab-7b62b441e62e&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=h3J5nn4RZhmsYhuV4McHGQ&expected_price_source=share&expected_price_currency=rub&expected_price=28642",
