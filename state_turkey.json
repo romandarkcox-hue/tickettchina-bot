@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "AYT-AER-2026-12-16-9577",
-      "time": 1795176091.9850934
-    },
-    {
       "id": "AYT-LED-2026-12-14-10881",
       "time": 1795177864.2364647
     },
@@ -423,28 +419,13 @@
     {
       "id": "AYT-MOW-2026-12-16-7977",
       "time": 1795780872.1715271
+    },
+    {
+      "id": "AYT-LED-2026-12-18-11027",
+      "time": 1795782659.2624297
     }
   ],
   "queue": [
-    {
-      "flight_number": "840",
-      "link": "/search/AYT1612LED1?t=DP17974461001797504000000965AYTVKOSVOLED_5bf1e6bf9d5930395aeaf472b8523e2a_10395&search_date=27112026&expected_price_uuid=01a21b3d-0c6d-8030-a06b-88180d020dd7&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=0WdbCV1IWPpa8gfTg5m7Ug&expected_price_source=share&expected_price_currency=rub&expected_price=10395",
-      "origin_airport": "AYT",
-      "destination_airport": "LED",
-      "departure_at": "2026-12-16T18:35:00+03:00",
-      "airline": "DP",
-      "destination": "LED",
-      "origin": "AYT",
-      "price": 10395,
-      "gate": "Туту",
-      "return_transfers": 0,
-      "duration": 965,
-      "duration_to": 375,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "2668",
       "link": "/search/IST0912TAS1?t=VF17968176001796964900002335SAWESBTAS_83cebf48633641ce13f919eff9336a7d_11595&search_date=27112026&expected_price_uuid=01a21ac9-e1a3-8030-e003-e2877229268e&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=Erjvj7Bqcry-VirQtKzI1Q&expected_price_source=share&expected_price_currency=rub&expected_price=11596",
@@ -680,6 +661,7 @@
     4578880,
     2861719,
     7051042,
-    1029491
+    1029491,
+    1720773
   ]
 }
