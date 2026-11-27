@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "VVO-HRB-2026-12-04-5833",
-      "time": 1795162540.369353
-    },
-    {
       "id": "VVO-CAN-2026-12-05-14880",
       "time": 1795164346.015007
     },
@@ -359,28 +355,14 @@
     {
       "id": "ALA-URC-2026-12-01-11839",
       "time": 1795765547.7178319
+    },
+    {
+      "id": "NQZ-URC-2026-12-17-7722",
+      "time": 1795767346.353424
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "7961",
-      "link": "/search/NQZ1712URC1?t=FS17975358001797555600000150NQZURC_457b5381a2b184f4c4632e5b918f941d_7722&search_date=26112026&expected_price_uuid=01a2196e-0d63-8030-66de-087ca7af0aaa&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=YE09JVIbnt6WgFicfAo2uA&expected_price_source=share&expected_price_currency=rub&expected_price=7722",
-      "origin_airport": "NQZ",
-      "destination_airport": "URC",
-      "departure_at": "2026-12-17T19:30:00+06:00",
-      "airline": "FS",
-      "destination": "URC",
-      "origin": "NQZ",
-      "price": 7722,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 150,
-      "duration_to": 150,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 21
-    },
     {
       "flight_number": "406",
       "link": "/search/VVO1512CAN1?t=HU17973372001797361200000520VVOPEKCAN_f162edf97556b77d3d76cb216f2ba6be_13575&search_date=27112026&expected_price_uuid=01a21b9f-7988-8030-e6a9-6c7719e4e7a3&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH1%7CR1%7CTBC1&itinerary_key=bWfePZF7svHnFPEOkRS97Q&expected_price_source=share&expected_price_currency=rub&expected_price=13575",
@@ -710,6 +692,7 @@
     2616537,
     7429725,
     679011,
-    869595
+    869595,
+    4078628
   ]
 }
