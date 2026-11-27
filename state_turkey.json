@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "LED-AYT-2026-11-21-5327",
-      "time": 1795168863.7892857
-    },
-    {
       "id": "TAS-IST-2026-11-27-11961",
       "time": 1795170653.4784758
     },
@@ -419,27 +415,13 @@
     {
       "id": "LED-IST-2026-11-30-7523",
       "time": 1795771856.4516714
+    },
+    {
+      "id": "KZN-IST-2026-12-02-5491",
+      "time": 1795773665.2360091
     }
   ],
   "queue": [
-    {
-      "flight_number": "1015",
-      "link": "/search/KZN0212IST1?t=N417962101001796228100000300KZNIST_1126c6d0c4afd0c9299411777317623b_5499&search_date=27112026&expected_price_uuid=01a21b97-13cc-8031-2cff-fcdebb7addcc&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=wIddGp12jpTnXZsoYBx8vA&expected_price_source=share&expected_price_currency=rub&expected_price=5499",
-      "origin_airport": "KZN",
-      "destination_airport": "IST",
-      "departure_at": "2026-12-02T11:15:00+03:00",
-      "airline": "N4",
-      "destination": "IST",
-      "origin": "KZN",
-      "price": 5499,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 300,
-      "duration_to": 300,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 11.207241379310343
-    },
     {
       "flight_number": "742",
       "link": "/search/TAS3011IST1?t=DP17960070001796040900000685TASVKOIST_ae57c5b9ac3e849012efd4622390bcce_10912&search_date=27112026&expected_price_uuid=01a21b8f-2578-8030-ee64-702d4e468651&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=eTOjny-5QOo8WvOKX49LXw&expected_price_source=share&expected_price_currency=rub&expected_price=10912",
@@ -764,6 +746,7 @@
     115045,
     1094400,
     7265800,
-    2435694
+    2435694,
+    2381617
   ]
 }
