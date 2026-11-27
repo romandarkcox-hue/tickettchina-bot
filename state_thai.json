@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-HKT-2026-11-23-27784",
-      "time": 1795161039.4738488
-    },
-    {
-      "id": "CIT-BKK-2026-11-21-17990",
-      "time": 1795162840.5984359
-    },
-    {
       "id": "OVB-HKT-2026-12-02-30962",
       "time": 1795164637.65037
     },
@@ -271,27 +263,13 @@
     {
       "id": "ALA-HKT-2026-11-29-20025",
       "time": 1795765838.231426
+    },
+    {
+      "id": "IKT-HKT-2026-11-28-9237",
+      "time": 1795767641.4524443
     }
   ],
   "queue": [
-    {
-      "flight_number": "660",
-      "link": "/search/IKT2811HKT1?t=SU17958504001795872300000425IKTHKT_66e7f1cd5273c79222587af473536004_18473&search_date=27112026&expected_price_uuid=01a21ba9-17e8-8030-60e8-a2128a7b65aa&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=0WOwBKD5xcs56msARXUCgQ&expected_price_source=share&expected_price_currency=rub&expected_price=18473",
-      "origin_airport": "IKT",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-28T07:20:00+08:00",
-      "airline": "SU",
-      "destination": "HKT",
-      "origin": "IKT",
-      "price": 18473,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 425,
-      "duration_to": 425,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 6.333333333333333
-    },
     {
       "flight_number": "31",
       "link": "/search/LED2811HKT1?t=SU17958960001795955100000745LEDSVOHKT_a1d25776714576fb3eb52acd0c73c1f4_22725&search_date=27112026&expected_price_uuid=01a21ba2-13dd-8030-26ed-b64b5fa7e433&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=_JUgczkgCJqCdjBeNGaUGw&expected_price_source=share&expected_price_currency=rub&expected_price=22725",
