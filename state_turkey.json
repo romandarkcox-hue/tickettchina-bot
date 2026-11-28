@@ -419,28 +419,13 @@
     {
       "id": "TAS-IST-2026-12-01-9718",
       "time": 1795861859.2698345
+    },
+    {
+      "id": "IST-MOW-2026-12-22-5597",
+      "time": 1795863666.0718346
     }
   ],
   "queue": [
-    {
-      "flight_number": "085",
-      "link": "/search/IST2112MOW1?t=2S17978832001797897000000230ISTSVO_5e6890b81b1ecab37fd2eee5f465137f_5597&search_date=28112026&expected_price_uuid=01a220b2-7e9a-8030-e61b-8585b5363ccc&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=qQ54ePGZZ_ViIKpGMvrdPA&expected_price_source=share&expected_price_currency=rub&expected_price=5597",
-      "origin_airport": "IST",
-      "destination_airport": "SVO",
-      "departure_at": "2026-12-21T20:00:00+03:00",
-      "airline": "2S",
-      "destination": "MOW",
-      "origin": "IST",
-      "price": 5597,
-      "gate": "Southwind",
-      "return_transfers": 0,
-      "duration": 230,
-      "duration_to": 230,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "3572",
       "link": "/search/AYT2712MOW1?t=U617984001001798417500000290AYTDME_745788328a60f11ce23f65813d842f61_7888&search_date=28112026&expected_price_uuid=01a220b9-d2b7-8030-a519-4561d6a509aa&static_fare_key=TY%7CP1%7CH1%7CL1_1_10%7CCH0%7CR0%7CTBC1&itinerary_key=FaXDXJDxeNEWn9eon_waMA&expected_price_source=share&expected_price_currency=rub&expected_price=7888",
@@ -745,6 +730,7 @@
     2453270,
     566861,
     8075931,
-    1283801
+    1283801,
+    1383421
   ]
 }
