@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "LED-BJS-2026-12-09-18717",
-      "time": 1795257939.1193066
-    },
-    {
       "id": "BJS-VVO-2026-12-08-6172",
       "time": 1795259740.3271396
     },
@@ -359,28 +355,14 @@
     {
       "id": "IKT-HRB-2026-12-07-9435",
       "time": 1795860939.3186252
+    },
+    {
+      "id": "LED-BJS-2026-11-29-18412",
+      "time": 1795862747.7129762
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "624",
-      "link": "/search/LED2911BJS1?t=U617959680001796097300001855LEDSVXPKX_3b745c8f12438ca1a1146f86129df5b1_18412&search_date=28112026&expected_price_uuid=01a2208d-540f-8030-e3d9-258706960500&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=uAz9hPrAZKVbyhcH1Awt4A&expected_price_source=share&expected_price_currency=rub&expected_price=18412",
-      "origin_airport": "LED",
-      "destination_airport": "PKX",
-      "departure_at": "2026-11-29T16:00:00+03:00",
-      "airline": "U6",
-      "destination": "BJS",
-      "origin": "LED",
-      "price": 18412,
-      "gate": "Ural Airlines",
-      "return_transfers": 0,
-      "duration": 1855,
-      "duration_to": 540,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 21
-    },
     {
       "flight_number": "6242",
       "link": "/search/BJS1412VVO1?t=S717972388001797255000000150PKXVVO_00e57351fc21ff94645398f45d3b5693_6174&search_date=28112026&expected_price_uuid=01a22081-c78f-8031-2c60-7a4038adb6f7&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=noJCAukySxfi39sBikV07w&expected_price_source=share&expected_price_currency=rub&expected_price=6174",
@@ -637,6 +619,7 @@
     587059,
     1281662,
     3087790,
-    3128584
+    3128584,
+    1575806
   ]
 }
