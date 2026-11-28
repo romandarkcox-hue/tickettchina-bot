@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "CIT-BKK-2026-11-23-16116",
-      "time": 1795249239.8660595
-    },
-    {
       "id": "MOW-HKT-2026-11-23-27567",
       "time": 1795251039.702483
     },
@@ -267,27 +263,13 @@
     {
       "id": "MOW-HKT-2026-11-29-19486",
       "time": 1795852247.233096
+    },
+    {
+      "id": "VVO-BKK-2026-12-07-17281",
+      "time": 1795854039.9540684
     }
   ],
   "queue": [
-    {
-      "flight_number": "6241",
-      "link": "/search/VVO0712BKK1?t=MU17966253001796688300001230VVOPKXBKK_1de5bf6ab9148f091d4c92f69de2d97e_17281&search_date=28112026&expected_price_uuid=01a220c0-1d19-8030-2142-652028e061c4&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=YNh9PISeyg6qqxHtaJdjow&expected_price_source=share&expected_price_currency=rub&expected_price=17281",
-      "origin_airport": "VVO",
-      "destination_airport": "BKK",
-      "departure_at": "2026-12-07T06:35:00+10:00",
-      "airline": "S7",
-      "destination": "BKK",
-      "origin": "VVO",
-      "price": 17281,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 1230,
-      "duration_to": 490,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 7.363448275862069
-    },
     {
       "flight_number": "6824",
       "link": "/search/LED2811BKK1?t=SU17959086001796035200001870LEDSVOBKK_5b742b263908a9a69cd0062d357b64a1_22476&search_date=28112026&expected_price_uuid=01a220bd-c78b-8031-69dc-827bb0acbdbe&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=f_Fd9c6Ej7Pe0VKOaMOvdg&expected_price_source=share&expected_price_currency=rub&expected_price=22476",
