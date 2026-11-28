@@ -102,7 +102,8 @@
   1023737,
   7792248,
   7536762,
-  8287
+  8287,
+  4937812
  ],
  "wish_order": {
   "morning": [
@@ -191,9 +192,9 @@
  "done_morning": "2026-11-28",
  "done_day": "2026-11-28",
  "done_night": "2026-11-27",
- "done_history": "2026-11-27",
+ "done_history": "2026-11-28",
  "done_vk_morning": "2026-11-28",
  "done_vk_day": "2026-11-28",
  "done_vk_night": "2026-11-27",
- "done_vk_history": "2026-11-27"
+ "done_vk_history": "2026-11-28"
 }
