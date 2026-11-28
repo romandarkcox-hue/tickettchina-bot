@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "AYT-LED-2026-12-18-11690",
-      "time": 1795264251.8158238
-    },
-    {
       "id": "IST-TAS-2026-12-16-13020",
       "time": 1795266066.634079
     },
@@ -419,28 +415,13 @@
     {
       "id": "AYT-AER-2026-12-09-10050",
       "time": 1795867264.2449293
+    },
+    {
+      "id": "AYT-LED-2026-12-23-10811",
+      "time": 1795869053.1177115
     }
   ],
   "queue": [
-    {
-      "flight_number": "3740",
-      "link": "/search/AYT2312LED1?t=S717980431001798134300001520AYTDMELED_df81612bdf773303029c9d58fd3f2f28_10811&search_date=28112026&expected_price_uuid=01a220b5-961e-8031-2b73-52d4444892fe&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=c-29fz85-0rl_JdL-fKnDg&expected_price_source=share&expected_price_currency=rub&expected_price=10811",
-      "origin_airport": "AYT",
-      "destination_airport": "LED",
-      "departure_at": "2026-12-23T16:25:00+03:00",
-      "airline": "S7",
-      "destination": "LED",
-      "origin": "AYT",
-      "price": 10811,
-      "gate": "S7 Airlines",
-      "return_transfers": 0,
-      "duration": 1520,
-      "duration_to": 395,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "2190",
       "link": "/search/IST1012TAS1?t=XQ17969100001796959200000700SAWADBTAS_2ebd6e1b90c81e9de287b9f357a33b3c_12514&search_date=28112026&expected_price_uuid=01a2207f-bc62-8030-e789-7eb91ca7ab22&static_fare_key=TY%7CP1%7CH0%7CL1_1_15%7CCH0%7CR0%7CTBC1&itinerary_key=yiZZuU4j72QuIOrHACV3Ow&expected_price_source=share&expected_price_currency=rub&expected_price=12514",
@@ -691,6 +672,7 @@
     1283801,
     1383421,
     1818695,
-    7050985
+    7050985,
+    4805301
   ]
 }
