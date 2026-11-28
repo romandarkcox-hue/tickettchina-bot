@@ -267,28 +267,13 @@
     {
       "id": "BKK-MOW-2026-12-27-18279",
       "time": 1795859438.3902266
+    },
+    {
+      "id": "HKT-MOW-2026-12-26-19939",
+      "time": 1795861243.8902874
     }
   ],
   "queue": [
-    {
-      "flight_number": "5522",
-      "link": "/search/HKT2612MOW1?t=C617983008001798393800001790HKTTASDME_a0de58ffae38748693fab91a13e70478_20724&search_date=28112026&expected_price_uuid=01a220cb-249b-8031-287d-ec94c7694635&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ilT1QMj6s96J9khMjzq1LA&expected_price_source=share&expected_price_currency=rub&expected_price=20724",
-      "origin_airport": "HKT",
-      "destination_airport": "DME",
-      "departure_at": "2026-12-26T16:00:00+07:00",
-      "airline": "C6",
-      "destination": "MOW",
-      "origin": "HKT",
-      "price": 20724,
-      "gate": "Авиасейлс",
-      "return_transfers": 0,
-      "duration": 1790,
-      "duration_to": 700,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "530",
       "link": "/search/HKT2212LED1?t=C617979291001797978900001070HKTTASLED_79c4336aad7589a5e71ab694bea5203d_22352&search_date=27112026&expected_price_uuid=01a21ee1-f094-8030-aaca-823ed64f8a76&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=gSGG7hBEtcy9md-fQUPzMA&expected_price_source=share&expected_price_currency=rub&expected_price=22353",
