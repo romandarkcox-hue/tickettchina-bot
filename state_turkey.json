@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "AYT-AER-2026-12-09-9597",
-      "time": 1795262461.2391012
-    },
-    {
       "id": "AYT-LED-2026-12-18-11690",
       "time": 1795264251.8158238
     },
@@ -419,28 +415,13 @@
     {
       "id": "AYT-MOW-2026-12-27-7888",
       "time": 1795865463.6101089
+    },
+    {
+      "id": "AYT-AER-2026-12-09-10050",
+      "time": 1795867264.2449293
     }
   ],
   "queue": [
-    {
-      "flight_number": "5052",
-      "link": "/search/AYT2911AER1?t=A417959842001795991400000120AYTAER_ba26eaca9eaf7c5099f013883d58573f_9376&search_date=28112026&expected_price_uuid=01a220b7-ff09-8031-6a5f-c9e056adc3ee&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=GuQ3xHlpBRnXssas_t7xkA&expected_price_source=share&expected_price_currency=rub&expected_price=9376",
-      "origin_airport": "AYT",
-      "destination_airport": "AER",
-      "departure_at": "2026-11-29T20:30:00+03:00",
-      "airline": "A4",
-      "destination": "AER",
-      "origin": "AYT",
-      "price": 9376,
-      "gate": "Azimuth",
-      "return_transfers": 0,
-      "duration": 120,
-      "duration_to": 120,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "3740",
       "link": "/search/AYT2312LED1?t=S717980431001798134300001520AYTDMELED_df81612bdf773303029c9d58fd3f2f28_10811&search_date=28112026&expected_price_uuid=01a220b5-961e-8031-2b73-52d4444892fe&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=c-29fz85-0rl_JdL-fKnDg&expected_price_source=share&expected_price_currency=rub&expected_price=10811",
@@ -709,6 +690,7 @@
     8075931,
     1283801,
     1383421,
-    1818695
+    1818695,
+    7050985
   ]
 }
