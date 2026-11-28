@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "EVN-IST-2026-12-17-6508",
-      "time": 1795246263.093108
-    },
-    {
-      "id": "KZN-AYT-2026-11-23-5097",
-      "time": 1795248061.486393
-    },
-    {
       "id": "BAK-IST-2026-12-17-6660",
       "time": 1795249860.7540433
     },
@@ -423,27 +415,13 @@
     {
       "id": "TBS-IST-2026-12-09-5890",
       "time": 1795851062.1113632
+    },
+    {
+      "id": "KZN-AYT-2026-11-28-4958",
+      "time": 1795852871.3402772
     }
   ],
   "queue": [
-    {
-      "flight_number": "5844",
-      "link": "/search/KZN2811AYT1?t=DP17959053001795957800000875KZNSVOVKOAYT_5b7285c5744d8c356a6fb572dfbbf865_4860&search_date=28112026&expected_price_uuid=01a220a2-0dd5-8031-61be-3856c884f548&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=KMZQTtpp8u3JxNJq031wcQ&expected_price_source=share&expected_price_currency=rub&expected_price=4860",
-      "origin_airport": "KZN",
-      "destination_airport": "AYT",
-      "departure_at": "2026-11-28T22:35:00+03:00",
-      "airline": "DP",
-      "destination": "AYT",
-      "origin": "KZN",
-      "price": 4860,
-      "gate": "Туту",
-      "return_transfers": 0,
-      "duration": 875,
-      "duration_to": 420,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 12.820229885057472
-    },
     {
       "flight_number": "6824",
       "link": "/search/LED3011IST1?t=DP17960718001796127300000925LEDSVOVKOIST_be91975e1916aaf6e694c65cac9db26c_6673&search_date=28112026&expected_price_uuid=01a220bb-0a4f-8030-2ca8-8c2964790fd7&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=L1y4HMW216gMJUNX9kmGGw&expected_price_source=share&expected_price_currency=rub&expected_price=6673",
@@ -851,6 +829,7 @@
     73899,
     4701755,
     4786210,
-    1803495
+    1803495,
+    3855083
   ]
 }
