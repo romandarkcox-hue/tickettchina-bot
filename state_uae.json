@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "LED-DXB-2026-11-24-8369",
-      "time": 1795248341.3286495
-    },
-    {
-      "id": "TAS-DXB-2026-11-25-10778",
-      "time": 1795250132.6208658
-    },
-    {
       "id": "EVN-DXB-2026-11-26-16126",
       "time": 1795251932.8058267
     },
@@ -283,27 +275,13 @@
     {
       "id": "KRR-DXB-2026-11-28-10973",
       "time": 1795853133.5630994
+    },
+    {
+      "id": "EVN-DXB-2026-12-07-15675",
+      "time": 1795854935.484793
     }
   ],
   "queue": [
-    {
-      "flight_number": "3349",
-      "link": "/search/EVN0412DXB1?t=A417964048001796446500000695EVNAERDWC_b9e3317d911a1f63a369a4890e69a9ce_12700&search_date=28112026&expected_price_uuid=01a220b1-18ea-8030-6caf-d98e1f0d9eab&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=dwfWpczPH0XMU_QdIRIIiw&expected_price_source=share&expected_price_currency=rub&expected_price=12700",
-      "origin_airport": "EVN",
-      "destination_airport": "DWC",
-      "departure_at": "2026-12-04T17:20:00+04:00",
-      "airline": "3F",
-      "destination": "DXB",
-      "origin": "EVN",
-      "price": 12700,
-      "gate": "Clickavia",
-      "return_transfers": 0,
-      "duration": 695,
-      "duration_to": 300,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 8.29091528309919
-    },
     {
       "flight_number": "578",
       "link": "/search/BAK1012DXB1?t=VF17969205001796963100000710GYDESBDXB_f56c843b3a6f0e6e2b4911bcb717d47f_14896&search_date=27112026&expected_price_uuid=01a21e56-3f07-8030-2766-975e2f569089&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Ho_jDBJitmPsl901zuPFYA&expected_price_source=share&expected_price_currency=rub&expected_price=14897",
