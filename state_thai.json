@@ -267,27 +267,13 @@
     {
       "id": "SVX-BKK-2026-11-29-14130",
       "time": 1795847056.161181
+    },
+    {
+      "id": "ALA-HKT-2026-11-30-19164",
+      "time": 1795848642.2050529
     }
   ],
   "queue": [
-    {
-      "flight_number": "602",
-      "link": "/search/ALA3011HKT1?t=C617960682001796109000000560ALATASHKT_16b342d42c2908f79463df2a4667da6d_19163&search_date=27112026&expected_price_uuid=01a21e81-a4ef-8030-eceb-a1a6108ce6f5&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=hwKFmJ1OHu86_pyHXRsUzw&expected_price_source=share&expected_price_currency=rub&expected_price=19164",
-      "origin_airport": "ALA",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-30T19:50:00+06:00",
-      "airline": "HH",
-      "destination": "HKT",
-      "origin": "ALA",
-      "price": 19164,
-      "gate": "Aviakassa",
-      "return_transfers": 0,
-      "duration": 560,
-      "duration_to": 460,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 5.6675862068965515
-    },
     {
       "flight_number": "529",
       "link": "/search/TAS3011HKT1?t=C617960796001796109000000370TASHKT_75fd058f59c8203e6728a334ea45ba4f_17013&search_date=28112026&expected_price_uuid=01a220c2-9590-8030-a557-ce64e1a80e58&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=C8WvjDX_ubJ9aPqSLM6gPQ&expected_price_source=share&expected_price_currency=rub&expected_price=17013",
