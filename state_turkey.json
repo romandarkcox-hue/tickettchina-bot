@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "IST-MOW-2026-12-20-7325",
-      "time": 1795258873.2325385
-    },
-    {
-      "id": "AYT-MOW-2026-12-18-8105",
-      "time": 1795260658.0079298
-    },
-    {
       "id": "AYT-AER-2026-12-09-9597",
       "time": 1795262461.2391012
     },
@@ -423,28 +415,13 @@
     {
       "id": "IST-MOW-2026-12-22-5597",
       "time": 1795863666.0718346
+    },
+    {
+      "id": "AYT-MOW-2026-12-27-7888",
+      "time": 1795865463.6101089
     }
   ],
   "queue": [
-    {
-      "flight_number": "3572",
-      "link": "/search/AYT2712MOW1?t=U617984001001798417500000290AYTDME_745788328a60f11ce23f65813d842f61_7888&search_date=28112026&expected_price_uuid=01a220b9-d2b7-8030-a519-4561d6a509aa&static_fare_key=TY%7CP1%7CH1%7CL1_1_10%7CCH0%7CR0%7CTBC1&itinerary_key=FaXDXJDxeNEWn9eon_waMA&expected_price_source=share&expected_price_currency=rub&expected_price=7888",
-      "origin_airport": "AYT",
-      "destination_airport": "DME",
-      "departure_at": "2026-12-27T19:35:00+03:00",
-      "airline": "U6",
-      "destination": "MOW",
-      "origin": "AYT",
-      "price": 7888,
-      "gate": "Biletix",
-      "return_transfers": 0,
-      "duration": 290,
-      "duration_to": 290,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 30,
-      "reverse": true
-    },
     {
       "flight_number": "5052",
       "link": "/search/AYT2911AER1?t=A417959842001795991400000120AYTAER_ba26eaca9eaf7c5099f013883d58573f_9376&search_date=28112026&expected_price_uuid=01a220b7-ff09-8031-6a5f-c9e056adc3ee&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=GuQ3xHlpBRnXssas_t7xkA&expected_price_source=share&expected_price_currency=rub&expected_price=9376",
@@ -731,6 +708,7 @@
     566861,
     8075931,
     1283801,
-    1383421
+    1383421,
+    1818695
   ]
 }
