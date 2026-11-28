@@ -279,28 +279,12 @@
     {
       "id": "AUH-MOW-2026-12-03-10511",
       "time": 1795860334.1656759
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "794",
-      "link": "/search/DXB2811MRV1?t=DP17958903001795952700001100DWCVKOSVOMRV_f417a036f0a193ca71e2140d626b94cd_11910&search_date=28112026&expected_price_uuid=01a220b3-129e-8031-61d0-2ef05ecc25f2&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=CvajUhS6wKeYW-U7vnkoNg&expected_price_source=share&expected_price_currency=rub&expected_price=11910",
-      "origin_airport": "DWC",
-      "destination_airport": "MRV",
-      "departure_at": "2026-11-28T18:25:00+04:00",
-      "airline": "DP",
-      "destination": "MRV",
-      "origin": "DXB",
-      "price": 11910,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 1100,
-      "duration_to": 595,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 31,
-      "reverse": true
+      "id": "DXB-MRV-2026-12-05-11364",
+      "time": 1795862131.3014534
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-28"
 }
