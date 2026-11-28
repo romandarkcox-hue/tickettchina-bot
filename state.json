@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "BJS-MOW-2026-12-10-21410",
-      "time": 1795261541.8855512
-    },
-    {
       "id": "SHA-MOW-2026-12-03-22481",
       "time": 1795263340.4439752
     },
@@ -359,29 +355,14 @@
     {
       "id": "BJS-VVO-2026-12-07-6334",
       "time": 1795864543.7321894
+    },
+    {
+      "id": "BJS-MOW-2026-12-19-19461",
+      "time": 1795866344.504899
     }
   ],
   "last_run": "2026-10-27",
   "queue": [
-    {
-      "flight_number": "5724",
-      "link": "/search/BJS1912MOW1?t=S717976603001797714900001210PKXOVBDME_50261b49704a0ebbe837f09d9c366f8b_19461&search_date=28112026&expected_price_uuid=01a220bb-6aa9-8030-2ced-3b72b6b1cb0e&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=OEreHK5O2EO3yLh48xt03Q&expected_price_source=share&expected_price_currency=rub&expected_price=19461",
-      "origin_airport": "PKX",
-      "destination_airport": "DME",
-      "departure_at": "2026-12-19T06:05:00+08:00",
-      "airline": "S7",
-      "destination": "MOW",
-      "origin": "BJS",
-      "price": 19461,
-      "gate": "S7 Airlines",
-      "return_transfers": 0,
-      "duration": 1210,
-      "duration_to": 570,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 22,
-      "reverse": true
-    },
     {
       "flight_number": "808",
       "link": "/search/SHA1812MOW1?t=DV17975736001797612600000950PVGCITVKO_bb24e1c27e9f2c669407b120d9d6d510_21579&search_date=27112026&expected_price_uuid=01a21eff-a58c-8031-62a0-57f1f208afe1&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=dSCEI9R8isjSEgWAmHE-BA&expected_price_source=share&expected_price_currency=rub&expected_price=21579",
@@ -602,6 +583,7 @@
     3087790,
     3128584,
     1575806,
-    375396
+    375396,
+    6278936
   ]
 }
