@@ -1,14 +1,6 @@
 {
   "posted": [
     {
-      "id": "HKT-MOW-2026-12-18-22578",
-      "time": 1795256446.7979395
-    },
-    {
-      "id": "HKT-LED-2026-12-18-26406",
-      "time": 1795258239.1041377
-    },
-    {
       "id": "TAS-BKK-2026-11-23-13357",
       "time": 1795328610.1948795
     },
@@ -271,28 +263,12 @@
     {
       "id": "HKT-MOW-2026-12-26-19939",
       "time": 1795861243.8902874
-    }
-  ],
-  "queue": [
+    },
     {
-      "flight_number": "530",
-      "link": "/search/HKT2212LED1?t=C617979291001797978900001070HKTTASLED_79c4336aad7589a5e71ab694bea5203d_22352&search_date=27112026&expected_price_uuid=01a21ee1-f094-8030-aaca-823ed64f8a76&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=gSGG7hBEtcy9md-fQUPzMA&expected_price_source=share&expected_price_currency=rub&expected_price=22353",
-      "origin_airport": "HKT",
-      "destination_airport": "LED",
-      "departure_at": "2026-12-22T08:45:00+07:00",
-      "airline": "C6",
-      "destination": "LED",
-      "origin": "HKT",
-      "price": 22353,
-      "gate": "Kupi.com",
-      "return_transfers": 0,
-      "duration": 1070,
-      "duration_to": 720,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 30,
-      "reverse": true
+      "id": "HKT-LED-2026-12-18-21778",
+      "time": 1795863039.8547876
     }
   ],
+  "queue": [],
   "queue_date": "2026-11-28"
 }
