@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-BKK-2026-12-08-24554",
-      "time": 1795247437.8255239
-    },
-    {
       "id": "CIT-BKK-2026-11-23-16116",
       "time": 1795249239.8660595
     },
@@ -267,27 +263,13 @@
     {
       "id": "TAS-HKT-2026-11-30-17003",
       "time": 1795850441.312676
+    },
+    {
+      "id": "MOW-HKT-2026-11-29-19486",
+      "time": 1795852247.233096
     }
   ],
   "queue": [
-    {
-      "flight_number": "276",
-      "link": "/search/MOW2911HKT1?t=SU17959926001796041500000575SVOHKT_c7e06bc8f752237313d8c1750bf6ed70_19486&search_date=28112026&expected_price_uuid=01a220ce-a321-8031-245c-be91c69a392a&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=uNS6TvgOCAb-pdHnJvfryA&expected_price_source=share&expected_price_currency=rub&expected_price=19486",
-      "origin_airport": "SVO",
-      "destination_airport": "HKT",
-      "departure_at": "2026-11-29T22:50:00+03:00",
-      "airline": "SU",
-      "destination": "HKT",
-      "origin": "MOW",
-      "price": 19486,
-      "gate": "Aviakassa",
-      "return_transfers": 0,
-      "duration": 575,
-      "duration_to": 575,
-      "duration_back": 0,
-      "transfers": 0,
-      "popularity": 26.04061302681992
-    },
     {
       "flight_number": "6241",
       "link": "/search/VVO0712BKK1?t=MU17966253001796688300001230VVOPKXBKK_1de5bf6ab9148f091d4c92f69de2d97e_17281&search_date=28112026&expected_price_uuid=01a220c0-1d19-8030-2142-652028e061c4&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=YNh9PISeyg6qqxHtaJdjow&expected_price_source=share&expected_price_currency=rub&expected_price=17281",
