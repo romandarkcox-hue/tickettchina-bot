@@ -1,10 +1,6 @@
 {
   "posted": [
     {
-      "id": "MOW-HKT-2026-11-23-27567",
-      "time": 1795251039.702483
-    },
-    {
       "id": "LED-CNX-2026-11-28-40905",
       "time": 1795252840.213112
     },
@@ -267,27 +263,13 @@
     {
       "id": "VVO-BKK-2026-12-07-17281",
       "time": 1795854039.9540684
+    },
+    {
+      "id": "LED-BKK-2026-11-28-22476",
+      "time": 1795855840.5311701
     }
   ],
   "queue": [
-    {
-      "flight_number": "6824",
-      "link": "/search/LED2811BKK1?t=SU17959086001796035200001870LEDSVOBKK_5b742b263908a9a69cd0062d357b64a1_22476&search_date=28112026&expected_price_uuid=01a220bd-c78b-8031-69dc-827bb0acbdbe&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=f_Fd9c6Ej7Pe0VKOaMOvdg&expected_price_source=share&expected_price_currency=rub&expected_price=22476",
-      "origin_airport": "LED",
-      "destination_airport": "BKK",
-      "departure_at": "2026-11-28T23:30:00+03:00",
-      "airline": "DP",
-      "destination": "BKK",
-      "origin": "LED",
-      "price": 22476,
-      "gate": "OneTwoTrip",
-      "return_transfers": 0,
-      "duration": 1870,
-      "duration_to": 630,
-      "duration_back": 0,
-      "transfers": 1,
-      "popularity": 3.4070114942528735
-    },
     {
       "flight_number": "636",
       "link": "/search/OVB3011HKT1?t=SU17960376001796065200000460OVBHKT_333f83f21ebbd84a8d4d05f2494e2998_23549&search_date=28112026&expected_price_uuid=01a220cb-3c8c-8040-60e9-cd1d92af1b6c&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=G2Xk-zLhmkt2kn8YNKNJVw&expected_price_source=share&expected_price_currency=rub&expected_price=23549",
